@@ -1,2 +1,3 @@
 # HIO
-Hybrid Input-Output models
+Hybrid Input-Output models and related components
+

@@ -1,0 +1,47 @@
+target_sector_level: NAICS_6
+target_subset_sector_level: {NAICS_7: ['562920', '562212', '562219'],
+                             NAICS_8: ['5622122']}
+target_sector_source: NAICS_2012_Code
+target_geoscale: national
+source_names:
+  "EPA_FactsAndFigures":
+    data_format: 'FBA'
+    class: Other
+    geoscale_to_use: national
+    year: 2018
+    material_crosswalk: WARM-USEEIO_MaterialCrosswalk
+    append_material_codes: WARM-USEEIO_Materials
+    material_crosswalk_field_dict: {'SourceName':'SourceName',
+                                    'FlowableName': 'Flowable',
+                                    'FlowableUnit': 'Unit',
+                                    'FlowableQuantity': 'FlowAmount'}
+    activity_sets:
+      direct:
+        names:
+            - Landfilled
+            - Combusted with Energy Recovery
+            - "Codigestion/Anaerobic Digestion"
+            - Composted
+            - Recycled
+        allocation_method: direct
+        allocation_from_scale: national
+
+  "EPA_CDDPath":
+    data_format: 'FBA'
+    class: Other
+    geoscale_to_use: national
+    year: 2014
+    clean_fba_before_mapping_df_fxn: !script_function:EPA_CDDPath keep_activity_consumed_by
+    material_crosswalk: WARM-USEEIO_MaterialCrosswalk
+    append_material_codes: WARM-USEEIO_Materials
+    mapping_field_dict: {'SourceName':'SourceName',
+                         'FlowableName': 'Flowable',
+                         'FlowableUnit': 'Unit',
+                         'FlowableQuantity': 'FlowAmount'}
+    activity_sets:
+      direct:
+        names:
+            - Landfill
+            - Remanufacture
+        allocation_method: direct
+        allocation_from_scale: national

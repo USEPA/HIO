@@ -21,7 +21,6 @@ import flowsa
 
 # directory and file paths
 DIRPATH = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
-# fbsMethodPath = f"{DIRPATH}flowbysectormethods/"
 fbsMethodPath = f"{DIRPATH}"
 
 # Run an FBS method not included in the flowsa repo

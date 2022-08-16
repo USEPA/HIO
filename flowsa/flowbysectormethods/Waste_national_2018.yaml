@@ -9,12 +9,12 @@ source_names:
     class: Other
     geoscale_to_use: national
     year: 2018
-    material_crosswalk: WARM-USEEIO_MaterialCrosswalk
-    append_material_codes: WARM-USEEIO_Materials
+    material_crosswalk: &material_crosswalk https://raw.githubusercontent.com/USEPA/HIO/main/data/MaterialCrosswalk.csv
     material_crosswalk_field_dict: {'SourceName':'SourceName',
                                     'FlowableName': 'Flowable',
                                     'FlowableUnit': 'Unit',
                                     'FlowableQuantity': 'FlowAmount'}
+    append_material_codes: &material_codes https://raw.githubusercontent.com/USEPA/HIO/main/data/Materials.csv
     activity_sets:
       direct:
         names:
@@ -32,12 +32,12 @@ source_names:
     geoscale_to_use: national
     year: 2014
     clean_fba_before_mapping_df_fxn: !script_function:EPA_CDDPath keep_activity_consumed_by
-    material_crosswalk: WARM-USEEIO_MaterialCrosswalk
-    append_material_codes: WARM-USEEIO_Materials
-    mapping_field_dict: {'SourceName':'SourceName',
-                         'FlowableName': 'Flowable',
-                         'FlowableUnit': 'Unit',
-                         'FlowableQuantity': 'FlowAmount'}
+    material_crosswalk: *material_crosswalk
+    material_crosswalk_field_dict: {'SourceName':'SourceName',
+                                    'FlowableName': 'Flowable',
+                                    'FlowableUnit': 'Unit',
+                                    'FlowableQuantity': 'FlowAmount'}
+    append_material_codes: *material_codes
     activity_sets:
       direct:
         names:

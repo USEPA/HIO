@@ -29,11 +29,11 @@ source_names:
     geoscale_to_use: national
     year: 2018
     fedefl_mapping: 'WARM'
-    material_crosswalk: WARM-USEEIO_MaterialCrosswalk
+    material_crosswalk: https://raw.githubusercontent.com/USEPA/HIO/main/data/MaterialCrosswalk.csv
     material_crosswalk_field_dict: {'SourceName':'SourceName',
                                     'FlowableName': 'Description',
                                     'FlowableQuantity': 'FlowAmount'}
-    append_material_codes: WARM-USEEIO_Materials #adds final character for material
+    append_material_codes: https://raw.githubusercontent.com/USEPA/HIO/main/data/Materials.csv #adds final character for material
     retain_activity_names: True # prevents activity set names already called being dropped from primary source df
     activity_sets:
       food: &WARM_GHG_FF_alloc

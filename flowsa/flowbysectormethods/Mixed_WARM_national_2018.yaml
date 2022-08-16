@@ -1,0 +1,199 @@
+# Produces an FBS of all reported flows from WARMv15 that are scaled by national total waste generation
+# quantities in the Facts and Figures (FF) and CDDPath.
+# Flows include 3 GHGs, employment, energy and 2 monetary measures (taxes and wages)
+# Both the materials and waste management pathways are harmonized to match
+# Requires FBAs 1. EPA_WARMer 2. EPA_FactsAndFigures 3. EPA_CDDPath
+# The final sector codes use a hybrid of a pure NAICS-based industry code with a letter appended to specify the
+# material being treated.
+# Relies on additional files for this harmonization:
+# Materials.csv - the authoritative set of harmonized material names with an abbreviation
+# MaterialCrosswalk.csv - maps material names in WARM, FF, and CDDPath to the authoritative list. See format at
+#  (https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/blob/master/format%20specs/FlowMapping.md)
+# WARM_activitysets.csv - correspondence between activity sets (named by material) and EPA_WARMer activity names
+
+_source_flows: &source_flows
+  [ 'Carbon', 'Carbon dioxide', 'GHGs, unspecified',
+    'Carbon, in organic matter, in soil', 'Methane',
+    'Dinitrogen monoxide', 'Jobs', 'Wages', 'Taxes' ]
+
+target_sector_level: NAICS_6
+#target_subset_sector_level: {NAICS_7: ['562920', '562212', '562219'],
+#                             NAICS_8: ['5622122']} # commented out because CDDPath landfill activitytosector mapping modified to "5622121" from "56221221"
+target_subset_sector_level: {NAICS_7: ['562920', '562212', '562219', '562212']}
+target_sector_source: NAICS_2012_Code
+target_geoscale: national
+source_names:
+  "EPA_WARMer":
+    data_format: 'FBA'
+    class: [Chemicals, Employment, Money]
+    geoscale_to_use: national
+    year: 2018
+    fedefl_mapping: 'WARM'
+    material_crosswalk: WARM-USEEIO_MaterialCrosswalk
+    material_crosswalk_field_dict: {'SourceName':'SourceName',
+                                    'FlowableName': 'Description',
+                                    'FlowableQuantity': 'FlowAmount'}
+    append_material_codes: WARM-USEEIO_Materials #adds final character for material
+    retain_activity_names: True # prevents activity set names already called being dropped from primary source df
+    activity_sets:
+      food: &WARM_GHG_FF_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv food
+        source_flows: *source_flows
+        material: food
+        allocation_method: multiplication
+        allocation_source: "EPA_FactsAndFigures"
+        allocation_source_class: "Other"
+        allocation_source_year: 2018
+        allocation_flow:
+          - "Food"
+        allocation_from_scale: national
+
+      concrete: &WARM_GHG_CDD_alloc #WARM has no GHGs associated with concrete
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv concrete
+        source_flows: *source_flows
+        material: concrete
+        allocation_method: multiplication
+        allocation_source: "EPA_CDDPath"
+        allocation_source_class: "Other"
+        allocation_source_year: 2014
+        allocation_flow:
+          - "Concrete"
+        clean_allocation_fba: !script_function:EPA_CDDPath keep_activity_consumed_by
+        allocation_from_scale: national
+
+      aluminum: #WARM has no GHGs associated with aluminum
+        <<: *WARM_GHG_FF_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv aluminum
+        material: aluminum
+        allocation_flow:
+          - "Metals, Aluminum"
+
+      asphalt_shingles:
+        <<: *WARM_GHG_CDD_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "asphalt shingles"
+        material: "asphalt shingles"
+        allocation_flow:
+          - "Asphalt Shingles"
+
+      asphalt_pavement: #WARM no GHGs from asphalt pavement
+        <<: *WARM_GHG_CDD_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "asphalt pavement"
+        material: "asphalt pavement"
+        allocation_flow:
+          - "Reclaimed Asphalt Pavement"
+
+      carpet: #WARM only GHGs from combustion and CDDPath has no combustion
+        <<: *WARM_GHG_CDD_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "carpet"
+        material: "carpet"
+        allocation_flow:
+          - "Carpet"
+
+      glass: #WARM has no GHGs from glass
+        <<: *WARM_GHG_FF_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "glass"
+        material: "glass"
+        allocation_flow:
+          - "Glass"
+
+      glass_2: #WARM has no GHGs from glass
+        <<: *WARM_GHG_CDD_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "glass"
+        material: "glass"
+        allocation_flow:
+          - "Glass"
+
+      metal:
+        <<: *WARM_GHG_FF_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "metal"
+        material: "metal"
+        allocation_flow:
+          - "Metals, Ferrous"
+          - "Metals, Other Nonferrous"
+
+      metal_2:
+        <<: *WARM_GHG_CDD_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "metal"
+        material: "metal"
+        allocation_flow:
+          - "Metal"
+
+      other:
+        <<: *WARM_GHG_FF_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "other"
+        material: "other"
+        allocation_flow:
+          - "Miscellaneous Inorganic Wastes"
+          - "Other"
+
+      other_2:
+        <<: *WARM_GHG_CDD_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "other"
+        material: "other"
+        allocation_flow:
+          - "Bricks"
+          - "Fines"
+          - "Gypsum Drywall"
+
+      paper:
+        <<: *WARM_GHG_FF_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "paper"
+        material: "paper"
+        allocation_flow:
+          - "Paper and Paperboard"
+
+      paper_2:
+        <<: *WARM_GHG_CDD_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "paper"
+        material: "paper"
+        allocation_flow:
+          - "Cardboard"
+
+      plastic:
+        <<: *WARM_GHG_FF_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "plastic"
+        material: "plastic"
+        allocation_flow:
+          - "Plastics"
+
+      plastic_2:
+        <<: *WARM_GHG_CDD_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "plastic"
+        material: "plastic"
+        allocation_flow:
+          - "Plastic"
+
+      textiles:
+        <<: *WARM_GHG_FF_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "textiles"
+        material: "textiles"
+        allocation_flow:
+          - "Textiles"
+
+      wood:
+        <<: *WARM_GHG_FF_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "wood"
+        material: "wood"
+        allocation_flow:
+          - "Wood"
+
+      wood_2:
+        <<: *WARM_GHG_CDD_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "wood"
+        material: "wood"
+        allocation_flow:
+          - "Wood"
+
+      yard_trimmings:
+        <<: *WARM_GHG_FF_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "yard trimmings"
+        material: "yard trimmings"
+        allocation_flow:
+          - "Yard Trimmings"
+
+      yard_trimmings_2:
+        <<: *WARM_GHG_CDD_alloc
+        names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "yard trimmings"
+        material: "yard trimmings"
+        allocation_flow:
+          - "Organics (e.g., Land Clearing Debris)"

@@ -1,0 +1,31 @@
+---
+title: "WARM-Disagg_model"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# devtools::install_github("USEPA/useeior@WIO")
+# devtools::load_all(".")
+# library('useeior')
+
+# Build model from specs
+configpaths <- file.path("inst/extdata", c("modelspecs/WARM-Disagg.yml",
+                                           "disaggspecs/WasteDisaggregationDetail.yml",
+                                           "disaggspecs/LandfillingDisaggregation.yml",
+                                           "disaggspecs/562OTHDisaggregation.yml",
+                                           "disaggspecs/WasteCombustorsDisaggregation.yml",
+                                           "disaggspecs/MRFsDisaggregation.yml"))
+modelname <- "WARM-Disagg"
+#model <- buildModel(modelname, configpaths)
+model <- initializeModel(modelname, configpaths)
+model <- loadIOData(model, configpaths)
+model <- loadandbuildSatelliteTables(model)
+model <- loadandbuildIndicators(model)
+model <- loadDemandVectors(model)
+model <- constructEEIOMatrices(model)
+
+writeModeltoXLSX(model, file.path(rappdirs::user_data_dir(),
+                                  "useeior/Model_Builds"))
+
+```
+

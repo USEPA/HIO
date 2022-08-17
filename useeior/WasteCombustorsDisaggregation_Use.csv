@@ -1,0 +1,5 @@
+IndustryCode,CommodityCode,PercentUsed,Note
+562213F/US,562213/US,2.46E-01,"Use column sum, industry output"
+562213X/US,562213/US,7.54E-01,"Use column sum, industry output"
+562213/US,562213F/US,2.46E-01,"Use row sum, commodity output"
+562213/US,562213X/US,7.54E-01,"Use row sum, commodity output"

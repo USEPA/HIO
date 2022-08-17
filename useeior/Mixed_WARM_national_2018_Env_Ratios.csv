@@ -1,0 +1,50 @@
+Flowable,Context,FlowUUID,Sector,Location,Unit,DistributionType,Min,Max,DataReliability,TemporalCorrelation,GeographicalCorrelation,TechnologicalCorrelation,DataCollection,Year,MetaSources,SatelliteTable,FlowRatio
+Carbon dioxide,resource/air,,5622121F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.03747978218581273
+Carbon dioxide,resource/air,,5622121X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.9625202178141873
+Carbon dioxide,emission/air,,562213X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,1.0
+Carbon dioxide,emission/air,,5622191F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,1.0
+Carbon dioxide,resource/air,,5622191F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,1.0
+Carbon dioxide,emission/air,,5622192F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,1.0
+Carbon dioxide,resource/air,,5622192F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.10405785456006428
+Carbon dioxide,resource/air,,5622192X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.8959421454399357
+Carbon dioxide,resource/air,,5629201X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,1.0
+Jobs,,,5622121C,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.22547240241289807
+Jobs,,,5622121F,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.11828300812552531
+Jobs,,,5622121X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.6562445894615766
+Jobs,,,562213F,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.29105555895198787
+Jobs,,,562213X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.7089444410480122
+Jobs,,,5622191F,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,1.0
+Jobs,,,5622192F,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.10405785456006428
+Jobs,,,5622192X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.8959421454399357
+Jobs,,,5629201C,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.06451008511751603
+Jobs,,,5629201X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.935489914882484
+Methane,emission/air,,5622121F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.2603878627004983
+Methane,emission/air,,5622121X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.7396121372995017
+Methane,emission/air,,5622191F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,1.0
+Methane,emission/air,,5622192F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.07397117191064512
+Methane,emission/air,,5622192X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.9260288280893549
+Nitrous oxide,emission/air,,562213F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.31802777830409745
+Nitrous oxide,emission/air,,562213X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.6819722216959025
+Nitrous oxide,emission/air,,5622191F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,1.0
+Nitrous oxide,emission/air,,5622192F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.11328482436992471
+Nitrous oxide,emission/air,,5622192X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.8867151756300752
+Taxes,Economic flows,,5622121C,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.22547240241289804
+Taxes,Economic flows,,5622121F,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.11828300812552532
+Taxes,Economic flows,,5622121X,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.6562445894615766
+Taxes,Economic flows,,562213F,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.29105555895198787
+Taxes,Economic flows,,562213X,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.7089444410480121
+Taxes,Economic flows,,5622191F,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,1.0
+Taxes,Economic flows,,5622192F,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.10405785456006428
+Taxes,Economic flows,,5622192X,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.8959421454399358
+Taxes,Economic flows,,5629201C,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.04218151003123072
+Taxes,Economic flows,,5629201X,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.9578184899687694
+Wages,Economic flows,,5622121C,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.2254724024128981
+Wages,Economic flows,,5622121F,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.11828300812552532
+Wages,Economic flows,,5622121X,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.6562445894615766
+Wages,Economic flows,,562213F,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.29105555895198787
+Wages,Economic flows,,562213X,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.7089444410480121
+Wages,Economic flows,,5622191F,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,1.0
+Wages,Economic flows,,5622192F,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.10405785456006429
+Wages,Economic flows,,5622192X,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.8959421454399357
+Wages,Economic flows,,5629201C,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.05861616304740797
+Wages,Economic flows,,5629201X,US,USD 2007,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.9413838369525921

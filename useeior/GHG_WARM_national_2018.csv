@@ -1,0 +1,28 @@
+Flowable,Sector,Context,Location,FlowAmount,Unit,Year,DataReliability,TemporalCorrelation,GeographicalCorrelation,TechnologicalCorrelation,DataCollection,MetaSources,FlowUUID,SatelliteTable
+Carbon dioxide,5622121F,resource/air,US,3064281837.373033,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Methane,5622121F,emission/air,US,877422087.083477,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Carbon dioxide,5622121X,resource/air,US,1287020068.8003306,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Methane,5622121X,emission/air,US,139711364.1906052,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Carbon dioxide,5622121X,resource/air,US,12445060053.042334,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Methane,5622121X,emission/air,US,599958966.2289174,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Carbon dioxide,5622121X,resource/air,US,13237214979.490078,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Methane,5622121X,emission/air,US,70900717.55387808,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Carbon dioxide,5622121X,resource/air,US,5639006425.78956,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Methane,5622121X,emission/air,US,143489173.82242066,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Nitrous oxide,562213F,emission/air,US,928976.0373278712,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Carbon dioxide,562213X,emission/air,US,-26591691879.684208,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Nitrous oxide,562213X,emission/air,US,3108.0905106417167,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Nitrous oxide,562213X,emission/air,US,349442.641855782,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Nitrous oxide,562213X,emission/air,US,316220.9822427323,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Carbon dioxide,5622191F,emission/air,US,-62946144.47104905,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Carbon dioxide,5622191F,resource/air,US,172785782.89837372,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Methane,5622191F,emission/air,US,7693999.046067382,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Nitrous oxide,5622191F,emission/air,US,1492675.5170255413,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Carbon dioxide,5622192F,emission/air,US,1639036.1436376926,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Carbon dioxide,5622192F,resource/air,US,623333125.7047383,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Methane,5622192F,emission/air,US,10917527.73215414,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Nitrous oxide,5622192F,emission/air,US,137001.77750893577,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Carbon dioxide,5622192X,resource/air,US,5366922279.233847,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Methane,5622192X,emission/air,US,136674127.91096824,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Nitrous oxide,5622192X,emission/air,US,1072355.0650418792,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG
+Carbon dioxide,5629201X,resource/air,US,-1031266080.7694958,kg,2018,0.0,0.0,0.0,0.0,0.0,EPA_WARMer,,GHG

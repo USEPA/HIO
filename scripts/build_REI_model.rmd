@@ -1,0 +1,44 @@
+---
+title: "REI_model"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# devtools::install_github("USEPA/useeior@WIO")
+# devtools::load_all(".")
+# library('useeior')
+
+## REI Model requires 'REI_primaryfactors_TBS.csv' placed in useeior folder in appdirs local folder
+
+# Build model from specs
+configpaths <- file.path("../useeior", c("USEEIO-REI.yml",
+                                   "REI_WIO.yml"))
+modelname <- "USEEIO-REI"
+#model <- buildModel(modelname, configpaths)
+model <- initializeModel(modelname, configpaths)
+model <- loadIOData(model, configpaths)
+model <- loadandbuildSatelliteTables(model)
+model <- loadandbuildIndicators(model)
+model <- loadDemandVectors(model)
+model <- constructEEIOMatrices(model)
+
+writeModeltoXLSX(model, file.path(rappdirs::user_data_dir(),
+                                  "useeior/Model_Builds"))
+
+
+## Generate total results
+# Extract total output by commodity
+sector_list <- c("RD0007/US", "RD0012/US", "RD0013/US") # C&D, Biogas, Compost
+make <- model$WIOSpecs$REI$MakeFileDF
+make <- make[substr(make$CommodityCode, start=1, stop=2) == 'RD', ]
+y <- setNames(make$Amount, make$CommodityCode)
+y <- y[names(y) %in% sector_list]
+y <- formatDemandVector(y, model$L)
+
+results <- calculateEEIOModel(model, perspective = "FINAL", y)
+result <- results[["LCIA_f"]][rowSums(results[["LCIA_f"]])>0,]
+print(result)
+
+
+```
+

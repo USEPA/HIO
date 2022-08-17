@@ -3,6 +3,9 @@
 Functions to further process FBS collapsed files
 """
 import logging
+import re
+
+from flowsa.flowbyfunctions import aggregator
 
 def convert_fbsc_to_disagg_env(fbsc):
     """
@@ -46,6 +49,19 @@ def convert_fbsc_to_disagg_env(fbsc):
     except KeyError:
         logging.error("FBS missing some fields expected in env file.")
 
+def get_last_letter(s):
+    """
+    grab last character from end of a string
+    :param s:
+    :return: single character
+    """
+    return re.findall("([A-Z])$", s)[0]
+
+def replace_last_letter(s):
+    loc =  re.search("([A-Z])$", s).start()
+    s = s[:loc]+'X'
+    return s
+
 
 def agg_fbsc_by_material(fbsc, model_material_codes):
     """
@@ -56,3 +72,14 @@ def agg_fbsc_by_material(fbsc, model_material_codes):
     :return: fbsc
     """
     #get codes for selected materials
+    fbsc['mat_code'] = fbsc['Sector'].apply(get_last_letter)
+    #Set mat_code to 'X' when not in the provided list
+    fbsc.loc[~fbsc['mat_code'].isin(model_material_codes),'mat_code'] = 'X'
+
+    fbsc.loc[fbsc['mat_code']=='X','Sector'] = fbsc.loc[fbsc['mat_code']=='X','Sector'].apply(replace_last_letter)
+
+    #aggregate the new sectors
+    #fbsc = aggregator(fbsc,[])
+
+    return fbsc
+

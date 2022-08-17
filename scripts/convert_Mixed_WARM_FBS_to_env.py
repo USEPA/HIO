@@ -26,6 +26,9 @@ sat_map_df = pd.DataFrame(data={'Flowable':sat_mappings.keys(), 'SatelliteTable'
 
 fbsc = pd.merge(fbsc,sat_map_df,on='Flowable',how='left')
 
+
+fbsc.query()
+
 fbsc = agg_fbsc_by_material(fbsc, model_material_codes)
 
 env = convert_fbsc_to_disagg_env(fbsc)

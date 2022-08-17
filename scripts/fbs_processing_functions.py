@@ -5,13 +5,16 @@ Functions to further process FBS collapsed files
 import logging
 import re
 from flowsa.flowbyfunctions import aggregator
+from flowsa.dataclean import replace_NoneType_with_empty_cells, replace_strings_with_NoneType
 
 def convert_fbsc_to_disagg_env(fbsc):
     """
     Convert a given collapsed flowbysector (fbs) to a useeior disagggregation env (env) file
     Validates that values are present in all required fields
-    fbs collapsed spec: https://github.com/USEPA/flowsa/blob/master/format%20specs/FlowBySector.md#flow-by-sector-collapsed-format
-    env spec: https://github.com/USEPA/useeior/blob/master/format_specs/ModelCustomization.md#disaggregated-table-format
+    fbs collapsed spec:
+    https://github.com/USEPA/flowsa/blob/master/format%20specs/FlowBySector.md#flow-by-sector-collapsed-format
+    env spec:
+    https://github.com/USEPA/useeior/blob/master/format_specs/ModelCustomization.md#disaggregated-table-format
     convert fbsc to env
     :param fbsc: a flow-by-sector collapsed formatted dataframe
     :return: an env formatted dataframe with SatelliteTable col as None
@@ -54,12 +57,27 @@ def get_last_letter(s):
     :param s:
     :return: single character
     """
-    return re.findall("([A-Z])$", s)[0]
+    try:
+        letter = re.findall("([A-Z])$", s)[0]
+        return letter
+    except IndexError:
+        return None
 
 def replace_last_letter(s):
-    loc =  re.search("([A-Z])$", s).start()
-    s = s[:loc]+'X'
-    return s
+    try:
+        loc =  re.search("([A-Z])$", s).start()
+        s = s[:loc] + 'X'
+        return s
+    except AttributeError:
+        return s
+
+def remove_last_letter(s):
+    try:
+        loc =  re.search("([A-Z])$", s).start()
+        s = s[:loc]
+        return s
+    except AttributeError:
+        return s
 
 
 def agg_fbsc_by_material(fbsc, model_material_codes):
@@ -73,7 +91,8 @@ def agg_fbsc_by_material(fbsc, model_material_codes):
     # Get codes for selected materials and put them in a temporary mat_code column for wrangling
     fbsc['mat_code'] = fbsc['Sector'].apply(get_last_letter)
     #Set mat_code to 'X' when not in the provided list
-    fbsc.loc[~fbsc['mat_code'].isin(model_material_codes),'mat_code'] = 'X'
+    fbsc.loc[(~fbsc['mat_code'].isin(model_material_codes) &
+             fbsc['mat_code'].notnull()),'mat_code'] = 'X'
     # Now use that mat_code to replace the original code for sectors with this X
     fbsc.loc[fbsc['mat_code']=='X','Sector'] = fbsc.loc[fbsc['mat_code']=='X','Sector'].apply(replace_last_letter)
     # Drop the temp mat_code col
@@ -85,3 +104,14 @@ def agg_fbsc_by_material(fbsc, model_material_codes):
 
     return fbsc
 
+def replace_FlowAmount_w_FlowRatio(env):
+    env = replace_NoneType_with_empty_cells(env)
+    env.loc[:,'NAICS'] = env.loc[:,'Sector'].apply(remove_last_letter)
+    groupbycols = ['Flowable', 'Context','Location','Unit','Year', 'NAICS']
+    denom_df = env.assign(Denominator=env.groupby(
+        groupbycols)['FlowAmount'].transform('sum'))
+    env = env.merge(denom_df,how='left')
+    env.loc[:, 'FlowRatio'] = env['FlowAmount'] / env['Denominator']
+    env = env.drop(columns=['FlowAmount','NAICS','Denominator'])
+    env = replace_strings_with_NoneType(env)
+    return env

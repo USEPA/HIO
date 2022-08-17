@@ -4,7 +4,6 @@ Functions to further process FBS collapsed files
 """
 import logging
 import re
-
 from flowsa.flowbyfunctions import aggregator
 
 def convert_fbsc_to_disagg_env(fbsc):
@@ -71,15 +70,18 @@ def agg_fbsc_by_material(fbsc, model_material_codes):
     :param model_materials: a list of materials found in the materials reference list
     :return: fbsc
     """
-    #get codes for selected materials
+    # Get codes for selected materials and put them in a temporary mat_code column for wrangling
     fbsc['mat_code'] = fbsc['Sector'].apply(get_last_letter)
     #Set mat_code to 'X' when not in the provided list
     fbsc.loc[~fbsc['mat_code'].isin(model_material_codes),'mat_code'] = 'X'
-
+    # Now use that mat_code to replace the original code for sectors with this X
     fbsc.loc[fbsc['mat_code']=='X','Sector'] = fbsc.loc[fbsc['mat_code']=='X','Sector'].apply(replace_last_letter)
+    # Drop the temp mat_code col
+    fbsc = fbsc.drop(columns='mat_code')
 
-    #aggregate the new sectors
-    #fbsc = aggregator(fbsc,[])
+    # Aggregate the new sectors using the flowsa aggregator function. Remove flowamonut first
+    groupbycols = fbsc.columns.drop("FlowAmount")
+    fbsc = aggregator(fbsc,groupbycols)
 
     return fbsc
 

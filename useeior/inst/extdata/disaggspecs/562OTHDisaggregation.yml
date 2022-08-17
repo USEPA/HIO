@@ -1,0 +1,9 @@
+Disaggregation:
+  562OTH/US:
+    OriginalSectorCode: "562OTH/US"
+    OrignalSectorName: "Other waste collection and treatment services"
+    DisaggregationType: "Userdefined"
+    SectorFile: 562OTHDisaggregation_Sectors.csv 
+    MakeFile: 562OTHDisaggregation_Make.csv 
+    UseFile: 562OTHDisaggregation_Use.csv 
+#    EnvFile: LandfillingDisaggregation_Env.csv #TODO 

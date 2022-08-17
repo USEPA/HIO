@@ -1,7 +1,0 @@
-IndustryCode,CommodityCode,PercentUsed,Note
-5622121C/US,562212/US,1.13E-01,"Use column sum, industry output"
-5622121F/US,562212/US,1.79E-01,"Use column sum, industry output"
-562212X/US,562212/US,7.08E-01,"Use column sum, industry output"
-562212/US,5622121C/US,1.13E-01,"Use row sum, commodity output"
-562212/US,5622121F/US,1.79E-01,"Use row sum, commodity output"
-562212/US,562212X/US,7.08E-01,"Use row sum, commodity output"

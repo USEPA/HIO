@@ -1,9 +1,0 @@
-Disaggregation:
-  562213/US:
-    OriginalSectorCode: "562213/US"
-    OrignalSectorName: "Solid waste combustors and incinerators"
-    DisaggregationType: "Userdefined"
-    SectorFile: WasteCombustorsDisaggregation_Sectors.csv 
-    MakeFile: WasteCombustorsDisaggregation_Make.csv 
-    UseFile: WasteCombustorsDisaggregation_Use.csv 
-#    EnvFile: WasteCombustorsDisaggregation_Env.csv #TODO 

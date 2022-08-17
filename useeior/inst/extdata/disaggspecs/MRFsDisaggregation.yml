@@ -1,9 +1,0 @@
-Disaggregation:
-  562920/US:
-    OriginalSectorCode: "562920/US"
-    OrignalSectorName: "Material separation/recovery facilities"
-    DisaggregationType: "Userdefined"
-    SectorFile: MRFsDisaggregation_Sectors.csv 
-    MakeFile: MRFsDisaggregation_Make.csv 
-    UseFile: MRFsDisaggregation_Use.csv 
-#    EnvFile: WasteCombustorsDisaggregation_Env.csv #TODO 

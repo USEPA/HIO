@@ -1,3 +1,0 @@
-SectorType,Tag,NAICS_2012_Code,USEEIO_Code,USEEIO_Name,Category,Subcategory,Description,Price,Unit
-MUIO,Food waste combustion,562219,562213F/US,Food waste combustion,56: Administrative and Support and Waste Management and Remediation Services,"5622: Waste Treatment and Disposal, concrete",,0.161,kg
-MUIO,"Solid waste combustors and incinerators, except food waste",562219,562213X/US,"Solid waste combustors and incinerators, except food waste",56: Administrative and Support and Waste Management and Remediation Services,"5622: Waste Treatment and Disposal, except concrete and food waste",,1,USD

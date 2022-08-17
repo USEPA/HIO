@@ -1,0 +1,17 @@
+﻿,,RD0001,RD0002,RD0003,RD0004,RD0005,RD0006b,RD0006c,RD0006,RD0007,RD0008,RD0009,RD0010,RD0011,RD0012,RD0013,RD0014,RD0015
+,,Recycled Ferrous Metals (metric ton),Recycled Nonferrous Metals (Aluminum) (metric ton),Recycled Glass (metric ton),Recycled Paper (metric ton),Recycled Plastics (metric ton),Recycled rubber crumb (metric ton),Tire-derived fuel (metric ton),Other recycled Rubber (metric ton),Recycled Construction and Demolition (metric ton),Recycled Electronics (metric ton),"Animal meal, meat, fats, oils, and tallow (metric ton)",Animal feed (metric ton),Biodiesel (metric ton),Biogas (metric ton),Compost (metric ton),Mulch & wood chips (metric ton),Community food service (metric ton)
+RS0001,Ferrous Metals Recycling ," 53,300,000 ", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+RS0002,Nonferrous Metals Recycling (Aluminum), -   ," 3,270,000 ", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+RS0003,Glass Recycling , -   , -   ," 2,486,184 ", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+RS0004,Paper Recycling , -   , -   , -   ," 27,213,728 ", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+RS0005,Plastics Recycling , -   , -   , -   , -   ," 1,215,759 ", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+RS0006,Rubber Recycling , -   , -   , -   , -   , -   ," 992,007 "," 1,294,580 "," 386,234 ", -   , -   , -   , -   , -   , -   , -   , -   , -   
+RS0007,Construction and Demolition Recycling , -   , -   , -   , -   , -   , -   , -   , -   ," 372,913,275 ", -   , -   , -   , -   , -   , -   , -   , -   
+RS0008,Electronics Recycling , -   , -   , -   , -   , -   , -   , -   , -   , -   ," 299,371 ", -   , -   , -   , -   , -   , -   , -   
+RS0009,Minimally processed animal feed, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ," 16,470,850 ", -   , -   , -   , -   , -   
+RS0010,Rendering and animal by-product processing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ," 8,364,137 ", -   , -   , -   , -   , -   , -   
+RS0011,Biofuels manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ," 2,524,963 ", -   , -   , -   , -   
+RS0012,Anaerobic digestion, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ," 457,910 ", -   , -   , -   
+RS0013,Compost manufacturing**, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ," 15,990,927 ", -   , -   
+RS0014,Landscape materials application, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ," 13,206,082 ", -   
+RS0015,Community food program, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ," 5,917,125 "

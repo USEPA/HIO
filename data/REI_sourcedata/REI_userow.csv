@@ -1,0 +1,427 @@
+﻿,,Recycled Ferrous Metals  (metric ton),Recycled Nonferrous Metals (Aluminum) (metric ton),Recycled Glass (metric ton),Recycled Paper (metric ton),Recycled Plastics (metric ton),Recycled Rubber Crumb (metric ton),Tire-derived fuel (metric ton),Other Recycled Rubber (metric ton),Recycled Construction and Demolition (metric ton),Recycled Electronics (metric ton),"Animal meal, meat, fats, oils, and tallow (metric tons)",Animal feed (metric tons),Biodiesel (metric tons),Biogas (metric tons),Compost (metric tons),Mulch and wood chips (metric tons),Community food program service (metric tons)
+,Values in Physical Units (MT),RD0001,RD0002,RD0003,RD0004,RD0005,RD0006b,RD0006c,RD0006,RD0007,RD0008,RD0009,RD0010,RD0011,RD0012,RD0013,RD0014,RD0015
+1111A0,Oilseed farming, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"2,160",210, -   ,"612,852", -   
+1111B0,Grain farming, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   ,"1,306,334","6,519","2,299", -   ,"2,353,267", -   
+111200,Vegetable and melon farming, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,562,73, -   ,"281,471", -   
+111300,Fruit and tree nut farming, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,662,259, -   ,"653,645", -   
+111400,"Greenhouse, nursery, and floriculture production", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"1,512",758, -   ,"184,048", -   
+111900,Other crop farming, -   , -   , -   , -   , -   , -   , -   , -   , -   ,101, -   ,"34,280","1,170",328, -   ,"399,290", -   
+112120,Dairy cattle and milk production, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"366,626","1,839",259, -   ,"184,048", -   
+1121A0,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"1,212,596","3,632",949, -   ,"319,144", -   
+112300,Poultry and egg production, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"339,705","1,418",856, -   ,"130,537", -   
+112A00,"Animal production, except cattle and poultry and eggs", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"59,652",745,176, -   ,"125,738", -   
+113000,Forestry and logging, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,716,122, -   ,"855,450", -   
+114000,"Fishing, hunting and trapping", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,825,64, -   ,"4,799", -   
+115000,Support activities for agriculture and forestry, -   , -   , -   , -   , -   , -   , -   ,"68,677", -   , -   , -   , -   ,129,49,"2,078,820", -   , -   
+211000,Oil and gas extraction, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"9,700","2,866", -   , -   , -   
+212100,Coal mining, -   , -   , -   , -   , -   , -   , -   , -   , -   ,22, -   , -   ,"5,406",108, -   ,"12,958", -   
+212230,"Copper, nickel, lead, and zinc mining", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"2,294","1,081", -   ,240, -   
+2122A0,"Iron, gold, silver, and other metal ore mining", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"3,197",201, -   ,480, -   
+212310,Stone mining and quarrying, -   , -   , -   , -   , -   , -   , -   , -   , -   ,10, -   , -   ,"1,790",93,"319,819", -   , -   
+2123A0,Other nonmetallic mineral mining and quarrying, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,"2,162",616, -   , -   , -   
+213111,Drilling oil and gas wells, -   , -   , -   , -   , -   , -   , -   , -   , -   ,41, -   , -   ,"1,612",15, -   ,"2,640", -   
+21311A,Other support activities for mining, -   , -   , -   , -   , -   , -   , -   , -   , -   ,142, -   , -   ,"5,703",318, -   ,"3,119", -   
+221100,"Electric power generation, transmission, and distribution", -   , -   , -   , -   , -   , -   ,"349,537", -   ,"7,267,473",29, -   , -   ,"52,602",748, -   , -   , -   
+221200,Natural gas distribution, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,58,44, -   , -   , -   
+221300,"Water, sewage and other systems", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,466,142, -   , -   , -   
+233210,Health care structures, -   , -   , -   , -   , -   , -   , -   , -   , -   ,255, -   , -   ,"1,547",29, -   ,"63,349", -   
+233262,Educational and vocational structures, -   , -   , -   , -   , -   , -   , -   , -   , -   ,431, -   , -   ,"2,475",44, -   ,"143,735", -   
+230301,Nonresidential maintenance and repair, -   , -   , -   , -   ,3, -   , -   , -   , -   ,510, -   , -   ,"15,521",289, -   ,"345,779", -   
+230302,Residential maintenance and repair, -   , -   , -   , -   , -   , -   , -   , -   , -   ,63, -   , -   ,"3,598",59, -   ,"71,987", -   
+2332A0,Office and commercial structures, -   , -   , -   , -   , -   , -   , -   , -   , -   ,185, -   , -   ,"3,224",54, -   ,"86,625", -   
+233412,Multifamily residential structures, -   , -   , -   , -   , -   , -   , -   , -   , -   ,43, -   , -   ,428,10, -   ,"12,238", -   
+2334A0,Other residential structures, -   , -   , -   , -   , -   , -   , -   , -   , -   ,440, -   , -   ,"9,236",220, -   ,"187,167", -   
+233230,Manufacturing structures, -   , -   , -   , -   , -   , -   , -   , -   , -   ,55, -   , -   ,"1,973",39, -   ,"22,796", -   
+2332D0,Other nonresidential structures, -   , -   , -   , -   , -   ,"476,501", -   , -   , -   ,193, -   , -   ,"6,971",93,"319,819","200,125", -   
+233240,Power and communication structures, -   , -   , -   , -   , -   , -   , -   , -   , -   ,58, -   , -   ,"6,035",29, -   ,"98,383", -   
+233411,Single-family residential structures, -   , -   , -   , -   , -   , -   , -   , -   , -   ,58, -   , -   ,"3,291",68, -   ,"159,092", -   
+2332C0,Transportation structures and highways and streets, -   , -   , -   , -   , -   , -   , -   ,"267,610", -   ,"2,332", -   , -   ,"10,411",367, -   ,"154,293", -   
+321100,Sawmills and wood preservation, -   , -   , -   , -   , -   , -   , -   , -   , -   ,22, -   , -   ,330,308, -   ,"943,274", -   
+321200,"Veneer, plywood, and engineered wood product manufacturing", -   , -   , -   , -   ,"32,233", -   , -   , -   ,"1,175,856",7, -   , -   ,551,279, -   ,"391,611", -   
+321910,Millwork, -   , -   , -   , -   , -   , -   , -   , -   , -   ,14, -   , -   ,132,103, -   ,"828,335", -   
+3219A0,All other wood product manufacturing, -   , -   , -   , -   ,135, -   , -   , -   , -   ,12, -   , -   ,352,176, -   ,"529,107", -   
+327100,Clay product and refractory manufacturing, -   , -   , -   , -   ,2, -   , -   , -   ,"1,414,532",2, -   , -   ,125,303, -   ,"5,039", -   
+327200,Glass and glass product manufacturing, -   , -   ,"1,491,710", -   ,515, -   , -   , -   , -   ,14, -   , -   ,495,"1,237", -   , -   , -   
+327310,Cement manufacturing, -   , -   , -   , -   ,15, -   ,"440,157", -   ,"41,530,655", -   , -   , -   ,430,"1,105", -   , -   , -   
+327320,Ready-mix concrete manufacturing, -   , -   , -   , -   , -   , -   , -   , -   ,"144,686,421",19, -   , -   ,196,416, -   , -   , -   
+327330,"Concrete pipe, brick, and block manufacturing", -   , -   , -   , -   , -   , -   , -   , -   ,"38,788,893",2, -   , -   ,36,68, -   ,"1,200", -   
+327390,Other concrete product manufacturing, -   , -   , -   , -   , -   , -   , -   , -   ,"61,063,990",10, -   , -   ,51,103, -   ,"4,559", -   
+327400,Lime and gypsum product manufacturing, -   , -   , -   , -   , -   , -   , -   , -   ,"108,399", -   , -   , -   ,397,"1,022", -   ,240, -   
+327910,Abrasive product manufacturing, -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   , -   ,18,44, -   , -   , -   
+327991,Cut stone and stone product manufacturing, -   , -   , -   , -   ,3, -   , -   , -   , -   ,2, -   , -   ,18,29, -   , -   , -   
+327992,Ground or treated mineral and earth manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,62,147, -   , -   , -   
+327993,Mineral wool manufacturing, -   , -   ,"870,164", -   ,90, -   , -   , -   , -   ,2, -   , -   ,78,186, -   ,480, -   
+327999,Miscellaneous nonmetallic mineral products, -   , -   , -   , -   ,7, -   , -   , -   , -   ,2, -   , -   ,40,83, -   ,960, -   
+331110,Iron and steel mills and ferroalloy manufacturing,"58,366,165", -   , -   , -   ,3, -   , -   ,"49,947", -   , -   , -   , -   ,885,"3,125", -   , -   , -   
+331200,Steel product manufacturing from purchased steel, -   , -   , -   , -   ,11, -   , -   , -   , -   ,5, -   , -   ,129,147, -   , -   , -   
+331314,Secondary smelting and alloying of aluminum, -   ,"1,873,056", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,62,249, -   , -   , -   
+331313,Alumina refining and primary aluminum production, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,47,205, -   , -   , -   
+33131B,Aluminum product manufacturing from purchased aluminum, -   ,"1,323,042", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,94,377, -   , -   , -   
+331410,Nonferrous Metal (except Aluminum) Smelting and Refining, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,31,142, -   , -   , -   
+331420,"Copper rolling, drawing, extruding and alloying", -   , -   , -   , -   , -   , -   , -   , -   , -   ,7, -   , -   ,33,103, -   , -   , -   
+331490,"Nonferrous metal (except copper and aluminum) rolling, drawing, extruding and alloying", -   , -   , -   , -   ,121, -   , -   , -   , -   ,2, -   , -   ,49,196, -   , -   , -   
+331510,Ferrous metal foundries,"6,126,835", -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,62,264, -   ,"1,200", -   
+331520,Nonferrous metal foundries, -   ,"73,902", -   , -   , -   , -   , -   , -   , -   ,12, -   , -   ,69,225, -   , -   , -   
+332114,Custom roll forming, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,31,98, -   , -   , -   
+33211A,"All other forging, stamping, and sintering", -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,123,445, -   , -   , -   
+332119,"Metal crown, closure, and other metal stamping (except automotive)", -   , -   , -   , -   ,212, -   , -   , -   , -   ,2, -   , -   ,36,117, -   , -   , -   
+332200,Cutlery and handtool manufacturing, -   , -   , -   , -   ,123, -   , -   , -   , -   ,5, -   , -   ,33,122, -   , -   , -   
+332310,Plate work and fabricated structural product manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,17, -   , -   ,94,220, -   , -   , -   
+332320,Ornamental and architectural metal products manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,17, -   , -   ,91,254, -   , -   , -   
+332410,Power boiler and heat exchanger manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,7,34, -   , -   , -   
+332420,Metal tank (heavy gauge) manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   ,25,73, -   , -   , -   
+332430,"Metal can, box, and other metal container (light gauge) manufacturing", -   , -   , -   , -   ,2, -   , -   , -   , -   ,5, -   , -   ,62,225, -   , -   , -   
+332500,Hardware manufacturing, -   , -   , -   , -   ,71, -   , -   , -   , -   ,5, -   , -   ,22,49, -   , -   , -   
+332600,Spring and wire product manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   ,33,98, -   , -   , -   
+332710,Machine shops, -   , -   , -   , -   , -   , -   , -   , -   , -   ,24, -   , -   ,192,284, -   , -   , -   
+332720,"Turned product and screw, nut, and bolt manufacturing", -   , -   , -   , -   , -   , -   , -   , -   , -   ,14, -   , -   ,89,215, -   , -   , -   
+332800,"Coating, engraving, heat treating and allied activities", -   , -   , -   , -   ,322, -   , -   , -   , -   ,5, -   , -   ,424,983, -   , -   , -   
+332913,Plumbing fixture fitting and trim manufacturing, -   , -   , -   , -   ,48, -   , -   , -   , -   , -   , -   , -   ,2,15, -   , -   , -   
+33291A,Valve and fittings other than plumbing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,42,137, -   , -   , -   
+332991,Ball and roller bearing manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,16,73, -   , -   , -   
+332996,Fabricated pipe and pipe fitting manufacturing, -   , -   , -   , -   ,49, -   , -   , -   , -   ,5, -   , -   ,16,49, -   , -   , -   
+33299A,"Ammunition, arms, ordnance, and accessories manufacturing", -   , -   , -   , -   ,102, -   , -   , -   , -   , -   , -   , -   ,45,176, -   ,"15,837", -   
+332999,Other fabricated metal manufacturing, -   , -   , -   , -   ,161, -   , -   , -   , -   , -   , -   , -   ,78,157, -   ,720, -   
+333111,Farm machinery and equipment manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,60,103, -   , -   , -   
+333112,Lawn and garden equipment manufacturing, -   , -   , -   , -   ,"44,089", -   , -   , -   , -   , -   , -   , -   ,9,20, -   , -   , -   
+333120,Construction machinery manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,283,171, -   , -   , -   
+333130,Mining and oil and gas field machinery manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,71,127, -   , -   , -   
+333242,Semiconductor machinery manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,9,15, -   , -   , -   
+33329A,Other industrial machinery manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,43, -   , -   ,51,93, -   , -   , -   
+333314,Optical instrument and lens manufacturing, -   , -   , -   , -   ,3, -   , -   , -   , -   ,55, -   , -   ,13,15, -   , -   , -   
+333316,Photographic and photocopying equipment manufacturing, -   , -   , -   , -   ,51, -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   , -   
+333318,Other commercial and service industry machinery manufacturing, -   , -   , -   , -   ,77, -   , -   , -   , -   ,241, -   , -   ,"2,265",59, -   , -   , -   
+333414,Heating equipment (except warm air furnaces) manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,16,29, -   , -   , -   
+333415,"Air conditioning, refrigeration, and warm air heating equipment manufacturing", -   , -   , -   , -   ,243, -   , -   , -   , -   , -   , -   , -   ,38,98, -   , -   , -   
+333413,Industrial and commercial fan and blower and air purification equipment manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,13,34, -   , -   , -   
+333511,Industrial mold manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,13,39, -   , -   , -   
+333514,"Special tool, die, jig, and fixture manufacturing", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,11,29, -   , -   , -   
+333517,Machine tool manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   ,16,29, -   , -   , -   
+33351B,"Cutting and machine tool accessory, rolling mill, and other metalworking machinery manufacturing", -   , -   , -   , -   , -   , -   , -   , -   , -   ,217, -   , -   ,18,49, -   , -   , -   
+333611,Turbine and turbine generator set units manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,16,44, -   , -   , -   
+333612,"Speed changer, industrial high-speed drive, and gear manufacturing", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,16,34, -   , -   , -   
+333613,Mechanical power transmission equipment manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,9,29, -   , -   , -   
+333618,Other engine equipment manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,7, -   , -   ,38,88, -   ,"29,035", -   
+333912,Air and gas compressor manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,16,39, -   , -   , -   
+33391A,Pump and pumping equipment manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,16,49, -   , -   , -   
+333920,Material handling equipment manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,42,108, -   , -   , -   
+333991,Power-driven handtool manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,4,10, -   , -   , -   
+333993,Packaging machinery manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,9,20, -   , -   , -   
+333994,Industrial process furnace and oven manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,2,15, -   , -   , -   
+33399A,Other general purpose machinery manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,29, -   , -   ,40,98, -   , -   , -   
+33399B,Fluid power process machinery, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,13,34, -   , -   , -   
+334111,Electronic computer manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"1,088", -   , -   ,2, -   , -   , -   , -   
+334112,Computer storage device manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,373, -   , -   ,2,15, -   , -   , -   
+334118,Computer terminals and other computer peripheral equipment manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"2,103", -   , -   ,67,20, -   , -   , -   
+334210,Telephone apparatus manufacturing, -   , -   , -   , -   ,3, -   , -   , -   , -   ,"1,646", -   , -   ,2,5, -   , -   , -   
+334220,Broadcast and wireless communications equipment, -   , -   , -   , -   ,7, -   , -   , -   , -   ,"13,452", -   , -   ,4,20, -   , -   , -   
+334290,Other communications equipment manufacturing, -   , -   , -   , -   ,5, -   , -   , -   , -   ,760, -   , -   ,2,20, -   , -   , -   
+334413,Semiconductor and related device manufacturing, -   , -   , -   , -   ,2, -   , -   , -   , -   ,236, -   , -   ,47,112, -   , -   , -   
+334418,Printed circuit assembly (electronic assembly) manufacturing, -   , -   , -   , -   ,8, -   , -   , -   , -   ,253, -   , -   ,2,15, -   , -   , -   
+33441A,Other electronic component manufacturing, -   , -   , -   , -   ,163, -   , -   , -   , -   ,541, -   , -   ,22,103, -   , -   , -   
+334510,Electromedical and electrotherapeutic apparatus manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,132, -   , -   ,9,24, -   , -   , -   
+334511,"Search, detection, and navigation instruments manufacturing", -   , -   , -   , -   ,15, -   , -   , -   , -   ,"1,355", -   , -   ,9,34, -   , -   , -   
+334512,Automatic environmental control manufacturing, -   , -   , -   , -   ,20, -   , -   , -   , -   ,197, -   , -   , -   ,5, -   , -   , -   
+334513,Industrial process variable instruments manufacturing, -   , -   , -   , -   ,41, -   , -   , -   , -   ,510, -   , -   ,11,15, -   , -   , -   
+334514,Totalizing fluid meter and counting device manufacturing, -   , -   , -   , -   ,44, -   , -   , -   , -   ,108, -   , -   , -   ,5, -   , -   , -   
+334515,Electricity and signal testing instruments manufacturing, -   , -   , -   , -   ,8, -   , -   , -   , -   ,303, -   , -   , -   ,5, -   , -   , -   
+334516,Analytical laboratory instrument manufacturing, -   , -   , -   , -   ,11, -   , -   , -   , -   ,503, -   , -   ,4,10, -   , -   , -   
+334517,Irradiation apparatus manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,260, -   , -   , -   ,5, -   , -   , -   
+33451A,"Watch, clock, and other measuring and controlling device manufacturing", -   , -   , -   , -   ,5, -   , -   , -   , -   ,274, -   , -   ,4,10, -   , -   , -   
+334300,Audio and video equipment manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,322, -   , -   , -   ,5, -   , -   , -   
+334610,Manufacturing and reproducing magnetic and optical media, -   , -   , -   , -   ,71, -   , -   , -   , -   , -   , -   , -   ,7,10, -   , -   , -   
+335110,Electric lamp bulb and part manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,11,39, -   , -   , -   
+335120,Lighting fixture manufacturing, -   , -   , -   , -   ,59, -   , -   , -   , -   , -   , -   , -   ,13,54, -   , -   , -   
+335210,Small electrical appliance manufacturing, -   , -   , -   , -   ,374, -   , -   , -   , -   , -   , -   , -   ,2,15, -   , -   , -   
+335221,Household cooking appliance manufacturing, -   , -   , -   , -   ,36, -   , -   , -   , -   , -   , -   , -   ,7,29, -   , -   , -   
+335222,Household refrigerator and home freezer manufacturing, -   , -   , -   , -   ,163, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+335224,Household laundry equipment manufacturing, -   , -   , -   , -   ,153, -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   , -   
+335228,Other major household appliance manufacturing, -   , -   , -   , -   ,140, -   , -   , -   , -   , -   , -   , -   ,4,29, -   , -   , -   
+335311,"Power, distribution, and specialty transformer manufacturing", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,80,49, -   , -   , -   
+335312,Motor and generator manufacturing, -   , -   , -   , -   ,34, -   , -   , -   , -   , -   , -   , -   ,13,49, -   , -   , -   
+335313,Switchgear and switchboard apparatus manufacturing, -   , -   , -   , -   ,95, -   , -   , -   , -   , -   , -   , -   ,16,54, -   , -   , -   
+335314,Relay and industrial control manufacturing, -   , -   , -   , -   ,31, -   , -   , -   , -   , -   , -   , -   ,7, -   , -   , -   , -   
+335911,Storage battery manufacturing, -   , -   , -   , -   ,34, -   , -   , -   , -   , -   , -   , -   ,20,88, -   , -   , -   
+335912,Primary battery manufacturing, -   , -   , -   , -   ,7, -   , -   , -   , -   , -   , -   , -   ,2,20, -   , -   , -   
+335920,Communication and energy wire and cable manufacturing, -   , -   , -   , -   ,875, -   , -   , -   , -   , -   , -   , -   ,20,64, -   , -   , -   
+335930,Wiring device manufacturing, -   , -   , -   , -   ,"1,039", -   , -   , -   , -   , -   , -   , -   ,9,54, -   , -   , -   
+335991,Carbon and graphite product manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,25,108, -   , -   , -   
+335999,All other miscellaneous electrical equipment and component manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,46, -   , -   ,18,68, -   , -   , -   
+336111,Automobile manufacturing, -   , -   , -   , -   , -   ,"59,679", -   , -   , -   ,"2,370", -   , -   ,62,240, -   , -   , -   
+336112,Light truck and utility vehicle manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"6,314", -   , -   ,74,289, -   , -   , -   
+336120,Heavy duty truck manufacturing, -   , -   , -   , -   ,2, -   , -   , -   , -   ,327, -   , -   ,20,34, -   , -   , -   
+336211,Motor vehicle body manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,20,59, -   ,"16,797", -   
+336212,Truck trailer manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,11,29, -   ,"11,038", -   
+336213,Motor home manufacturing, -   , -   , -   , -   ,7, -   , -   , -   , -   , -   , -   , -   ,2,5, -   ,240, -   
+336214,Travel trailer and camper manufacturing, -   , -   , -   , -   ,128, -   , -   , -   , -   , -   , -   , -   ,16,49, -   ,"13,918", -   
+336310,Motor vehicle gasoline engine and engine parts manufacturing, -   , -   , -   , -   ,248, -   , -   , -   , -   ,2, -   , -   ,33,122, -   , -   , -   
+336320,Motor vehicle electrical and electronic equipment manufacturing, -   , -   , -   , -   ,852, -   , -   , -   , -   ,39, -   , -   ,11,49, -   , -   , -   
+336350,Motor vehicle transmission and power train parts manufacturing, -   , -   , -   , -   ,39, -   , -   , -   , -   ,2, -   , -   ,42,157, -   , -   , -   
+336360,Motor vehicle seating and interior trim manufacturing, -   , -   , -   , -   ,653, -   , -   , -   , -   , -   , -   , -   ,9,34, -   ,480, -   
+336370,Motor vehicle metal stamping, -   , -   , -   , -   ,99, -   , -   , -   , -   , -   , -   , -   ,58,142, -   , -   , -   
+336390,Other Motor Vehicle Parts Manufacturing, -   , -   , -   , -   ,"32,342", -   , -   , -   , -   ,26, -   , -   ,89,220, -   ,"13,198", -   
+3363A0,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing", -   , -   , -   , -   ,126, -   , -   , -   , -   ,2, -   , -   ,36,122, -   ,"12,958", -   
+336411,Aircraft manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"2,844", -   , -   ,42,112, -   , -   , -   
+336412,Aircraft engine and engine parts manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,20,54, -   , -   , -   
+336413,Other aircraft parts and auxiliary equipment manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,626, -   , -   ,250,29, -   , -   , -   
+336414,Guided missile and space vehicle manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"1,992", -   , -   ,11,49, -   , -   , -   
+33641A,Propulsion units and parts for space vehicles and guided missiles, -   , -   , -   , -   , -   , -   , -   , -   , -   ,22, -   , -   ,9,49, -   , -   , -   
+336500,Railroad rolling stock manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,29,78, -   , -   , -   
+336611,Ship building and repairing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,24, -   , -   ,82,132, -   ,"5,279", -   
+336612,Boat building, -   , -   , -   , -   ,256, -   , -   , -   , -   ,5, -   , -   ,11,34, -   ,"2,160", -   
+336991,"Motorcycle, bicycle, and parts manufacturing", -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,2,10, -   , -   , -   
+336992,"Military armored vehicle, tank, and tank component manufacturing", -   , -   , -   , -   ,125, -   , -   , -   , -   , -   , -   , -   ,2,10, -   ,"8,638", -   
+336999,All other transportation equipment manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,4,24, -   , -   , -   
+337110,Wood kitchen cabinet and countertop manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,10, -   , -   ,74,98, -   ,"116,140", -   
+337121,Upholstered household furniture manufacturing, -   , -   , -   , -   ,11, -   , -   , -   , -   , -   , -   , -   ,9,24, -   ,"31,674", -   
+337122,Nonupholstered wood household furniture manufacturing, -   , -   , -   , -   ,10, -   , -   , -   , -   ,2, -   , -   ,18,44, -   ,"79,426", -   
+337127,Institutional furniture manufacturing, -   , -   , -   , -   ,110, -   , -   , -   , -   , -   , -   , -   ,25,39, -   ,"26,875", -   
+33712N,Other household nonupholstered furniture, -   , -   , -   , -   ,163, -   , -   , -   , -   ,2, -   , -   ,11,29, -   ,"1,200", -   
+337215,"Showcase, partition, shelving, and locker manufacturing", -   , -   , -   , -   ,94, -   , -   , -   , -   ,2, -   , -   ,29,73, -   ,"21,596", -   
+33721A,Office furniture and custom architectural woodwork and millwork manufacturing, -   , -   , -   , -   ,77, -   , -   , -   , -   ,12, -   , -   ,65,132, -   ,"137,736", -   
+337900,Other furniture related product manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   ,16,20, -   , -   , -   
+339112,Surgical and medical instrument manufacturing, -   , -   , -   , -   ,"1,226", -   , -   , -   , -   ,17, -   , -   ,47,83, -   , -   , -   
+339113,Surgical appliance and supplies manufacturing, -   , -   , -   , -   ,322, -   , -   , -   , -   ,14, -   , -   ,87,93, -   , -   , -   
+339114,Dental equipment and supplies manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,2,5, -   , -   , -   
+339115,Ophthalmic goods manufacturing, -   , -   , -   , -   ,217, -   , -   , -   , -   , -   , -   , -   ,11,15, -   , -   , -   
+339116,Dental laboratories, -   , -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   ,11,20, -   , -   , -   
+339910,Jewelry and silverware manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,9,15, -   , -   , -   
+339920,Sporting and athletic goods manufacturing, -   , -   , -   , -   ,428, -   , -   , -   , -   ,7, -   , -   ,38,68, -   ,"27,355", -   
+339930,"Doll, toy, and game manufacturing", -   , -   , -   , -   ,135, -   , -   , -   , -   , -   , -   , -   ,2,10, -   ,"5,279", -   
+339940,Office supplies (except paper) manufacturing, -   , -   , -   , -   ,7, -   , -   , -   , -   , -   , -   , -   ,4,20, -   ,"32,154", -   
+339950,Sign manufacturing, -   , -   , -   , -   ,289, -   , -   , -   , -   ,2, -   , -   ,29,73, -   ,"16,557", -   
+339990,All other miscellaneous manufacturing, -   , -   , -   , -   ,"1,164", -   , -   , -   , -   ,5, -   , -   ,56,157, -   ,"24,956", -   
+311111,Dog and cat food manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"2,592,882","419,499",45,186, -   , -   , -   
+311119,Other animal food manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"4,516,634","1,990,199",67,245, -   , -   , -   
+311210,Flour milling and malt manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"2,338,232",62,230, -   , -   , -   
+311221,Wet corn milling, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   ,"1,467,859",212,939, -   , -   , -   
+311225,Fats and oils refining and blending, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"91,027",33,147, -   , -   , -   
+311224,Soybean and other oilseed processing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"24,209",127,743, -   , -   , -   
+311230,Breakfast cereal manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"111,944",42,132, -   , -   , -   
+311300,Sugar and confectionery product manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   ,270,"1,159", -   , -   , -   
+311410,Frozen food manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"992,969",111,455, -   , -   , -   
+311420,"Fruit and vegetable canning, pickling, and drying", -   , -   , -   , -   , -   , -   , -   , -   , -   ,10, -   ,"53,648",158,655, -   , -   , -   
+311513,Cheese manufacturing, -   , -   , -   , -   ,15, -   , -   , -   , -   , -   , -   , -   ,80,347, -   , -   , -   
+311514,"Dry, condensed, and evaporated dairy product manufacturing", -   , -   , -   , -   ,36, -   , -   , -   , -   , -   , -   , -   ,123,528, -   , -   , -   
+31151A,Fluid milk and butter manufacturing, -   , -   , -   , -   ,391, -   , -   , -   , -   ,19, -   , -   ,94,313, -   , -   , -   
+311520,Ice cream and frozen dessert manufacturing, -   , -   , -   , -   ,10, -   , -   , -   , -   , -   , -   , -   ,7,34, -   , -   , -   
+311615,Poultry processing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,19, -   , -   ,111,411, -   , -   , -   
+31161A,"Animal (except poultry) slaughtering, rendering, and processing", -   , -   , -   , -   , -   , -   , -   , -   , -   ,22, -   , -   ,247,880, -   , -   , -   
+311700,Seafood product preparation and packaging, -   , -   , -   , -   , -   , -   , -   , -   , -   ,7, -   , -   ,74,289, -   , -   , -   
+311810,Bread and bakery product manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,7, -   ,"584,897",203,533, -   , -   , -   
+3118A0,"Cookie, cracker, pasta, and tortilla manufacturing", -   , -   , -   , -   , -   , -   , -   , -   , -   ,10, -   ,"141,770",87,308, -   , -   , -   
+311910,Snack food manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"208,781",136,484, -   , -   , -   
+311920,Coffee and tea manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   ,29,103, -   , -   , -   
+311930,Flavoring syrup and concentrate manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,29,49, -   , -   , -   
+311940,Seasoning and dressing manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,12, -   , -   ,38,98, -   , -   , -   
+311990,All other food manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,14, -   ,"248,291",67,225, -   , -   , -   
+312110,Soft drink and ice manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   ,127,303, -   , -   , -   
+312120,Breweries, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"535,704",169,474, -   , -   , -   
+312130,Wineries, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,25,64, -   , -   , -   
+312140,Distilleries, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"35,055",31,83, -   , -   , -   
+312200,Tobacco product manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,94,235, -   ,720, -   
+313100,"Fiber, yarn, and thread mills", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,20,64, -   , -   , -   
+313200,Fabric mills, -   , -   , -   , -   ,"1,771", -   , -   , -   , -   ,2, -   , -   ,123,382, -   , -   , -   
+313300,Textile and fabric finishing and fabric coating mills, -   , -   , -   , -   ,299, -   , -   , -   , -   , -   , -   , -   ,85,279, -   , -   , -   
+314110,Carpet and rug mills, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,71,117, -   , -   , -   
+314120,Curtain and linen mills, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,7,15, -   , -   , -   
+314900,Other textile product mills, -   , -   , -   , -   ,136, -   , -   , -   , -   ,7, -   , -   ,33,49, -   , -   , -   
+315000,Apparel manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,9,39, -   , -   , -   
+316000,Leather and allied product manufacturing, -   , -   , -   , -   ,77, -   , -   , -   , -   , -   , -   , -   ,31, -   , -   , -   , -   
+322110,Pulp mills, -   , -   , -   , -   , -   , -   ,"32,535", -   , -   ,2, -   , -   ,265,597, -   ,"208,763", -   
+322120,Paper mills, -   , -   , -   ,"7,383,084", -   , -   ,"254,314", -   , -   , -   , -   , -   ,"1,398","3,057", -   ,"326,823", -   
+322130,Paperboard mills, -   , -   , -   ,"19,757,166",121, -   ,"153,309", -   , -   ,5, -   , -   ,"1,280","2,910", -   ,"470,077", -   
+322210,Paperboard container manufacturing, -   , -   , -   , -   ,10, -   , -   , -   , -   ,34, -   , -   ,"1,146",401, -   , -   , -   
+322220,Paper Bag and Coated and Treated Paper Manufacturing, -   , -   , -   , -   ,"1,826", -   , -   , -   , -   ,2, -   , -   ,98,210, -   , -   , -   
+322230,Stationery product manufacturing, -   , -   , -   , -   ,7, -   , -   , -   , -   ,2, -   , -   ,11,15, -   , -   , -   
+322291,Sanitary paper product manufacturing, -   , -   , -   , -   ,859, -   , -   , -   , -   , -   , -   , -   ,29,59, -   , -   , -   
+322299,All other converted paper product manufacturing, -   , -   , -   ,"73,477", -   , -   , -   , -   , -   ,2, -   , -   ,31,68, -   , -   , -   
+323110,Printing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,173, -   , -   ,"4,089",357, -   , -   , -   
+323120,Support activities for printing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,20,10, -   , -   , -   
+324110,Petroleum refineries, -   , -   , -   , -   , -   , -   , -   , -   , -   ,180, -   , -   ,"40,198","13,245", -   , -   , -   
+324121,Asphalt paving mixture and block manufacturing, -   , -   , -   , -   , -   ,"69,004", -   , -   ,"70,866,246", -   , -   , -   ,"12,010",533, -   , -   , -   
+324122,Asphalt shingle and coating materials manufacturing, -   , -   , -   , -   , -   , -   , -   , -   ,"1,824,389", -   , -   , -   ,"7,118",73, -   , -   , -   
+324190,Other petroleum and coal products manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"7,263",235, -   , -   , -   
+325110,Petrochemical manufacturing, -   , -   , -   , -   ,67, -   , -   , -   , -   , -   ,"250,924", -   ,"3,404","8,378", -   , -   , -   
+325120,Industrial gas manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"5,036","1,066",279, -   ,"2,640", -   
+325130,Synthetic dye and pigment manufacturing, -   , -   , -   , -   ,3, -   , -   , -   , -   , -   , -   , -   ,"1,318",245, -   , -   , -   
+325180,Other Basic Inorganic Chemical Manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"3,429","1,228", -   , -   , -   
+325190,Other basic organic chemical manufacturing, -   , -   , -   , -   ,427, -   , -   , -   , -   , -   ,"250,924","3,423,002","7,163","4,456", -   ,"45,592", -   
+325211,Plastics material and resin manufacturing, -   , -   , -   , -   ,"280,981", -   , -   , -   , -   , -   , -   , -   ,"5,515","1,594", -   , -   , -   
+3252A0,Synthetic rubber and artificial and synthetic fibers and filaments manufacturing, -   , -   , -   , -   ,"3,362", -   , -   , -   , -   , -   , -   , -   ,"1,295",254, -   , -   , -   
+325411,Medicinal and botanical manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,107,68, -   , -   , -   
+325412,Pharmaceutical preparation manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,428,245, -   , -   , -   
+325413,In-vitro diagnostic substance manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   ,58,10, -   , -   , -   
+325414,Biological product (except diagnostic) manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,91,34, -   , -   , -   
+325310,Fertilizer manufacturing, -   , -   , -   , -   , -   , -   , -   , -   ,"4,186,421", -   , -   , -   ,"1,342","8,197", -   , -   , -   
+325320,Pesticide and other agricultural chemical manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,303,73,"12,792,741", -   , -   
+325510,Paint and coating manufacturing, -   , -   , -   , -   ,"4,521", -   , -   , -   , -   , -   , -   , -   ,368,44, -   , -   , -   
+325520,Adhesive manufacturing, -   , -   , -   , -   ,"1,432", -   , -   , -   , -   , -   , -   , -   ,760,49, -   , -   , -   
+325610,Soap and cleaning compound manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"250,924", -   ,"1,190",176, -   , -   , -   
+325620,Toilet preparation manufacturing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"250,924", -   ,263,29, -   , -   , -   
+325910,Printing ink manufacturing, -   , -   , -   , -   ,414, -   , -   , -   , -   , -   ,"250,924", -   ,682,10, -   , -   , -   
+3259A0,All other chemical product and preparation manufacturing, -   , -   , -   , -   ,"5,926", -   , -   , -   , -   , -   , -   , -   ,"1,558",254, -   , -   , -   
+326110,Plastics packaging materials and unlaminated film and sheet manufacturing, -   , -   , -   , -   ,"196,468", -   , -   , -   , -   ,12, -   , -   ,161,337, -   , -   , -   
+326120,"Plastics pipe, pipe fitting, and unlaminated profile shape manufacturing", -   , -   , -   , -   ,"132,761", -   , -   , -   , -   , -   , -   , -   ,42,108, -   , -   , -   
+326130,"Laminated plastics plate, sheet (except packaging), and shape manufacturing", -   , -   , -   , -   ,818, -   , -   , -   , -   , -   , -   , -   ,16,39, -   , -   , -   
+326140,Polystyrene foam product manufacturing, -   , -   , -   , -   ,"3,316", -   , -   , -   , -   ,2, -   , -   ,123,176, -   , -   , -   
+326150,Urethane and other foam product (except polystyrene) manufacturing, -   , -   , -   , -   ,"1,108", -   , -   , -   , -   ,154, -   , -   ,760,78, -   , -   , -   
+326160,Plastics bottle manufacturing, -   , -   , -   , -   ,"337,840", -   , -   , -   , -   ,5, -   , -   ,16,34, -   , -   , -   
+326190,Other plastics product manufacturing, -   , -   , -   , -   ,"118,458", -   , -   , -   , -   ,89, -   , -   ,265,445, -   ,"30,475", -   
+326210,Tire manufacturing, -   , -   , -   , -   ,107, -   , -   , -   , -   ,7, -   , -   ,111,264, -   , -   , -   
+326220,Rubber and plastics hoses and belting manufacturing, -   , -   , -   , -   ,240,"327,303", -   , -   , -   , -   , -   , -   ,20,54, -   , -   , -   
+326290,Other rubber product manufacturing, -   , -   , -   , -   ,450, -   , -   , -   , -   ,7, -   , -   ,71,166, -   , -   , -   
+423100,Motor vehicle and motor vehicle parts and supplies, -   , -   , -   , -   , -   , -   , -   , -   , -   ,22, -   , -   ,"1,516",78,"10,022",960, -   
+423400,Professional and commercial equipment and supplies, -   , -   , -   , -   , -   , -   , -   , -   , -   ,257, -   , -   ,464,54,"18,378", -   , -   
+423600,Household appliances and electrical and electronic goods , -   , -   , -   , -   , -   , -   , -   , -   , -   ,457, -   , -   ,493,49,"13,975", -   , -   
+423800,"Machinery, equipment, and supplies", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"1,405",54,"15,357", -   , -   
+423A00,Other durable goods merchant wholesalers, -   , -   , -   , -   , -   , -   , -   , -   , -   ,253, -   , -   ,"3,337",401,"22,681","9,838", -   
+424200,Drugs and druggists’ sundries, -   , -   , -   , -   , -   , -   , -   , -   , -   ,120, -   , -   ,230,10,"13,195", -   , -   
+424400,Grocery and related product wholesalers , -   , -   , -   , -   , -   , -   , -   , -   , -   ,7, -   , -   ,"1,873",191,"12,863", -   , -   
+424700,Petroleum and petroleum products, -   , -   , -   , -   , -   , -   , -   , -   , -   ,568, -   , -   ,905,157,"15,566", -   , -   
+424A00,Other nondurable goods merchant wholesalers, -   , -   , -   , -   , -   , -   , -   , -   , -   ,55, -   , -   ,"3,489",543,"28,974", -   , -   
+425000,Wholesale electronic markets and agents and brokers, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,252,24,"5,653", -   , -   
+4200ID,Customs duties, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"3,245", -   , -   
+441000,Motor vehicle and parts dealers, -   , -   , -   , -   ,10, -   , -   , -   , -   ,402, -   , -   ,"1,347",597, -   , -   , -   
+445000,Food and beverage stores, -   , -   , -   , -   , -   , -   , -   , -   , -   ,585, -   , -   ,"1,340",254, -   , -   , -   
+452000,General merchandise stores, -   , -   , -   , -   , -   , -   , -   , -   , -   ,411, -   , -   ,328,117, -   , -   , -   
+444000,Building material and garden equipment and supplies dealers, -   , -   , -   , -   , -   , -   , -   , -   , -   ,142, -   , -   ,863,245, -   ,480, -   
+446000,Health and personal care stores, -   , -   , -   , -   , -   , -   , -   , -   , -   ,257, -   , -   ,98,24, -   , -   , -   
+447000,Gasoline stations, -   , -   , -   , -   , -   , -   , -   , -   , -   ,315, -   , -   ,214,10, -   , -   , -   
+448000,Clothing and clothing accessories stores, -   , -   , -   , -   , -   , -   , -   , -   , -   ,217, -   , -   ,218,83, -   ,"1,200", -   
+454000,Nonstore retailers, -   , -   , -   , -   , -   , -   , -   , -   , -   ,257, -   , -   ,399,54, -   ,240, -   
+4B0000,All other retail, -   , -   , -   , -   , -   , -   , -   , -   , -   ,233, -   , -   ,783,313, -   ,"1,680", -   
+481000,Air transportation, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"85,886",205, -   , -   , -   
+482000,Rail transportation, -   , -   , -   , -   , -   , -   , -   , -   , -   ,147, -   , -   ,"19,168",269, -   ,"256,995", -   
+483000,Water transportation, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"14,660",254, -   , -   , -   
+484000,Truck transportation, -   , -   , -   , -   , -   , -   , -   , -   , -   ,250, -   , -   ,"110,612",367, -   , -   , -   
+485000,Transit and ground passenger transportation, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,"5,290",59, -   , -   , -   
+486000,Pipeline transportation, -   , -   , -   , -   , -   , -   , -   , -   , -   ,24, -   , -   ,201,"3,018", -   , -   , -   
+48A000,Scenic and sightseeing transportation and support activities for transportation, -   , -   , -   , -   , -   , -   , -   , -   , -   ,274, -   , -   ,"11,796",724, -   , -   , -   
+492000,Couriers and messengers, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"17,144",191, -   , -   , -   
+493000,Warehousing and storage, -   , -   , -   , -   , -   , -   , -   , -   , -   ,402, -   , -   ,754,220, -   , -   , -   
+511110,Newspaper publishers, -   , -   , -   , -   , -   , -   , -   , -   , -   ,101, -   , -   ,91,29, -   , -   , -   
+511120,Periodical Publishers, -   , -   , -   , -   , -   , -   , -   , -   , -   ,419, -   , -   ,109, -   , -   , -   , -   
+511130,Book publishers, -   , -   , -   , -   , -   , -   , -   , -   , -   ,578, -   , -   ,87,10, -   , -   , -   
+5111A0,"Directory, mailing list, and other publishers", -   , -   , -   , -   , -   , -   , -   , -   , -   ,243, -   , -   ,47, -   , -   , -   , -   
+511200,Software publishers, -   , -   , -   , -   , -   , -   , -   , -   , -   ,55, -   , -   ,484,117, -   , -   , -   
+512100,Motion picture and video industries, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,167,34, -   ,"2,160", -   
+512200,Sound recording industries, -   , -   , -   , -   , -   , -   , -   , -   , -   ,26, -   , -   ,16,5, -   , -   , -   
+515100,Radio and television broadcasting, -   , -   , -   , -   , -   , -   , -   , -   , -   ,190, -   , -   ,36,15, -   , -   , -   
+515200,Cable and other subscription programming, -   , -   , -   , -   , -   , -   , -   , -   , -   ,510, -   , -   ,13, -   , -   , -   , -   
+517110,Wired telecommunications carriers, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"7,585", -   , -   ,274,59, -   ,"3,359", -   
+517210,Wireless telecommunications carriers (except satellite), -   , -   , -   , -   , -   , -   , -   , -   , -   ,"9,204", -   , -   ,504, -   , -   ,"21,596", -   
+517A00,"Satellite, telecommunications resellers, and all other telecommunications", -   , -   , -   , -   , -   , -   , -   , -   , -   ,"1,367", -   , -   ,143,39, -   , -   , -   
+518200,"Data processing, hosting, and related services", -   , -   , -   , -   , -   , -   , -   , -   , -   ,"2,469", -   , -   ,952,5, -   ,"22,796", -   
+519130,Internet publishing and broadcasting and Web search portals, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"3,653", -   , -   ,218, -   , -   , -   , -   
+5191A0,"News syndicates, libraries, archives and all other information services", -   , -   , -   , -   , -   , -   , -   , -   , -   ,65, -   , -   ,31,10, -   , -   , -   
+522A00,Nondepository credit intermediation and related activities, -   , -   , -   , -   , -   , -   , -   , -   , -   ,282, -   , -   ,"5,357",137, -   , -   , -   
+52A000,Monetary authorities and depository credit intermediation, -   , -   , -   , -   , -   , -   , -   , -   , -   ,474, -   , -   ,"10,239","1,164", -   , -   , -   
+523900,Other financial investment activities, -   , -   , -   , -   , -   , -   , -   , -   , -   ,924, -   , -   ,"5,279",78, -   , -   , -   
+523A00,Securities and commodity contracts intermediation and brokerage, -   , -   , -   , -   , -   , -   , -   , -   , -   ,120, -   , -   ,"1,826",34, -   , -   , -   
+524113,Direct life insurance carriers, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,9,15, -   , -   , -   
+5241XX,"Insurance carriers, except direct life", -   , -   , -   , -   , -   , -   , -   , -   , -   ,17, -   , -   ,4,73, -   , -   , -   
+524200,"Insurance agencies, brokerages, and related activities", -   , -   , -   , -   , -   , -   , -   , -   , -   ,19, -   , -   ,54,54, -   , -   , -   
+525000,"Funds, trusts, and other financial vehicles", -   , -   , -   , -   , -   , -   , -   , -   , -   ,917, -   , -   ,"2,274","5,033", -   , -   , -   
+531HSO,Owner-occupied housing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,53, -   , -   ,2, -   , -   ,480, -   
+531HST,Tenant-occupied housing, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,4, -   , -   ,480, -   
+531ORE,Other real estate, -   , -   , -   , -   , -   , -   , -   , -   , -   ,561, -   , -   ,"7,439","56,330", -   , -   , -   
+532100,Automotive equipment rental and leasing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,67, -   , -   ,"2,845","3,336", -   , -   , -   
+532400,Commercial and industrial machinery and equipment rental and leasing, -   , -   , -   , -   , -   , -   , -   , -   , -   ,24, -   , -   ,"2,189",763, -   ,"20,156", -   
+532A00,General and consumer goods rental, -   , -   , -   , -   , -   , -   , -   , -   , -   ,63, -   , -   ,611,122, -   , -   , -   
+533000,Lessors of nonfinancial intangible assets, -   , -   , -   , -   , -   , -   , -   , -   , -   ,257, -   , -   ,198,39, -   , -   , -   
+541100,Legal services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"2,325", -   , -   ,109,20, -   , -   , -   
+541511,Custom computer programming services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,135, -   , -   ,203,15, -   , -   , -   
+541512,Computer systems design services, -   , -   , -   , -   ,62, -   , -   , -   , -   ,279, -   , -   ,662, -   , -   , -   , -   
+54151A,"Other computer related services, including facilities management", -   , -   , -   , -   , -   , -   , -   , -   , -   ,"2,779", -   , -   ,689,5, -   , -   , -   
+541200,"Accounting, tax preparation, bookkeeping, and payroll services", -   , -   , -   , -   , -   , -   , -   , -   , -   ,"1,037", -   , -   ,285,39, -   , -   , -   
+541300,"Architectural, engineering, and related services", -   , -   , -   , -   ,153, -   , -   , -   , -   ,917, -   , -   ,"1,538",98, -   ,"16,557", -   
+541610,Management consulting services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"2,038", -   , -   ,252,24, -   , -   , -   
+5416A0,Environmental and other technical consulting services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,200, -   , -   ,54,15, -   , -   , -   
+541700,Scientific research and development services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,373, -   ,"28,276",651,73, -   ,"52,551", -   
+541800,"Advertising, public relations, and related services", -   , -   , -   , -   , -   , -   , -   , -   , -   ,"1,509", -   , -   ,111,29, -   , -   , -   
+541400,Specialized design services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,125, -   , -   ,33,10, -   , -   , -   
+541920,Photographic services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,123, -   , -   ,25,5, -   , -   , -   
+541940,Veterinary services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,36, -   , -   ,38,5, -   , -   , -   
+5419A0,"All other miscellaneous professional, scientific, and technical services ", -   , -   , -   , -   , -   , -   , -   , -   , -   ,982, -   , -   ,216,73, -   , -   , -   
+550000,Management of companies and enterprises, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"13,358", -   ,"1,162","3,725",910, -   ,"2,640", -   
+561300,Employment services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,662, -   , -   ,51,15, -   , -   , -   
+561700,Services to buildings and dwellings, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"1,338", -   , -   ,"4,780",382,"159,909","1,200", -   
+561100,Office administrative services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,238, -   , -   ,91,29, -   , -   , -   
+561200,Facilities support services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,202, -   , -   ,127,44, -   , -   , -   
+561400,Business support services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,368, -   , -   ,354,24, -   ,960, -   
+561500,Travel arrangement and reservation services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,24, -   , -   ,29,10, -   , -   , -   
+561600,Investigation and security services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,919, -   , -   ,227,24, -   , -   , -   
+561900,Other support services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,236, -   , -   ,172,49, -   ,720, -   
+562000,Waste management and remediation services, -   , -   , -   , -   , -   , -   ,"64,729", -   , -   ,363, -   , -   ,"3,170",289, -   ,"1,200", -   
+611100,Elementary and secondary schools, -   , -   , -   , -   , -   , -   , -   , -   , -   ,152, -   ,387,20,"1,683", -   , -   , -   
+611A00,"Junior colleges, colleges, universities, and professional schools", -   , -   , -   , -   , -   , -   , -   , -   , -   ,77, -   ,"3,292",524,"6,461", -   ,240, -   
+611B00,Other educational services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,722, -   , -   ,"1,358",323, -   , -   , -   
+621100,Offices of physicians, -   , -   , -   , -   , -   , -   , -   , -   , -   ,811, -   , -   ,305,98, -   ,"15,117", -   
+621200,Offices of dentists, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,317,127, -   , -   , -   
+621300,Offices of other health practitioners, -   , -   , -   , -   , -   , -   , -   , -   , -   ,128, -   , -   ,143,54, -   , -   , -   
+621400,Outpatient care centers, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,185,68, -   , -   , -   
+621500,Medical and diagnostic laboratories, -   , -   , -   , -   , -   , -   , -   , -   , -   ,91, -   , -   ,47,15, -   , -   , -   
+621600,Home health care services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,154, -   , -   ,145,20, -   , -   , -   
+621900,Other ambulatory health care services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,84, -   , -   ,274,83, -   ,"1,680", -   
+622000,Hospitals, -   , -   , -   , -   , -   , -   , -   , -   , -   ,113, -   , -   ,"11,336","3,096", -   ,"11,518", -   
+623A00,Nursing and community care facilities, -   , -   , -   , -   , -   , -   , -   , -   , -   ,94, -   , -   ,"1,153",347, -   , -   , -   
+623B00,"Residential mental health, substance abuse, and other residential care facilities", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,310,103, -   , -   , -   
+624100,Individual and family services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,221, -   , -   ,669,157, -   ,"2,879", -   
+624400,Child day care services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,7, -   , -   ,189,54, -   ,"13,678", -   
+624A00,"Community food, housing, and other relief services, including rehabilitation services", -   , -   , -   , -   , -   , -   , -   , -   , -   ,245, -   , -   ,363,98, -   ,"56,150", -   
+711100,Performing arts companies, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,62,15, -   ,480, -   
+711200,Spectator sports, -   , -   , -   , -   , -   , -   , -   , -   , -   ,12, -   , -   ,134,20, -   , -   , -   
+711500,"Independent artists, writers, and performers", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,9, -   , -   , -   , -   
+711A00,Promoters of performing arts and sports and agents for public figures, -   , -   , -   , -   , -   , -   , -   , -   , -   ,10, -   , -   ,78,20, -   , -   , -   
+712000,"Museums, historical sites, zoos, and parks", -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,103,34,"159,909", -   , -   
+713100,Amusement parks and arcades, -   , -   , -   , -   , -   , -   , -   , -   , -   ,5, -   , -   ,145,29, -   ,240, -   
+713200,Gambling industries (except casino hotels), -   , -   , -   , -   , -   , -   , -   , -   , -   ,106, -   , -   ,733,20, -   ,960, -   
+713900,Other amusement and recreation industries, -   , -   , -   , -   , -   , -   , -   , -   , -   ,51, -   , -   ,"1,326",337, -   ,"5,759", -   
+721000,Accommodation, -   , -   , -   , -   , -   , -   , -   , -   , -   ,200, -   ,"1,743","2,577","1,022", -   ,"2,160", -   
+722110,Full-service restaurants, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,"3,672","1,330", -   ,"15,597", -   
+722211,Limited-service restaurants, -   , -   , -   , -   , -   , -   , -   , -   , -   ,7, -   ,194,"3,821","1,140", -   ,"4,079", -   
+722A00,All other food and drinking places, -   , -   , -   , -   , -   , -   , -   , -   , -   ,65, -   , -   ,187,73, -   ,"1,200", -   
+811100,Automotive repair and maintenance, -   , -   , -   , -   , -   , -   , -   , -   , -   ,320, -   , -   ,765,201, -   , -   , -   
+811200,Electronic and precision equipment repair and maintenance, -   , -   , -   , -   , -   , -   , -   , -   , -   ,433, -   , -   ,62,20, -   , -   , -   
+811300,Commercial and industrial machinery and equipment repair and maintenance, -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   ,183,54, -   , -   , -   
+811400,Personal and household goods repair and maintenance, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,33,10, -   ,960, -   
+812100,Personal care services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,41, -   , -   ,230,78, -   , -   , -   
+812200,Death care services, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,2, -   , -   , -   , -   
+812300,Dry-cleaning and laundry services, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,693,274, -   , -   , -   
+812900,Other personal services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,7, -   , -   ,127,34, -   , -   , -   
+813100,Religious organizations, -   , -   , -   , -   , -   , -   , -   , -   , -   ,375, -   , -   ,"4,287","1,418", -   ,"5,039", -   
+813A00,"Grantmaking, giving, and social advocacy organizations", -   , -   , -   , -   , -   , -   , -   , -   , -   ,173, -   , -   ,239,15, -   , -   , -   
+813B00,"Civic, social, professional, and similar organizations", -   , -   , -   , -   , -   , -   , -   , -   , -   ,84, -   , -   ,"1,603",333, -   ,"4,559", -   
+814000,Private households, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   
+S00500,Federal general government (defense), -   , -   , -   , -   ,2, -   , -   , -   , -   ,"13,392", -   , -   ,"58,639","3,424", -   ,480, -   
+S00600,Federal general government (nondefense), -   , -   , -   , -   ,2, -   , -   , -   , -   ,919, -   ,"-8,522","2,793","1,785", -   ,"2,400", -   
+491000,Postal service, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"3,875","1,091", -   , -   , -   
+S00101,Federal electric utilities, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"5,716",739, -   , -   , -   
+S00102,Other federal government enterprises, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,399,474, -   , -   , -   
+GSLGE,State and local government educational services, -   , -   , -   , -   ,2, -   , -   , -   , -   ,"1,891", -   ,"19,174","90,809","21,022", -   ,"4,079", -   
+GSLGH,State and local government hospitals and health services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,443, -   , -   ,"6,735","5,962", -   , -   , -   
+GSLGO,State and local government other services, -   , -   , -   , -   , -   , -   , -   , -   , -   ,385, -   ,"11,039","129,548","11,787", -   ,"451,121", -   
+S00201,State and local government passenger transit, -   , -   , -   , -   ,8, -   , -   , -   , -   , -   , -   , -   ,"35,665",259, -   , -   , -   
+S00202,State and local government electric utilities, -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   , -   ,"2,127",10, -   ,240, -   
+S00203,Other state and local government enterprises, -   , -   , -   , -   , -   , -   , -   , -   , -   ,82, -   , -   ,"14,081","2,216", -   ,"10,078", -   
+F01000,Personal consumption expenditures, -   , -   , -   , -   , -   , -   , -   , -   , -   ,"165,172", -   ,"422,791","623,469","216,742", -   ,"65,509","5,917,125"
+F02E00,Nonresidential private fixed investment in equipment,,,,,,,,,,,,,,,,,
+F02N00,Nonresidential private fixed investment in intellectual property products,,,,,,,,,,,,,,,,,
+F02R00,Residential private fixed investment,,,,,,,,,,,,,,,,,
+F02S00,Nonresidential private fixed investment in structures,,,,,,,,,,,,,,,,,
+F03000,Change in private inventories,,,,,,,,,,,,,,,,,
+F04000,Exports of goods and services,"7,462,000",0,0,0,0,"59,520",0,0,0,0,,,,,,,
+F05000,Imports of goods and services,"-18,655,000",0,0,0,0,0,0,0,0,0,,,,,,,
+F06C00,Federal Government defense: Consumption expenditures,,,,,,,,,,,,,,,,,
+F06E00,Federal national defense: Gross investment in equipment,,,,,,,,,,,,,,,,,
+F06N00,Federal national defense: Gross investment in intellectual property products,,,,,,,,,,,,,,,,,
+F06S00,Federal national defense: Gross investment in structures,,,,,,,,,,,,,,,,,
+F07C00,Federal Government nondefense: Consumption expenditures,,,,,,,,,,,,,,,,,
+F07E00,Federal nondefense: Gross investment in equipment,,,,,,,,,,,,,,,,,
+F07N00,Federal nondefense: Gross investment in intellectual property products,,,,,,,,,,,,,,,,,
+F07S00,Federal nondefense: Gross investment in structures,,,,,,,,,,,,,,,,,
+F10C00,State and local government consumption expenditures,,,,,,,,,,,,,,,,,
+F10E00,State and local: Gross investment in equipment,,,,,,,,,,,,,,,,,
+F10N00,State and local: Gross investment in intellectual property products,,,,,,,,,,,,,,,,,
+F10S00,State and local: Gross investment in structures,,,,,,,,,,,,,,,,,

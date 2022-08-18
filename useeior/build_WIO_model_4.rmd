@@ -9,9 +9,9 @@ output: html_document
 # library('useeior')
 
 # NOTE THAT THIS MODEL IS STILL BEING WORKED ON AND DOES NOT RUN TO COMPLETION YET
-configpaths <- file.path("../useeior", c("USEEIO-WIO.yml",
-                                   "WIOConcrete.yml",
-                                   "WIOFoodWaste.yml"))
+configpaths <- file.path(c("USEEIO-WIO.yml",
+                           "WIOConcrete.yml",
+                           "WIOFoodWaste.yml"))
 
 modelname <- "USEEIO-WIO"
 #model <- buildModel(modelname, configpaths)

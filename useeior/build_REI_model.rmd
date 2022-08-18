@@ -11,8 +11,9 @@ output: html_document
 ## REI Model requires 'REI_primaryfactors_TBS.csv' placed in useeior folder in appdirs local folder
 
 # Build model from specs
-configpaths <- file.path("../useeior", c("USEEIO-REI.yml",
-                                   "REI_WIO.yml"))
+configpaths <- file.path(c("USEEIO-REI.yml",
+                            "REI_WIO.yml"))
+
 modelname <- "USEEIO-REI"
 #model <- buildModel(modelname, configpaths)
 model <- initializeModel(modelname, configpaths)

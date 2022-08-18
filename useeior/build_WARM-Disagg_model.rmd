@@ -9,12 +9,13 @@ output: html_document
 # library('useeior')
 
 # Build model from specs
-configpaths <- file.path("../useeior", c("modelspecs/WARM-Disagg.yml",
-                                           "disaggspecs/WasteDisaggregationDetail.yml",
-                                           "disaggspecs/LandfillingDisaggregation.yml",
-                                           "disaggspecs/562OTHDisaggregation.yml",
-                                           "disaggspecs/WasteCombustorsDisaggregation.yml",
-                                           "disaggspecs/MRFsDisaggregation.yml"))
+configpaths <- file.path(c("modelspecs/WARM-Disagg.yml",
+                           "disaggspecs/WasteDisaggregationDetail.yml",
+                           "disaggspecs/LandfillingDisaggregation.yml",
+                           "disaggspecs/562OTHDisaggregation.yml",
+                           "disaggspecs/WasteCombustorsDisaggregation.yml",
+                           "disaggspecs/MRFsDisaggregation.yml"))
+
 modelname <- "WARM-Disagg"
 #model <- buildModel(modelname, configpaths)
 model <- initializeModel(modelname, configpaths)

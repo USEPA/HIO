@@ -1,0 +1,7 @@
+IndustryCode,CommodityCode,PercentUsed,Note
+5622191F/US,562OTH/US,1.74E-01,"Use column sum, industry output"
+5622192F/US,562OTH/US,8.60E-02,"Use column sum, industry output"
+562219X/US,562OTH/US,7.40E-01,"Use column sum, industry output"
+562OTH/US,5622191F/US,1.74E-01,"Use row sum, commodity output"
+562OTH/US,5622192F/US,8.60E-02,"Use row sum, commodity output"
+562OTH/US,562219X/US,7.40E-01,"Use row sum, commodity output"

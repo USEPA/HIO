@@ -1,0 +1,9 @@
+Sector Type,Tag,Type,NAICS_2012_Code,USEEIO_Code,USEEIO_Name,Category,Subcategory,Description,Location,Unit
+WIO,Food Waste,Flowable,311,311-Waste,Food Waste,Waste Generation by Mass,N/A,Waste Generation by Mass,US,kg
+WIO,5622121,SectorConsumedBy,562212,5622121F,MSW Landfilling of Food Waste,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
+WIO,5622191,SectorConsumedBy,562219,5622191F,Codigestion and Anaerobic Digestion of Food Waste,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
+WIO,5622192,SectorConsumedBy,562219,5622192F,Composting of Food Waste,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
+WIO,5622121,SectorProducedBy,562212,5622121F-P,MSW Landfilling of Food Waste,Waste Treatment Industries,N/A,Waste Treatment Industries,US,kg
+WIO,5622191,SectorProducedBy,562219,5622191F-P,Codigestion and Anaerobic Digestion of Food Waste,Waste Treatment Industries,N/A,Waste Treatment Industries,US,kg
+WIO,5622192,SectorProducedBy,562219,5622192F-P,Composting of Food Waste,Waste Treatment Industries,N/A,Waste Treatment Industries,US,kg
+WIO,Food Waste Collected,Flowable,311,311-Treated,Treat Com 1,Waste Treatment Commodities,N/A,Waste Treatment Commodities,US,kg

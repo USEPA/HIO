@@ -1,0 +1,6 @@
+WIO:
+  REI:
+    SectorFile: REI_Sectors.csv
+    MakeFile: REI_make_full.csv
+    UseFile: REI_use_full.csv
+

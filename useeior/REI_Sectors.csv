@@ -1,0 +1,71 @@
+Sector Type,Tag,Type,NAICS_2012_Code,USEEIO_Code,USEEIO_Name,Category,Subcategory,Description,Location,Unit
+WIO,N/A,N/A,N/A,RB0001,Recyclable Ferrous Metals,Waste Generation by Mass,,,US,USD
+WIO,N/A,N/A,N/A,RB0002,Recyclable Nonferrous Metals (Aluminum),Waste Generation by Mass,,,US,USD
+WIO,N/A,N/A,N/A,RB0003,Recyclable Glass,Waste Generation by Mass,,,US,USD
+WIO,N/A,N/A,N/A,RB0004,Recyclable Paper,Waste Generation by Mass,,,US,USD
+WIO,N/A,N/A,N/A,RB0005,Recyclable Plastics,Waste Generation by Mass,,,US,USD
+WIO,N/A,N/A,N/A,RB0006,Recyclable Rubber,Waste Generation by Mass,,,US,USD
+WIO,N/A,N/A,N/A,RB0007,Recyclable Construction and Demolition,Waste Generation by Mass,,,US,USD
+WIO,N/A,N/A,N/A,RB0008,Recyclable Electronics,Waste Generation by Mass,,,US,USD
+WIO,N/A,N/A,N/A,RB0010,Deceased stock,Waste Generation by Mass,,,US,MT
+WIO,N/A,N/A,N/A,RB0011,Crop residue,Waste Generation by Mass,,,US,MT
+WIO,N/A,N/A,N/A,RB0012,Animal by-products,Waste Generation by Mass,,,US,MT
+WIO,N/A,N/A,N/A,RB0013,Produce and grain residues,Waste Generation by Mass,,,US,MT
+WIO,N/A,N/A,N/A,RB0014,Dairy by-products,Waste Generation by Mass,,,US,MT
+WIO,N/A,N/A,N/A,RB0015,Grease/FOG ,Waste Generation by Mass,,,US,MT
+WIO,N/A,N/A,N/A,RB0017,Salvaged food,Waste Generation by Mass,,,US,MT
+WIO,N/A,N/A,N/A,RB0018,Spoiled food,Waste Generation by Mass,,,US,MT
+WIO,N/A,N/A,N/A,RB0019,Rescued food,Waste Generation by Mass,,,US,MT
+WIO,N/A,N/A,N/A,RB0020,Plate waste,Waste Generation by Mass,,,US,MT
+WIO,N/A,N/A,N/A,RB0021,Yard trimmings,Waste Generation by Mass,,,US,MT
+WIO,N/A,N/A,N/A,RD0001,Recycled Ferrous Metals,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0002,Recycled Nonferrous Metals (Aluminum),Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0003,Recycled Glass,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0004,Recycled Paper,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0005,Recycled Plastics,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0006b,Recycled rubber crumb,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0006c,Tire-derived fuel,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0006,Other recycled Rubber,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0007,Recycled Construction and Demolition,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0008,Recycled Electronics,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0009,"Animal meal, meat, fats, oils, and tallow",Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0010,Animal feed,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0011,Biodiesel,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0012,Biogas,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0013,Compost,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0014,Mulch & wood chips,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RD0015,Community food service,Waste Treatment Commodities,,,US,MT
+WIO,N/A,N/A,N/A,RS0001,Ferrous Metals Recycling ,Waste Treatment Industries,,,US,USD
+WIO,N/A,N/A,N/A,RS0002,Nonferrous Metals Recycling (Aluminum),Waste Treatment Industries,,,US,USD
+WIO,N/A,N/A,N/A,RS0003,Glass Recycling ,Waste Treatment Industries,,,US,USD
+WIO,N/A,N/A,N/A,RS0004,Paper Recycling ,Waste Treatment Industries,,,US,USD
+WIO,N/A,N/A,N/A,RS0005,Plastics Recycling ,Waste Treatment Industries,,,US,USD
+WIO,N/A,N/A,N/A,RS0006,Rubber Recycling ,Waste Treatment Industries,,,US,USD
+WIO,N/A,N/A,N/A,RS0007,Construction and Demolition Recycling ,Waste Treatment Industries,,,US,USD
+WIO,N/A,N/A,N/A,RS0008,Electronics Recycling ,Waste Treatment Industries,,,US,USD
+WIO,N/A,N/A,N/A,RS0009,Minimally processed animal feed,Waste Treatment Industries,,,US,MT
+WIO,N/A,N/A,N/A,RS0010,Rendering and animal by-product processing,Waste Treatment Industries,,,US,MT
+WIO,N/A,N/A,N/A,RS0011,Biofuels manufacturing,Waste Treatment Industries,,,US,MT
+WIO,N/A,N/A,N/A,RS0012,Anaerobic digestion,Waste Treatment Industries,,,US,MT
+WIO,N/A,N/A,N/A,RS0013,Compost manufacturing,Waste Treatment Industries,,,US,MT
+WIO,N/A,N/A,N/A,RS0014,Landscape materials application,Waste Treatment Industries,,,US,MT
+WIO,N/A,N/A,N/A,RS0015,Community food program,Waste Treatment Industries,,,US,MT
+WIO,N/A,N/A,N/A,WT0001,Recyclable Ferrous Metals Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0002,Recyclable Nonferrous Metals (Aluminum) Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0003,Recyclable Glass Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0004,Recyclable Paper Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0005,Recyclable Plastics Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0006,Recyclable Rubber Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0007,Recyclable Construction and Demolition Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0008,Recyclable Electronics Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0010,Deceased stock Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0011,Crop residue Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0012,Animal by-products Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0013,Produce and grain residues Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0014,Dairy by-products Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0015,Grease/FOG  Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0017,Salvaged food Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0018,Spoiled food Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0019,Rescued food Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0020,Plate waste Treatment,Waste Generation by Treatment,,,US,MT
+WIO,N/A,N/A,N/A,WT0021,Yard trimmings Treatment,Waste Generation by Treatment,,,US,MT

@@ -1,0 +1,7 @@
+IndustryCode,CommodityCode,Amount,Unit,WIO Section,Note
+RS0007/US,RD0007/US,372913275,MT,V22,Make of Waste Treatment Commodities by Waste Treatment Industries
+RS0012/US,RD0012/US,457910.2289,MT,V22,Make of Waste Treatment Commodities by Waste Treatment Industries
+RS0013/US,RD0013/US,15990926.7,MT,V22,Make of Waste Treatment Commodities by Waste Treatment Industries
+WT0007/US,RB0007/US,13714294386,USD,W34,Waste generation by Treatment by Waste Generation by Mass
+WT0017/US,RB0017/US,4103478,MT,W34,Waste generation by Treatment by Waste Generation by Mass
+WT0018/US,RB0018/US,41938051.7,MT,W34,Waste generation by Treatment by Waste Generation by Mass

@@ -1,0 +1,16 @@
+Management Pathway,Parent,Subnaics,NAICS
+Animal Feed Collection,562119,1,5621191
+Biochemical Processing Collection,562119,2,5621192
+Land Application Collection,562119,3,5621193
+Solid Waste Landfills,562212,,562212
+MSW landfilling,562212,1,5622121
+Industrial Waste landfills,562212,2,5622122
+CDD Landfills,562212,21,56221221
+Coal combustion residue landfill,562212,22,56221222
+MSW combustion,562213,,562213
+Anaerobic digestion,562219,1,5622191
+MSW composting,562219,2,5622192
+Recycling,562920,,562920
+MSW Recycling,562920,1,5629201
+Mixed CDD MRFs,562920,2,5629202
+Single material MRFs,562920,3,5629203

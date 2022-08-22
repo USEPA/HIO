@@ -1,4 +1,4 @@
-Model: "Disagg-WIO" # Mimics USEEIOv2.0.1
+Model: "USEEIO-WIO-Disagg" # Model 4 uses disaggregation and tracking of physical waste flows
 BaseIOSchema: 2012
 BaseIOLevel: &BaseIOLevel "Detail"
 IOYear: 2012 # Year for IO data

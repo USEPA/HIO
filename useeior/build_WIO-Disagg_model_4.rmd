@@ -8,7 +8,7 @@ output: html_document
 # devtools::load_all(".") # this needs to point to the correct local useeior folder
 # library('useeior')
 
-configpaths <- file.path(c("Disagg-WIO.yml",
+configpaths <- file.path(c("USEEIO-WIO-Disagg.yml",
                           "DisaggWIOConcrete.yml",
                           "WasteDisaggregationDetail.yml",
                           "LandfillingDisaggregation.yml",
@@ -17,7 +17,7 @@ configpaths <- file.path(c("Disagg-WIO.yml",
                           "MRFsDisaggregation.yml"))
 
 
-modelname <- "Disagg-WIO"
+modelname <- "USEEIO-WIO-Disagg"
 #model <- buildModel(modelname, configpaths)
 model <- initializeModel(modelname, configpaths)
 model <- loadIOData(model, configpaths)

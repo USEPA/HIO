@@ -1,4 +1,4 @@
-Model: "WARM-Disagg" # Further disaggregation of Waste sectors, based on WARM data. Includes only the
+Model: "USEEIO-Waste-Disagg" # Model 2 includes further disaggregation of Waste sectors for specific commodities
 BaseIOSchema: 2012
 BaseIOLevel: &BaseIOLevel "Detail"
 IOYear: 2012 # Year for IO data

@@ -1,5 +1,5 @@
 ---
-title: "WARM-Disagg_model"
+title: "Disaggregated Waste Model 2"
 output: html_document
 ---
 
@@ -9,14 +9,14 @@ output: html_document
 # library('useeior')
 
 # Build model from specs
-configpaths <- file.path(c("modelspecs/WARM-Disagg.yml",
-                           "disaggspecs/WasteDisaggregationDetail.yml",
-                           "disaggspecs/LandfillingDisaggregation.yml",
-                           "disaggspecs/562OTHDisaggregation.yml",
-                           "disaggspecs/WasteCombustorsDisaggregation.yml",
-                           "disaggspecs/MRFsDisaggregation.yml"))
+configpaths <- file.path(c("USEEIO-Waste-Disagg.yml",
+                           "WasteDisaggregationDetail.yml",
+                           "LandfillingDisaggregation.yml",
+                           "562OTHDisaggregation.yml",
+                           "WasteCombustorsDisaggregation.yml",
+                           "MRFsDisaggregation.yml"))
 
-modelname <- "WARM-Disagg"
+modelname <- "USEEIO-Waste-Disagg"
 #model <- buildModel(modelname, configpaths)
 model <- initializeModel(modelname, configpaths)
 model <- loadIOData(model, configpaths)

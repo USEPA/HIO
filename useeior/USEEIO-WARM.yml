@@ -1,4 +1,4 @@
-Model: "USEEIO-WARM" # Mimics USEEIOv2.0.1
+Model: "USEEIO-WARM" # Integrated hybrid model for waste processes
 BaseIOSchema: 2012
 BaseIOLevel: &BaseIOLevel "Detail"
 IOYear: 2012 # Year for IO data

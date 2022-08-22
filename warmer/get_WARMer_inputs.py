@@ -1,35 +1,31 @@
 # get_WARMer_inputs.py (HIO)
 """
-Script to generate WARMer model inputs
+Uses WARMer to write out a complete table of WARM B matrix flows for flowsa, and tables of
+selected A and corresponding B matrix flows for a specified useeior model
 """
 import pandas as pd
 from pathlib import Path
-
-# from warmer.olca_warm_matrix_io import get_exchanges, warm_version
-from olca_warm_matrix_io import get_exchanges, warm_version
+from warmer.olca_warm_matrix_io import get_exchanges, warm_version
 
 modulepath = Path(__file__).parent
 file_stub = f'{warm_version}'
 
+## Model variables
+model_name = 'm1'
+model_processes = pd.read_csv(modulepath / 'model_1_processes.csv')
+
 if __name__ == '__main__':
-    # dict_ff = {'m1': 'model_1_processes.csv'}
-    # file_ff = dict_ff.get(model_name)
 
     ## FBS input
-    model_name = None
     writepath = modulepath.parent/'flowsa'
 
     df_a, df_b = get_exchanges(opt_map=None)
 
     df_b.to_csv(writepath/f'{file_stub}_env.csv', index=False)
 
-    ## Model 1
-    model_name = 'm1'
-    df_m1_prcs = pd.read_csv(modulepath/'model_1_processes.csv')
+    df_a, df_b = get_exchanges(df_subset=model_processes, opt_mixer=None)
 
-    df_a, df_b = get_exchanges(df_subset=df_m1_prcs, opt_mixer=None)
-
-    writepath = modulepath.parent/'model_build'/'data'
+    writepath = modulepath.parent/'useeior'
     (df_a.query('Amount != 0')  # drop empty exchanges
          .to_csv(writepath/f'{file_stub}_{model_name}_tech.csv', index=False))
     (df_b.drop(columns='ProcessCategory')

@@ -5,10 +5,11 @@ output: html_document
 
 ```{r setup, include=FALSE}
 # devtools::install_github("USEPA/useeior@WIO")
-# devtools::load_all(".")
+# devtools::load_all(".") # this needs to point to the correct local useeior folder
 # library('useeior')
 
-testconfigpaths <- file.path(c("Disagg-WIO.yml",
+testconfigpaths <- file.path("useeior",
+                            c("Disagg-WIO.yml",
                               "DisaggWIOConcrete.yml",
                               "WasteDisaggregationDetail.yml",
                               "LandfillingDisaggregation.yml",
@@ -16,7 +17,8 @@ testconfigpaths <- file.path(c("Disagg-WIO.yml",
                               "WasteCombustorsDisaggregation.yml",
                               "MRFsDisaggregation.yml"))
 
-modelname <- "USEEIO-WIO"
+
+modelname <- "Disagg-WIO"
 #model <- buildModel(modelname, configpaths)
 model <- initializeModel(modelname, configpaths)
 model <- loadIOData(model, configpaths)

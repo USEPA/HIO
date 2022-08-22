@@ -1,0 +1,32 @@
+---
+title: "WIO_model"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# devtools::install_github("USEPA/useeior@WIO")
+# devtools::load_all(".")
+# library('useeior')
+
+testconfigpaths <- file.path(c("Disagg-WIO.yml",
+                              "DisaggWIOConcrete.yml",
+                              "WasteDisaggregationDetail.yml",
+                              "LandfillingDisaggregation.yml",
+                              "562OTHDisaggregation.yml",
+                              "WasteCombustorsDisaggregation.yml",
+                              "MRFsDisaggregation.yml"))
+
+modelname <- "USEEIO-WIO"
+#model <- buildModel(modelname, configpaths)
+model <- initializeModel(modelname, configpaths)
+model <- loadIOData(model, configpaths)
+model <- loadandbuildSatelliteTables(model)
+model <- loadandbuildIndicators(model)
+model <- loadDemandVectors(model)
+model <- constructEEIOMatrices(model)
+
+writeModeltoXLSX(model, file.path(rappdirs::user_data_dir(),
+                                  "useeior/Model_Builds"))
+```
+
+

@@ -8,6 +8,8 @@ import pandas as pd
 import os
 
 path = os.path.dirname(__file__)
+source_path = os.path.realpath(os.path.dirname(path) + '/data/REI_sourcedata')
+out_path = os.path.realpath(os.path.dirname(path) + '/useeior')
 
 def fix_floats(df):
     df['Amount'] = df['Amount'].fillna('-')
@@ -18,7 +20,7 @@ def fix_floats(df):
     return df
 
 ## Make Intersection
-make_int = pd.read_csv(f"{path}/REI_makeintersection.csv",
+make_int = pd.read_csv(f"{source_path}/REI_makeintersection.csv",
                        #skiprows=2
                        #dtype='float'
                        )
@@ -36,7 +38,7 @@ make_int['Note'] = 'Make of Waste Treatment Commodities by Waste Treatment Indus
 
 
 ## Use Intersection
-use_int = pd.read_csv(f"{path}/REI_useintersection.csv",
+use_int = pd.read_csv(f"{source_path}/REI_useintersection.csv",
                       header=2)
 use_int = (use_int
            .drop(columns=use_int.columns[[1,2]]) # Drop names
@@ -54,7 +56,7 @@ use_int['Note'] = 'Use of Waste Treatment Commodity by Waste Treatment Industry'
 
 
 ## Make columns --> added as Use rows
-make_col = pd.read_csv(f"{path}/REI_makecol.csv",
+make_col = pd.read_csv(f"{source_path}/REI_makecol.csv",
                        header=1, nrows=405,
                        )
 make_col = (make_col
@@ -72,7 +74,7 @@ make_col['Note'] = 'Waste Gen by IO Industries - Analogous to value in Column in
 
 
 ## Use Columns
-use_col = pd.read_csv(f"{path}/REI_usecol.csv",
+use_col = pd.read_csv(f"{source_path}/REI_usecol.csv",
                       header=1
                       )
 use_col = (use_col
@@ -87,7 +89,7 @@ use_col['WIO Section'] = 'U12'
 use_col['Note'] = 'Use of IO Commodity by Waste Treat Industry'
 
 ## Use Rows
-use_row = pd.read_csv(f"{path}/REI_userow.csv",
+use_row = pd.read_csv(f"{source_path}/REI_userow.csv",
                       header=1
                       )
 use_row = (use_row
@@ -119,6 +121,6 @@ for col in ['IndustryCode', 'CommodityCode']:
     use[col] = use[col].apply(lambda x: f"{x}/US")
     make[col] = make[col].apply(lambda x: f"{x}/US")
 
-make.to_csv(f'{os.path.dirname(path)}/REI_make_full.csv', index=False)
-use.to_csv(f'{os.path.dirname(path)}/REI_use_full.csv', index=False)
+make.to_csv(f'{out_path}/REI_make_full.csv', index=False)
+use.to_csv(f'{out_path}/REI_use_full.csv', index=False)
 

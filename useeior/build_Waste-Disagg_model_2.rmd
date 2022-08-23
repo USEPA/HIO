@@ -10,7 +10,6 @@ output: html_document
 
 # Build model from specs
 configpaths <- file.path(c("USEEIO-Waste-Disagg.yml",
-                           "WasteDisaggregationDetail.yml",
                            "LandfillingDisaggregation.yml",
                            "562OTHDisaggregation.yml",
                            "WasteCombustorsDisaggregation.yml",

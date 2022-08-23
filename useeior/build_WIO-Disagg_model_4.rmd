@@ -10,7 +10,6 @@ output: html_document
 
 configpaths <- file.path(c("USEEIO-WIO-Disagg.yml",
                           "DisaggWIOConcrete.yml",
-                          "WasteDisaggregationDetail.yml",
                           "LandfillingDisaggregation.yml",
                           "562OTHDisaggregation.yml",
                           "WasteCombustorsDisaggregation.yml",

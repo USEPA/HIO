@@ -11,7 +11,7 @@ CommodityorIndustryType: "Commodity"
 ScrapIncluded: FALSE
 DisaggregationSpecs: null #Replace with same pointers used for model 2
 HybridizationSpecs: null
-WIOSpecs: ["WIOConcrete"] #"WIOFoodWaste"
+WIOSpecs: ["WIOConcrete","WIOFoodWaste"] #"WIOFoodWaste"
 
 SatelliteTable:
   WAT:

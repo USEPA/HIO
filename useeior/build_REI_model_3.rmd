@@ -40,6 +40,11 @@ results <- calculateEEIOModel(model, perspective = "FINAL", y)
 result <- results[["LCIA_f"]][rowSums(results[["LCIA_f"]])>0,]
 print(result)
 
+# Print direct results
+directResults <- calculateEEIOModel(model3, perspective = "DIRECT", y)
+directResult <- directResults[["LCIA_d"]][which(rownames(directResults$LCIA_d) %in% sector_list),]
+print(directResult)
+
 
 ```
 

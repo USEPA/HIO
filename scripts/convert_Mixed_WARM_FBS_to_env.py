@@ -6,7 +6,7 @@ models
 
 import flowsa
 from scripts.fbs_processing_functions import convert_fbsc_to_disagg_env, agg_fbsc_by_material, \
-    replace_FlowAmount_w_FlowRatio
+    replace_FlowAmount_w_FlowRatio, remove_last_letter
 import pandas as pd
 import yaml
 import os
@@ -44,6 +44,21 @@ env = convert_fbsc_to_disagg_env(fbsc)
 if use_FlowRatio:
     env = replace_FlowAmount_w_FlowRatio(env)
 
-env_file = os.path.join(disagg_path, env_name + ".csv")
-env.to_csv(env_file, index=False)
-print(env_name + " written to " + disagg_path)
+# Split into separate dfs by pathway and write them out.
+# Use waste_naics to get the pathways
+env.loc[:,'NAICS'] = env.loc[:,'Sector'].apply(remove_last_letter)
+# join with waste naics to get Management Pathways
+waste_naics = pd.read_csv("data/waste_naics.csv",dtype={"NAICS":str})
+waste_naics = waste_naics.drop(columns=["Parent","Subnaics"])
+env = pd.merge(env,waste_naics,how='left')
+grouped_env_by_NAICS = env.groupby('NAICS')
+
+for name, df in grouped_env_by_NAICS.__iter__():
+    pathway = df['Management Pathway'].iloc[0]
+    df.drop(columns=["NAICS","Management Pathway"],inplace=True)
+    env_file = os.path.join(disagg_path, env_name + "_" + pathway + ".csv")
+    df.to_csv(env_file, index=False)
+    print(env_file + " written.")
+
+
+

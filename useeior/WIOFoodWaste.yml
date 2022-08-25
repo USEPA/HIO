@@ -1,4 +1,4 @@
 WIO:
   FoodWaste:
     SectorFile: WIOFoodWaste_Sectors.csv
-    SourceFile: "flowsa/FlowBySector/Food_Waste_national_2018_m2_v1.2.4_3a46ea6.parquet"
+    SourceFile: "flowsa/FlowBySector/Food_Waste_national_2018_m1_v1.2.4_3644a8b.parquet"

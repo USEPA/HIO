@@ -1,7 +1,7 @@
 # For associating flowables from WARMer with satellite tables for USEEIO models
 'Jobs': 'Employment'
-'Taxes': 'Value Added'
-'Wages' : 'Value Added'
+'Taxes on production and imports, less subsidies': 'Value Added'
+'Compensation of employees' : 'Value Added'
 'Carbon dioxide': 'GHG'
 'Methane': 'GHG'
 'Nitrous oxide': 'GHG'

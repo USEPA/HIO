@@ -1,0 +1,146 @@
+Model: "USEEIOv2.0.2-walrus" # Model 4 uses disaggregation and tracking of physical waste flows
+BaseIOSchema: 2012
+BaseIOLevel: &BaseIOLevel "Detail"
+IOYear: 2012 # Year for IO data
+ModelRegionAcronyms: ["US"]
+ModelType: "EEIO"
+IODataSource: "BEA"
+BasePriceType: "PRO" #producer
+BasewithRedefinitions: FALSE
+CommodityorIndustryType: "Commodity"
+ScrapIncluded: FALSE
+DisaggregationSpecs: ["WasteDisaggregationDetail"]
+
+SatelliteTable:
+  GHG:
+    FullName: "Greenhouse Gases"
+    Abbreviation: "GHG"
+    StaticSource: TRUE
+    StaticFile: "flowsa/FlowBySector/GHG_national_2018_m1_v1.2.3_182978a.parquet"
+    FileLocation: "DataCommons"
+    DataYears: [2018]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed"
+    ScriptFunctionParameters: null
+    OriginalFlowSource: "FEDEFLv1.0.9"
+    DataSources:
+      USEPA_GHG_2018:
+        Title: "Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2019"
+        Author: "USEPA"
+        DataYear: 2018
+        URL: "https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2019"
+        Primary: TRUE
+  EMP:
+    FullName: "Employment"
+    Abbreviation: "EMP"
+    StaticSource: TRUE
+    StaticFile: "flowsa/FlowBySector/Employment_national_2018_v0.3.1_f3cdf5b.parquet"
+    FileLocation: "DataCommons"
+    DataYears: [2018]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
+    ScriptFunctionParameters: null
+    OriginalFlowSource: "FEDEFLv1.0.9"
+    DataSources:
+      BLS_QCEW_2017:
+        Title: "Quarterly Census of Employment and Wages"
+        Author: "BLS"
+        DataYear: 2017
+        URL: "https://www.bls.gov/cew/"
+        Primary: TRUE
+  CNHW:
+    FullName: "Commercial non-hazardous waste excluding construction activities"
+    Abbreviation: "CNHW"
+    StaticSource: TRUE
+    StaticFile: "flowsa/FlowBySector/"
+    FileLocation: "DataCommons"
+    DataYears: [2018]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
+    ScriptFunctionParameters: null
+    OriginalFlowSource: "FEDEFLv1.0.9"
+    DataSources:
+      CalRecycle_CWCS:
+        Title: "2014 Generator-Based Characterization of Commercial Sector"
+        Author: "CalRecycle"
+        DataYear: 2014
+        URL: "https://www2.calrecycle.ca.gov/WasteCharacterization/PubExtracts/2014/GenSummary.pdf"
+        Primary: TRUE
+  CNHWC:
+    FullName: "Commercial non-hazardous waste from construction activities"
+    Abbreviation: "CNHWC"
+    StaticSource: TRUE
+    StaticFile: "flowsa/FlowBySector/CNHWC_national_2014_v1.2.3_aaf5403.parquet"
+    FileLocation: "DataCommons"
+    DataYears: [2014]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
+    ScriptFunctionParameters: null
+    OriginalFlowSource: "FEDEFLv1.0.9"
+    DataSources:
+      CDDPath:
+        Title: "CDDPath: A method for quantifying the loss and recovery of construction and demolition debris in the United States"
+        Author: "Townsend, T., W. Ingwersen, B. Niblick, P. Jain, AND J. Wally"
+        DataYear: 2014
+        URL: "https://cfpub.epa.gov/si/si_public_record_Report.cfm?Lab=NRMRL&dirEntryId=344639"
+        Primary: TRUE
+  VADD:
+    FullName: "Value Added"
+    Abbreviation: "VADD"
+    StaticSource: FALSE
+    StaticFile: null
+    FileLocation: None
+    DataYears: [2012]
+    Locations: ["US"]
+    SectorListSource: "BEA"
+    SectorListYear: 2012
+    SectorListLevel: *BaseIOLevel
+    OriginalFlowSource: "Input-Output Tables"
+    ScriptFunctionCall: "getValueAddedTotalsbySector" #function to call for script
+    ScriptFunctionParameters: ["model"] #list of parameters
+    DataSources:
+     BEA_USE:
+       Title: "Detail Use Before Redefinitions"
+       Author: "BEA"
+       DataYear: 2012
+       URL: "https://apps.bea.gov//industry/iTables%20Static%20Files/AllTablesIO.zip"
+       Primary: TRUE
+Indicators:
+  GreenhouseGases:
+    Name: "GWP-AR4-100"
+    Code: "GHG"
+    Group: "Impact Potential"
+    Unit: "kg CO2 eq"
+    SimpleUnit: "Kilograms Carbon Dioxide (CO2)"
+    SimpleName: "Greenhouse Gases"
+    StaticSource: TRUE
+    StaticFile: "lciafmt/ipcc/WARM-GHGs_v1.0.3_f082d97.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters:
+      indicators: ["AR4-100"]
+    DataSources:
+      IPCC_AR4:
+        Title: "IPCC Fourth Assessment Report: Direct Global Warming Potentials for 100 year time horizon"
+        Author: "IPCC"
+        DataYear: 2007
+        URL: "https://archive.ipcc.ch/publications_and_data/ar4/wg1/en/ch2s2-10-2.html"
+        Primary: TRUE
+
+DemandVectors:
+    DefaultDemand: "DefaultDemandVectors" # Name of default demand vectors yml file
+# Additional demand vectors beyond useeior defaults
+
+

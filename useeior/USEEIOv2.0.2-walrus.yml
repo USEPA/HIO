@@ -58,7 +58,7 @@ SatelliteTable:
     FullName: "Commercial non-hazardous waste excluding construction activities"
     Abbreviation: "CNHW"
     StaticSource: TRUE
-    StaticFile: "flowsa/FlowBySector/"
+    StaticFile: "flowsa/FlowBySector/CNHW_national_2018_v1.2.4_1f1c61e.parquet"
     FileLocation: "DataCommons"
     DataYears: [2018]
     Locations: ["US"]

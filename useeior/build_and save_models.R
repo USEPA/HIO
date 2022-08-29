@@ -5,7 +5,8 @@
 
 library(devtools)
 devtools::load_all("../../useeior")
-
+library(logging)
+addHandler(writeToFile,file="build_and_save_HIO_models.log")
 
 modelmeta <- list("USEEIOv2.0.2-walrus"= c("USEEIOv2.0.2-walrus"),
                   "USEEIO-WARM"= c("USEEIO-WARM", "WARMv15"),
@@ -21,7 +22,9 @@ for (name in names(modelmeta)) {
   for (cfg in modelmeta[[name]] ) {
     cpaths <- append(cpaths,paste0(cfg,".yml"))
   }
+  loginfo(paste("Attempting to build",name))
   model <- buildModel(name, configpaths=file.path(cpaths))
   saveRDS(model,paste0(useeio_ref_name,".rds"))  
+  loginfo(paste("Saved",name,"to .rds"))
 }
 

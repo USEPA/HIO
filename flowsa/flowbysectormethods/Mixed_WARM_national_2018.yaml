@@ -17,8 +17,6 @@ _source_flows: &source_flows
     'Dinitrogen monoxide', 'Jobs', 'Wages', 'Taxes' ]
 
 target_sector_level: NAICS_6
-#target_subset_sector_level: {NAICS_7: ['562920', '562212', '562219'],
-#                             NAICS_8: ['5622122']} # commented out because CDDPath landfill activitytosector mapping modified to "5622121" from "56221221"
 target_subset_sector_level: {NAICS_7: ['562920', '562212', '562219', '562212']}
 target_sector_source: NAICS_2012_Code
 target_geoscale: national

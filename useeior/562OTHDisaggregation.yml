@@ -6,4 +6,4 @@ Disaggregation:
     SectorFile: 562OTHDisaggregation_Sectors.csv 
     MakeFile: 562OTHDisaggregation_Make.csv 
     UseFile: 562OTHDisaggregation_Use.csv 
-#    EnvFile: LandfillingDisaggregation_Env.csv #TODO 
+    EnvFile: Mixed_WARM_national_2018_Env_Ratios_562219.csv 

@@ -17,60 +17,37 @@ SatelliteTable:
     FullName: "Greenhouse Gases"
     Abbreviation: "GHG"
     StaticSource: TRUE
-    StaticFile: "useeior/NGHGIAM_GHG_TotalsBySector_wUUIDs.csv"
+    StaticFile: "flowsa/FlowBySector/GHG_national_2018_m1_v1.2.3_182978a.parquet"
     FileLocation: "DataCommons"
-    DataYears: [2016]
+    DataYears: [2018]
     Locations: ["US"]
-    SectorListSource: "BEA" # or, NAICS
+    SectorListSource: "NAICS"
     SectorListYear: 2012
-    SectorListLevel: "Detail"
-    OriginalFlowSource: "FEDEFLv1.0.6"
+    SectorListLevel: "6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed"
+    ScriptFunctionParameters: null
+    OriginalFlowSource: "FEDEFLv1.0.9"
     DataSources:
       USEPA_GHG_2018:
-        Title: "GHG Inventory"
+        Title: "Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2019"
         Author: "USEPA"
-        DataYear: 2016
-        URL: "https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2016"
-        Primary: TRUE
-  ENERGY:
-    FullName: "Energy extraction"
-    Abbreviation: "ENERGY"
-    StaticSource: TRUE
-    StaticFile: "useeior/USEEIOv1.1_Energy_TotalsBySector_FEDEFL_wUUIDs.csv"
-    FileLocation: "DataCommons"
-    DataYears: [2014]
-    Locations: ["US"]
-    SectorListSource: "BEA"
-    SectorListYear: 2007
-    SectorListLevel: "Detail"
-    OriginalFlowSource: "FEDEFLv1.0.6"
-    DataSources:
-      EIA_MER:
-        Title: "Monthly Energy Review"
-        Author: "EIA"
-        DataYear: 2014
-        URL: "http://www.eia.gov/totalenergy/data/monthly/"
-        Primary: TRUE
-      EIA_923:
-        Title: "Form EIA-923 Detailed"
-        Author: "EIA"
-        DataYear: 2014
-        URL: "https://www.eia.gov/electricity/data/eia923/"
+        DataYear: 2018
+        URL: "https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2019"
         Primary: TRUE
   EMP:
     FullName: "Employment"
     Abbreviation: "EMP"
     StaticSource: TRUE
-    StaticFile: "flowsa/FlowBySector/Employment_national_2017_v0.3.1_f3cdf5b.parquet"
+    StaticFile: "flowsa/FlowBySector/Employment_national_2018_v1.2.3_ffd96ff.parquet"
     FileLocation: "DataCommons"
-    DataYears: [2017]
+    DataYears: [2018]
     Locations: ["US"]
     SectorListSource: "NAICS"
     SectorListYear: 2012
     SectorListLevel: "6"
     ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
     ScriptFunctionParameters: null
-    OriginalFlowSource: "National Employment Matrix"
+    OriginalFlowSource: "FEDEFLv1.0.9"
     DataSources:
       BLS_QCEW_2017:
         Title: "Quarterly Census of Employment and Wages"

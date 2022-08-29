@@ -1,8 +1,0 @@
-Flowable,Context,FlowUUID,Sector,Location,Unit,DistributionType,Min,Max,DataReliability,TemporalCorrelation,GeographicalCorrelation,TechnologicalCorrelation,DataCollection,Year,MetaSources,SatelliteTable,FlowRatio
-Carbon dioxide,resource/air,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,5629201X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,1.0
-Compensation of employees,,,5629201C,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.05861616304740798
-Compensation of employees,,,5629201X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.9413838369525921
-Jobs,,,5629201C,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.06451008511751603
-Jobs,,,5629201X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.935489914882484
-"Taxes on production and imports, less subsidies",,,5629201C,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.04218151003123071
-"Taxes on production and imports, less subsidies",,,5629201X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.9578184899687693

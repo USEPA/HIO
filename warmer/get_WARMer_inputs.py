@@ -26,8 +26,7 @@ if __name__ == '__main__':
     df_a, df_b = get_exchanges(df_subset=model_processes, opt_mixer=None)
 
     writepath = modulepath.parent/'useeior'
-    (df_a.query('Amount != 0')  # drop empty exchanges
-         .to_csv(writepath/f'{file_stub}_{model_name}_tech.csv', index=False))
+    df_a.to_csv(writepath/f'{file_stub}_{model_name}_tech.csv', index=False)
     (df_b.drop(columns='ProcessCategory')
          .query('Amount != 0')  # drop empty exchanges**
          .to_csv(writepath/f'{file_stub}_{model_name}_env.csv', index=False))

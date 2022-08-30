@@ -1,8 +1,3 @@
-
-
-
-#library(useeior)
-
 library(devtools)
 devtools::load_all("../../useeior")
 library(logging)
@@ -24,7 +19,7 @@ for (name in names(modelmeta)) {
   }
   loginfo(paste("Attempting to build",name))
   model <- buildModel(name, configpaths=file.path(cpaths))
-  saveRDS(model,paste0(useeio_ref_name,".rds"))  
+  saveRDS(model,paste0(name,".rds"))  
   loginfo(paste("Saved",name,"to .rds"))
 }
 

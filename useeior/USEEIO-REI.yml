@@ -14,82 +14,95 @@ HybridizationSpecs: null
 WIOSpecs: "REI_WIO"
 
 SatelliteTable:
-  PrimaryFactors:
-    FullName: "Primary Factors"
-    Abbreviation: "PF"
+  GHG:
+    FullName: "Greenhouse Gases"
+    Abbreviation: "GHG"
     StaticSource: TRUE
-    StaticFile: "useeior/REI_primaryfactors_TBS.csv"
-    FileLocation: ""
+    StaticFile: "flowsa/FlowBySector/GHG_national_2018_m1_v1.2.3_182978a.parquet"
+    FileLocation: "DataCommons"
+    DataYears: [2018]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed"
+    ScriptFunctionParameters: null
+    OriginalFlowSource: "FEDEFLv1.0.9"
+    DataSources:
+      USEPA_GHG_2018:
+        Title: "Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2019"
+        Author: "USEPA"
+        DataYear: 2018
+        URL: "https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2019"
+        Primary: TRUE
+  EMP:
+    FullName: "Employment"
+    Abbreviation: "EMP"
+    StaticSource: TRUE
+    StaticFile: "flowsa/FlowBySector/Employment_national_2018_v1.2.3_ffd96ff.parquet"
+    FileLocation: "DataCommons"
+    DataYears: [2018]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
+    ScriptFunctionParameters: null
+    OriginalFlowSource: "FEDEFLv1.0.9"
+    DataSources:
+      BLS_QCEW_2017:
+        Title: "Quarterly Census of Employment and Wages"
+        Author: "BLS"
+        DataYear: 2017
+        URL: "https://www.bls.gov/cew/"
+        Primary: TRUE
+  VADD:
+    FullName: "Value Added"
+    Abbreviation: "VADD"
+    StaticSource: FALSE
+    StaticFile: null
+    FileLocation: None
     DataYears: [2012]
     Locations: ["US"]
     SectorListSource: "BEA"
     SectorListYear: 2012
-    SectorListLevel: "Detail"
-    OriginalFlowSource: "REI"
+    SectorListLevel: *BaseIOLevel
+    OriginalFlowSource: "Input-Output Tables"
+    ScriptFunctionCall: "getValueAddedTotalsbySector" #function to call for script
+    ScriptFunctionParameters: ["model"] #list of parameters
     DataSources:
-      REI_2020:
-        Title: ""
-        Author: ""
-        DataYear: ""
-        URL: ""
-        Primary: TRUE
+     BEA_USE:
+       Title: "Detail Use Before Redefinitions"
+       Author: "BEA"
+       DataYear: 2012
+       URL: "https://apps.bea.gov//industry/iTables%20Static%20Files/AllTablesIO.zip"
+       Primary: TRUE
 
 Indicators:
-  Jobs:
-    Name: "Jobs Supported"
-    Code: "JOBS"
-    Group: "Economic & Social"
-    Unit: "jobs"
-    SimpleUnit: "Employees"
-    SimpleName: "Jobs Supported"
+  GreenhouseGases:
+    Name: "Greenhouse Gases"
+    Code: "GHG"
+    Group: "Impact Potential"
+    Unit: "kg CO2 eq"
+    SimpleUnit: "Kilograms Carbon Dioxide (CO2)"
+    SimpleName: "Greenhouse Gases"
     StaticSource: TRUE
-    StaticFile: "USEEIO_LCIA_Factors.csv"
-    FileLocation: "useeior"
+    StaticFile: "lciafmt/traci/WARM-GHGs_v1.0.3_f082d97.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters:
+      indicators: ["Global warming"]
     DataSources:
-      ingwersen_useeiov11_2017:
-        Title: "USEEIOv1.1 - Elementary Flows and Life Cycle Impact Assessment (LCIA) Characterization Factors"
+      USEPA_TRACI_2.1:
+        Title: "TRACI 2.1"
         Author: "USEPA"
-        DataYear: 2020
-        URL: "http://doi.org/10.23719/1368541"
+        DataYear: NA
+        URL: "https://www.epa.gov/chemical-research/tool-reduction-and-assessment-chemicals-and-other-environmental-impacts-traci"
         Primary: TRUE
-  Wages:
-    Name: "Wages"
-    Code: "WAGE"
-    Group: "Economic & Social"
-    Unit: "$"
-    SimpleUnit: "Dollars"
-    SimpleName: "Wages"
-    StaticSource: TRUE
-    StaticFile: "USEEIO_LCIA_Factors.csv"
-    FileLocation: "useeior"
-    DataSources:
-      REI_2020:
-        Title: ""
-        Author: ""
-        DataYear: ""
-        URL: ""
-        Primary: TRUE
-  Taxes:
-    Name: "Taxes"
-    Code: "TAX"
-    Group: "Economic & Social"
-    Unit: "$"
-    SimpleUnit: "Dollars"
-    SimpleName: "Taxes"
-    StaticSource: TRUE
-    StaticFile: "USEEIO_LCIA_Factors.csv"
-    FileLocation: "useeior"
-    DataSources:
-      REI_2020:
-        Title: ""
-        Author: ""
-        DataYear: ""
-        URL: ""
-        Primary: TRUE
-
 
 DemandVectors:
     DefaultDemand: "DefaultDemandVectors" # Name of default demand vectors yml file
 # Additional demand vectors beyond useeior defaults
+
 
 

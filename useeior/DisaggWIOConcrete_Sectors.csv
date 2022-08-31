@@ -1,5 +1,11 @@
 Sector Type,Tag,Type,NAICS_2012_Code,USEEIO_Code,USEEIO_Name,Category,Subcategory,Description,Location,Unit
-WIO,Concrete,Flowable,3273,3273-Waste,Concrete Waste,,,,US,kg
-WIO,562920,SectorConsumedBy,562,562-ConcreteTreatment,Concrete Processing Input,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
-WIO,562920,SectorProducedBy,562,562-ConcreteProd,Concrete Processing Output,Waste Generation by Mass,N/A,Waste Generation by Mass,US,kg
-WIO,Concrete Processed,Flowable,3273,3273-Treated,Recycled Concrete,,,,US,kg
+WIO,Concrete waste,Flowable,3273,Concrete waste,Concrete Waste,Waste Generation by Mass,N/A,Waste Generation by Mass,US,kg
+WIO,5629202,SectorConsumedBy,5629202,5629202C-treatment,Mixed CDD Processing Input,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
+WIO,5629203,SectorConsumedBy,5629203,5629203C-treatment,Concrete Processing Input,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
+WIO,56221221,SectorConsumedBy,56221221,56221221C-treatment,Landfill Inputs,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
+WIO,5629202,SectorProducedBy,5629202,5629201C,Concrete recycling,Waste Treatment Industries,N/A,Waste Treatment Industries,US,kg
+WIO,5629203,SectorProducedBy,5629203,5629201C,Concrete recycling,Waste Treatment Industries,N/A,Waste Treatment Industries,US,kg
+WIO,Aggregate- Road Base,Flowable,237310,Aggregate- Road Base,Aggregate- Road Base,Waste Treatment Commodities,N/A,Waste Treatment Commodities,US,kg
+WIO,Aggregate- Other Construction,Flowable,237990,Aggregate- Other Construction,Aggregate- Other Construction,Waste Treatment Commodities,N/A,Waste Treatment Commodities,US,kg
+WIO,Aggregate- Drain Rock,Flowable,238910,Aggregate- Drain Rock,Aggregate- Drain Rock,Waste Treatment Commodities,N/A,Waste Treatment Commodities,US,kg
+WIO,Remanufacture - Concrete,Flowable,327310,Remanufacture - Concrete,Remanufacture - Concrete,Waste Treatment Commodities,N/A,Waste Treatment Commodities,US,kg

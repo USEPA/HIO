@@ -89,7 +89,7 @@ SatelliteTable:
     SectorListSource: "BEA"
     SectorListYear: 2012
     SectorListLevel: "Detail"
-    OriginalFlowSource: "REI"
+    OriginalFlowSource: "FEDEFLv1.0.9"
     DataSources:
       REI_2020:
         Title: ""

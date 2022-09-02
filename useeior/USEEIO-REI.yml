@@ -78,6 +78,26 @@ SatelliteTable:
        URL: "https://apps.bea.gov//industry/iTables%20Static%20Files/AllTablesIO.zip"
        Primary: TRUE
 
+  PrimaryFactors:
+    FullName: "Primary Factors for Waste Sectors"
+    Abbreviation: "PFW"
+    StaticSource: TRUE
+    StaticFile: "useeior/REI_primaryfactors_waste_TBS.csv"
+    FileLocation: ""
+    DataYears: [2012]
+    Locations: ["US"]
+    SectorListSource: "BEA"
+    SectorListYear: 2012
+    SectorListLevel: "Detail"
+    OriginalFlowSource: "REI"
+    DataSources:
+      REI_2020:
+        Title: ""
+        Author: ""
+        DataYear: ""
+        URL: ""
+        Primary: TRUE
+
 Indicators:
   GreenhouseGases:
     Name: "Greenhouse Gases"

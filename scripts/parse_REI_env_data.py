@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Script to generate env files from REI data
+Script to generate totals-by-sector (flow-by-sector) formatted files from REI primary factor data.
+One provides all primary factors flows using REI native nomenclature;
+another provides just recycling sector primary factors flows using FEDEFL nomenclature.
 """
 
 import pandas as pd
@@ -47,7 +49,15 @@ df = df[col_order]
 df.to_csv(f'{out_path}/REI_primaryfactors_TBS.csv', index=False)
 
 df1 = df.query('Sector.str.startswith("RS")', engine='python')
+
+# Map REI flows to FEDEFL flows
+mapping = {"Wage":"Compensation of employees",
+           "Employment":"Jobs",
+           "Tax": "Taxes on production and imports, less subsidies"
+           }
+
+df1['Flowable'] = df1['Flowable'].replace(mapping)
+
 df1.to_csv(f'{out_path}/REI_primaryfactors_waste_TBS.csv', index=False)
-df2 = df.drop(df1.index)
-df2.to_csv(f'{out_path}/REI_primaryfactors_useeio_TBS.csv', index=False)
+
 

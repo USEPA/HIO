@@ -16,15 +16,18 @@ model_processes = pd.read_csv(modulepath / 'model_1_processes.csv')
 
 if __name__ == '__main__':
 
+    mapping = pd.read_csv(modulepath/'processmapping.csv')
+
     ## FBS input
     writepath = modulepath.parent/'flowsa'
 
-    df_a, df_b = get_exchanges(opt_map=None,
+    df_a, df_b = get_exchanges(opt_map=None, mapping=mapping,
                                controls=['electricity', 'forest', 'fertilizer'])
 
     df_b.to_csv(writepath/f'{file_stub}_env.csv', index=False)
 
-    df_a, df_b = get_exchanges(df_subset=model_processes, opt_mixer=None)
+    df_a, df_b = get_exchanges(df_subset=model_processes, opt_mixer=None,
+                               mapping=mapping)
 
     writepath = modulepath.parent/'useeior'
     df_a.to_csv(writepath/f'{file_stub}_{model_name}_tech.csv', index=False)

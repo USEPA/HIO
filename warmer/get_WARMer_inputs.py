@@ -21,7 +21,8 @@ if __name__ == '__main__':
     ## FBS input
     writepath = modulepath.parent/'flowsa'
 
-    df_a, df_b = get_exchanges(opt_map=None, mapping=mapping)
+    df_a, df_b = get_exchanges(opt_map=None, mapping=mapping,
+                               controls=['electricity', 'forest', 'fertilizer'])
 
     df_b.to_csv(writepath/f'{file_stub}_env.csv', index=False)
 

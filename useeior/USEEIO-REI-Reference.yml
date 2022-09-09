@@ -1,4 +1,4 @@
-Model: "USEEIO-REI" # Replica of EPA Recycling Economic Information Report WIO model
+Model: "USEEIO-REI-Reference" # Replica of EPA Recycling Economic Information Report WIO model
 BaseIOSchema: 2012
 BaseIOLevel: &BaseIOLevel "Detail"
 IOYear: 2012 # Year for IO data

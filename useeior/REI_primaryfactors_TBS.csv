@@ -1,409 +1,409 @@
 Sector,SectorName,Flowable,Year,FlowAmount,DataReliability,TemporalCorrelation,GeographicalCorrelation,TechnologicalCorrelation,DataCollection,Location,Context,Unit,MetaSources
 1111A0,Oilseed farming,Employment,2012,290801.9442,5,5,5,5,5,US,,p,REI 2020
 1111B0,Grain farming,Employment,2012,629647.0558,5,5,5,5,5,US,,p,REI 2020
-111200,Vegetable and melon farming,Employment,2012,318348,5,5,5,5,5,US,,p,REI 2020
-111300,Fruit and tree nut farming,Employment,2012,805590,5,5,5,5,5,US,,p,REI 2020
-111400,"Greenhouse, nursery, and floriculture production",Employment,2012,378751,5,5,5,5,5,US,,p,REI 2020
-111900,Other crop farming,Employment,2012,1056875,5,5,5,5,5,US,,p,REI 2020
-112120,Dairy cattle and milk production,Employment,2012,246729,5,5,5,5,5,US,,p,REI 2020
-1121A0,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",Employment,2012,1314373,5,5,5,5,5,US,,p,REI 2020
-112300,Poultry and egg production,Employment,2012,170219,5,5,5,5,5,US,,p,REI 2020
-112A00,"Animal production, except cattle and poultry and eggs",Employment,2012,758441,5,5,5,5,5,US,,p,REI 2020
-113000,Forestry and logging,Employment,2012,53515,5,5,5,5,5,US,,p,REI 2020
-114000,"Fishing, hunting and trapping",Employment,2012,7767,5,5,5,5,5,US,,p,REI 2020
-115000,Support activities for agriculture and forestry,Employment,2012,99795,5,5,5,5,5,US,,p,REI 2020
-211000,Oil and gas extraction,Employment,2012,125001,5,5,5,5,5,US,,p,REI 2020
-212100,Coal mining,Employment,2012,89367,5,5,5,5,5,US,,p,REI 2020
-212230,"Copper, nickel, lead, and zinc mining",Employment,2012,12679,5,5,5,5,5,US,,p,REI 2020
-2122A0,"Iron, gold, silver, and other metal ore mining",Employment,2012,27172,5,5,5,5,5,US,,p,REI 2020
-212310,Stone mining and quarrying,Employment,2012,38252,5,5,5,5,5,US,,p,REI 2020
-2123A0,Other nonmetallic mineral mining and quarrying,Employment,2012,36955,5,5,5,5,5,US,,p,REI 2020
-213111,Drilling oil and gas wells,Employment,2012,106368,5,5,5,5,5,US,,p,REI 2020
-21311A,Other support activities for mining,Employment,2012,291832,5,5,5,5,5,US,,p,REI 2020
-221100,"Electric power generation, transmission, and distribution",Employment,2012,509704,5,5,5,5,5,US,,p,REI 2020
-221200,Natural gas distribution,Employment,2012,87117,5,5,5,5,5,US,,p,REI 2020
-221300,"Water, sewage and other systems",Employment,2012,44242,5,5,5,5,5,US,,p,REI 2020
+111200,Vegetable and melon farming,Employment,2012,318348.0,5,5,5,5,5,US,,p,REI 2020
+111300,Fruit and tree nut farming,Employment,2012,805590.0,5,5,5,5,5,US,,p,REI 2020
+111400,"Greenhouse, nursery, and floriculture production",Employment,2012,378751.0,5,5,5,5,5,US,,p,REI 2020
+111900,Other crop farming,Employment,2012,1056875.0,5,5,5,5,5,US,,p,REI 2020
+112120,Dairy cattle and milk production,Employment,2012,246729.0,5,5,5,5,5,US,,p,REI 2020
+1121A0,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",Employment,2012,1314373.0,5,5,5,5,5,US,,p,REI 2020
+112300,Poultry and egg production,Employment,2012,170219.0,5,5,5,5,5,US,,p,REI 2020
+112A00,"Animal production, except cattle and poultry and eggs",Employment,2012,758441.0,5,5,5,5,5,US,,p,REI 2020
+113000,Forestry and logging,Employment,2012,53515.0,5,5,5,5,5,US,,p,REI 2020
+114000,"Fishing, hunting and trapping",Employment,2012,7767.0,5,5,5,5,5,US,,p,REI 2020
+115000,Support activities for agriculture and forestry,Employment,2012,99795.0,5,5,5,5,5,US,,p,REI 2020
+211000,Oil and gas extraction,Employment,2012,125001.0,5,5,5,5,5,US,,p,REI 2020
+212100,Coal mining,Employment,2012,89367.0,5,5,5,5,5,US,,p,REI 2020
+212230,"Copper, nickel, lead, and zinc mining",Employment,2012,12679.0,5,5,5,5,5,US,,p,REI 2020
+2122A0,"Iron, gold, silver, and other metal ore mining",Employment,2012,27172.0,5,5,5,5,5,US,,p,REI 2020
+212310,Stone mining and quarrying,Employment,2012,38252.0,5,5,5,5,5,US,,p,REI 2020
+2123A0,Other nonmetallic mineral mining and quarrying,Employment,2012,36955.0,5,5,5,5,5,US,,p,REI 2020
+213111,Drilling oil and gas wells,Employment,2012,106368.0,5,5,5,5,5,US,,p,REI 2020
+21311A,Other support activities for mining,Employment,2012,291832.0,5,5,5,5,5,US,,p,REI 2020
+221100,"Electric power generation, transmission, and distribution",Employment,2012,509704.0,5,5,5,5,5,US,,p,REI 2020
+221200,Natural gas distribution,Employment,2012,87117.0,5,5,5,5,5,US,,p,REI 2020
+221300,"Water, sewage and other systems",Employment,2012,44242.0,5,5,5,5,5,US,,p,REI 2020
 233210,Health care structures,Employment,2012,369114.972,5,5,5,5,5,US,,p,REI 2020
 233262,Educational and vocational structures,Employment,2012,733909.614,5,5,5,5,5,US,,p,REI 2020
 230301,Nonresidential maintenance and repair,Employment,2012,61785.33,5,5,5,5,5,US,,p,REI 2020
-230302,Residential maintenance and repair,Employment,2012,269235,5,5,5,5,5,US,,p,REI 2020
+230302,Residential maintenance and repair,Employment,2012,269235.0,5,5,5,5,5,US,,p,REI 2020
 2332A0,Office and commercial structures,Employment,2012,1554961.662,5,5,5,5,5,US,,p,REI 2020
 233412,Multifamily residential structures,Employment,2012,74027.158,5,5,5,5,5,US,,p,REI 2020
 2334A0,Other residential structures,Employment,2012,4673.381,5,5,5,5,5,US,,p,REI 2020
 233230,Manufacturing structures,Employment,2012,417433.806,5,5,5,5,5,US,,p,REI 2020
-2332D0,Other nonresidential structures,Employment,2012,375560,5,5,5,5,5,US,,p,REI 2020
-233240,Power and communication structures,Employment,2012,169929,5,5,5,5,5,US,,p,REI 2020
+2332D0,Other nonresidential structures,Employment,2012,375560.0,5,5,5,5,5,US,,p,REI 2020
+233240,Power and communication structures,Employment,2012,169929.0,5,5,5,5,5,US,,p,REI 2020
 233411,Single-family residential structures,Employment,2012,979247.077,5,5,5,5,5,US,,p,REI 2020
-2332C0,Transportation structures and highways and streets,Employment,2012,251065,5,5,5,5,5,US,,p,REI 2020
-321100,Sawmills and wood preservation,Employment,2012,76446,5,5,5,5,5,US,,p,REI 2020
-321200,"Veneer, plywood, and engineered wood product manufacturing",Employment,2012,59534,5,5,5,5,5,US,,p,REI 2020
-321910,Millwork,Employment,2012,96892,5,5,5,5,5,US,,p,REI 2020
-3219A0,All other wood product manufacturing,Employment,2012,108137,5,5,5,5,5,US,,p,REI 2020
-327100,Clay product and refractory manufacturing,Employment,2012,34081,5,5,5,5,5,US,,p,REI 2020
-327200,Glass and glass product manufacturing,Employment,2012,82764,5,5,5,5,5,US,,p,REI 2020
-327310,Cement manufacturing,Employment,2012,12617,5,5,5,5,5,US,,p,REI 2020
-327320,Ready-mix concrete manufacturing,Employment,2012,66196,5,5,5,5,5,US,,p,REI 2020
-327330,"Concrete pipe, brick, and block manufacturing",Employment,2012,23125,5,5,5,5,5,US,,p,REI 2020
-327390,Other concrete product manufacturing,Employment,2012,45284,5,5,5,5,5,US,,p,REI 2020
-327400,Lime and gypsum product manufacturing,Employment,2012,12151,5,5,5,5,5,US,,p,REI 2020
-327910,Abrasive product manufacturing,Employment,2012,12975,5,5,5,5,5,US,,p,REI 2020
-327991,Cut stone and stone product manufacturing,Employment,2012,24537,5,5,5,5,5,US,,p,REI 2020
-327992,Ground or treated mineral and earth manufacturing,Employment,2012,7129,5,5,5,5,5,US,,p,REI 2020
-327993,Mineral wool manufacturing,Employment,2012,13925,5,5,5,5,5,US,,p,REI 2020
-327999,Miscellaneous nonmetallic mineral products,Employment,2012,10118,5,5,5,5,5,US,,p,REI 2020
-331110,Iron and steel mills and ferroalloy manufacturing,Employment,2012,105309,5,5,5,5,5,US,,p,REI 2020
-331200,Steel product manufacturing from purchased steel,Employment,2012,47669,5,5,5,5,5,US,,p,REI 2020
-331314,Secondary smelting and alloying of aluminum,Employment,2012,5415,5,5,5,5,5,US,,p,REI 2020
-331313,Alumina refining and primary aluminum production,Employment,2012,8584,5,5,5,5,5,US,,p,REI 2020
-33131B,Aluminum product manufacturing from purchased aluminum,Employment,2012,39798,5,5,5,5,5,US,,p,REI 2020
-331410,Nonferrous Metal (except Aluminum) Smelting and Refining,Employment,2012,10773,5,5,5,5,5,US,,p,REI 2020
-331420,"Copper rolling, drawing, extruding and alloying",Employment,2012,21408,5,5,5,5,5,US,,p,REI 2020
-331490,"Nonferrous metal (except copper and aluminum) rolling, drawing, extruding and alloying",Employment,2012,29399,5,5,5,5,5,US,,p,REI 2020
-331510,Ferrous metal foundries,Employment,2012,71712,5,5,5,5,5,US,,p,REI 2020
-331520,Nonferrous metal foundries,Employment,2012,55978,5,5,5,5,5,US,,p,REI 2020
-332114,Custom roll forming,Employment,2012,21888,5,5,5,5,5,US,,p,REI 2020
-33211A,"All other forging, stamping, and sintering",Employment,2012,38372,5,5,5,5,5,US,,p,REI 2020
-332119,"Metal crown, closure, and other metal stamping (except automotive)",Employment,2012,53018,5,5,5,5,5,US,,p,REI 2020
-332200,Cutlery and handtool manufacturing,Employment,2012,35226,5,5,5,5,5,US,,p,REI 2020
-332310,Plate work and fabricated structural product manufacturing,Employment,2012,143897,5,5,5,5,5,US,,p,REI 2020
-332320,Ornamental and architectural metal products manufacturing,Employment,2012,172695,5,5,5,5,5,US,,p,REI 2020
-332410,Power boiler and heat exchanger manufacturing,Employment,2012,24298,5,5,5,5,5,US,,p,REI 2020
-332420,Metal tank (heavy gauge) manufacturing,Employment,2012,33665,5,5,5,5,5,US,,p,REI 2020
-332430,"Metal can, box, and other metal container (light gauge) manufacturing",Employment,2012,29482,5,5,5,5,5,US,,p,REI 2020
-332500,Hardware manufacturing,Employment,2012,26540,5,5,5,5,5,US,,p,REI 2020
-332600,Spring and wire product manufacturing,Employment,2012,39455,5,5,5,5,5,US,,p,REI 2020
-332710,Machine shops,Employment,2012,245538,5,5,5,5,5,US,,p,REI 2020
-332720,"Turned product and screw, nut, and bolt manufacturing",Employment,2012,139679,5,5,5,5,5,US,,p,REI 2020
-332800,"Coating, engraving, heat treating and allied activities",Employment,2012,123655,5,5,5,5,5,US,,p,REI 2020
-332913,Plumbing fixture fitting and trim manufacturing,Employment,2012,7567,5,5,5,5,5,US,,p,REI 2020
-33291A,Valve and fittings other than plumbing,Employment,2012,84580,5,5,5,5,5,US,,p,REI 2020
-332991,Ball and roller bearing manufacturing,Employment,2012,22522,5,5,5,5,5,US,,p,REI 2020
-332996,Fabricated pipe and pipe fitting manufacturing,Employment,2012,29914,5,5,5,5,5,US,,p,REI 2020
-33299A,"Ammunition, arms, ordnance, and accessories manufacturing",Employment,2012,37162,5,5,5,5,5,US,,p,REI 2020
-332999,Other fabricated metal manufacturing,Employment,2012,70118,5,5,5,5,5,US,,p,REI 2020
-333111,Farm machinery and equipment manufacturing,Employment,2012,65302,5,5,5,5,5,US,,p,REI 2020
-333112,Lawn and garden equipment manufacturing,Employment,2012,16908,5,5,5,5,5,US,,p,REI 2020
-333120,Construction machinery manufacturing,Employment,2012,58069,5,5,5,5,5,US,,p,REI 2020
-333130,Mining and oil and gas field machinery manufacturing,Employment,2012,70586,5,5,5,5,5,US,,p,REI 2020
-333242,Semiconductor machinery manufacturing,Employment,2012,14975,5,5,5,5,5,US,,p,REI 2020
-33329A,Other industrial machinery manufacturing,Employment,2012,82500,5,5,5,5,5,US,,p,REI 2020
-333314,Optical instrument and lens manufacturing,Employment,2012,17583,5,5,5,5,5,US,,p,REI 2020
-333316,Photographic and photocopying equipment manufacturing,Employment,2012,5344,5,5,5,5,5,US,,p,REI 2020
-333318,Other commercial and service industry machinery manufacturing,Employment,2012,54518,5,5,5,5,5,US,,p,REI 2020
-333414,Heating equipment (except warm air furnaces) manufacturing,Employment,2012,17959,5,5,5,5,5,US,,p,REI 2020
-333415,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",Employment,2012,84823,5,5,5,5,5,US,,p,REI 2020
-333413,Industrial and commercial fan and blower and air purification equipment manufacturing,Employment,2012,24138,5,5,5,5,5,US,,p,REI 2020
-333511,Industrial mold manufacturing,Employment,2012,35194,5,5,5,5,5,US,,p,REI 2020
-333514,"Special tool, die, jig, and fixture manufacturing",Employment,2012,42810,5,5,5,5,5,US,,p,REI 2020
-333517,Machine tool manufacturing,Employment,2012,24322,5,5,5,5,5,US,,p,REI 2020
-33351B,"Cutting and machine tool accessory, rolling mill, and other metalworking machinery manufacturing",Employment,2012,40033,5,5,5,5,5,US,,p,REI 2020
-333611,Turbine and turbine generator set units manufacturing,Employment,2012,37237,5,5,5,5,5,US,,p,REI 2020
-333612,"Speed changer, industrial high-speed drive, and gear manufacturing",Employment,2012,16072,5,5,5,5,5,US,,p,REI 2020
-333613,Mechanical power transmission equipment manufacturing,Employment,2012,15545,5,5,5,5,5,US,,p,REI 2020
-333618,Other engine equipment manufacturing,Employment,2012,37778,5,5,5,5,5,US,,p,REI 2020
-333912,Air and gas compressor manufacturing,Employment,2012,21225,5,5,5,5,5,US,,p,REI 2020
-33391A,Pump and pumping equipment manufacturing,Employment,2012,37723,5,5,5,5,5,US,,p,REI 2020
-333920,Material handling equipment manufacturing,Employment,2012,77946,5,5,5,5,5,US,,p,REI 2020
-333991,Power-driven handtool manufacturing,Employment,2012,8859,5,5,5,5,5,US,,p,REI 2020
-333993,Packaging machinery manufacturing,Employment,2012,20010,5,5,5,5,5,US,,p,REI 2020
-333994,Industrial process furnace and oven manufacturing,Employment,2012,11009,5,5,5,5,5,US,,p,REI 2020
-33399A,Other general purpose machinery manufacturing,Employment,2012,71001,5,5,5,5,5,US,,p,REI 2020
-33399B,Fluid power process machinery,Employment,2012,34762,5,5,5,5,5,US,,p,REI 2020
-334111,Electronic computer manufacturing,Employment,2012,27393,5,5,5,5,5,US,,p,REI 2020
-334112,Computer storage device manufacturing,Employment,2012,14627,5,5,5,5,5,US,,p,REI 2020
-334118,Computer terminals and other computer peripheral equipment manufacturing,Employment,2012,25349,5,5,5,5,5,US,,p,REI 2020
-334210,Telephone apparatus manufacturing,Employment,2012,16587,5,5,5,5,5,US,,p,REI 2020
-334220,Broadcast and wireless communications equipment,Employment,2012,66833,5,5,5,5,5,US,,p,REI 2020
-334290,Other communications equipment manufacturing,Employment,2012,15458,5,5,5,5,5,US,,p,REI 2020
-334413,Semiconductor and related device manufacturing,Employment,2012,92574,5,5,5,5,5,US,,p,REI 2020
-334418,Printed circuit assembly (electronic assembly) manufacturing,Employment,2012,60817,5,5,5,5,5,US,,p,REI 2020
-33441A,Other electronic component manufacturing,Employment,2012,120830,5,5,5,5,5,US,,p,REI 2020
-334510,Electromedical and electrotherapeutic apparatus manufacturing,Employment,2012,64271,5,5,5,5,5,US,,p,REI 2020
-334511,"Search, detection, and navigation instruments manufacturing",Employment,2012,135671,5,5,5,5,5,US,,p,REI 2020
-334512,Automatic environmental control manufacturing,Employment,2012,11418,5,5,5,5,5,US,,p,REI 2020
-334513,Industrial process variable instruments manufacturing,Employment,2012,36705,5,5,5,5,5,US,,p,REI 2020
-334514,Totalizing fluid meter and counting device manufacturing,Employment,2012,15239,5,5,5,5,5,US,,p,REI 2020
-334515,Electricity and signal testing instruments manufacturing,Employment,2012,31786,5,5,5,5,5,US,,p,REI 2020
-334516,Analytical laboratory instrument manufacturing,Employment,2012,41153,5,5,5,5,5,US,,p,REI 2020
-334517,Irradiation apparatus manufacturing,Employment,2012,15418,5,5,5,5,5,US,,p,REI 2020
-33451A,"Watch, clock, and other measuring and controlling device manufacturing",Employment,2012,34604,5,5,5,5,5,US,,p,REI 2020
-334300,Audio and video equipment manufacturing,Employment,2012,8767,5,5,5,5,5,US,,p,REI 2020
-334610,Manufacturing and reproducing magnetic and optical media,Employment,2012,14795,5,5,5,5,5,US,,p,REI 2020
-335110,Electric lamp bulb and part manufacturing,Employment,2012,6610,5,5,5,5,5,US,,p,REI 2020
-335120,Lighting fixture manufacturing,Employment,2012,38609,5,5,5,5,5,US,,p,REI 2020
-335210,Small electrical appliance manufacturing,Employment,2012,8216,5,5,5,5,5,US,,p,REI 2020
-335221,Household cooking appliance manufacturing,Employment,2012,10408,5,5,5,5,5,US,,p,REI 2020
-335222,Household refrigerator and home freezer manufacturing,Employment,2012,9374,5,5,5,5,5,US,,p,REI 2020
-335224,Household laundry equipment manufacturing,Employment,2012,6561,5,5,5,5,5,US,,p,REI 2020
-335228,Other major household appliance manufacturing,Employment,2012,9059,5,5,5,5,5,US,,p,REI 2020
-335311,"Power, distribution, and specialty transformer manufacturing",Employment,2012,18678,5,5,5,5,5,US,,p,REI 2020
-335312,Motor and generator manufacturing,Employment,2012,32681,5,5,5,5,5,US,,p,REI 2020
-335313,Switchgear and switchboard apparatus manufacturing,Employment,2012,30957,5,5,5,5,5,US,,p,REI 2020
-335314,Relay and industrial control manufacturing,Employment,2012,33588,5,5,5,5,5,US,,p,REI 2020
-335911,Storage battery manufacturing,Employment,2012,19307,5,5,5,5,5,US,,p,REI 2020
-335912,Primary battery manufacturing,Employment,2012,6923,5,5,5,5,5,US,,p,REI 2020
-335920,Communication and energy wire and cable manufacturing,Employment,2012,28379,5,5,5,5,5,US,,p,REI 2020
-335930,Wiring device manufacturing,Employment,2012,38234,5,5,5,5,5,US,,p,REI 2020
-335991,Carbon and graphite product manufacturing,Employment,2012,8701,5,5,5,5,5,US,,p,REI 2020
-335999,All other miscellaneous electrical equipment and component manufacturing,Employment,2012,30473,5,5,5,5,5,US,,p,REI 2020
-336111,Automobile manufacturing,Employment,2012,62686,5,5,5,5,5,US,,p,REI 2020
-336112,Light truck and utility vehicle manufacturing,Employment,2012,56524,5,5,5,5,5,US,,p,REI 2020
-336120,Heavy duty truck manufacturing,Employment,2012,30756,5,5,5,5,5,US,,p,REI 2020
-336211,Motor vehicle body manufacturing,Employment,2012,40544,5,5,5,5,5,US,,p,REI 2020
-336212,Truck trailer manufacturing,Employment,2012,28304,5,5,5,5,5,US,,p,REI 2020
-336213,Motor home manufacturing,Employment,2012,7395,5,5,5,5,5,US,,p,REI 2020
-336214,Travel trailer and camper manufacturing,Employment,2012,39267,5,5,5,5,5,US,,p,REI 2020
-336310,Motor vehicle gasoline engine and engine parts manufacturing,Employment,2012,52752,5,5,5,5,5,US,,p,REI 2020
-336320,Motor vehicle electrical and electronic equipment manufacturing,Employment,2012,50017,5,5,5,5,5,US,,p,REI 2020
-336350,Motor vehicle transmission and power train parts manufacturing,Employment,2012,58248,5,5,5,5,5,US,,p,REI 2020
-336360,Motor vehicle seating and interior trim manufacturing,Employment,2012,47010,5,5,5,5,5,US,,p,REI 2020
-336370,Motor vehicle metal stamping,Employment,2012,81018,5,5,5,5,5,US,,p,REI 2020
-336390,Other Motor Vehicle Parts Manufacturing,Employment,2012,122041,5,5,5,5,5,US,,p,REI 2020
-3363A0,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",Employment,2012,50522,5,5,5,5,5,US,,p,REI 2020
-336411,Aircraft manufacturing,Employment,2012,151264,5,5,5,5,5,US,,p,REI 2020
-336412,Aircraft engine and engine parts manufacturing,Employment,2012,73685,5,5,5,5,5,US,,p,REI 2020
-336413,Other aircraft parts and auxiliary equipment manufacturing,Employment,2012,107448,5,5,5,5,5,US,,p,REI 2020
-336414,Guided missile and space vehicle manufacturing,Employment,2012,37906,5,5,5,5,5,US,,p,REI 2020
-33641A,Propulsion units and parts for space vehicles and guided missiles,Employment,2012,17670,5,5,5,5,5,US,,p,REI 2020
-336500,Railroad rolling stock manufacturing,Employment,2012,29173,5,5,5,5,5,US,,p,REI 2020
-336611,Ship building and repairing,Employment,2012,108311,5,5,5,5,5,US,,p,REI 2020
-336612,Boat building,Employment,2012,28054,5,5,5,5,5,US,,p,REI 2020
-336991,"Motorcycle, bicycle, and parts manufacturing",Employment,2012,10566,5,5,5,5,5,US,,p,REI 2020
-336992,"Military armored vehicle, tank, and tank component manufacturing",Employment,2012,10990,5,5,5,5,5,US,,p,REI 2020
-336999,All other transportation equipment manufacturing,Employment,2012,13327,5,5,5,5,5,US,,p,REI 2020
-337110,Wood kitchen cabinet and countertop manufacturing,Employment,2012,76052,5,5,5,5,5,US,,p,REI 2020
-337121,Upholstered household furniture manufacturing,Employment,2012,56886,5,5,5,5,5,US,,p,REI 2020
-337122,Nonupholstered wood household furniture manufacturing,Employment,2012,30743,5,5,5,5,5,US,,p,REI 2020
-337127,Institutional furniture manufacturing,Employment,2012,25863,5,5,5,5,5,US,,p,REI 2020
-33712N,Other household nonupholstered furniture,Employment,2012,12443,5,5,5,5,5,US,,p,REI 2020
-337215,"Showcase, partition, shelving, and locker manufacturing",Employment,2012,33437,5,5,5,5,5,US,,p,REI 2020
-33721A,Office furniture and custom architectural woodwork and millwork manufacturing,Employment,2012,73872,5,5,5,5,5,US,,p,REI 2020
-337900,Other furniture related product manufacturing,Employment,2012,31849,5,5,5,5,5,US,,p,REI 2020
-339112,Surgical and medical instrument manufacturing,Employment,2012,111688,5,5,5,5,5,US,,p,REI 2020
-339113,Surgical appliance and supplies manufacturing,Employment,2012,98267,5,5,5,5,5,US,,p,REI 2020
-339114,Dental equipment and supplies manufacturing,Employment,2012,15835,5,5,5,5,5,US,,p,REI 2020
-339115,Ophthalmic goods manufacturing,Employment,2012,23614,5,5,5,5,5,US,,p,REI 2020
-339116,Dental laboratories,Employment,2012,44097,5,5,5,5,5,US,,p,REI 2020
-339910,Jewelry and silverware manufacturing,Employment,2012,24436,5,5,5,5,5,US,,p,REI 2020
-339920,Sporting and athletic goods manufacturing,Employment,2012,36889,5,5,5,5,5,US,,p,REI 2020
-339930,"Doll, toy, and game manufacturing",Employment,2012,7481,5,5,5,5,5,US,,p,REI 2020
-339940,Office supplies (except paper) manufacturing,Employment,2012,10793,5,5,5,5,5,US,,p,REI 2020
-339950,Sign manufacturing,Employment,2012,69051,5,5,5,5,5,US,,p,REI 2020
-339990,All other miscellaneous manufacturing,Employment,2012,117069,5,5,5,5,5,US,,p,REI 2020
-311111,Dog and cat food manufacturing,Employment,2012,17529,5,5,5,5,5,US,,p,REI 2020
-311119,Other animal food manufacturing,Employment,2012,26890,5,5,5,5,5,US,,p,REI 2020
-311210,Flour milling and malt manufacturing,Employment,2012,15756,5,5,5,5,5,US,,p,REI 2020
-311221,Wet corn milling,Employment,2012,6687,5,5,5,5,5,US,,p,REI 2020
-311225,Fats and oils refining and blending,Employment,2012,10104,5,5,5,5,5,US,,p,REI 2020
-311224,Soybean and other oilseed processing,Employment,2012,7893,5,5,5,5,5,US,,p,REI 2020
-311230,Breakfast cereal manufacturing,Employment,2012,13730,5,5,5,5,5,US,,p,REI 2020
-311300,Sugar and confectionery product manufacturing,Employment,2012,70789,5,5,5,5,5,US,,p,REI 2020
-311410,Frozen food manufacturing,Employment,2012,83607,5,5,5,5,5,US,,p,REI 2020
-311420,"Fruit and vegetable canning, pickling, and drying",Employment,2012,68933,5,5,5,5,5,US,,p,REI 2020
-311513,Cheese manufacturing,Employment,2012,45212,5,5,5,5,5,US,,p,REI 2020
-311514,"Dry, condensed, and evaporated dairy product manufacturing",Employment,2012,15567,5,5,5,5,5,US,,p,REI 2020
-31151A,Fluid milk and butter manufacturing,Employment,2012,53717,5,5,5,5,5,US,,p,REI 2020
-311520,Ice cream and frozen dessert manufacturing,Employment,2012,19174,5,5,5,5,5,US,,p,REI 2020
-311615,Poultry processing,Employment,2012,220521,5,5,5,5,5,US,,p,REI 2020
-31161A,"Animal (except poultry) slaughtering, rendering, and processing",Employment,2012,265957,5,5,5,5,5,US,,p,REI 2020
-311700,Seafood product preparation and packaging,Employment,2012,30988,5,5,5,5,5,US,,p,REI 2020
-311810,Bread and bakery product manufacturing,Employment,2012,203555,5,5,5,5,5,US,,p,REI 2020
-3118A0,"Cookie, cracker, pasta, and tortilla manufacturing",Employment,2012,69990,5,5,5,5,5,US,,p,REI 2020
-311910,Snack food manufacturing,Employment,2012,46730,5,5,5,5,5,US,,p,REI 2020
-311920,Coffee and tea manufacturing,Employment,2012,16085,5,5,5,5,5,US,,p,REI 2020
-311930,Flavoring syrup and concentrate manufacturing,Employment,2012,6633,5,5,5,5,5,US,,p,REI 2020
-311940,Seasoning and dressing manufacturing,Employment,2012,31652,5,5,5,5,5,US,,p,REI 2020
-311990,All other food manufacturing,Employment,2012,66538,5,5,5,5,5,US,,p,REI 2020
-312110,Soft drink and ice manufacturing,Employment,2012,63583,5,5,5,5,5,US,,p,REI 2020
-312120,Breweries,Employment,2012,27740,5,5,5,5,5,US,,p,REI 2020
-312130,Wineries,Employment,2012,37896,5,5,5,5,5,US,,p,REI 2020
-312140,Distilleries,Employment,2012,6920,5,5,5,5,5,US,,p,REI 2020
-312200,Tobacco product manufacturing,Employment,2012,14599,5,5,5,5,5,US,,p,REI 2020
-313100,"Fiber, yarn, and thread mills",Employment,2012,25272,5,5,5,5,5,US,,p,REI 2020
-313200,Fabric mills,Employment,2012,51622,5,5,5,5,5,US,,p,REI 2020
-313300,Textile and fabric finishing and fabric coating mills,Employment,2012,30000,5,5,5,5,5,US,,p,REI 2020
-314110,Carpet and rug mills,Employment,2012,27988,5,5,5,5,5,US,,p,REI 2020
-314120,Curtain and linen mills,Employment,2012,23226,5,5,5,5,5,US,,p,REI 2020
-314900,Other textile product mills,Employment,2012,59884,5,5,5,5,5,US,,p,REI 2020
-315000,Apparel manufacturing,Employment,2012,111973,5,5,5,5,5,US,,p,REI 2020
-316000,Leather and allied product manufacturing,Employment,2012,27042,5,5,5,5,5,US,,p,REI 2020
-322110,Pulp mills,Employment,2012,8678,5,5,5,5,5,US,,p,REI 2020
-322120,Paper mills,Employment,2012,64451,5,5,5,5,5,US,,p,REI 2020
-322130,Paperboard mills,Employment,2012,35545,5,5,5,5,5,US,,p,REI 2020
-322210,Paperboard container manufacturing,Employment,2012,137468,5,5,5,5,5,US,,p,REI 2020
-322220,Paper Bag and Coated and Treated Paper Manufacturing,Employment,2012,54175,5,5,5,5,5,US,,p,REI 2020
-322230,Stationery product manufacturing,Employment,2012,21641,5,5,5,5,5,US,,p,REI 2020
-322291,Sanitary paper product manufacturing,Employment,2012,19360,5,5,5,5,5,US,,p,REI 2020
-322299,All other converted paper product manufacturing,Employment,2012,14330,5,5,5,5,5,US,,p,REI 2020
-323110,Printing,Employment,2012,442751,5,5,5,5,5,US,,p,REI 2020
-323120,Support activities for printing,Employment,2012,28860,5,5,5,5,5,US,,p,REI 2020
-324110,Petroleum refineries,Employment,2012,59388,5,5,5,5,5,US,,p,REI 2020
-324121,Asphalt paving mixture and block manufacturing,Employment,2012,14353,5,5,5,5,5,US,,p,REI 2020
-324122,Asphalt shingle and coating materials manufacturing,Employment,2012,9074,5,5,5,5,5,US,,p,REI 2020
-324190,Other petroleum and coal products manufacturing,Employment,2012,15194,5,5,5,5,5,US,,p,REI 2020
-325110,Petrochemical manufacturing,Employment,2012,8236,5,5,5,5,5,US,,p,REI 2020
-325120,Industrial gas manufacturing,Employment,2012,10648,5,5,5,5,5,US,,p,REI 2020
-325130,Synthetic dye and pigment manufacturing,Employment,2012,9360,5,5,5,5,5,US,,p,REI 2020
-325180,Other Basic Inorganic Chemical Manufacturing,Employment,2012,39323,5,5,5,5,5,US,,p,REI 2020
-325190,Other basic organic chemical manufacturing,Employment,2012,87431,5,5,5,5,5,US,,p,REI 2020
-325211,Plastics material and resin manufacturing,Employment,2012,69352,5,5,5,5,5,US,,p,REI 2020
-3252A0,Synthetic rubber and artificial and synthetic fibers and filaments manufacturing,Employment,2012,22277,5,5,5,5,5,US,,p,REI 2020
-325411,Medicinal and botanical manufacturing,Employment,2012,29096,5,5,5,5,5,US,,p,REI 2020
-325412,Pharmaceutical preparation manufacturing,Employment,2012,139861,5,5,5,5,5,US,,p,REI 2020
-325413,In-vitro diagnostic substance manufacturing,Employment,2012,26012,5,5,5,5,5,US,,p,REI 2020
-325414,Biological product (except diagnostic) manufacturing,Employment,2012,40624,5,5,5,5,5,US,,p,REI 2020
-325310,Fertilizer manufacturing,Employment,2012,19039,5,5,5,5,5,US,,p,REI 2020
-325320,Pesticide and other agricultural chemical manufacturing,Employment,2012,10075,5,5,5,5,5,US,,p,REI 2020
-325510,Paint and coating manufacturing,Employment,2012,35328,5,5,5,5,5,US,,p,REI 2020
-325520,Adhesive manufacturing,Employment,2012,18944,5,5,5,5,5,US,,p,REI 2020
-325610,Soap and cleaning compound manufacturing,Employment,2012,43331,5,5,5,5,5,US,,p,REI 2020
-325620,Toilet preparation manufacturing,Employment,2012,48401,5,5,5,5,5,US,,p,REI 2020
-325910,Printing ink manufacturing,Employment,2012,11241,5,5,5,5,5,US,,p,REI 2020
-3259A0,All other chemical product and preparation manufacturing,Employment,2012,70062,5,5,5,5,5,US,,p,REI 2020
-326110,Plastics packaging materials and unlaminated film and sheet manufacturing,Employment,2012,96046,5,5,5,5,5,US,,p,REI 2020
-326120,"Plastics pipe, pipe fitting, and unlaminated profile shape manufacturing",Employment,2012,39212,5,5,5,5,5,US,,p,REI 2020
-326130,"Laminated plastics plate, sheet (except packaging), and shape manufacturing",Employment,2012,10555,5,5,5,5,5,US,,p,REI 2020
-326140,Polystyrene foam product manufacturing,Employment,2012,23492,5,5,5,5,5,US,,p,REI 2020
-326150,Urethane and other foam product (except polystyrene) manufacturing,Employment,2012,28814,5,5,5,5,5,US,,p,REI 2020
-326160,Plastics bottle manufacturing,Employment,2012,32347,5,5,5,5,5,US,,p,REI 2020
-326190,Other plastics product manufacturing,Employment,2012,341699,5,5,5,5,5,US,,p,REI 2020
-326210,Tire manufacturing,Employment,2012,50480,5,5,5,5,5,US,,p,REI 2020
-326220,Rubber and plastics hoses and belting manufacturing,Employment,2012,17494,5,5,5,5,5,US,,p,REI 2020
-326290,Other rubber product manufacturing,Employment,2012,57659,5,5,5,5,5,US,,p,REI 2020
-423100,Motor vehicle and motor vehicle parts and supplies,Employment,2012,366816,5,5,5,5,5,US,,p,REI 2020
-423400,Professional and commercial equipment and supplies,Employment,2012,640721,5,5,5,5,5,US,,p,REI 2020
-423600,Household appliances and electrical and electronic goods ,Employment,2012,514296,5,5,5,5,5,US,,p,REI 2020
-423800,"Machinery, equipment, and supplies",Employment,2012,697547,5,5,5,5,5,US,,p,REI 2020
-423A00,Other durable goods merchant wholesalers,Employment,2012,1053778,5,5,5,5,5,US,,p,REI 2020
-424200,Drugs and druggists’ sundries,Employment,2012,276972,5,5,5,5,5,US,,p,REI 2020
-424400,Grocery and related product wholesalers ,Employment,2012,755559,5,5,5,5,5,US,,p,REI 2020
-424700,Petroleum and petroleum products,Employment,2012,103219,5,5,5,5,5,US,,p,REI 2020
-424A00,Other nondurable goods merchant wholesalers,Employment,2012,1072802,5,5,5,5,5,US,,p,REI 2020
-425000,Wholesale electronic markets and agents and brokers,Employment,2012,294533,5,5,5,5,5,US,,p,REI 2020
-4200ID,Customs duties,Employment,2012,0,5,5,5,5,5,US,,p,REI 2020
-441000,Motor vehicle and parts dealers,Employment,2012,2745770,5,5,5,5,5,US,,p,REI 2020
-445000,Food and beverage stores,Employment,2012,2872426,5,5,5,5,5,US,,p,REI 2020
-452000,General merchandise stores,Employment,2012,2871931,5,5,5,5,5,US,,p,REI 2020
-444000,Building material and garden equipment and supplies dealers,Employment,2012,143432,5,5,5,5,5,US,,p,REI 2020
-446000,Health and personal care stores,Employment,2012,1010173,5,5,5,5,5,US,,p,REI 2020
-447000,Gasoline stations,Employment,2012,862630,5,5,5,5,5,US,,p,REI 2020
-448000,Clothing and clothing accessories stores,Employment,2012,1630575,5,5,5,5,5,US,,p,REI 2020
-454000,Nonstore retailers,Employment,2012,595521,5,5,5,5,5,US,,p,REI 2020
-4B0000,All other retail,Employment,2012,2075500,5,5,5,5,5,US,,p,REI 2020
-481000,Air transportation,Employment,2012,428110,5,5,5,5,5,US,,p,REI 2020
-482000,Rail transportation,Employment,2012,0,5,5,5,5,5,US,,p,REI 2020
-483000,Water transportation,Employment,2012,69117,5,5,5,5,5,US,,p,REI 2020
-484000,Truck transportation,Employment,2012,1344400,5,5,5,5,5,US,,p,REI 2020
-485000,Transit and ground passenger transportation,Employment,2012,461834,5,5,5,5,5,US,,p,REI 2020
-486000,Pipeline transportation,Employment,2012,49036,5,5,5,5,5,US,,p,REI 2020
-48A000,Scenic and sightseeing transportation and support activities for transportation,Employment,2012,661270,5,5,5,5,5,US,,p,REI 2020
-492000,Couriers and messengers,Employment,2012,527897,5,5,5,5,5,US,,p,REI 2020
-493000,Warehousing and storage,Employment,2012,691717,5,5,5,5,5,US,,p,REI 2020
-511110,Newspaper publishers,Employment,2012,231384,5,5,5,5,5,US,,p,REI 2020
-511120,Periodical Publishers,Employment,2012,106033,5,5,5,5,5,US,,p,REI 2020
-511130,Book publishers,Employment,2012,64969,5,5,5,5,5,US,,p,REI 2020
-5111A0,"Directory, mailing list, and other publishers",Employment,2012,47872,5,5,5,5,5,US,,p,REI 2020
-511200,Software publishers,Employment,2012,397145,5,5,5,5,5,US,,p,REI 2020
-512100,Motion picture and video industries,Employment,2012,292904,5,5,5,5,5,US,,p,REI 2020
-512200,Sound recording industries,Employment,2012,22897,5,5,5,5,5,US,,p,REI 2020
-515100,Radio and television broadcasting,Employment,2012,226527,5,5,5,5,5,US,,p,REI 2020
-515200,Cable and other subscription programming,Employment,2012,47699,5,5,5,5,5,US,,p,REI 2020
-517110,Wired telecommunications carriers,Employment,2012,756056,5,5,5,5,5,US,,p,REI 2020
-517210,Wireless telecommunications carriers (except satellite),Employment,2012,100000,5,5,5,5,5,US,,p,REI 2020
-517A00,"Satellite, telecommunications resellers, and all other telecommunications",Employment,2012,59521,5,5,5,5,5,US,,p,REI 2020
-518200,"Data processing, hosting, and related services",Employment,2012,436253,5,5,5,5,5,US,,p,REI 2020
-519130,Internet publishing and broadcasting and Web search portals,Employment,2012,159673,5,5,5,5,5,US,,p,REI 2020
-5191A0,"News syndicates, libraries, archives and all other information services",Employment,2012,45053,5,5,5,5,5,US,,p,REI 2020
-522A00,Nondepository credit intermediation and related activities,Employment,2012,770481,5,5,5,5,5,US,,p,REI 2020
-52A000,Monetary authorities and depository credit intermediation,Employment,2012,2027194,5,5,5,5,5,US,,p,REI 2020
-523900,Other financial investment activities,Employment,2012,458320,5,5,5,5,5,US,,p,REI 2020
-523A00,Securities and commodity contracts intermediation and brokerage,Employment,2012,441166,5,5,5,5,5,US,,p,REI 2020
-524113,Direct life insurance carriers,Employment,2012,370269,5,5,5,5,5,US,,p,REI 2020
-5241XX,"Insurance carriers, except direct life",Employment,2012,1053200,5,5,5,5,5,US,,p,REI 2020
-524200,"Insurance agencies, brokerages, and related activities",Employment,2012,854818,5,5,5,5,5,US,,p,REI 2020
-525000,"Funds, trusts, and other financial vehicles",Employment,2012,4213,5,5,5,5,5,US,,p,REI 2020
+2332C0,Transportation structures and highways and streets,Employment,2012,251065.0,5,5,5,5,5,US,,p,REI 2020
+321100,Sawmills and wood preservation,Employment,2012,76446.0,5,5,5,5,5,US,,p,REI 2020
+321200,"Veneer, plywood, and engineered wood product manufacturing",Employment,2012,59534.0,5,5,5,5,5,US,,p,REI 2020
+321910,Millwork,Employment,2012,96892.0,5,5,5,5,5,US,,p,REI 2020
+3219A0,All other wood product manufacturing,Employment,2012,108137.0,5,5,5,5,5,US,,p,REI 2020
+327100,Clay product and refractory manufacturing,Employment,2012,34081.0,5,5,5,5,5,US,,p,REI 2020
+327200,Glass and glass product manufacturing,Employment,2012,82764.0,5,5,5,5,5,US,,p,REI 2020
+327310,Cement manufacturing,Employment,2012,12617.0,5,5,5,5,5,US,,p,REI 2020
+327320,Ready-mix concrete manufacturing,Employment,2012,66196.0,5,5,5,5,5,US,,p,REI 2020
+327330,"Concrete pipe, brick, and block manufacturing",Employment,2012,23125.0,5,5,5,5,5,US,,p,REI 2020
+327390,Other concrete product manufacturing,Employment,2012,45284.0,5,5,5,5,5,US,,p,REI 2020
+327400,Lime and gypsum product manufacturing,Employment,2012,12151.0,5,5,5,5,5,US,,p,REI 2020
+327910,Abrasive product manufacturing,Employment,2012,12975.0,5,5,5,5,5,US,,p,REI 2020
+327991,Cut stone and stone product manufacturing,Employment,2012,24537.0,5,5,5,5,5,US,,p,REI 2020
+327992,Ground or treated mineral and earth manufacturing,Employment,2012,7129.0,5,5,5,5,5,US,,p,REI 2020
+327993,Mineral wool manufacturing,Employment,2012,13925.0,5,5,5,5,5,US,,p,REI 2020
+327999,Miscellaneous nonmetallic mineral products,Employment,2012,10118.0,5,5,5,5,5,US,,p,REI 2020
+331110,Iron and steel mills and ferroalloy manufacturing,Employment,2012,105309.0,5,5,5,5,5,US,,p,REI 2020
+331200,Steel product manufacturing from purchased steel,Employment,2012,47669.0,5,5,5,5,5,US,,p,REI 2020
+331314,Secondary smelting and alloying of aluminum,Employment,2012,5415.0,5,5,5,5,5,US,,p,REI 2020
+331313,Alumina refining and primary aluminum production,Employment,2012,8584.0,5,5,5,5,5,US,,p,REI 2020
+33131B,Aluminum product manufacturing from purchased aluminum,Employment,2012,39798.0,5,5,5,5,5,US,,p,REI 2020
+331410,Nonferrous Metal (except Aluminum) Smelting and Refining,Employment,2012,10773.0,5,5,5,5,5,US,,p,REI 2020
+331420,"Copper rolling, drawing, extruding and alloying",Employment,2012,21408.0,5,5,5,5,5,US,,p,REI 2020
+331490,"Nonferrous metal (except copper and aluminum) rolling, drawing, extruding and alloying",Employment,2012,29399.0,5,5,5,5,5,US,,p,REI 2020
+331510,Ferrous metal foundries,Employment,2012,71712.0,5,5,5,5,5,US,,p,REI 2020
+331520,Nonferrous metal foundries,Employment,2012,55978.0,5,5,5,5,5,US,,p,REI 2020
+332114,Custom roll forming,Employment,2012,21888.0,5,5,5,5,5,US,,p,REI 2020
+33211A,"All other forging, stamping, and sintering",Employment,2012,38372.0,5,5,5,5,5,US,,p,REI 2020
+332119,"Metal crown, closure, and other metal stamping (except automotive)",Employment,2012,53018.0,5,5,5,5,5,US,,p,REI 2020
+332200,Cutlery and handtool manufacturing,Employment,2012,35226.0,5,5,5,5,5,US,,p,REI 2020
+332310,Plate work and fabricated structural product manufacturing,Employment,2012,143897.0,5,5,5,5,5,US,,p,REI 2020
+332320,Ornamental and architectural metal products manufacturing,Employment,2012,172695.0,5,5,5,5,5,US,,p,REI 2020
+332410,Power boiler and heat exchanger manufacturing,Employment,2012,24298.0,5,5,5,5,5,US,,p,REI 2020
+332420,Metal tank (heavy gauge) manufacturing,Employment,2012,33665.0,5,5,5,5,5,US,,p,REI 2020
+332430,"Metal can, box, and other metal container (light gauge) manufacturing",Employment,2012,29482.0,5,5,5,5,5,US,,p,REI 2020
+332500,Hardware manufacturing,Employment,2012,26540.0,5,5,5,5,5,US,,p,REI 2020
+332600,Spring and wire product manufacturing,Employment,2012,39455.0,5,5,5,5,5,US,,p,REI 2020
+332710,Machine shops,Employment,2012,245538.0,5,5,5,5,5,US,,p,REI 2020
+332720,"Turned product and screw, nut, and bolt manufacturing",Employment,2012,139679.0,5,5,5,5,5,US,,p,REI 2020
+332800,"Coating, engraving, heat treating and allied activities",Employment,2012,123655.0,5,5,5,5,5,US,,p,REI 2020
+332913,Plumbing fixture fitting and trim manufacturing,Employment,2012,7567.0,5,5,5,5,5,US,,p,REI 2020
+33291A,Valve and fittings other than plumbing,Employment,2012,84580.0,5,5,5,5,5,US,,p,REI 2020
+332991,Ball and roller bearing manufacturing,Employment,2012,22522.0,5,5,5,5,5,US,,p,REI 2020
+332996,Fabricated pipe and pipe fitting manufacturing,Employment,2012,29914.0,5,5,5,5,5,US,,p,REI 2020
+33299A,"Ammunition, arms, ordnance, and accessories manufacturing",Employment,2012,37162.0,5,5,5,5,5,US,,p,REI 2020
+332999,Other fabricated metal manufacturing,Employment,2012,70118.0,5,5,5,5,5,US,,p,REI 2020
+333111,Farm machinery and equipment manufacturing,Employment,2012,65302.0,5,5,5,5,5,US,,p,REI 2020
+333112,Lawn and garden equipment manufacturing,Employment,2012,16908.0,5,5,5,5,5,US,,p,REI 2020
+333120,Construction machinery manufacturing,Employment,2012,58069.0,5,5,5,5,5,US,,p,REI 2020
+333130,Mining and oil and gas field machinery manufacturing,Employment,2012,70586.0,5,5,5,5,5,US,,p,REI 2020
+333242,Semiconductor machinery manufacturing,Employment,2012,14975.0,5,5,5,5,5,US,,p,REI 2020
+33329A,Other industrial machinery manufacturing,Employment,2012,82500.0,5,5,5,5,5,US,,p,REI 2020
+333314,Optical instrument and lens manufacturing,Employment,2012,17583.0,5,5,5,5,5,US,,p,REI 2020
+333316,Photographic and photocopying equipment manufacturing,Employment,2012,5344.0,5,5,5,5,5,US,,p,REI 2020
+333318,Other commercial and service industry machinery manufacturing,Employment,2012,54518.0,5,5,5,5,5,US,,p,REI 2020
+333414,Heating equipment (except warm air furnaces) manufacturing,Employment,2012,17959.0,5,5,5,5,5,US,,p,REI 2020
+333415,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",Employment,2012,84823.0,5,5,5,5,5,US,,p,REI 2020
+333413,Industrial and commercial fan and blower and air purification equipment manufacturing,Employment,2012,24138.0,5,5,5,5,5,US,,p,REI 2020
+333511,Industrial mold manufacturing,Employment,2012,35194.0,5,5,5,5,5,US,,p,REI 2020
+333514,"Special tool, die, jig, and fixture manufacturing",Employment,2012,42810.0,5,5,5,5,5,US,,p,REI 2020
+333517,Machine tool manufacturing,Employment,2012,24322.0,5,5,5,5,5,US,,p,REI 2020
+33351B,"Cutting and machine tool accessory, rolling mill, and other metalworking machinery manufacturing",Employment,2012,40033.0,5,5,5,5,5,US,,p,REI 2020
+333611,Turbine and turbine generator set units manufacturing,Employment,2012,37237.0,5,5,5,5,5,US,,p,REI 2020
+333612,"Speed changer, industrial high-speed drive, and gear manufacturing",Employment,2012,16072.0,5,5,5,5,5,US,,p,REI 2020
+333613,Mechanical power transmission equipment manufacturing,Employment,2012,15545.0,5,5,5,5,5,US,,p,REI 2020
+333618,Other engine equipment manufacturing,Employment,2012,37778.0,5,5,5,5,5,US,,p,REI 2020
+333912,Air and gas compressor manufacturing,Employment,2012,21225.0,5,5,5,5,5,US,,p,REI 2020
+33391A,Pump and pumping equipment manufacturing,Employment,2012,37723.0,5,5,5,5,5,US,,p,REI 2020
+333920,Material handling equipment manufacturing,Employment,2012,77946.0,5,5,5,5,5,US,,p,REI 2020
+333991,Power-driven handtool manufacturing,Employment,2012,8859.0,5,5,5,5,5,US,,p,REI 2020
+333993,Packaging machinery manufacturing,Employment,2012,20010.0,5,5,5,5,5,US,,p,REI 2020
+333994,Industrial process furnace and oven manufacturing,Employment,2012,11009.0,5,5,5,5,5,US,,p,REI 2020
+33399A,Other general purpose machinery manufacturing,Employment,2012,71001.0,5,5,5,5,5,US,,p,REI 2020
+33399B,Fluid power process machinery,Employment,2012,34762.0,5,5,5,5,5,US,,p,REI 2020
+334111,Electronic computer manufacturing,Employment,2012,27393.0,5,5,5,5,5,US,,p,REI 2020
+334112,Computer storage device manufacturing,Employment,2012,14627.0,5,5,5,5,5,US,,p,REI 2020
+334118,Computer terminals and other computer peripheral equipment manufacturing,Employment,2012,25349.0,5,5,5,5,5,US,,p,REI 2020
+334210,Telephone apparatus manufacturing,Employment,2012,16587.0,5,5,5,5,5,US,,p,REI 2020
+334220,Broadcast and wireless communications equipment,Employment,2012,66833.0,5,5,5,5,5,US,,p,REI 2020
+334290,Other communications equipment manufacturing,Employment,2012,15458.0,5,5,5,5,5,US,,p,REI 2020
+334413,Semiconductor and related device manufacturing,Employment,2012,92574.0,5,5,5,5,5,US,,p,REI 2020
+334418,Printed circuit assembly (electronic assembly) manufacturing,Employment,2012,60817.0,5,5,5,5,5,US,,p,REI 2020
+33441A,Other electronic component manufacturing,Employment,2012,120830.0,5,5,5,5,5,US,,p,REI 2020
+334510,Electromedical and electrotherapeutic apparatus manufacturing,Employment,2012,64271.0,5,5,5,5,5,US,,p,REI 2020
+334511,"Search, detection, and navigation instruments manufacturing",Employment,2012,135671.0,5,5,5,5,5,US,,p,REI 2020
+334512,Automatic environmental control manufacturing,Employment,2012,11418.0,5,5,5,5,5,US,,p,REI 2020
+334513,Industrial process variable instruments manufacturing,Employment,2012,36705.0,5,5,5,5,5,US,,p,REI 2020
+334514,Totalizing fluid meter and counting device manufacturing,Employment,2012,15239.0,5,5,5,5,5,US,,p,REI 2020
+334515,Electricity and signal testing instruments manufacturing,Employment,2012,31786.0,5,5,5,5,5,US,,p,REI 2020
+334516,Analytical laboratory instrument manufacturing,Employment,2012,41153.0,5,5,5,5,5,US,,p,REI 2020
+334517,Irradiation apparatus manufacturing,Employment,2012,15418.0,5,5,5,5,5,US,,p,REI 2020
+33451A,"Watch, clock, and other measuring and controlling device manufacturing",Employment,2012,34604.0,5,5,5,5,5,US,,p,REI 2020
+334300,Audio and video equipment manufacturing,Employment,2012,8767.0,5,5,5,5,5,US,,p,REI 2020
+334610,Manufacturing and reproducing magnetic and optical media,Employment,2012,14795.0,5,5,5,5,5,US,,p,REI 2020
+335110,Electric lamp bulb and part manufacturing,Employment,2012,6610.0,5,5,5,5,5,US,,p,REI 2020
+335120,Lighting fixture manufacturing,Employment,2012,38609.0,5,5,5,5,5,US,,p,REI 2020
+335210,Small electrical appliance manufacturing,Employment,2012,8216.0,5,5,5,5,5,US,,p,REI 2020
+335221,Household cooking appliance manufacturing,Employment,2012,10408.0,5,5,5,5,5,US,,p,REI 2020
+335222,Household refrigerator and home freezer manufacturing,Employment,2012,9374.0,5,5,5,5,5,US,,p,REI 2020
+335224,Household laundry equipment manufacturing,Employment,2012,6561.0,5,5,5,5,5,US,,p,REI 2020
+335228,Other major household appliance manufacturing,Employment,2012,9059.0,5,5,5,5,5,US,,p,REI 2020
+335311,"Power, distribution, and specialty transformer manufacturing",Employment,2012,18678.0,5,5,5,5,5,US,,p,REI 2020
+335312,Motor and generator manufacturing,Employment,2012,32681.0,5,5,5,5,5,US,,p,REI 2020
+335313,Switchgear and switchboard apparatus manufacturing,Employment,2012,30957.0,5,5,5,5,5,US,,p,REI 2020
+335314,Relay and industrial control manufacturing,Employment,2012,33588.0,5,5,5,5,5,US,,p,REI 2020
+335911,Storage battery manufacturing,Employment,2012,19307.0,5,5,5,5,5,US,,p,REI 2020
+335912,Primary battery manufacturing,Employment,2012,6923.0,5,5,5,5,5,US,,p,REI 2020
+335920,Communication and energy wire and cable manufacturing,Employment,2012,28379.0,5,5,5,5,5,US,,p,REI 2020
+335930,Wiring device manufacturing,Employment,2012,38234.0,5,5,5,5,5,US,,p,REI 2020
+335991,Carbon and graphite product manufacturing,Employment,2012,8701.0,5,5,5,5,5,US,,p,REI 2020
+335999,All other miscellaneous electrical equipment and component manufacturing,Employment,2012,30473.0,5,5,5,5,5,US,,p,REI 2020
+336111,Automobile manufacturing,Employment,2012,62686.0,5,5,5,5,5,US,,p,REI 2020
+336112,Light truck and utility vehicle manufacturing,Employment,2012,56524.0,5,5,5,5,5,US,,p,REI 2020
+336120,Heavy duty truck manufacturing,Employment,2012,30756.0,5,5,5,5,5,US,,p,REI 2020
+336211,Motor vehicle body manufacturing,Employment,2012,40544.0,5,5,5,5,5,US,,p,REI 2020
+336212,Truck trailer manufacturing,Employment,2012,28304.0,5,5,5,5,5,US,,p,REI 2020
+336213,Motor home manufacturing,Employment,2012,7395.0,5,5,5,5,5,US,,p,REI 2020
+336214,Travel trailer and camper manufacturing,Employment,2012,39267.0,5,5,5,5,5,US,,p,REI 2020
+336310,Motor vehicle gasoline engine and engine parts manufacturing,Employment,2012,52752.0,5,5,5,5,5,US,,p,REI 2020
+336320,Motor vehicle electrical and electronic equipment manufacturing,Employment,2012,50017.0,5,5,5,5,5,US,,p,REI 2020
+336350,Motor vehicle transmission and power train parts manufacturing,Employment,2012,58248.0,5,5,5,5,5,US,,p,REI 2020
+336360,Motor vehicle seating and interior trim manufacturing,Employment,2012,47010.0,5,5,5,5,5,US,,p,REI 2020
+336370,Motor vehicle metal stamping,Employment,2012,81018.0,5,5,5,5,5,US,,p,REI 2020
+336390,Other Motor Vehicle Parts Manufacturing,Employment,2012,122041.0,5,5,5,5,5,US,,p,REI 2020
+3363A0,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",Employment,2012,50522.0,5,5,5,5,5,US,,p,REI 2020
+336411,Aircraft manufacturing,Employment,2012,151264.0,5,5,5,5,5,US,,p,REI 2020
+336412,Aircraft engine and engine parts manufacturing,Employment,2012,73685.0,5,5,5,5,5,US,,p,REI 2020
+336413,Other aircraft parts and auxiliary equipment manufacturing,Employment,2012,107448.0,5,5,5,5,5,US,,p,REI 2020
+336414,Guided missile and space vehicle manufacturing,Employment,2012,37906.0,5,5,5,5,5,US,,p,REI 2020
+33641A,Propulsion units and parts for space vehicles and guided missiles,Employment,2012,17670.0,5,5,5,5,5,US,,p,REI 2020
+336500,Railroad rolling stock manufacturing,Employment,2012,29173.0,5,5,5,5,5,US,,p,REI 2020
+336611,Ship building and repairing,Employment,2012,108311.0,5,5,5,5,5,US,,p,REI 2020
+336612,Boat building,Employment,2012,28054.0,5,5,5,5,5,US,,p,REI 2020
+336991,"Motorcycle, bicycle, and parts manufacturing",Employment,2012,10566.0,5,5,5,5,5,US,,p,REI 2020
+336992,"Military armored vehicle, tank, and tank component manufacturing",Employment,2012,10990.0,5,5,5,5,5,US,,p,REI 2020
+336999,All other transportation equipment manufacturing,Employment,2012,13327.0,5,5,5,5,5,US,,p,REI 2020
+337110,Wood kitchen cabinet and countertop manufacturing,Employment,2012,76052.0,5,5,5,5,5,US,,p,REI 2020
+337121,Upholstered household furniture manufacturing,Employment,2012,56886.0,5,5,5,5,5,US,,p,REI 2020
+337122,Nonupholstered wood household furniture manufacturing,Employment,2012,30743.0,5,5,5,5,5,US,,p,REI 2020
+337127,Institutional furniture manufacturing,Employment,2012,25863.0,5,5,5,5,5,US,,p,REI 2020
+33712N,Other household nonupholstered furniture,Employment,2012,12443.0,5,5,5,5,5,US,,p,REI 2020
+337215,"Showcase, partition, shelving, and locker manufacturing",Employment,2012,33437.0,5,5,5,5,5,US,,p,REI 2020
+33721A,Office furniture and custom architectural woodwork and millwork manufacturing,Employment,2012,73872.0,5,5,5,5,5,US,,p,REI 2020
+337900,Other furniture related product manufacturing,Employment,2012,31849.0,5,5,5,5,5,US,,p,REI 2020
+339112,Surgical and medical instrument manufacturing,Employment,2012,111688.0,5,5,5,5,5,US,,p,REI 2020
+339113,Surgical appliance and supplies manufacturing,Employment,2012,98267.0,5,5,5,5,5,US,,p,REI 2020
+339114,Dental equipment and supplies manufacturing,Employment,2012,15835.0,5,5,5,5,5,US,,p,REI 2020
+339115,Ophthalmic goods manufacturing,Employment,2012,23614.0,5,5,5,5,5,US,,p,REI 2020
+339116,Dental laboratories,Employment,2012,44097.0,5,5,5,5,5,US,,p,REI 2020
+339910,Jewelry and silverware manufacturing,Employment,2012,24436.0,5,5,5,5,5,US,,p,REI 2020
+339920,Sporting and athletic goods manufacturing,Employment,2012,36889.0,5,5,5,5,5,US,,p,REI 2020
+339930,"Doll, toy, and game manufacturing",Employment,2012,7481.0,5,5,5,5,5,US,,p,REI 2020
+339940,Office supplies (except paper) manufacturing,Employment,2012,10793.0,5,5,5,5,5,US,,p,REI 2020
+339950,Sign manufacturing,Employment,2012,69051.0,5,5,5,5,5,US,,p,REI 2020
+339990,All other miscellaneous manufacturing,Employment,2012,117069.0,5,5,5,5,5,US,,p,REI 2020
+311111,Dog and cat food manufacturing,Employment,2012,17529.0,5,5,5,5,5,US,,p,REI 2020
+311119,Other animal food manufacturing,Employment,2012,26890.0,5,5,5,5,5,US,,p,REI 2020
+311210,Flour milling and malt manufacturing,Employment,2012,15756.0,5,5,5,5,5,US,,p,REI 2020
+311221,Wet corn milling,Employment,2012,6687.0,5,5,5,5,5,US,,p,REI 2020
+311225,Fats and oils refining and blending,Employment,2012,10104.0,5,5,5,5,5,US,,p,REI 2020
+311224,Soybean and other oilseed processing,Employment,2012,7893.0,5,5,5,5,5,US,,p,REI 2020
+311230,Breakfast cereal manufacturing,Employment,2012,13730.0,5,5,5,5,5,US,,p,REI 2020
+311300,Sugar and confectionery product manufacturing,Employment,2012,70789.0,5,5,5,5,5,US,,p,REI 2020
+311410,Frozen food manufacturing,Employment,2012,83607.0,5,5,5,5,5,US,,p,REI 2020
+311420,"Fruit and vegetable canning, pickling, and drying",Employment,2012,68933.0,5,5,5,5,5,US,,p,REI 2020
+311513,Cheese manufacturing,Employment,2012,45212.0,5,5,5,5,5,US,,p,REI 2020
+311514,"Dry, condensed, and evaporated dairy product manufacturing",Employment,2012,15567.0,5,5,5,5,5,US,,p,REI 2020
+31151A,Fluid milk and butter manufacturing,Employment,2012,53717.0,5,5,5,5,5,US,,p,REI 2020
+311520,Ice cream and frozen dessert manufacturing,Employment,2012,19174.0,5,5,5,5,5,US,,p,REI 2020
+311615,Poultry processing,Employment,2012,220521.0,5,5,5,5,5,US,,p,REI 2020
+31161A,"Animal (except poultry) slaughtering, rendering, and processing",Employment,2012,265957.0,5,5,5,5,5,US,,p,REI 2020
+311700,Seafood product preparation and packaging,Employment,2012,30988.0,5,5,5,5,5,US,,p,REI 2020
+311810,Bread and bakery product manufacturing,Employment,2012,203555.0,5,5,5,5,5,US,,p,REI 2020
+3118A0,"Cookie, cracker, pasta, and tortilla manufacturing",Employment,2012,69990.0,5,5,5,5,5,US,,p,REI 2020
+311910,Snack food manufacturing,Employment,2012,46730.0,5,5,5,5,5,US,,p,REI 2020
+311920,Coffee and tea manufacturing,Employment,2012,16085.0,5,5,5,5,5,US,,p,REI 2020
+311930,Flavoring syrup and concentrate manufacturing,Employment,2012,6633.0,5,5,5,5,5,US,,p,REI 2020
+311940,Seasoning and dressing manufacturing,Employment,2012,31652.0,5,5,5,5,5,US,,p,REI 2020
+311990,All other food manufacturing,Employment,2012,66538.0,5,5,5,5,5,US,,p,REI 2020
+312110,Soft drink and ice manufacturing,Employment,2012,63583.0,5,5,5,5,5,US,,p,REI 2020
+312120,Breweries,Employment,2012,27740.0,5,5,5,5,5,US,,p,REI 2020
+312130,Wineries,Employment,2012,37896.0,5,5,5,5,5,US,,p,REI 2020
+312140,Distilleries,Employment,2012,6920.0,5,5,5,5,5,US,,p,REI 2020
+312200,Tobacco product manufacturing,Employment,2012,14599.0,5,5,5,5,5,US,,p,REI 2020
+313100,"Fiber, yarn, and thread mills",Employment,2012,25272.0,5,5,5,5,5,US,,p,REI 2020
+313200,Fabric mills,Employment,2012,51622.0,5,5,5,5,5,US,,p,REI 2020
+313300,Textile and fabric finishing and fabric coating mills,Employment,2012,30000.0,5,5,5,5,5,US,,p,REI 2020
+314110,Carpet and rug mills,Employment,2012,27988.0,5,5,5,5,5,US,,p,REI 2020
+314120,Curtain and linen mills,Employment,2012,23226.0,5,5,5,5,5,US,,p,REI 2020
+314900,Other textile product mills,Employment,2012,59884.0,5,5,5,5,5,US,,p,REI 2020
+315000,Apparel manufacturing,Employment,2012,111973.0,5,5,5,5,5,US,,p,REI 2020
+316000,Leather and allied product manufacturing,Employment,2012,27042.0,5,5,5,5,5,US,,p,REI 2020
+322110,Pulp mills,Employment,2012,8678.0,5,5,5,5,5,US,,p,REI 2020
+322120,Paper mills,Employment,2012,64451.0,5,5,5,5,5,US,,p,REI 2020
+322130,Paperboard mills,Employment,2012,35545.0,5,5,5,5,5,US,,p,REI 2020
+322210,Paperboard container manufacturing,Employment,2012,137468.0,5,5,5,5,5,US,,p,REI 2020
+322220,Paper Bag and Coated and Treated Paper Manufacturing,Employment,2012,54175.0,5,5,5,5,5,US,,p,REI 2020
+322230,Stationery product manufacturing,Employment,2012,21641.0,5,5,5,5,5,US,,p,REI 2020
+322291,Sanitary paper product manufacturing,Employment,2012,19360.0,5,5,5,5,5,US,,p,REI 2020
+322299,All other converted paper product manufacturing,Employment,2012,14330.0,5,5,5,5,5,US,,p,REI 2020
+323110,Printing,Employment,2012,442751.0,5,5,5,5,5,US,,p,REI 2020
+323120,Support activities for printing,Employment,2012,28860.0,5,5,5,5,5,US,,p,REI 2020
+324110,Petroleum refineries,Employment,2012,59388.0,5,5,5,5,5,US,,p,REI 2020
+324121,Asphalt paving mixture and block manufacturing,Employment,2012,14353.0,5,5,5,5,5,US,,p,REI 2020
+324122,Asphalt shingle and coating materials manufacturing,Employment,2012,9074.0,5,5,5,5,5,US,,p,REI 2020
+324190,Other petroleum and coal products manufacturing,Employment,2012,15194.0,5,5,5,5,5,US,,p,REI 2020
+325110,Petrochemical manufacturing,Employment,2012,8236.0,5,5,5,5,5,US,,p,REI 2020
+325120,Industrial gas manufacturing,Employment,2012,10648.0,5,5,5,5,5,US,,p,REI 2020
+325130,Synthetic dye and pigment manufacturing,Employment,2012,9360.0,5,5,5,5,5,US,,p,REI 2020
+325180,Other Basic Inorganic Chemical Manufacturing,Employment,2012,39323.0,5,5,5,5,5,US,,p,REI 2020
+325190,Other basic organic chemical manufacturing,Employment,2012,87431.0,5,5,5,5,5,US,,p,REI 2020
+325211,Plastics material and resin manufacturing,Employment,2012,69352.0,5,5,5,5,5,US,,p,REI 2020
+3252A0,Synthetic rubber and artificial and synthetic fibers and filaments manufacturing,Employment,2012,22277.0,5,5,5,5,5,US,,p,REI 2020
+325411,Medicinal and botanical manufacturing,Employment,2012,29096.0,5,5,5,5,5,US,,p,REI 2020
+325412,Pharmaceutical preparation manufacturing,Employment,2012,139861.0,5,5,5,5,5,US,,p,REI 2020
+325413,In-vitro diagnostic substance manufacturing,Employment,2012,26012.0,5,5,5,5,5,US,,p,REI 2020
+325414,Biological product (except diagnostic) manufacturing,Employment,2012,40624.0,5,5,5,5,5,US,,p,REI 2020
+325310,Fertilizer manufacturing,Employment,2012,19039.0,5,5,5,5,5,US,,p,REI 2020
+325320,Pesticide and other agricultural chemical manufacturing,Employment,2012,10075.0,5,5,5,5,5,US,,p,REI 2020
+325510,Paint and coating manufacturing,Employment,2012,35328.0,5,5,5,5,5,US,,p,REI 2020
+325520,Adhesive manufacturing,Employment,2012,18944.0,5,5,5,5,5,US,,p,REI 2020
+325610,Soap and cleaning compound manufacturing,Employment,2012,43331.0,5,5,5,5,5,US,,p,REI 2020
+325620,Toilet preparation manufacturing,Employment,2012,48401.0,5,5,5,5,5,US,,p,REI 2020
+325910,Printing ink manufacturing,Employment,2012,11241.0,5,5,5,5,5,US,,p,REI 2020
+3259A0,All other chemical product and preparation manufacturing,Employment,2012,70062.0,5,5,5,5,5,US,,p,REI 2020
+326110,Plastics packaging materials and unlaminated film and sheet manufacturing,Employment,2012,96046.0,5,5,5,5,5,US,,p,REI 2020
+326120,"Plastics pipe, pipe fitting, and unlaminated profile shape manufacturing",Employment,2012,39212.0,5,5,5,5,5,US,,p,REI 2020
+326130,"Laminated plastics plate, sheet (except packaging), and shape manufacturing",Employment,2012,10555.0,5,5,5,5,5,US,,p,REI 2020
+326140,Polystyrene foam product manufacturing,Employment,2012,23492.0,5,5,5,5,5,US,,p,REI 2020
+326150,Urethane and other foam product (except polystyrene) manufacturing,Employment,2012,28814.0,5,5,5,5,5,US,,p,REI 2020
+326160,Plastics bottle manufacturing,Employment,2012,32347.0,5,5,5,5,5,US,,p,REI 2020
+326190,Other plastics product manufacturing,Employment,2012,341699.0,5,5,5,5,5,US,,p,REI 2020
+326210,Tire manufacturing,Employment,2012,50480.0,5,5,5,5,5,US,,p,REI 2020
+326220,Rubber and plastics hoses and belting manufacturing,Employment,2012,17494.0,5,5,5,5,5,US,,p,REI 2020
+326290,Other rubber product manufacturing,Employment,2012,57659.0,5,5,5,5,5,US,,p,REI 2020
+423100,Motor vehicle and motor vehicle parts and supplies,Employment,2012,366816.0,5,5,5,5,5,US,,p,REI 2020
+423400,Professional and commercial equipment and supplies,Employment,2012,640721.0,5,5,5,5,5,US,,p,REI 2020
+423600,Household appliances and electrical and electronic goods ,Employment,2012,514296.0,5,5,5,5,5,US,,p,REI 2020
+423800,"Machinery, equipment, and supplies",Employment,2012,697547.0,5,5,5,5,5,US,,p,REI 2020
+423A00,Other durable goods merchant wholesalers,Employment,2012,1053778.0,5,5,5,5,5,US,,p,REI 2020
+424200,Drugs and druggists’ sundries,Employment,2012,276972.0,5,5,5,5,5,US,,p,REI 2020
+424400,Grocery and related product wholesalers ,Employment,2012,755559.0,5,5,5,5,5,US,,p,REI 2020
+424700,Petroleum and petroleum products,Employment,2012,103219.0,5,5,5,5,5,US,,p,REI 2020
+424A00,Other nondurable goods merchant wholesalers,Employment,2012,1072802.0,5,5,5,5,5,US,,p,REI 2020
+425000,Wholesale electronic markets and agents and brokers,Employment,2012,294533.0,5,5,5,5,5,US,,p,REI 2020
+4200ID,Customs duties,Employment,2012,0.0,5,5,5,5,5,US,,p,REI 2020
+441000,Motor vehicle and parts dealers,Employment,2012,2745770.0,5,5,5,5,5,US,,p,REI 2020
+445000,Food and beverage stores,Employment,2012,2872426.0,5,5,5,5,5,US,,p,REI 2020
+452000,General merchandise stores,Employment,2012,2871931.0,5,5,5,5,5,US,,p,REI 2020
+444000,Building material and garden equipment and supplies dealers,Employment,2012,143432.0,5,5,5,5,5,US,,p,REI 2020
+446000,Health and personal care stores,Employment,2012,1010173.0,5,5,5,5,5,US,,p,REI 2020
+447000,Gasoline stations,Employment,2012,862630.0,5,5,5,5,5,US,,p,REI 2020
+448000,Clothing and clothing accessories stores,Employment,2012,1630575.0,5,5,5,5,5,US,,p,REI 2020
+454000,Nonstore retailers,Employment,2012,595521.0,5,5,5,5,5,US,,p,REI 2020
+4B0000,All other retail,Employment,2012,2075500.0,5,5,5,5,5,US,,p,REI 2020
+481000,Air transportation,Employment,2012,428110.0,5,5,5,5,5,US,,p,REI 2020
+482000,Rail transportation,Employment,2012,0.0,5,5,5,5,5,US,,p,REI 2020
+483000,Water transportation,Employment,2012,69117.0,5,5,5,5,5,US,,p,REI 2020
+484000,Truck transportation,Employment,2012,1344400.0,5,5,5,5,5,US,,p,REI 2020
+485000,Transit and ground passenger transportation,Employment,2012,461834.0,5,5,5,5,5,US,,p,REI 2020
+486000,Pipeline transportation,Employment,2012,49036.0,5,5,5,5,5,US,,p,REI 2020
+48A000,Scenic and sightseeing transportation and support activities for transportation,Employment,2012,661270.0,5,5,5,5,5,US,,p,REI 2020
+492000,Couriers and messengers,Employment,2012,527897.0,5,5,5,5,5,US,,p,REI 2020
+493000,Warehousing and storage,Employment,2012,691717.0,5,5,5,5,5,US,,p,REI 2020
+511110,Newspaper publishers,Employment,2012,231384.0,5,5,5,5,5,US,,p,REI 2020
+511120,Periodical Publishers,Employment,2012,106033.0,5,5,5,5,5,US,,p,REI 2020
+511130,Book publishers,Employment,2012,64969.0,5,5,5,5,5,US,,p,REI 2020
+5111A0,"Directory, mailing list, and other publishers",Employment,2012,47872.0,5,5,5,5,5,US,,p,REI 2020
+511200,Software publishers,Employment,2012,397145.0,5,5,5,5,5,US,,p,REI 2020
+512100,Motion picture and video industries,Employment,2012,292904.0,5,5,5,5,5,US,,p,REI 2020
+512200,Sound recording industries,Employment,2012,22897.0,5,5,5,5,5,US,,p,REI 2020
+515100,Radio and television broadcasting,Employment,2012,226527.0,5,5,5,5,5,US,,p,REI 2020
+515200,Cable and other subscription programming,Employment,2012,47699.0,5,5,5,5,5,US,,p,REI 2020
+517110,Wired telecommunications carriers,Employment,2012,756056.0,5,5,5,5,5,US,,p,REI 2020
+517210,Wireless telecommunications carriers (except satellite),Employment,2012,100000.0,5,5,5,5,5,US,,p,REI 2020
+517A00,"Satellite, telecommunications resellers, and all other telecommunications",Employment,2012,59521.0,5,5,5,5,5,US,,p,REI 2020
+518200,"Data processing, hosting, and related services",Employment,2012,436253.0,5,5,5,5,5,US,,p,REI 2020
+519130,Internet publishing and broadcasting and Web search portals,Employment,2012,159673.0,5,5,5,5,5,US,,p,REI 2020
+5191A0,"News syndicates, libraries, archives and all other information services",Employment,2012,45053.0,5,5,5,5,5,US,,p,REI 2020
+522A00,Nondepository credit intermediation and related activities,Employment,2012,770481.0,5,5,5,5,5,US,,p,REI 2020
+52A000,Monetary authorities and depository credit intermediation,Employment,2012,2027194.0,5,5,5,5,5,US,,p,REI 2020
+523900,Other financial investment activities,Employment,2012,458320.0,5,5,5,5,5,US,,p,REI 2020
+523A00,Securities and commodity contracts intermediation and brokerage,Employment,2012,441166.0,5,5,5,5,5,US,,p,REI 2020
+524113,Direct life insurance carriers,Employment,2012,370269.0,5,5,5,5,5,US,,p,REI 2020
+5241XX,"Insurance carriers, except direct life",Employment,2012,1053200.0,5,5,5,5,5,US,,p,REI 2020
+524200,"Insurance agencies, brokerages, and related activities",Employment,2012,854818.0,5,5,5,5,5,US,,p,REI 2020
+525000,"Funds, trusts, and other financial vehicles",Employment,2012,4213.0,5,5,5,5,5,US,,p,REI 2020
 531HSO,Owner-occupied housing,Employment,2012,752717.448,5,5,5,5,5,US,,p,REI 2020
 531HST,Tenant-occupied housing,Employment,2012,246929.902,5,5,5,5,5,US,,p,REI 2020
 531ORE,Other real estate,Employment,2012,428083.65,5,5,5,5,5,US,,p,REI 2020
-532100,Automotive equipment rental and leasing,Employment,2012,143619,5,5,5,5,5,US,,p,REI 2020
-532400,Commercial and industrial machinery and equipment rental and leasing,Employment,2012,156492,5,5,5,5,5,US,,p,REI 2020
-532A00,General and consumer goods rental,Employment,2012,180502,5,5,5,5,5,US,,p,REI 2020
-533000,Lessors of nonfinancial intangible assets,Employment,2012,32337,5,5,5,5,5,US,,p,REI 2020
-541100,Legal services,Employment,2012,1151728,5,5,5,5,5,US,,p,REI 2020
-541511,Custom computer programming services,Employment,2012,633686,5,5,5,5,5,US,,p,REI 2020
-541512,Computer systems design services,Employment,2012,532533,5,5,5,5,5,US,,p,REI 2020
-54151A,"Other computer related services, including facilities management",Employment,2012,297383,5,5,5,5,5,US,,p,REI 2020
-541200,"Accounting, tax preparation, bookkeeping, and payroll services",Employment,2012,1297256,5,5,5,5,5,US,,p,REI 2020
-541300,"Architectural, engineering, and related services",Employment,2012,1318982,5,5,5,5,5,US,,p,REI 2020
-541610,Management consulting services,Employment,2012,841869,5,5,5,5,5,US,,p,REI 2020
-5416A0,Environmental and other technical consulting services,Employment,2012,182278,5,5,5,5,5,US,,p,REI 2020
-541700,Scientific research and development services,Employment,2012,627097,5,5,5,5,5,US,,p,REI 2020
-541800,"Advertising, public relations, and related services",Employment,2012,447577,5,5,5,5,5,US,,p,REI 2020
-541400,Specialized design services,Employment,2012,114263,5,5,5,5,5,US,,p,REI 2020
-541920,Photographic services,Employment,2012,66450,5,5,5,5,5,US,,p,REI 2020
-541940,Veterinary services,Employment,2012,309806,5,5,5,5,5,US,,p,REI 2020
-5419A0,"All other miscellaneous professional, scientific, and technical services ",Employment,2012,195273,5,5,5,5,5,US,,p,REI 2020
-550000,Management of companies and enterprises,Employment,2012,3037299,5,5,5,5,5,US,,p,REI 2020
-561300,Employment services,Employment,2012,4971274,5,5,5,5,5,US,,p,REI 2020
-561700,Services to buildings and dwellings,Employment,2012,1705225,5,5,5,5,5,US,,p,REI 2020
-561100,Office administrative services,Employment,2012,461777,5,5,5,5,5,US,,p,REI 2020
-561200,Facilities support services,Employment,2012,266631,5,5,5,5,5,US,,p,REI 2020
-561400,Business support services,Employment,2012,771646,5,5,5,5,5,US,,p,REI 2020
-561500,Travel arrangement and reservation services,Employment,2012,223704,5,5,5,5,5,US,,p,REI 2020
-561600,Investigation and security services,Employment,2012,835721,5,5,5,5,5,US,,p,REI 2020
-561900,Other support services,Employment,2012,262623,5,5,5,5,5,US,,p,REI 2020
-562000,Waste management and remediation services,Employment,2012,367695,5,5,5,5,5,US,,p,REI 2020
-611100,Elementary and secondary schools,Employment,2012,895532,5,5,5,5,5,US,,p,REI 2020
-611A00,"Junior colleges, colleges, universities, and professional schools",Employment,2012,1890366,5,5,5,5,5,US,,p,REI 2020
-611B00,Other educational services,Employment,2012,691149,5,5,5,5,5,US,,p,REI 2020
-621100,Offices of physicians,Employment,2012,2241413,5,5,5,5,5,US,,p,REI 2020
-621200,Offices of dentists,Employment,2012,873172,5,5,5,5,5,US,,p,REI 2020
-621300,Offices of other health practitioners,Employment,2012,759485,5,5,5,5,5,US,,p,REI 2020
-621400,Outpatient care centers,Employment,2012,761042,5,5,5,5,5,US,,p,REI 2020
-621500,Medical and diagnostic laboratories,Employment,2012,249270,5,5,5,5,5,US,,p,REI 2020
-621600,Home health care services,Employment,2012,1230981,5,5,5,5,5,US,,p,REI 2020
-621900,Other ambulatory health care services,Employment,2012,302489,5,5,5,5,5,US,,p,REI 2020
-622000,Hospitals,Employment,2012,5805716,5,5,5,5,5,US,,p,REI 2020
-623A00,Nursing and community care facilities,Employment,2012,2521290,5,5,5,5,5,US,,p,REI 2020
-623B00,"Residential mental health, substance abuse, and other residential care facilities",Employment,2012,791944,5,5,5,5,5,US,,p,REI 2020
-624100,Individual and family services,Employment,2012,1469876,5,5,5,5,5,US,,p,REI 2020
-624400,Child day care services,Employment,2012,861036,5,5,5,5,5,US,,p,REI 2020
-624A00,"Community food, housing, and other relief services, including rehabilitation services",Employment,2012,510628,5,5,5,5,5,US,,p,REI 2020
-711100,Performing arts companies,Employment,2012,117065,5,5,5,5,5,US,,p,REI 2020
-711200,Spectator sports,Employment,2012,123311,5,5,5,5,5,US,,p,REI 2020
-711500,"Independent artists, writers, and performers",Employment,2012,42284,5,5,5,5,5,US,,p,REI 2020
-711A00,Promoters of performing arts and sports and agents for public figures,Employment,2012,157243,5,5,5,5,5,US,,p,REI 2020
-712000,"Museums, historical sites, zoos, and parks",Employment,2012,137405,5,5,5,5,5,US,,p,REI 2020
-713100,Amusement parks and arcades,Employment,2012,164641,5,5,5,5,5,US,,p,REI 2020
-713200,Gambling industries (except casino hotels),Employment,2012,155834,5,5,5,5,5,US,,p,REI 2020
-713900,Other amusement and recreation industries,Employment,2012,1159507,5,5,5,5,5,US,,p,REI 2020
-721000,Accommodation,Employment,2012,1936610,5,5,5,5,5,US,,p,REI 2020
-722110,Full-service restaurants,Employment,2012,4774211,5,5,5,5,5,US,,p,REI 2020
-722211,Limited-service restaurants,Employment,2012,3588446,5,5,5,5,5,US,,p,REI 2020
-722A00,All other food and drinking places,Employment,2012,1686007,5,5,5,5,5,US,,p,REI 2020
-811100,Automotive repair and maintenance,Employment,2012,812875,5,5,5,5,5,US,,p,REI 2020
-811200,Electronic and precision equipment repair and maintenance,Employment,2012,105202,5,5,5,5,5,US,,p,REI 2020
-811300,Commercial and industrial machinery and equipment repair and maintenance,Employment,2012,193427,5,5,5,5,5,US,,p,REI 2020
-811400,Personal and household goods repair and maintenance,Employment,2012,68439,5,5,5,5,5,US,,p,REI 2020
-812100,Personal care services,Employment,2012,640461,5,5,5,5,5,US,,p,REI 2020
-812200,Death care services,Employment,2012,137470,5,5,5,5,5,US,,p,REI 2020
-812300,Dry-cleaning and laundry services,Employment,2012,290868,5,5,5,5,5,US,,p,REI 2020
-812900,Other personal services,Employment,2012,258234,5,5,5,5,5,US,,p,REI 2020
-813100,Religious organizations,Employment,2012,1685741,5,5,5,5,5,US,,p,REI 2020
-813A00,"Grantmaking, giving, and social advocacy organizations",Employment,2012,324517,5,5,5,5,5,US,,p,REI 2020
-813B00,"Civic, social, professional, and similar organizations",Employment,2012,739016,5,5,5,5,5,US,,p,REI 2020
-814000,Private households,Employment,2012,0,5,5,5,5,5,US,,p,REI 2020
-S00500,Federal general government (defense),Employment,2012,790966,5,5,5,5,5,US,,p,REI 2020
-S00600,Federal general government (nondefense),Employment,2012,143717,5,5,5,5,5,US,,p,REI 2020
-491000,Postal service,Employment,2012,602920,5,5,5,5,5,US,,p,REI 2020
-S00101,Federal electric utilities,Employment,2012,0,5,5,5,5,5,US,,p,REI 2020
-S00102,Other federal government enterprises,Employment,2012,1255133,5,5,5,5,5,US,,p,REI 2020
-GSLGE,State and local government educational services,Employment,2012,11163985,5,5,5,5,5,US,,p,REI 2020
-GSLGH,State and local government hospitals and health services,Employment,2012,1519938,5,5,5,5,5,US,,p,REI 2020
-GSLGO,State and local government other services,Employment,2012,831406,5,5,5,5,5,US,,p,REI 2020
-S00201,State and local government passenger transit,Employment,2012,231951,5,5,5,5,5,US,,p,REI 2020
-S00202,State and local government electric utilities,Employment,2012,79894,5,5,5,5,5,US,,p,REI 2020
-S00203,Other state and local government enterprises,Employment,2012,5361464,5,5,5,5,5,US,,p,REI 2020
+532100,Automotive equipment rental and leasing,Employment,2012,143619.0,5,5,5,5,5,US,,p,REI 2020
+532400,Commercial and industrial machinery and equipment rental and leasing,Employment,2012,156492.0,5,5,5,5,5,US,,p,REI 2020
+532A00,General and consumer goods rental,Employment,2012,180502.0,5,5,5,5,5,US,,p,REI 2020
+533000,Lessors of nonfinancial intangible assets,Employment,2012,32337.0,5,5,5,5,5,US,,p,REI 2020
+541100,Legal services,Employment,2012,1151728.0,5,5,5,5,5,US,,p,REI 2020
+541511,Custom computer programming services,Employment,2012,633686.0,5,5,5,5,5,US,,p,REI 2020
+541512,Computer systems design services,Employment,2012,532533.0,5,5,5,5,5,US,,p,REI 2020
+54151A,"Other computer related services, including facilities management",Employment,2012,297383.0,5,5,5,5,5,US,,p,REI 2020
+541200,"Accounting, tax preparation, bookkeeping, and payroll services",Employment,2012,1297256.0,5,5,5,5,5,US,,p,REI 2020
+541300,"Architectural, engineering, and related services",Employment,2012,1318982.0,5,5,5,5,5,US,,p,REI 2020
+541610,Management consulting services,Employment,2012,841869.0,5,5,5,5,5,US,,p,REI 2020
+5416A0,Environmental and other technical consulting services,Employment,2012,182278.0,5,5,5,5,5,US,,p,REI 2020
+541700,Scientific research and development services,Employment,2012,627097.0,5,5,5,5,5,US,,p,REI 2020
+541800,"Advertising, public relations, and related services",Employment,2012,447577.0,5,5,5,5,5,US,,p,REI 2020
+541400,Specialized design services,Employment,2012,114263.0,5,5,5,5,5,US,,p,REI 2020
+541920,Photographic services,Employment,2012,66450.0,5,5,5,5,5,US,,p,REI 2020
+541940,Veterinary services,Employment,2012,309806.0,5,5,5,5,5,US,,p,REI 2020
+5419A0,"All other miscellaneous professional, scientific, and technical services ",Employment,2012,195273.0,5,5,5,5,5,US,,p,REI 2020
+550000,Management of companies and enterprises,Employment,2012,3037299.0,5,5,5,5,5,US,,p,REI 2020
+561300,Employment services,Employment,2012,4971274.0,5,5,5,5,5,US,,p,REI 2020
+561700,Services to buildings and dwellings,Employment,2012,1705225.0,5,5,5,5,5,US,,p,REI 2020
+561100,Office administrative services,Employment,2012,461777.0,5,5,5,5,5,US,,p,REI 2020
+561200,Facilities support services,Employment,2012,266631.0,5,5,5,5,5,US,,p,REI 2020
+561400,Business support services,Employment,2012,771646.0,5,5,5,5,5,US,,p,REI 2020
+561500,Travel arrangement and reservation services,Employment,2012,223704.0,5,5,5,5,5,US,,p,REI 2020
+561600,Investigation and security services,Employment,2012,835721.0,5,5,5,5,5,US,,p,REI 2020
+561900,Other support services,Employment,2012,262623.0,5,5,5,5,5,US,,p,REI 2020
+562000,Waste management and remediation services,Employment,2012,367695.0,5,5,5,5,5,US,,p,REI 2020
+611100,Elementary and secondary schools,Employment,2012,895532.0,5,5,5,5,5,US,,p,REI 2020
+611A00,"Junior colleges, colleges, universities, and professional schools",Employment,2012,1890366.0,5,5,5,5,5,US,,p,REI 2020
+611B00,Other educational services,Employment,2012,691149.0,5,5,5,5,5,US,,p,REI 2020
+621100,Offices of physicians,Employment,2012,2241413.0,5,5,5,5,5,US,,p,REI 2020
+621200,Offices of dentists,Employment,2012,873172.0,5,5,5,5,5,US,,p,REI 2020
+621300,Offices of other health practitioners,Employment,2012,759485.0,5,5,5,5,5,US,,p,REI 2020
+621400,Outpatient care centers,Employment,2012,761042.0,5,5,5,5,5,US,,p,REI 2020
+621500,Medical and diagnostic laboratories,Employment,2012,249270.0,5,5,5,5,5,US,,p,REI 2020
+621600,Home health care services,Employment,2012,1230981.0,5,5,5,5,5,US,,p,REI 2020
+621900,Other ambulatory health care services,Employment,2012,302489.0,5,5,5,5,5,US,,p,REI 2020
+622000,Hospitals,Employment,2012,5805716.0,5,5,5,5,5,US,,p,REI 2020
+623A00,Nursing and community care facilities,Employment,2012,2521290.0,5,5,5,5,5,US,,p,REI 2020
+623B00,"Residential mental health, substance abuse, and other residential care facilities",Employment,2012,791944.0,5,5,5,5,5,US,,p,REI 2020
+624100,Individual and family services,Employment,2012,1469876.0,5,5,5,5,5,US,,p,REI 2020
+624400,Child day care services,Employment,2012,861036.0,5,5,5,5,5,US,,p,REI 2020
+624A00,"Community food, housing, and other relief services, including rehabilitation services",Employment,2012,510628.0,5,5,5,5,5,US,,p,REI 2020
+711100,Performing arts companies,Employment,2012,117065.0,5,5,5,5,5,US,,p,REI 2020
+711200,Spectator sports,Employment,2012,123311.0,5,5,5,5,5,US,,p,REI 2020
+711500,"Independent artists, writers, and performers",Employment,2012,42284.0,5,5,5,5,5,US,,p,REI 2020
+711A00,Promoters of performing arts and sports and agents for public figures,Employment,2012,157243.0,5,5,5,5,5,US,,p,REI 2020
+712000,"Museums, historical sites, zoos, and parks",Employment,2012,137405.0,5,5,5,5,5,US,,p,REI 2020
+713100,Amusement parks and arcades,Employment,2012,164641.0,5,5,5,5,5,US,,p,REI 2020
+713200,Gambling industries (except casino hotels),Employment,2012,155834.0,5,5,5,5,5,US,,p,REI 2020
+713900,Other amusement and recreation industries,Employment,2012,1159507.0,5,5,5,5,5,US,,p,REI 2020
+721000,Accommodation,Employment,2012,1936610.0,5,5,5,5,5,US,,p,REI 2020
+722110,Full-service restaurants,Employment,2012,4774211.0,5,5,5,5,5,US,,p,REI 2020
+722211,Limited-service restaurants,Employment,2012,3588446.0,5,5,5,5,5,US,,p,REI 2020
+722A00,All other food and drinking places,Employment,2012,1686007.0,5,5,5,5,5,US,,p,REI 2020
+811100,Automotive repair and maintenance,Employment,2012,812875.0,5,5,5,5,5,US,,p,REI 2020
+811200,Electronic and precision equipment repair and maintenance,Employment,2012,105202.0,5,5,5,5,5,US,,p,REI 2020
+811300,Commercial and industrial machinery and equipment repair and maintenance,Employment,2012,193427.0,5,5,5,5,5,US,,p,REI 2020
+811400,Personal and household goods repair and maintenance,Employment,2012,68439.0,5,5,5,5,5,US,,p,REI 2020
+812100,Personal care services,Employment,2012,640461.0,5,5,5,5,5,US,,p,REI 2020
+812200,Death care services,Employment,2012,137470.0,5,5,5,5,5,US,,p,REI 2020
+812300,Dry-cleaning and laundry services,Employment,2012,290868.0,5,5,5,5,5,US,,p,REI 2020
+812900,Other personal services,Employment,2012,258234.0,5,5,5,5,5,US,,p,REI 2020
+813100,Religious organizations,Employment,2012,1685741.0,5,5,5,5,5,US,,p,REI 2020
+813A00,"Grantmaking, giving, and social advocacy organizations",Employment,2012,324517.0,5,5,5,5,5,US,,p,REI 2020
+813B00,"Civic, social, professional, and similar organizations",Employment,2012,739016.0,5,5,5,5,5,US,,p,REI 2020
+814000,Private households,Employment,2012,0.0,5,5,5,5,5,US,,p,REI 2020
+S00500,Federal general government (defense),Employment,2012,790966.0,5,5,5,5,5,US,,p,REI 2020
+S00600,Federal general government (nondefense),Employment,2012,143717.0,5,5,5,5,5,US,,p,REI 2020
+491000,Postal service,Employment,2012,602920.0,5,5,5,5,5,US,,p,REI 2020
+S00101,Federal electric utilities,Employment,2012,0.0,5,5,5,5,5,US,,p,REI 2020
+S00102,Other federal government enterprises,Employment,2012,1255133.0,5,5,5,5,5,US,,p,REI 2020
+GSLGE,State and local government educational services,Employment,2012,11163985.0,5,5,5,5,5,US,,p,REI 2020
+GSLGH,State and local government hospitals and health services,Employment,2012,1519938.0,5,5,5,5,5,US,,p,REI 2020
+GSLGO,State and local government other services,Employment,2012,831406.0,5,5,5,5,5,US,,p,REI 2020
+S00201,State and local government passenger transit,Employment,2012,231951.0,5,5,5,5,5,US,,p,REI 2020
+S00202,State and local government electric utilities,Employment,2012,79894.0,5,5,5,5,5,US,,p,REI 2020
+S00203,Other state and local government enterprises,Employment,2012,5361464.0,5,5,5,5,5,US,,p,REI 2020
 RS0001,Ferrous Metals Recycling ,Employment,2012,104442.39,5,5,5,5,5,US,,p,REI 2020
 RS0002,Nonferrous Metals Recycling (Aluminum),Employment,2012,60502.2586,5,5,5,5,5,US,,p,REI 2020
 RS0003,Glass Recycling ,Employment,2012,11756.5975,5,5,5,5,5,US,,p,REI 2020
@@ -413,7 +413,7 @@ RS0006,Rubber Recycling ,Employment,2012,15920.6869,5,5,5,5,5,US,,p,REI 2020
 RS0007,Construction and Demolition Recycling ,Employment,2012,97529.7038,5,5,5,5,5,US,,p,REI 2020
 RS0008,Electronics Recycling ,Employment,2012,5551.08295,5,5,5,5,5,US,,p,REI 2020
 RS0009,Minimally processed animal feed,Employment,2012,1176.9984,5,5,5,5,5,US,,p,REI 2020
-RS0010,Rendering and animal by-product processing,Employment,2012,8370,5,5,5,5,5,US,,p,REI 2020
+RS0010,Rendering and animal by-product processing,Employment,2012,8370.0,5,5,5,5,5,US,,p,REI 2020
 RS0011,Biofuels manufacturing,Employment,2012,645.7355,5,5,5,5,5,US,,p,REI 2020
 RS0012,Anaerobic digestion,Employment,2012,43.290216,5,5,5,5,5,US,,p,REI 2020
 RS0013,Compost manufacturing,Employment,2012,3604.881,5,5,5,5,5,US,,p,REI 2020
@@ -421,404 +421,404 @@ RS0014,Landscape materials application,Employment,2012,5486.62,5,5,5,5,5,US,,p,R
 RS0015,Community food program,Employment,2012,14645.525,5,5,5,5,5,US,,p,REI 2020
 1111A0,Oilseed farming,Wage,2012,14631342.05,5,5,5,5,5,US,,1000 USD,REI 2020
 1111B0,Grain farming,Wage,2012,31679916.95,5,5,5,5,5,US,,1000 USD,REI 2020
-111200,Vegetable and melon farming,Wage,2012,5892821,5,5,5,5,5,US,,1000 USD,REI 2020
-111300,Fruit and tree nut farming,Wage,2012,11064400,5,5,5,5,5,US,,1000 USD,REI 2020
-111400,"Greenhouse, nursery, and floriculture production",Wage,2012,7790693,5,5,5,5,5,US,,1000 USD,REI 2020
-111900,Other crop farming,Wage,2012,9530668,5,5,5,5,5,US,,1000 USD,REI 2020
-112120,Dairy cattle and milk production,Wage,2012,12431135,5,5,5,5,5,US,,1000 USD,REI 2020
-1121A0,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",Wage,2012,5129422,5,5,5,5,5,US,,1000 USD,REI 2020
-112300,Poultry and egg production,Wage,2012,4610976,5,5,5,5,5,US,,1000 USD,REI 2020
-112A00,"Animal production, except cattle and poultry and eggs",Wage,2012,2778665,5,5,5,5,5,US,,1000 USD,REI 2020
-113000,Forestry and logging,Wage,2012,2120056,5,5,5,5,5,US,,1000 USD,REI 2020
-114000,"Fishing, hunting and trapping",Wage,2012,390509,5,5,5,5,5,US,,1000 USD,REI 2020
-115000,Support activities for agriculture and forestry,Wage,2012,3398783,5,5,5,5,5,US,,1000 USD,REI 2020
-211000,Oil and gas extraction,Wage,2012,15450654,5,5,5,5,5,US,,1000 USD,REI 2020
-212100,Coal mining,Wage,2012,6706078,5,5,5,5,5,US,,1000 USD,REI 2020
-212230,"Copper, nickel, lead, and zinc mining",Wage,2012,1018637,5,5,5,5,5,US,,1000 USD,REI 2020
-2122A0,"Iron, gold, silver, and other metal ore mining",Wage,2012,2379339,5,5,5,5,5,US,,1000 USD,REI 2020
-212310,Stone mining and quarrying,Wage,2012,2054725,5,5,5,5,5,US,,1000 USD,REI 2020
-2123A0,Other nonmetallic mineral mining and quarrying,Wage,2012,2191526,5,5,5,5,5,US,,1000 USD,REI 2020
-213111,Drilling oil and gas wells,Wage,2012,8469975,5,5,5,5,5,US,,1000 USD,REI 2020
-21311A,Other support activities for mining,Wage,2012,23026362,5,5,5,5,5,US,,1000 USD,REI 2020
-221100,"Electric power generation, transmission, and distribution",Wage,2012,49479949,5,5,5,5,5,US,,1000 USD,REI 2020
-221200,Natural gas distribution,Wage,2012,7138586,5,5,5,5,5,US,,1000 USD,REI 2020
-221300,"Water, sewage and other systems",Wage,2012,2443594,5,5,5,5,5,US,,1000 USD,REI 2020
+111200,Vegetable and melon farming,Wage,2012,5892821.0,5,5,5,5,5,US,,1000 USD,REI 2020
+111300,Fruit and tree nut farming,Wage,2012,11064400.0,5,5,5,5,5,US,,1000 USD,REI 2020
+111400,"Greenhouse, nursery, and floriculture production",Wage,2012,7790693.0,5,5,5,5,5,US,,1000 USD,REI 2020
+111900,Other crop farming,Wage,2012,9530668.0,5,5,5,5,5,US,,1000 USD,REI 2020
+112120,Dairy cattle and milk production,Wage,2012,12431135.0,5,5,5,5,5,US,,1000 USD,REI 2020
+1121A0,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",Wage,2012,5129422.0,5,5,5,5,5,US,,1000 USD,REI 2020
+112300,Poultry and egg production,Wage,2012,4610976.0,5,5,5,5,5,US,,1000 USD,REI 2020
+112A00,"Animal production, except cattle and poultry and eggs",Wage,2012,2778665.0,5,5,5,5,5,US,,1000 USD,REI 2020
+113000,Forestry and logging,Wage,2012,2120056.0,5,5,5,5,5,US,,1000 USD,REI 2020
+114000,"Fishing, hunting and trapping",Wage,2012,390509.0,5,5,5,5,5,US,,1000 USD,REI 2020
+115000,Support activities for agriculture and forestry,Wage,2012,3398783.0,5,5,5,5,5,US,,1000 USD,REI 2020
+211000,Oil and gas extraction,Wage,2012,15450654.0,5,5,5,5,5,US,,1000 USD,REI 2020
+212100,Coal mining,Wage,2012,6706078.0,5,5,5,5,5,US,,1000 USD,REI 2020
+212230,"Copper, nickel, lead, and zinc mining",Wage,2012,1018637.0,5,5,5,5,5,US,,1000 USD,REI 2020
+2122A0,"Iron, gold, silver, and other metal ore mining",Wage,2012,2379339.0,5,5,5,5,5,US,,1000 USD,REI 2020
+212310,Stone mining and quarrying,Wage,2012,2054725.0,5,5,5,5,5,US,,1000 USD,REI 2020
+2123A0,Other nonmetallic mineral mining and quarrying,Wage,2012,2191526.0,5,5,5,5,5,US,,1000 USD,REI 2020
+213111,Drilling oil and gas wells,Wage,2012,8469975.0,5,5,5,5,5,US,,1000 USD,REI 2020
+21311A,Other support activities for mining,Wage,2012,23026362.0,5,5,5,5,5,US,,1000 USD,REI 2020
+221100,"Electric power generation, transmission, and distribution",Wage,2012,49479949.0,5,5,5,5,5,US,,1000 USD,REI 2020
+221200,Natural gas distribution,Wage,2012,7138586.0,5,5,5,5,5,US,,1000 USD,REI 2020
+221300,"Water, sewage and other systems",Wage,2012,2443594.0,5,5,5,5,5,US,,1000 USD,REI 2020
 233210,Health care structures,Wage,2012,18973447.25,5,5,5,5,5,US,,1000 USD,REI 2020
 233262,Educational and vocational structures,Wage,2012,37722408.88,5,5,5,5,5,US,,1000 USD,REI 2020
 230301,Nonresidential maintenance and repair,Wage,2012,3174146.205,5,5,5,5,5,US,,1000 USD,REI 2020
-230302,Residential maintenance and repair,Wage,2012,9815891,5,5,5,5,5,US,,1000 USD,REI 2020
+230302,Residential maintenance and repair,Wage,2012,9815891.0,5,5,5,5,5,US,,1000 USD,REI 2020
 2332A0,Office and commercial structures,Wage,2012,79935332.45,5,5,5,5,5,US,,1000 USD,REI 2020
 233412,Multifamily residential structures,Wage,2012,4122136.429,5,5,5,5,5,US,,1000 USD,REI 2020
 2334A0,Other residential structures,Wage,2012,231196.953,5,5,5,5,5,US,,1000 USD,REI 2020
 233230,Manufacturing structures,Wage,2012,21261881.86,5,5,5,5,5,US,,1000 USD,REI 2020
-2332D0,Other nonresidential structures,Wage,2012,24419694,5,5,5,5,5,US,,1000 USD,REI 2020
-233240,Power and communication structures,Wage,2012,10592378,5,5,5,5,5,US,,1000 USD,REI 2020
+2332D0,Other nonresidential structures,Wage,2012,24419694.0,5,5,5,5,5,US,,1000 USD,REI 2020
+233240,Power and communication structures,Wage,2012,10592378.0,5,5,5,5,5,US,,1000 USD,REI 2020
 233411,Single-family residential structures,Wage,2012,47954387.97,5,5,5,5,5,US,,1000 USD,REI 2020
-2332C0,Transportation structures and highways and streets,Wage,2012,16998921,5,5,5,5,5,US,,1000 USD,REI 2020
-321100,Sawmills and wood preservation,Wage,2012,2979843,5,5,5,5,5,US,,1000 USD,REI 2020
-321200,"Veneer, plywood, and engineered wood product manufacturing",Wage,2012,2533202,5,5,5,5,5,US,,1000 USD,REI 2020
-321910,Millwork,Wage,2012,3546210,5,5,5,5,5,US,,1000 USD,REI 2020
-3219A0,All other wood product manufacturing,Wage,2012,3419478,5,5,5,5,5,US,,1000 USD,REI 2020
-327100,Clay product and refractory manufacturing,Wage,2012,1453712,5,5,5,5,5,US,,1000 USD,REI 2020
-327200,Glass and glass product manufacturing,Wage,2012,4105815,5,5,5,5,5,US,,1000 USD,REI 2020
-327310,Cement manufacturing,Wage,2012,792859,5,5,5,5,5,US,,1000 USD,REI 2020
-327320,Ready-mix concrete manufacturing,Wage,2012,3162252,5,5,5,5,5,US,,1000 USD,REI 2020
-327330,"Concrete pipe, brick, and block manufacturing",Wage,2012,1068420,5,5,5,5,5,US,,1000 USD,REI 2020
-327390,Other concrete product manufacturing,Wage,2012,1897576,5,5,5,5,5,US,,1000 USD,REI 2020
-327400,Lime and gypsum product manufacturing,Wage,2012,680247,5,5,5,5,5,US,,1000 USD,REI 2020
-327910,Abrasive product manufacturing,Wage,2012,724573,5,5,5,5,5,US,,1000 USD,REI 2020
-327991,Cut stone and stone product manufacturing,Wage,2012,936598,5,5,5,5,5,US,,1000 USD,REI 2020
-327992,Ground or treated mineral and earth manufacturing,Wage,2012,405488,5,5,5,5,5,US,,1000 USD,REI 2020
-327993,Mineral wool manufacturing,Wage,2012,738101,5,5,5,5,5,US,,1000 USD,REI 2020
-327999,Miscellaneous nonmetallic mineral products,Wage,2012,457973,5,5,5,5,5,US,,1000 USD,REI 2020
-331110,Iron and steel mills and ferroalloy manufacturing,Wage,2012,7983346,5,5,5,5,5,US,,1000 USD,REI 2020
-331200,Steel product manufacturing from purchased steel,Wage,2012,2662531,5,5,5,5,5,US,,1000 USD,REI 2020
-331314,Secondary smelting and alloying of aluminum,Wage,2012,292146,5,5,5,5,5,US,,1000 USD,REI 2020
-331313,Alumina refining and primary aluminum production,Wage,2012,582374,5,5,5,5,5,US,,1000 USD,REI 2020
-33131B,Aluminum product manufacturing from purchased aluminum,Wage,2012,2145134,5,5,5,5,5,US,,1000 USD,REI 2020
-331410,Nonferrous Metal (except Aluminum) Smelting and Refining,Wage,2012,689541,5,5,5,5,5,US,,1000 USD,REI 2020
-331420,"Copper rolling, drawing, extruding and alloying",Wage,2012,1206271,5,5,5,5,5,US,,1000 USD,REI 2020
-331490,"Nonferrous metal (except copper and aluminum) rolling, drawing, extruding and alloying",Wage,2012,1831115,5,5,5,5,5,US,,1000 USD,REI 2020
-331510,Ferrous metal foundries,Wage,2012,3602586,5,5,5,5,5,US,,1000 USD,REI 2020
-331520,Nonferrous metal foundries,Wage,2012,2541089,5,5,5,5,5,US,,1000 USD,REI 2020
-332114,Custom roll forming,Wage,2012,1108842,5,5,5,5,5,US,,1000 USD,REI 2020
-33211A,"All other forging, stamping, and sintering",Wage,2012,2107421,5,5,5,5,5,US,,1000 USD,REI 2020
-332119,"Metal crown, closure, and other metal stamping (except automotive)",Wage,2012,2525669,5,5,5,5,5,US,,1000 USD,REI 2020
-332200,Cutlery and handtool manufacturing,Wage,2012,1714873,5,5,5,5,5,US,,1000 USD,REI 2020
-332310,Plate work and fabricated structural product manufacturing,Wage,2012,7226462,5,5,5,5,5,US,,1000 USD,REI 2020
-332320,Ornamental and architectural metal products manufacturing,Wage,2012,7525442,5,5,5,5,5,US,,1000 USD,REI 2020
-332410,Power boiler and heat exchanger manufacturing,Wage,2012,1507187,5,5,5,5,5,US,,1000 USD,REI 2020
-332420,Metal tank (heavy gauge) manufacturing,Wage,2012,1763593,5,5,5,5,5,US,,1000 USD,REI 2020
-332430,"Metal can, box, and other metal container (light gauge) manufacturing",Wage,2012,1663765,5,5,5,5,5,US,,1000 USD,REI 2020
-332500,Hardware manufacturing,Wage,2012,1222279,5,5,5,5,5,US,,1000 USD,REI 2020
-332600,Spring and wire product manufacturing,Wage,2012,1708510,5,5,5,5,5,US,,1000 USD,REI 2020
-332710,Machine shops,Wage,2012,11797595,5,5,5,5,5,US,,1000 USD,REI 2020
-332720,"Turned product and screw, nut, and bolt manufacturing",Wage,2012,7090570,5,5,5,5,5,US,,1000 USD,REI 2020
-332800,"Coating, engraving, heat treating and allied activities",Wage,2012,5432247,5,5,5,5,5,US,,1000 USD,REI 2020
-332913,Plumbing fixture fitting and trim manufacturing,Wage,2012,375997,5,5,5,5,5,US,,1000 USD,REI 2020
-33291A,Valve and fittings other than plumbing,Wage,2012,4978883,5,5,5,5,5,US,,1000 USD,REI 2020
-332991,Ball and roller bearing manufacturing,Wage,2012,1153417,5,5,5,5,5,US,,1000 USD,REI 2020
-332996,Fabricated pipe and pipe fitting manufacturing,Wage,2012,1554661,5,5,5,5,5,US,,1000 USD,REI 2020
-33299A,"Ammunition, arms, ordnance, and accessories manufacturing",Wage,2012,2410778,5,5,5,5,5,US,,1000 USD,REI 2020
-332999,Other fabricated metal manufacturing,Wage,2012,3154454,5,5,5,5,5,US,,1000 USD,REI 2020
-333111,Farm machinery and equipment manufacturing,Wage,2012,3330154,5,5,5,5,5,US,,1000 USD,REI 2020
-333112,Lawn and garden equipment manufacturing,Wage,2012,552358,5,5,5,5,5,US,,1000 USD,REI 2020
-333120,Construction machinery manufacturing,Wage,2012,3204261,5,5,5,5,5,US,,1000 USD,REI 2020
-333130,Mining and oil and gas field machinery manufacturing,Wage,2012,4750589,5,5,5,5,5,US,,1000 USD,REI 2020
-333242,Semiconductor machinery manufacturing,Wage,2012,1886633,5,5,5,5,5,US,,1000 USD,REI 2020
-33329A,Other industrial machinery manufacturing,Wage,2012,5011280,5,5,5,5,5,US,,1000 USD,REI 2020
-333314,Optical instrument and lens manufacturing,Wage,2012,1159792,5,5,5,5,5,US,,1000 USD,REI 2020
-333316,Photographic and photocopying equipment manufacturing,Wage,2012,338009,5,5,5,5,5,US,,1000 USD,REI 2020
-333318,Other commercial and service industry machinery manufacturing,Wage,2012,3205001,5,5,5,5,5,US,,1000 USD,REI 2020
-333414,Heating equipment (except warm air furnaces) manufacturing,Wage,2012,908292,5,5,5,5,5,US,,1000 USD,REI 2020
-333415,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",Wage,2012,3926582,5,5,5,5,5,US,,1000 USD,REI 2020
-333413,Industrial and commercial fan and blower and air purification equipment manufacturing,Wage,2012,1124803,5,5,5,5,5,US,,1000 USD,REI 2020
-333511,Industrial mold manufacturing,Wage,2012,1873854,5,5,5,5,5,US,,1000 USD,REI 2020
-333514,"Special tool, die, jig, and fixture manufacturing",Wage,2012,2399907,5,5,5,5,5,US,,1000 USD,REI 2020
-333517,Machine tool manufacturing,Wage,2012,1494219,5,5,5,5,5,US,,1000 USD,REI 2020
-33351B,"Cutting and machine tool accessory, rolling mill, and other metalworking machinery manufacturing",Wage,2012,2201605,5,5,5,5,5,US,,1000 USD,REI 2020
-333611,Turbine and turbine generator set units manufacturing,Wage,2012,2573477,5,5,5,5,5,US,,1000 USD,REI 2020
-333612,"Speed changer, industrial high-speed drive, and gear manufacturing",Wage,2012,882597,5,5,5,5,5,US,,1000 USD,REI 2020
-333613,Mechanical power transmission equipment manufacturing,Wage,2012,844438,5,5,5,5,5,US,,1000 USD,REI 2020
-333618,Other engine equipment manufacturing,Wage,2012,2014296,5,5,5,5,5,US,,1000 USD,REI 2020
-333912,Air and gas compressor manufacturing,Wage,2012,1370353,5,5,5,5,5,US,,1000 USD,REI 2020
-33391A,Pump and pumping equipment manufacturing,Wage,2012,2427611,5,5,5,5,5,US,,1000 USD,REI 2020
-333920,Material handling equipment manufacturing,Wage,2012,4246229,5,5,5,5,5,US,,1000 USD,REI 2020
-333991,Power-driven handtool manufacturing,Wage,2012,476119,5,5,5,5,5,US,,1000 USD,REI 2020
-333993,Packaging machinery manufacturing,Wage,2012,1235109,5,5,5,5,5,US,,1000 USD,REI 2020
-333994,Industrial process furnace and oven manufacturing,Wage,2012,639877,5,5,5,5,5,US,,1000 USD,REI 2020
-33399A,Other general purpose machinery manufacturing,Wage,2012,4298542,5,5,5,5,5,US,,1000 USD,REI 2020
-33399B,Fluid power process machinery,Wage,2012,2070733,5,5,5,5,5,US,,1000 USD,REI 2020
-334111,Electronic computer manufacturing,Wage,2012,2248294,5,5,5,5,5,US,,1000 USD,REI 2020
-334112,Computer storage device manufacturing,Wage,2012,1517804,5,5,5,5,5,US,,1000 USD,REI 2020
-334118,Computer terminals and other computer peripheral equipment manufacturing,Wage,2012,1859286,5,5,5,5,5,US,,1000 USD,REI 2020
-334210,Telephone apparatus manufacturing,Wage,2012,1332694,5,5,5,5,5,US,,1000 USD,REI 2020
-334220,Broadcast and wireless communications equipment,Wage,2012,6089047,5,5,5,5,5,US,,1000 USD,REI 2020
-334290,Other communications equipment manufacturing,Wage,2012,962592,5,5,5,5,5,US,,1000 USD,REI 2020
-334413,Semiconductor and related device manufacturing,Wage,2012,7882228,5,5,5,5,5,US,,1000 USD,REI 2020
-334418,Printed circuit assembly (electronic assembly) manufacturing,Wage,2012,2956506,5,5,5,5,5,US,,1000 USD,REI 2020
-33441A,Other electronic component manufacturing,Wage,2012,6256811,5,5,5,5,5,US,,1000 USD,REI 2020
-334510,Electromedical and electrotherapeutic apparatus manufacturing,Wage,2012,5377611,5,5,5,5,5,US,,1000 USD,REI 2020
-334511,"Search, detection, and navigation instruments manufacturing",Wage,2012,12272794,5,5,5,5,5,US,,1000 USD,REI 2020
-334512,Automatic environmental control manufacturing,Wage,2012,770523,5,5,5,5,5,US,,1000 USD,REI 2020
-334513,Industrial process variable instruments manufacturing,Wage,2012,2460313,5,5,5,5,5,US,,1000 USD,REI 2020
-334514,Totalizing fluid meter and counting device manufacturing,Wage,2012,970083,5,5,5,5,5,US,,1000 USD,REI 2020
-334515,Electricity and signal testing instruments manufacturing,Wage,2012,2677765,5,5,5,5,5,US,,1000 USD,REI 2020
-334516,Analytical laboratory instrument manufacturing,Wage,2012,3738145,5,5,5,5,5,US,,1000 USD,REI 2020
-334517,Irradiation apparatus manufacturing,Wage,2012,1483165,5,5,5,5,5,US,,1000 USD,REI 2020
-33451A,"Watch, clock, and other measuring and controlling device manufacturing",Wage,2012,2477549,5,5,5,5,5,US,,1000 USD,REI 2020
-334300,Audio and video equipment manufacturing,Wage,2012,514459,5,5,5,5,5,US,,1000 USD,REI 2020
-334610,Manufacturing and reproducing magnetic and optical media,Wage,2012,754076,5,5,5,5,5,US,,1000 USD,REI 2020
-335110,Electric lamp bulb and part manufacturing,Wage,2012,417985,5,5,5,5,5,US,,1000 USD,REI 2020
-335120,Lighting fixture manufacturing,Wage,2012,1814018,5,5,5,5,5,US,,1000 USD,REI 2020
-335210,Small electrical appliance manufacturing,Wage,2012,390085,5,5,5,5,5,US,,1000 USD,REI 2020
-335221,Household cooking appliance manufacturing,Wage,2012,425454,5,5,5,5,5,US,,1000 USD,REI 2020
-335222,Household refrigerator and home freezer manufacturing,Wage,2012,420039,5,5,5,5,5,US,,1000 USD,REI 2020
-335224,Household laundry equipment manufacturing,Wage,2012,329506,5,5,5,5,5,US,,1000 USD,REI 2020
-335228,Other major household appliance manufacturing,Wage,2012,447120,5,5,5,5,5,US,,1000 USD,REI 2020
-335311,"Power, distribution, and specialty transformer manufacturing",Wage,2012,994991,5,5,5,5,5,US,,1000 USD,REI 2020
-335312,Motor and generator manufacturing,Wage,2012,1673083,5,5,5,5,5,US,,1000 USD,REI 2020
-335313,Switchgear and switchboard apparatus manufacturing,Wage,2012,1808842,5,5,5,5,5,US,,1000 USD,REI 2020
-335314,Relay and industrial control manufacturing,Wage,2012,2036842,5,5,5,5,5,US,,1000 USD,REI 2020
-335911,Storage battery manufacturing,Wage,2012,1015253,5,5,5,5,5,US,,1000 USD,REI 2020
-335912,Primary battery manufacturing,Wage,2012,392132,5,5,5,5,5,US,,1000 USD,REI 2020
-335920,Communication and energy wire and cable manufacturing,Wage,2012,1522716,5,5,5,5,5,US,,1000 USD,REI 2020
-335930,Wiring device manufacturing,Wage,2012,1945271,5,5,5,5,5,US,,1000 USD,REI 2020
-335991,Carbon and graphite product manufacturing,Wage,2012,483688,5,5,5,5,5,US,,1000 USD,REI 2020
-335999,All other miscellaneous electrical equipment and component manufacturing,Wage,2012,1991335,5,5,5,5,5,US,,1000 USD,REI 2020
-336111,Automobile manufacturing,Wage,2012,4666386,5,5,5,5,5,US,,1000 USD,REI 2020
-336112,Light truck and utility vehicle manufacturing,Wage,2012,4498406,5,5,5,5,5,US,,1000 USD,REI 2020
-336120,Heavy duty truck manufacturing,Wage,2012,1636268,5,5,5,5,5,US,,1000 USD,REI 2020
-336211,Motor vehicle body manufacturing,Wage,2012,1786268,5,5,5,5,5,US,,1000 USD,REI 2020
-336212,Truck trailer manufacturing,Wage,2012,1144920,5,5,5,5,5,US,,1000 USD,REI 2020
-336213,Motor home manufacturing,Wage,2012,311590,5,5,5,5,5,US,,1000 USD,REI 2020
-336214,Travel trailer and camper manufacturing,Wage,2012,1583767,5,5,5,5,5,US,,1000 USD,REI 2020
-336310,Motor vehicle gasoline engine and engine parts manufacturing,Wage,2012,3050869,5,5,5,5,5,US,,1000 USD,REI 2020
-336320,Motor vehicle electrical and electronic equipment manufacturing,Wage,2012,2621313,5,5,5,5,5,US,,1000 USD,REI 2020
-336350,Motor vehicle transmission and power train parts manufacturing,Wage,2012,3555411,5,5,5,5,5,US,,1000 USD,REI 2020
-336360,Motor vehicle seating and interior trim manufacturing,Wage,2012,2170094,5,5,5,5,5,US,,1000 USD,REI 2020
-336370,Motor vehicle metal stamping,Wage,2012,4380191,5,5,5,5,5,US,,1000 USD,REI 2020
-336390,Other Motor Vehicle Parts Manufacturing,Wage,2012,5610262,5,5,5,5,5,US,,1000 USD,REI 2020
-3363A0,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",Wage,2012,2448734,5,5,5,5,5,US,,1000 USD,REI 2020
-336411,Aircraft manufacturing,Wage,2012,13546319,5,5,5,5,5,US,,1000 USD,REI 2020
-336412,Aircraft engine and engine parts manufacturing,Wage,2012,5790101,5,5,5,5,5,US,,1000 USD,REI 2020
-336413,Other aircraft parts and auxiliary equipment manufacturing,Wage,2012,7515955,5,5,5,5,5,US,,1000 USD,REI 2020
-336414,Guided missile and space vehicle manufacturing,Wage,2012,3831364,5,5,5,5,5,US,,1000 USD,REI 2020
-33641A,Propulsion units and parts for space vehicles and guided missiles,Wage,2012,1567493,5,5,5,5,5,US,,1000 USD,REI 2020
-336500,Railroad rolling stock manufacturing,Wage,2012,1780475,5,5,5,5,5,US,,1000 USD,REI 2020
-336611,Ship building and repairing,Wage,2012,6399464,5,5,5,5,5,US,,1000 USD,REI 2020
-336612,Boat building,Wage,2012,1143938,5,5,5,5,5,US,,1000 USD,REI 2020
-336991,"Motorcycle, bicycle, and parts manufacturing",Wage,2012,515337,5,5,5,5,5,US,,1000 USD,REI 2020
-336992,"Military armored vehicle, tank, and tank component manufacturing",Wage,2012,747595,5,5,5,5,5,US,,1000 USD,REI 2020
-336999,All other transportation equipment manufacturing,Wage,2012,602411,5,5,5,5,5,US,,1000 USD,REI 2020
-337110,Wood kitchen cabinet and countertop manufacturing,Wage,2012,2665936,5,5,5,5,5,US,,1000 USD,REI 2020
-337121,Upholstered household furniture manufacturing,Wage,2012,1818939,5,5,5,5,5,US,,1000 USD,REI 2020
-337122,Nonupholstered wood household furniture manufacturing,Wage,2012,945585,5,5,5,5,5,US,,1000 USD,REI 2020
-337127,Institutional furniture manufacturing,Wage,2012,1132965,5,5,5,5,5,US,,1000 USD,REI 2020
-33712N,Other household nonupholstered furniture,Wage,2012,457816,5,5,5,5,5,US,,1000 USD,REI 2020
-337215,"Showcase, partition, shelving, and locker manufacturing",Wage,2012,1341781,5,5,5,5,5,US,,1000 USD,REI 2020
-33721A,Office furniture and custom architectural woodwork and millwork manufacturing,Wage,2012,3383824,5,5,5,5,5,US,,1000 USD,REI 2020
-337900,Other furniture related product manufacturing,Wage,2012,1255667,5,5,5,5,5,US,,1000 USD,REI 2020
-339112,Surgical and medical instrument manufacturing,Wage,2012,7622886,5,5,5,5,5,US,,1000 USD,REI 2020
-339113,Surgical appliance and supplies manufacturing,Wage,2012,6344907,5,5,5,5,5,US,,1000 USD,REI 2020
-339114,Dental equipment and supplies manufacturing,Wage,2012,881412,5,5,5,5,5,US,,1000 USD,REI 2020
-339115,Ophthalmic goods manufacturing,Wage,2012,1209746,5,5,5,5,5,US,,1000 USD,REI 2020
-339116,Dental laboratories,Wage,2012,1687263,5,5,5,5,5,US,,1000 USD,REI 2020
-339910,Jewelry and silverware manufacturing,Wage,2012,1020793,5,5,5,5,5,US,,1000 USD,REI 2020
-339920,Sporting and athletic goods manufacturing,Wage,2012,1678749,5,5,5,5,5,US,,1000 USD,REI 2020
-339930,"Doll, toy, and game manufacturing",Wage,2012,327695,5,5,5,5,5,US,,1000 USD,REI 2020
-339940,Office supplies (except paper) manufacturing,Wage,2012,437305,5,5,5,5,5,US,,1000 USD,REI 2020
-339950,Sign manufacturing,Wage,2012,2940154,5,5,5,5,5,US,,1000 USD,REI 2020
-339990,All other miscellaneous manufacturing,Wage,2012,5448309,5,5,5,5,5,US,,1000 USD,REI 2020
-311111,Dog and cat food manufacturing,Wage,2012,922784,5,5,5,5,5,US,,1000 USD,REI 2020
-311119,Other animal food manufacturing,Wage,2012,1250237,5,5,5,5,5,US,,1000 USD,REI 2020
-311210,Flour milling and malt manufacturing,Wage,2012,815478,5,5,5,5,5,US,,1000 USD,REI 2020
-311221,Wet corn milling,Wage,2012,487486,5,5,5,5,5,US,,1000 USD,REI 2020
-311225,Fats and oils refining and blending,Wage,2012,504603,5,5,5,5,5,US,,1000 USD,REI 2020
-311224,Soybean and other oilseed processing,Wage,2012,438800,5,5,5,5,5,US,,1000 USD,REI 2020
-311230,Breakfast cereal manufacturing,Wage,2012,848355,5,5,5,5,5,US,,1000 USD,REI 2020
-311300,Sugar and confectionery product manufacturing,Wage,2012,3045643,5,5,5,5,5,US,,1000 USD,REI 2020
-311410,Frozen food manufacturing,Wage,2012,3069379,5,5,5,5,5,US,,1000 USD,REI 2020
-311420,"Fruit and vegetable canning, pickling, and drying",Wage,2012,3381351,5,5,5,5,5,US,,1000 USD,REI 2020
-311513,Cheese manufacturing,Wage,2012,2069346,5,5,5,5,5,US,,1000 USD,REI 2020
-311514,"Dry, condensed, and evaporated dairy product manufacturing",Wage,2012,887935,5,5,5,5,5,US,,1000 USD,REI 2020
-31151A,Fluid milk and butter manufacturing,Wage,2012,2717545,5,5,5,5,5,US,,1000 USD,REI 2020
-311520,Ice cream and frozen dessert manufacturing,Wage,2012,802059,5,5,5,5,5,US,,1000 USD,REI 2020
-311615,Poultry processing,Wage,2012,6032136,5,5,5,5,5,US,,1000 USD,REI 2020
-31161A,"Animal (except poultry) slaughtering, rendering, and processing",Wage,2012,9433842,5,5,5,5,5,US,,1000 USD,REI 2020
-311700,Seafood product preparation and packaging,Wage,2012,1196207,5,5,5,5,5,US,,1000 USD,REI 2020
-311810,Bread and bakery product manufacturing,Wage,2012,6650167,5,5,5,5,5,US,,1000 USD,REI 2020
-3118A0,"Cookie, cracker, pasta, and tortilla manufacturing",Wage,2012,2890839,5,5,5,5,5,US,,1000 USD,REI 2020
-311910,Snack food manufacturing,Wage,2012,1931423,5,5,5,5,5,US,,1000 USD,REI 2020
-311920,Coffee and tea manufacturing,Wage,2012,829913,5,5,5,5,5,US,,1000 USD,REI 2020
-311930,Flavoring syrup and concentrate manufacturing,Wage,2012,424330,5,5,5,5,5,US,,1000 USD,REI 2020
-311940,Seasoning and dressing manufacturing,Wage,2012,1727166,5,5,5,5,5,US,,1000 USD,REI 2020
-311990,All other food manufacturing,Wage,2012,2482807,5,5,5,5,5,US,,1000 USD,REI 2020
-312110,Soft drink and ice manufacturing,Wage,2012,3011687,5,5,5,5,5,US,,1000 USD,REI 2020
-312120,Breweries,Wage,2012,1508933,5,5,5,5,5,US,,1000 USD,REI 2020
-312130,Wineries,Wage,2012,1844423,5,5,5,5,5,US,,1000 USD,REI 2020
-312140,Distilleries,Wage,2012,416132,5,5,5,5,5,US,,1000 USD,REI 2020
-312200,Tobacco product manufacturing,Wage,2012,930355,5,5,5,5,5,US,,1000 USD,REI 2020
-313100,"Fiber, yarn, and thread mills",Wage,2012,805813,5,5,5,5,5,US,,1000 USD,REI 2020
-313200,Fabric mills,Wage,2012,2138451,5,5,5,5,5,US,,1000 USD,REI 2020
-313300,Textile and fabric finishing and fabric coating mills,Wage,2012,1171892,5,5,5,5,5,US,,1000 USD,REI 2020
-314110,Carpet and rug mills,Wage,2012,1041013,5,5,5,5,5,US,,1000 USD,REI 2020
-314120,Curtain and linen mills,Wage,2012,669824,5,5,5,5,5,US,,1000 USD,REI 2020
-314900,Other textile product mills,Wage,2012,1922711,5,5,5,5,5,US,,1000 USD,REI 2020
-315000,Apparel manufacturing,Wage,2012,2885662,5,5,5,5,5,US,,1000 USD,REI 2020
-316000,Leather and allied product manufacturing,Wage,2012,916653,5,5,5,5,5,US,,1000 USD,REI 2020
-322110,Pulp mills,Wage,2012,662793,5,5,5,5,5,US,,1000 USD,REI 2020
-322120,Paper mills,Wage,2012,4532028,5,5,5,5,5,US,,1000 USD,REI 2020
-322130,Paperboard mills,Wage,2012,2650659,5,5,5,5,5,US,,1000 USD,REI 2020
-322210,Paperboard container manufacturing,Wage,2012,7083024,5,5,5,5,5,US,,1000 USD,REI 2020
-322220,Paper Bag and Coated and Treated Paper Manufacturing,Wage,2012,2769740,5,5,5,5,5,US,,1000 USD,REI 2020
-322230,Stationery product manufacturing,Wage,2012,879270,5,5,5,5,5,US,,1000 USD,REI 2020
-322291,Sanitary paper product manufacturing,Wage,2012,1062628,5,5,5,5,5,US,,1000 USD,REI 2020
-322299,All other converted paper product manufacturing,Wage,2012,635147,5,5,5,5,5,US,,1000 USD,REI 2020
-323110,Printing,Wage,2012,18501237,5,5,5,5,5,US,,1000 USD,REI 2020
-323120,Support activities for printing,Wage,2012,1273676,5,5,5,5,5,US,,1000 USD,REI 2020
-324110,Petroleum refineries,Wage,2012,6907617,5,5,5,5,5,US,,1000 USD,REI 2020
-324121,Asphalt paving mixture and block manufacturing,Wage,2012,775622,5,5,5,5,5,US,,1000 USD,REI 2020
-324122,Asphalt shingle and coating materials manufacturing,Wage,2012,569297,5,5,5,5,5,US,,1000 USD,REI 2020
-324190,Other petroleum and coal products manufacturing,Wage,2012,1039436,5,5,5,5,5,US,,1000 USD,REI 2020
-325110,Petrochemical manufacturing,Wage,2012,971873,5,5,5,5,5,US,,1000 USD,REI 2020
-325120,Industrial gas manufacturing,Wage,2012,722868,5,5,5,5,5,US,,1000 USD,REI 2020
-325130,Synthetic dye and pigment manufacturing,Wage,2012,668573,5,5,5,5,5,US,,1000 USD,REI 2020
-325180,Other Basic Inorganic Chemical Manufacturing,Wage,2012,3068062,5,5,5,5,5,US,,1000 USD,REI 2020
-325190,Other basic organic chemical manufacturing,Wage,2012,6801723,5,5,5,5,5,US,,1000 USD,REI 2020
-325211,Plastics material and resin manufacturing,Wage,2012,5046876,5,5,5,5,5,US,,1000 USD,REI 2020
-3252A0,Synthetic rubber and artificial and synthetic fibers and filaments manufacturing,Wage,2012,1254888,5,5,5,5,5,US,,1000 USD,REI 2020
-325411,Medicinal and botanical manufacturing,Wage,2012,2461491,5,5,5,5,5,US,,1000 USD,REI 2020
-325412,Pharmaceutical preparation manufacturing,Wage,2012,12565223,5,5,5,5,5,US,,1000 USD,REI 2020
-325413,In-vitro diagnostic substance manufacturing,Wage,2012,2357690,5,5,5,5,5,US,,1000 USD,REI 2020
-325414,Biological product (except diagnostic) manufacturing,Wage,2012,3686108,5,5,5,5,5,US,,1000 USD,REI 2020
-325310,Fertilizer manufacturing,Wage,2012,1195150,5,5,5,5,5,US,,1000 USD,REI 2020
-325320,Pesticide and other agricultural chemical manufacturing,Wage,2012,709494,5,5,5,5,5,US,,1000 USD,REI 2020
-325510,Paint and coating manufacturing,Wage,2012,2076247,5,5,5,5,5,US,,1000 USD,REI 2020
-325520,Adhesive manufacturing,Wage,2012,1155971,5,5,5,5,5,US,,1000 USD,REI 2020
-325610,Soap and cleaning compound manufacturing,Wage,2012,2669384,5,5,5,5,5,US,,1000 USD,REI 2020
-325620,Toilet preparation manufacturing,Wage,2012,2681680,5,5,5,5,5,US,,1000 USD,REI 2020
-325910,Printing ink manufacturing,Wage,2012,599076,5,5,5,5,5,US,,1000 USD,REI 2020
-3259A0,All other chemical product and preparation manufacturing,Wage,2012,4148368,5,5,5,5,5,US,,1000 USD,REI 2020
-326110,Plastics packaging materials and unlaminated film and sheet manufacturing,Wage,2012,4903678,5,5,5,5,5,US,,1000 USD,REI 2020
-326120,"Plastics pipe, pipe fitting, and unlaminated profile shape manufacturing",Wage,2012,1835708,5,5,5,5,5,US,,1000 USD,REI 2020
-326130,"Laminated plastics plate, sheet (except packaging), and shape manufacturing",Wage,2012,520234,5,5,5,5,5,US,,1000 USD,REI 2020
-326140,Polystyrene foam product manufacturing,Wage,2012,963392,5,5,5,5,5,US,,1000 USD,REI 2020
-326150,Urethane and other foam product (except polystyrene) manufacturing,Wage,2012,1221502,5,5,5,5,5,US,,1000 USD,REI 2020
-326160,Plastics bottle manufacturing,Wage,2012,1420538,5,5,5,5,5,US,,1000 USD,REI 2020
-326190,Other plastics product manufacturing,Wage,2012,14193775,5,5,5,5,5,US,,1000 USD,REI 2020
-326210,Tire manufacturing,Wage,2012,2775507,5,5,5,5,5,US,,1000 USD,REI 2020
-326220,Rubber and plastics hoses and belting manufacturing,Wage,2012,797341,5,5,5,5,5,US,,1000 USD,REI 2020
-326290,Other rubber product manufacturing,Wage,2012,2519712,5,5,5,5,5,US,,1000 USD,REI 2020
-423100,Motor vehicle and motor vehicle parts and supplies,Wage,2012,18051323,5,5,5,5,5,US,,1000 USD,REI 2020
-423400,Professional and commercial equipment and supplies,Wage,2012,54526336,5,5,5,5,5,US,,1000 USD,REI 2020
-423600,Household appliances and electrical and electronic goods ,Wage,2012,47761834,5,5,5,5,5,US,,1000 USD,REI 2020
-423800,"Machinery, equipment, and supplies",Wage,2012,43654651,5,5,5,5,5,US,,1000 USD,REI 2020
-423A00,Other durable goods merchant wholesalers,Wage,2012,57195629,5,5,5,5,5,US,,1000 USD,REI 2020
-424200,Drugs and druggists’ sundries,Wage,2012,28637820,5,5,5,5,5,US,,1000 USD,REI 2020
-424400,Grocery and related product wholesalers ,Wage,2012,38361809,5,5,5,5,5,US,,1000 USD,REI 2020
-424700,Petroleum and petroleum products,Wage,2012,7106003,5,5,5,5,5,US,,1000 USD,REI 2020
-424A00,Other nondurable goods merchant wholesalers,Wage,2012,59463302,5,5,5,5,5,US,,1000 USD,REI 2020
-425000,Wholesale electronic markets and agents and brokers,Wage,2012,15330407,5,5,5,5,5,US,,1000 USD,REI 2020
-4200ID,Customs duties,Wage,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-441000,Motor vehicle and parts dealers,Wage,2012,102841434,5,5,5,5,5,US,,1000 USD,REI 2020
-445000,Food and beverage stores,Wage,2012,60873098,5,5,5,5,5,US,,1000 USD,REI 2020
-452000,General merchandise stores,Wage,2012,60091131,5,5,5,5,5,US,,1000 USD,REI 2020
-444000,Building material and garden equipment and supplies dealers,Wage,2012,3991975,5,5,5,5,5,US,,1000 USD,REI 2020
-446000,Health and personal care stores,Wage,2012,32570303,5,5,5,5,5,US,,1000 USD,REI 2020
-447000,Gasoline stations,Wage,2012,15902777,5,5,5,5,5,US,,1000 USD,REI 2020
-448000,Clothing and clothing accessories stores,Wage,2012,28267813,5,5,5,5,5,US,,1000 USD,REI 2020
-454000,Nonstore retailers,Wage,2012,26676550,5,5,5,5,5,US,,1000 USD,REI 2020
-4B0000,All other retail,Wage,2012,45823708,5,5,5,5,5,US,,1000 USD,REI 2020
-481000,Air transportation,Wage,2012,25225569,5,5,5,5,5,US,,1000 USD,REI 2020
-482000,Rail transportation,Wage,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-483000,Water transportation,Wage,2012,4893476,5,5,5,5,5,US,,1000 USD,REI 2020
-484000,Truck transportation,Wage,2012,57988722,5,5,5,5,5,US,,1000 USD,REI 2020
-485000,Transit and ground passenger transportation,Wage,2012,11209491,5,5,5,5,5,US,,1000 USD,REI 2020
-486000,Pipeline transportation,Wage,2012,5479767,5,5,5,5,5,US,,1000 USD,REI 2020
-48A000,Scenic and sightseeing transportation and support activities for transportation,Wage,2012,30691935,5,5,5,5,5,US,,1000 USD,REI 2020
-492000,Couriers and messengers,Wage,2012,21609259,5,5,5,5,5,US,,1000 USD,REI 2020
-493000,Warehousing and storage,Wage,2012,27834951,5,5,5,5,5,US,,1000 USD,REI 2020
-511110,Newspaper publishers,Wage,2012,9341378,5,5,5,5,5,US,,1000 USD,REI 2020
-511120,Periodical Publishers,Wage,2012,7548369,5,5,5,5,5,US,,1000 USD,REI 2020
-511130,Book publishers,Wage,2012,4679766,5,5,5,5,5,US,,1000 USD,REI 2020
-5111A0,"Directory, mailing list, and other publishers",Wage,2012,3080569,5,5,5,5,5,US,,1000 USD,REI 2020
-511200,Software publishers,Wage,2012,54046050,5,5,5,5,5,US,,1000 USD,REI 2020
-512100,Motion picture and video industries,Wage,2012,14695584,5,5,5,5,5,US,,1000 USD,REI 2020
-512200,Sound recording industries,Wage,2012,2131156,5,5,5,5,5,US,,1000 USD,REI 2020
-515100,Radio and television broadcasting,Wage,2012,15388515,5,5,5,5,5,US,,1000 USD,REI 2020
-515200,Cable and other subscription programming,Wage,2012,5825049,5,5,5,5,5,US,,1000 USD,REI 2020
-517110,Wired telecommunications carriers,Wage,2012,54364192,5,5,5,5,5,US,,1000 USD,REI 2020
-517210,Wireless telecommunications carriers (except satellite),Wage,2012,15755523,5,5,5,5,5,US,,1000 USD,REI 2020
-517A00,"Satellite, telecommunications resellers, and all other telecommunications",Wage,2012,4845437,5,5,5,5,5,US,,1000 USD,REI 2020
-518200,"Data processing, hosting, and related services",Wage,2012,39129303,5,5,5,5,5,US,,1000 USD,REI 2020
-519130,Internet publishing and broadcasting and Web search portals,Wage,2012,22297578,5,5,5,5,5,US,,1000 USD,REI 2020
-5191A0,"News syndicates, libraries, archives and all other information services",Wage,2012,2174517,5,5,5,5,5,US,,1000 USD,REI 2020
-522A00,Nondepository credit intermediation and related activities,Wage,2012,57159404,5,5,5,5,5,US,,1000 USD,REI 2020
-52A000,Monetary authorities and depository credit intermediation,Wage,2012,127182201,5,5,5,5,5,US,,1000 USD,REI 2020
-523900,Other financial investment activities,Wage,2012,84821085,5,5,5,5,5,US,,1000 USD,REI 2020
-523A00,Securities and commodity contracts intermediation and brokerage,Wage,2012,85234013,5,5,5,5,5,US,,1000 USD,REI 2020
-524113,Direct life insurance carriers,Wage,2012,33620392,5,5,5,5,5,US,,1000 USD,REI 2020
-5241XX,"Insurance carriers, except direct life",Wage,2012,81959989,5,5,5,5,5,US,,1000 USD,REI 2020
-524200,"Insurance agencies, brokerages, and related activities",Wage,2012,51199312,5,5,5,5,5,US,,1000 USD,REI 2020
-525000,"Funds, trusts, and other financial vehicles",Wage,2012,580175,5,5,5,5,5,US,,1000 USD,REI 2020
+2332C0,Transportation structures and highways and streets,Wage,2012,16998921.0,5,5,5,5,5,US,,1000 USD,REI 2020
+321100,Sawmills and wood preservation,Wage,2012,2979843.0,5,5,5,5,5,US,,1000 USD,REI 2020
+321200,"Veneer, plywood, and engineered wood product manufacturing",Wage,2012,2533202.0,5,5,5,5,5,US,,1000 USD,REI 2020
+321910,Millwork,Wage,2012,3546210.0,5,5,5,5,5,US,,1000 USD,REI 2020
+3219A0,All other wood product manufacturing,Wage,2012,3419478.0,5,5,5,5,5,US,,1000 USD,REI 2020
+327100,Clay product and refractory manufacturing,Wage,2012,1453712.0,5,5,5,5,5,US,,1000 USD,REI 2020
+327200,Glass and glass product manufacturing,Wage,2012,4105815.0,5,5,5,5,5,US,,1000 USD,REI 2020
+327310,Cement manufacturing,Wage,2012,792859.0,5,5,5,5,5,US,,1000 USD,REI 2020
+327320,Ready-mix concrete manufacturing,Wage,2012,3162252.0,5,5,5,5,5,US,,1000 USD,REI 2020
+327330,"Concrete pipe, brick, and block manufacturing",Wage,2012,1068420.0,5,5,5,5,5,US,,1000 USD,REI 2020
+327390,Other concrete product manufacturing,Wage,2012,1897576.0,5,5,5,5,5,US,,1000 USD,REI 2020
+327400,Lime and gypsum product manufacturing,Wage,2012,680247.0,5,5,5,5,5,US,,1000 USD,REI 2020
+327910,Abrasive product manufacturing,Wage,2012,724573.0,5,5,5,5,5,US,,1000 USD,REI 2020
+327991,Cut stone and stone product manufacturing,Wage,2012,936598.0,5,5,5,5,5,US,,1000 USD,REI 2020
+327992,Ground or treated mineral and earth manufacturing,Wage,2012,405488.0,5,5,5,5,5,US,,1000 USD,REI 2020
+327993,Mineral wool manufacturing,Wage,2012,738101.0,5,5,5,5,5,US,,1000 USD,REI 2020
+327999,Miscellaneous nonmetallic mineral products,Wage,2012,457973.0,5,5,5,5,5,US,,1000 USD,REI 2020
+331110,Iron and steel mills and ferroalloy manufacturing,Wage,2012,7983346.0,5,5,5,5,5,US,,1000 USD,REI 2020
+331200,Steel product manufacturing from purchased steel,Wage,2012,2662531.0,5,5,5,5,5,US,,1000 USD,REI 2020
+331314,Secondary smelting and alloying of aluminum,Wage,2012,292146.0,5,5,5,5,5,US,,1000 USD,REI 2020
+331313,Alumina refining and primary aluminum production,Wage,2012,582374.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33131B,Aluminum product manufacturing from purchased aluminum,Wage,2012,2145134.0,5,5,5,5,5,US,,1000 USD,REI 2020
+331410,Nonferrous Metal (except Aluminum) Smelting and Refining,Wage,2012,689541.0,5,5,5,5,5,US,,1000 USD,REI 2020
+331420,"Copper rolling, drawing, extruding and alloying",Wage,2012,1206271.0,5,5,5,5,5,US,,1000 USD,REI 2020
+331490,"Nonferrous metal (except copper and aluminum) rolling, drawing, extruding and alloying",Wage,2012,1831115.0,5,5,5,5,5,US,,1000 USD,REI 2020
+331510,Ferrous metal foundries,Wage,2012,3602586.0,5,5,5,5,5,US,,1000 USD,REI 2020
+331520,Nonferrous metal foundries,Wage,2012,2541089.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332114,Custom roll forming,Wage,2012,1108842.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33211A,"All other forging, stamping, and sintering",Wage,2012,2107421.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332119,"Metal crown, closure, and other metal stamping (except automotive)",Wage,2012,2525669.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332200,Cutlery and handtool manufacturing,Wage,2012,1714873.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332310,Plate work and fabricated structural product manufacturing,Wage,2012,7226462.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332320,Ornamental and architectural metal products manufacturing,Wage,2012,7525442.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332410,Power boiler and heat exchanger manufacturing,Wage,2012,1507187.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332420,Metal tank (heavy gauge) manufacturing,Wage,2012,1763593.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332430,"Metal can, box, and other metal container (light gauge) manufacturing",Wage,2012,1663765.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332500,Hardware manufacturing,Wage,2012,1222279.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332600,Spring and wire product manufacturing,Wage,2012,1708510.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332710,Machine shops,Wage,2012,11797595.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332720,"Turned product and screw, nut, and bolt manufacturing",Wage,2012,7090570.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332800,"Coating, engraving, heat treating and allied activities",Wage,2012,5432247.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332913,Plumbing fixture fitting and trim manufacturing,Wage,2012,375997.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33291A,Valve and fittings other than plumbing,Wage,2012,4978883.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332991,Ball and roller bearing manufacturing,Wage,2012,1153417.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332996,Fabricated pipe and pipe fitting manufacturing,Wage,2012,1554661.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33299A,"Ammunition, arms, ordnance, and accessories manufacturing",Wage,2012,2410778.0,5,5,5,5,5,US,,1000 USD,REI 2020
+332999,Other fabricated metal manufacturing,Wage,2012,3154454.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333111,Farm machinery and equipment manufacturing,Wage,2012,3330154.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333112,Lawn and garden equipment manufacturing,Wage,2012,552358.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333120,Construction machinery manufacturing,Wage,2012,3204261.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333130,Mining and oil and gas field machinery manufacturing,Wage,2012,4750589.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333242,Semiconductor machinery manufacturing,Wage,2012,1886633.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33329A,Other industrial machinery manufacturing,Wage,2012,5011280.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333314,Optical instrument and lens manufacturing,Wage,2012,1159792.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333316,Photographic and photocopying equipment manufacturing,Wage,2012,338009.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333318,Other commercial and service industry machinery manufacturing,Wage,2012,3205001.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333414,Heating equipment (except warm air furnaces) manufacturing,Wage,2012,908292.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333415,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",Wage,2012,3926582.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333413,Industrial and commercial fan and blower and air purification equipment manufacturing,Wage,2012,1124803.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333511,Industrial mold manufacturing,Wage,2012,1873854.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333514,"Special tool, die, jig, and fixture manufacturing",Wage,2012,2399907.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333517,Machine tool manufacturing,Wage,2012,1494219.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33351B,"Cutting and machine tool accessory, rolling mill, and other metalworking machinery manufacturing",Wage,2012,2201605.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333611,Turbine and turbine generator set units manufacturing,Wage,2012,2573477.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333612,"Speed changer, industrial high-speed drive, and gear manufacturing",Wage,2012,882597.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333613,Mechanical power transmission equipment manufacturing,Wage,2012,844438.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333618,Other engine equipment manufacturing,Wage,2012,2014296.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333912,Air and gas compressor manufacturing,Wage,2012,1370353.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33391A,Pump and pumping equipment manufacturing,Wage,2012,2427611.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333920,Material handling equipment manufacturing,Wage,2012,4246229.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333991,Power-driven handtool manufacturing,Wage,2012,476119.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333993,Packaging machinery manufacturing,Wage,2012,1235109.0,5,5,5,5,5,US,,1000 USD,REI 2020
+333994,Industrial process furnace and oven manufacturing,Wage,2012,639877.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33399A,Other general purpose machinery manufacturing,Wage,2012,4298542.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33399B,Fluid power process machinery,Wage,2012,2070733.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334111,Electronic computer manufacturing,Wage,2012,2248294.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334112,Computer storage device manufacturing,Wage,2012,1517804.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334118,Computer terminals and other computer peripheral equipment manufacturing,Wage,2012,1859286.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334210,Telephone apparatus manufacturing,Wage,2012,1332694.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334220,Broadcast and wireless communications equipment,Wage,2012,6089047.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334290,Other communications equipment manufacturing,Wage,2012,962592.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334413,Semiconductor and related device manufacturing,Wage,2012,7882228.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334418,Printed circuit assembly (electronic assembly) manufacturing,Wage,2012,2956506.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33441A,Other electronic component manufacturing,Wage,2012,6256811.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334510,Electromedical and electrotherapeutic apparatus manufacturing,Wage,2012,5377611.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334511,"Search, detection, and navigation instruments manufacturing",Wage,2012,12272794.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334512,Automatic environmental control manufacturing,Wage,2012,770523.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334513,Industrial process variable instruments manufacturing,Wage,2012,2460313.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334514,Totalizing fluid meter and counting device manufacturing,Wage,2012,970083.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334515,Electricity and signal testing instruments manufacturing,Wage,2012,2677765.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334516,Analytical laboratory instrument manufacturing,Wage,2012,3738145.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334517,Irradiation apparatus manufacturing,Wage,2012,1483165.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33451A,"Watch, clock, and other measuring and controlling device manufacturing",Wage,2012,2477549.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334300,Audio and video equipment manufacturing,Wage,2012,514459.0,5,5,5,5,5,US,,1000 USD,REI 2020
+334610,Manufacturing and reproducing magnetic and optical media,Wage,2012,754076.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335110,Electric lamp bulb and part manufacturing,Wage,2012,417985.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335120,Lighting fixture manufacturing,Wage,2012,1814018.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335210,Small electrical appliance manufacturing,Wage,2012,390085.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335221,Household cooking appliance manufacturing,Wage,2012,425454.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335222,Household refrigerator and home freezer manufacturing,Wage,2012,420039.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335224,Household laundry equipment manufacturing,Wage,2012,329506.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335228,Other major household appliance manufacturing,Wage,2012,447120.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335311,"Power, distribution, and specialty transformer manufacturing",Wage,2012,994991.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335312,Motor and generator manufacturing,Wage,2012,1673083.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335313,Switchgear and switchboard apparatus manufacturing,Wage,2012,1808842.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335314,Relay and industrial control manufacturing,Wage,2012,2036842.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335911,Storage battery manufacturing,Wage,2012,1015253.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335912,Primary battery manufacturing,Wage,2012,392132.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335920,Communication and energy wire and cable manufacturing,Wage,2012,1522716.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335930,Wiring device manufacturing,Wage,2012,1945271.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335991,Carbon and graphite product manufacturing,Wage,2012,483688.0,5,5,5,5,5,US,,1000 USD,REI 2020
+335999,All other miscellaneous electrical equipment and component manufacturing,Wage,2012,1991335.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336111,Automobile manufacturing,Wage,2012,4666386.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336112,Light truck and utility vehicle manufacturing,Wage,2012,4498406.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336120,Heavy duty truck manufacturing,Wage,2012,1636268.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336211,Motor vehicle body manufacturing,Wage,2012,1786268.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336212,Truck trailer manufacturing,Wage,2012,1144920.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336213,Motor home manufacturing,Wage,2012,311590.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336214,Travel trailer and camper manufacturing,Wage,2012,1583767.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336310,Motor vehicle gasoline engine and engine parts manufacturing,Wage,2012,3050869.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336320,Motor vehicle electrical and electronic equipment manufacturing,Wage,2012,2621313.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336350,Motor vehicle transmission and power train parts manufacturing,Wage,2012,3555411.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336360,Motor vehicle seating and interior trim manufacturing,Wage,2012,2170094.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336370,Motor vehicle metal stamping,Wage,2012,4380191.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336390,Other Motor Vehicle Parts Manufacturing,Wage,2012,5610262.0,5,5,5,5,5,US,,1000 USD,REI 2020
+3363A0,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",Wage,2012,2448734.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336411,Aircraft manufacturing,Wage,2012,13546319.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336412,Aircraft engine and engine parts manufacturing,Wage,2012,5790101.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336413,Other aircraft parts and auxiliary equipment manufacturing,Wage,2012,7515955.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336414,Guided missile and space vehicle manufacturing,Wage,2012,3831364.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33641A,Propulsion units and parts for space vehicles and guided missiles,Wage,2012,1567493.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336500,Railroad rolling stock manufacturing,Wage,2012,1780475.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336611,Ship building and repairing,Wage,2012,6399464.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336612,Boat building,Wage,2012,1143938.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336991,"Motorcycle, bicycle, and parts manufacturing",Wage,2012,515337.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336992,"Military armored vehicle, tank, and tank component manufacturing",Wage,2012,747595.0,5,5,5,5,5,US,,1000 USD,REI 2020
+336999,All other transportation equipment manufacturing,Wage,2012,602411.0,5,5,5,5,5,US,,1000 USD,REI 2020
+337110,Wood kitchen cabinet and countertop manufacturing,Wage,2012,2665936.0,5,5,5,5,5,US,,1000 USD,REI 2020
+337121,Upholstered household furniture manufacturing,Wage,2012,1818939.0,5,5,5,5,5,US,,1000 USD,REI 2020
+337122,Nonupholstered wood household furniture manufacturing,Wage,2012,945585.0,5,5,5,5,5,US,,1000 USD,REI 2020
+337127,Institutional furniture manufacturing,Wage,2012,1132965.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33712N,Other household nonupholstered furniture,Wage,2012,457816.0,5,5,5,5,5,US,,1000 USD,REI 2020
+337215,"Showcase, partition, shelving, and locker manufacturing",Wage,2012,1341781.0,5,5,5,5,5,US,,1000 USD,REI 2020
+33721A,Office furniture and custom architectural woodwork and millwork manufacturing,Wage,2012,3383824.0,5,5,5,5,5,US,,1000 USD,REI 2020
+337900,Other furniture related product manufacturing,Wage,2012,1255667.0,5,5,5,5,5,US,,1000 USD,REI 2020
+339112,Surgical and medical instrument manufacturing,Wage,2012,7622886.0,5,5,5,5,5,US,,1000 USD,REI 2020
+339113,Surgical appliance and supplies manufacturing,Wage,2012,6344907.0,5,5,5,5,5,US,,1000 USD,REI 2020
+339114,Dental equipment and supplies manufacturing,Wage,2012,881412.0,5,5,5,5,5,US,,1000 USD,REI 2020
+339115,Ophthalmic goods manufacturing,Wage,2012,1209746.0,5,5,5,5,5,US,,1000 USD,REI 2020
+339116,Dental laboratories,Wage,2012,1687263.0,5,5,5,5,5,US,,1000 USD,REI 2020
+339910,Jewelry and silverware manufacturing,Wage,2012,1020793.0,5,5,5,5,5,US,,1000 USD,REI 2020
+339920,Sporting and athletic goods manufacturing,Wage,2012,1678749.0,5,5,5,5,5,US,,1000 USD,REI 2020
+339930,"Doll, toy, and game manufacturing",Wage,2012,327695.0,5,5,5,5,5,US,,1000 USD,REI 2020
+339940,Office supplies (except paper) manufacturing,Wage,2012,437305.0,5,5,5,5,5,US,,1000 USD,REI 2020
+339950,Sign manufacturing,Wage,2012,2940154.0,5,5,5,5,5,US,,1000 USD,REI 2020
+339990,All other miscellaneous manufacturing,Wage,2012,5448309.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311111,Dog and cat food manufacturing,Wage,2012,922784.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311119,Other animal food manufacturing,Wage,2012,1250237.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311210,Flour milling and malt manufacturing,Wage,2012,815478.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311221,Wet corn milling,Wage,2012,487486.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311225,Fats and oils refining and blending,Wage,2012,504603.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311224,Soybean and other oilseed processing,Wage,2012,438800.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311230,Breakfast cereal manufacturing,Wage,2012,848355.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311300,Sugar and confectionery product manufacturing,Wage,2012,3045643.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311410,Frozen food manufacturing,Wage,2012,3069379.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311420,"Fruit and vegetable canning, pickling, and drying",Wage,2012,3381351.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311513,Cheese manufacturing,Wage,2012,2069346.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311514,"Dry, condensed, and evaporated dairy product manufacturing",Wage,2012,887935.0,5,5,5,5,5,US,,1000 USD,REI 2020
+31151A,Fluid milk and butter manufacturing,Wage,2012,2717545.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311520,Ice cream and frozen dessert manufacturing,Wage,2012,802059.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311615,Poultry processing,Wage,2012,6032136.0,5,5,5,5,5,US,,1000 USD,REI 2020
+31161A,"Animal (except poultry) slaughtering, rendering, and processing",Wage,2012,9433842.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311700,Seafood product preparation and packaging,Wage,2012,1196207.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311810,Bread and bakery product manufacturing,Wage,2012,6650167.0,5,5,5,5,5,US,,1000 USD,REI 2020
+3118A0,"Cookie, cracker, pasta, and tortilla manufacturing",Wage,2012,2890839.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311910,Snack food manufacturing,Wage,2012,1931423.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311920,Coffee and tea manufacturing,Wage,2012,829913.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311930,Flavoring syrup and concentrate manufacturing,Wage,2012,424330.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311940,Seasoning and dressing manufacturing,Wage,2012,1727166.0,5,5,5,5,5,US,,1000 USD,REI 2020
+311990,All other food manufacturing,Wage,2012,2482807.0,5,5,5,5,5,US,,1000 USD,REI 2020
+312110,Soft drink and ice manufacturing,Wage,2012,3011687.0,5,5,5,5,5,US,,1000 USD,REI 2020
+312120,Breweries,Wage,2012,1508933.0,5,5,5,5,5,US,,1000 USD,REI 2020
+312130,Wineries,Wage,2012,1844423.0,5,5,5,5,5,US,,1000 USD,REI 2020
+312140,Distilleries,Wage,2012,416132.0,5,5,5,5,5,US,,1000 USD,REI 2020
+312200,Tobacco product manufacturing,Wage,2012,930355.0,5,5,5,5,5,US,,1000 USD,REI 2020
+313100,"Fiber, yarn, and thread mills",Wage,2012,805813.0,5,5,5,5,5,US,,1000 USD,REI 2020
+313200,Fabric mills,Wage,2012,2138451.0,5,5,5,5,5,US,,1000 USD,REI 2020
+313300,Textile and fabric finishing and fabric coating mills,Wage,2012,1171892.0,5,5,5,5,5,US,,1000 USD,REI 2020
+314110,Carpet and rug mills,Wage,2012,1041013.0,5,5,5,5,5,US,,1000 USD,REI 2020
+314120,Curtain and linen mills,Wage,2012,669824.0,5,5,5,5,5,US,,1000 USD,REI 2020
+314900,Other textile product mills,Wage,2012,1922711.0,5,5,5,5,5,US,,1000 USD,REI 2020
+315000,Apparel manufacturing,Wage,2012,2885662.0,5,5,5,5,5,US,,1000 USD,REI 2020
+316000,Leather and allied product manufacturing,Wage,2012,916653.0,5,5,5,5,5,US,,1000 USD,REI 2020
+322110,Pulp mills,Wage,2012,662793.0,5,5,5,5,5,US,,1000 USD,REI 2020
+322120,Paper mills,Wage,2012,4532028.0,5,5,5,5,5,US,,1000 USD,REI 2020
+322130,Paperboard mills,Wage,2012,2650659.0,5,5,5,5,5,US,,1000 USD,REI 2020
+322210,Paperboard container manufacturing,Wage,2012,7083024.0,5,5,5,5,5,US,,1000 USD,REI 2020
+322220,Paper Bag and Coated and Treated Paper Manufacturing,Wage,2012,2769740.0,5,5,5,5,5,US,,1000 USD,REI 2020
+322230,Stationery product manufacturing,Wage,2012,879270.0,5,5,5,5,5,US,,1000 USD,REI 2020
+322291,Sanitary paper product manufacturing,Wage,2012,1062628.0,5,5,5,5,5,US,,1000 USD,REI 2020
+322299,All other converted paper product manufacturing,Wage,2012,635147.0,5,5,5,5,5,US,,1000 USD,REI 2020
+323110,Printing,Wage,2012,18501237.0,5,5,5,5,5,US,,1000 USD,REI 2020
+323120,Support activities for printing,Wage,2012,1273676.0,5,5,5,5,5,US,,1000 USD,REI 2020
+324110,Petroleum refineries,Wage,2012,6907617.0,5,5,5,5,5,US,,1000 USD,REI 2020
+324121,Asphalt paving mixture and block manufacturing,Wage,2012,775622.0,5,5,5,5,5,US,,1000 USD,REI 2020
+324122,Asphalt shingle and coating materials manufacturing,Wage,2012,569297.0,5,5,5,5,5,US,,1000 USD,REI 2020
+324190,Other petroleum and coal products manufacturing,Wage,2012,1039436.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325110,Petrochemical manufacturing,Wage,2012,971873.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325120,Industrial gas manufacturing,Wage,2012,722868.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325130,Synthetic dye and pigment manufacturing,Wage,2012,668573.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325180,Other Basic Inorganic Chemical Manufacturing,Wage,2012,3068062.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325190,Other basic organic chemical manufacturing,Wage,2012,6801723.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325211,Plastics material and resin manufacturing,Wage,2012,5046876.0,5,5,5,5,5,US,,1000 USD,REI 2020
+3252A0,Synthetic rubber and artificial and synthetic fibers and filaments manufacturing,Wage,2012,1254888.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325411,Medicinal and botanical manufacturing,Wage,2012,2461491.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325412,Pharmaceutical preparation manufacturing,Wage,2012,12565223.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325413,In-vitro diagnostic substance manufacturing,Wage,2012,2357690.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325414,Biological product (except diagnostic) manufacturing,Wage,2012,3686108.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325310,Fertilizer manufacturing,Wage,2012,1195150.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325320,Pesticide and other agricultural chemical manufacturing,Wage,2012,709494.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325510,Paint and coating manufacturing,Wage,2012,2076247.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325520,Adhesive manufacturing,Wage,2012,1155971.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325610,Soap and cleaning compound manufacturing,Wage,2012,2669384.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325620,Toilet preparation manufacturing,Wage,2012,2681680.0,5,5,5,5,5,US,,1000 USD,REI 2020
+325910,Printing ink manufacturing,Wage,2012,599076.0,5,5,5,5,5,US,,1000 USD,REI 2020
+3259A0,All other chemical product and preparation manufacturing,Wage,2012,4148368.0,5,5,5,5,5,US,,1000 USD,REI 2020
+326110,Plastics packaging materials and unlaminated film and sheet manufacturing,Wage,2012,4903678.0,5,5,5,5,5,US,,1000 USD,REI 2020
+326120,"Plastics pipe, pipe fitting, and unlaminated profile shape manufacturing",Wage,2012,1835708.0,5,5,5,5,5,US,,1000 USD,REI 2020
+326130,"Laminated plastics plate, sheet (except packaging), and shape manufacturing",Wage,2012,520234.0,5,5,5,5,5,US,,1000 USD,REI 2020
+326140,Polystyrene foam product manufacturing,Wage,2012,963392.0,5,5,5,5,5,US,,1000 USD,REI 2020
+326150,Urethane and other foam product (except polystyrene) manufacturing,Wage,2012,1221502.0,5,5,5,5,5,US,,1000 USD,REI 2020
+326160,Plastics bottle manufacturing,Wage,2012,1420538.0,5,5,5,5,5,US,,1000 USD,REI 2020
+326190,Other plastics product manufacturing,Wage,2012,14193775.0,5,5,5,5,5,US,,1000 USD,REI 2020
+326210,Tire manufacturing,Wage,2012,2775507.0,5,5,5,5,5,US,,1000 USD,REI 2020
+326220,Rubber and plastics hoses and belting manufacturing,Wage,2012,797341.0,5,5,5,5,5,US,,1000 USD,REI 2020
+326290,Other rubber product manufacturing,Wage,2012,2519712.0,5,5,5,5,5,US,,1000 USD,REI 2020
+423100,Motor vehicle and motor vehicle parts and supplies,Wage,2012,18051323.0,5,5,5,5,5,US,,1000 USD,REI 2020
+423400,Professional and commercial equipment and supplies,Wage,2012,54526336.0,5,5,5,5,5,US,,1000 USD,REI 2020
+423600,Household appliances and electrical and electronic goods ,Wage,2012,47761834.0,5,5,5,5,5,US,,1000 USD,REI 2020
+423800,"Machinery, equipment, and supplies",Wage,2012,43654651.0,5,5,5,5,5,US,,1000 USD,REI 2020
+423A00,Other durable goods merchant wholesalers,Wage,2012,57195629.0,5,5,5,5,5,US,,1000 USD,REI 2020
+424200,Drugs and druggists’ sundries,Wage,2012,28637820.0,5,5,5,5,5,US,,1000 USD,REI 2020
+424400,Grocery and related product wholesalers ,Wage,2012,38361809.0,5,5,5,5,5,US,,1000 USD,REI 2020
+424700,Petroleum and petroleum products,Wage,2012,7106003.0,5,5,5,5,5,US,,1000 USD,REI 2020
+424A00,Other nondurable goods merchant wholesalers,Wage,2012,59463302.0,5,5,5,5,5,US,,1000 USD,REI 2020
+425000,Wholesale electronic markets and agents and brokers,Wage,2012,15330407.0,5,5,5,5,5,US,,1000 USD,REI 2020
+4200ID,Customs duties,Wage,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+441000,Motor vehicle and parts dealers,Wage,2012,102841434.0,5,5,5,5,5,US,,1000 USD,REI 2020
+445000,Food and beverage stores,Wage,2012,60873098.0,5,5,5,5,5,US,,1000 USD,REI 2020
+452000,General merchandise stores,Wage,2012,60091131.0,5,5,5,5,5,US,,1000 USD,REI 2020
+444000,Building material and garden equipment and supplies dealers,Wage,2012,3991975.0,5,5,5,5,5,US,,1000 USD,REI 2020
+446000,Health and personal care stores,Wage,2012,32570303.0,5,5,5,5,5,US,,1000 USD,REI 2020
+447000,Gasoline stations,Wage,2012,15902777.0,5,5,5,5,5,US,,1000 USD,REI 2020
+448000,Clothing and clothing accessories stores,Wage,2012,28267813.0,5,5,5,5,5,US,,1000 USD,REI 2020
+454000,Nonstore retailers,Wage,2012,26676550.0,5,5,5,5,5,US,,1000 USD,REI 2020
+4B0000,All other retail,Wage,2012,45823708.0,5,5,5,5,5,US,,1000 USD,REI 2020
+481000,Air transportation,Wage,2012,25225569.0,5,5,5,5,5,US,,1000 USD,REI 2020
+482000,Rail transportation,Wage,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+483000,Water transportation,Wage,2012,4893476.0,5,5,5,5,5,US,,1000 USD,REI 2020
+484000,Truck transportation,Wage,2012,57988722.0,5,5,5,5,5,US,,1000 USD,REI 2020
+485000,Transit and ground passenger transportation,Wage,2012,11209491.0,5,5,5,5,5,US,,1000 USD,REI 2020
+486000,Pipeline transportation,Wage,2012,5479767.0,5,5,5,5,5,US,,1000 USD,REI 2020
+48A000,Scenic and sightseeing transportation and support activities for transportation,Wage,2012,30691935.0,5,5,5,5,5,US,,1000 USD,REI 2020
+492000,Couriers and messengers,Wage,2012,21609259.0,5,5,5,5,5,US,,1000 USD,REI 2020
+493000,Warehousing and storage,Wage,2012,27834951.0,5,5,5,5,5,US,,1000 USD,REI 2020
+511110,Newspaper publishers,Wage,2012,9341378.0,5,5,5,5,5,US,,1000 USD,REI 2020
+511120,Periodical Publishers,Wage,2012,7548369.0,5,5,5,5,5,US,,1000 USD,REI 2020
+511130,Book publishers,Wage,2012,4679766.0,5,5,5,5,5,US,,1000 USD,REI 2020
+5111A0,"Directory, mailing list, and other publishers",Wage,2012,3080569.0,5,5,5,5,5,US,,1000 USD,REI 2020
+511200,Software publishers,Wage,2012,54046050.0,5,5,5,5,5,US,,1000 USD,REI 2020
+512100,Motion picture and video industries,Wage,2012,14695584.0,5,5,5,5,5,US,,1000 USD,REI 2020
+512200,Sound recording industries,Wage,2012,2131156.0,5,5,5,5,5,US,,1000 USD,REI 2020
+515100,Radio and television broadcasting,Wage,2012,15388515.0,5,5,5,5,5,US,,1000 USD,REI 2020
+515200,Cable and other subscription programming,Wage,2012,5825049.0,5,5,5,5,5,US,,1000 USD,REI 2020
+517110,Wired telecommunications carriers,Wage,2012,54364192.0,5,5,5,5,5,US,,1000 USD,REI 2020
+517210,Wireless telecommunications carriers (except satellite),Wage,2012,15755523.0,5,5,5,5,5,US,,1000 USD,REI 2020
+517A00,"Satellite, telecommunications resellers, and all other telecommunications",Wage,2012,4845437.0,5,5,5,5,5,US,,1000 USD,REI 2020
+518200,"Data processing, hosting, and related services",Wage,2012,39129303.0,5,5,5,5,5,US,,1000 USD,REI 2020
+519130,Internet publishing and broadcasting and Web search portals,Wage,2012,22297578.0,5,5,5,5,5,US,,1000 USD,REI 2020
+5191A0,"News syndicates, libraries, archives and all other information services",Wage,2012,2174517.0,5,5,5,5,5,US,,1000 USD,REI 2020
+522A00,Nondepository credit intermediation and related activities,Wage,2012,57159404.0,5,5,5,5,5,US,,1000 USD,REI 2020
+52A000,Monetary authorities and depository credit intermediation,Wage,2012,127182201.0,5,5,5,5,5,US,,1000 USD,REI 2020
+523900,Other financial investment activities,Wage,2012,84821085.0,5,5,5,5,5,US,,1000 USD,REI 2020
+523A00,Securities and commodity contracts intermediation and brokerage,Wage,2012,85234013.0,5,5,5,5,5,US,,1000 USD,REI 2020
+524113,Direct life insurance carriers,Wage,2012,33620392.0,5,5,5,5,5,US,,1000 USD,REI 2020
+5241XX,"Insurance carriers, except direct life",Wage,2012,81959989.0,5,5,5,5,5,US,,1000 USD,REI 2020
+524200,"Insurance agencies, brokerages, and related activities",Wage,2012,51199312.0,5,5,5,5,5,US,,1000 USD,REI 2020
+525000,"Funds, trusts, and other financial vehicles",Wage,2012,580175.0,5,5,5,5,5,US,,1000 USD,REI 2020
 531HSO,Owner-occupied housing,Wage,2012,31551466.55,5,5,5,5,5,US,,1000 USD,REI 2020
 531HST,Tenant-occupied housing,Wage,2012,10350858.35,5,5,5,5,5,US,,1000 USD,REI 2020
 531ORE,Other real estate,Wage,2012,22798334.1,5,5,5,5,5,US,,1000 USD,REI 2020
-532100,Automotive equipment rental and leasing,Wage,2012,6015845,5,5,5,5,5,US,,1000 USD,REI 2020
-532400,Commercial and industrial machinery and equipment rental and leasing,Wage,2012,9662228,5,5,5,5,5,US,,1000 USD,REI 2020
-532A00,General and consumer goods rental,Wage,2012,5768941,5,5,5,5,5,US,,1000 USD,REI 2020
-533000,Lessors of nonfinancial intangible assets,Wage,2012,3125706,5,5,5,5,5,US,,1000 USD,REI 2020
-541100,Legal services,Wage,2012,94874007,5,5,5,5,5,US,,1000 USD,REI 2020
-541511,Custom computer programming services,Wage,2012,54326366,5,5,5,5,5,US,,1000 USD,REI 2020
-541512,Computer systems design services,Wage,2012,48087568,5,5,5,5,5,US,,1000 USD,REI 2020
-54151A,"Other computer related services, including facilities management",Wage,2012,25717122,5,5,5,5,5,US,,1000 USD,REI 2020
-541200,"Accounting, tax preparation, bookkeeping, and payroll services",Wage,2012,62485380,5,5,5,5,5,US,,1000 USD,REI 2020
-541300,"Architectural, engineering, and related services",Wage,2012,103522720,5,5,5,5,5,US,,1000 USD,REI 2020
-541610,Management consulting services,Wage,2012,68329686,5,5,5,5,5,US,,1000 USD,REI 2020
-5416A0,Environmental and other technical consulting services,Wage,2012,13179278,5,5,5,5,5,US,,1000 USD,REI 2020
-541700,Scientific research and development services,Wage,2012,66020323,5,5,5,5,5,US,,1000 USD,REI 2020
-541800,"Advertising, public relations, and related services",Wage,2012,29123985,5,5,5,5,5,US,,1000 USD,REI 2020
-541400,Specialized design services,Wage,2012,6679246,5,5,5,5,5,US,,1000 USD,REI 2020
-541920,Photographic services,Wage,2012,1574247,5,5,5,5,5,US,,1000 USD,REI 2020
-541940,Veterinary services,Wage,2012,10331805,5,5,5,5,5,US,,1000 USD,REI 2020
-5419A0,"All other miscellaneous professional, scientific, and technical services ",Wage,2012,10722415,5,5,5,5,5,US,,1000 USD,REI 2020
-550000,Management of companies and enterprises,Wage,2012,316002701,5,5,5,5,5,US,,1000 USD,REI 2020
-561300,Employment services,Wage,2012,178078845,5,5,5,5,5,US,,1000 USD,REI 2020
-561700,Services to buildings and dwellings,Wage,2012,42942046,5,5,5,5,5,US,,1000 USD,REI 2020
-561100,Office administrative services,Wage,2012,26655296,5,5,5,5,5,US,,1000 USD,REI 2020
-561200,Facilities support services,Wage,2012,12508907,5,5,5,5,5,US,,1000 USD,REI 2020
-561400,Business support services,Wage,2012,25190301,5,5,5,5,5,US,,1000 USD,REI 2020
-561500,Travel arrangement and reservation services,Wage,2012,12131002,5,5,5,5,5,US,,1000 USD,REI 2020
-561600,Investigation and security services,Wage,2012,23260008,5,5,5,5,5,US,,1000 USD,REI 2020
-561900,Other support services,Wage,2012,10540325,5,5,5,5,5,US,,1000 USD,REI 2020
-562000,Waste management and remediation services,Wage,2012,19085971,5,5,5,5,5,US,,1000 USD,REI 2020
-611100,Elementary and secondary schools,Wage,2012,29578141,5,5,5,5,5,US,,1000 USD,REI 2020
-611A00,"Junior colleges, colleges, universities, and professional schools",Wage,2012,70856132,5,5,5,5,5,US,,1000 USD,REI 2020
-611B00,Other educational services,Wage,2012,20023199,5,5,5,5,5,US,,1000 USD,REI 2020
-621100,Offices of physicians,Wage,2012,183662360,5,5,5,5,5,US,,1000 USD,REI 2020
-621200,Offices of dentists,Wage,2012,39934466,5,5,5,5,5,US,,1000 USD,REI 2020
-621300,Offices of other health practitioners,Wage,2012,27790360,5,5,5,5,5,US,,1000 USD,REI 2020
-621400,Outpatient care centers,Wage,2012,36723464,5,5,5,5,5,US,,1000 USD,REI 2020
-621500,Medical and diagnostic laboratories,Wage,2012,15294600,5,5,5,5,5,US,,1000 USD,REI 2020
-621600,Home health care services,Wage,2012,32552088,5,5,5,5,5,US,,1000 USD,REI 2020
-621900,Other ambulatory health care services,Wage,2012,12050944,5,5,5,5,5,US,,1000 USD,REI 2020
-622000,Hospitals,Wage,2012,321739022,5,5,5,5,5,US,,1000 USD,REI 2020
-623A00,Nursing and community care facilities,Wage,2012,66856547,5,5,5,5,5,US,,1000 USD,REI 2020
-623B00,"Residential mental health, substance abuse, and other residential care facilities",Wage,2012,19375703,5,5,5,5,5,US,,1000 USD,REI 2020
-624100,Individual and family services,Wage,2012,31720186,5,5,5,5,5,US,,1000 USD,REI 2020
-624400,Child day care services,Wage,2012,15720416,5,5,5,5,5,US,,1000 USD,REI 2020
-624A00,"Community food, housing, and other relief services, including rehabilitation services",Wage,2012,11262294,5,5,5,5,5,US,,1000 USD,REI 2020
-711100,Performing arts companies,Wage,2012,4097735,5,5,5,5,5,US,,1000 USD,REI 2020
-711200,Spectator sports,Wage,2012,16904385,5,5,5,5,5,US,,1000 USD,REI 2020
-711500,"Independent artists, writers, and performers",Wage,2012,6512066,5,5,5,5,5,US,,1000 USD,REI 2020
-711A00,Promoters of performing arts and sports and agents for public figures,Wage,2012,5379462,5,5,5,5,5,US,,1000 USD,REI 2020
-712000,"Museums, historical sites, zoos, and parks",Wage,2012,4208185,5,5,5,5,5,US,,1000 USD,REI 2020
-713100,Amusement parks and arcades,Wage,2012,3451119,5,5,5,5,5,US,,1000 USD,REI 2020
-713200,Gambling industries (except casino hotels),Wage,2012,4664197,5,5,5,5,5,US,,1000 USD,REI 2020
-713900,Other amusement and recreation industries,Wage,2012,20793905,5,5,5,5,5,US,,1000 USD,REI 2020
-721000,Accommodation,Wage,2012,50790182,5,5,5,5,5,US,,1000 USD,REI 2020
-722110,Full-service restaurants,Wage,2012,78477178,5,5,5,5,5,US,,1000 USD,REI 2020
-722211,Limited-service restaurants,Wage,2012,46498858,5,5,5,5,5,US,,1000 USD,REI 2020
-722A00,All other food and drinking places,Wage,2012,27798579,5,5,5,5,5,US,,1000 USD,REI 2020
-811100,Automotive repair and maintenance,Wage,2012,25712703,5,5,5,5,5,US,,1000 USD,REI 2020
-811200,Electronic and precision equipment repair and maintenance,Wage,2012,5272226,5,5,5,5,5,US,,1000 USD,REI 2020
-811300,Commercial and industrial machinery and equipment repair and maintenance,Wage,2012,9739515,5,5,5,5,5,US,,1000 USD,REI 2020
-811400,Personal and household goods repair and maintenance,Wage,2012,2010690,5,5,5,5,5,US,,1000 USD,REI 2020
-812100,Personal care services,Wage,2012,11970952,5,5,5,5,5,US,,1000 USD,REI 2020
-812200,Death care services,Wage,2012,4496679,5,5,5,5,5,US,,1000 USD,REI 2020
-812300,Dry-cleaning and laundry services,Wage,2012,7161337,5,5,5,5,5,US,,1000 USD,REI 2020
-812900,Other personal services,Wage,2012,5731910,5,5,5,5,5,US,,1000 USD,REI 2020
-813100,Religious organizations,Wage,2012,32978999,5,5,5,5,5,US,,1000 USD,REI 2020
-813A00,"Grantmaking, giving, and social advocacy organizations",Wage,2012,15703370,5,5,5,5,5,US,,1000 USD,REI 2020
-813B00,"Civic, social, professional, and similar organizations",Wage,2012,28807851,5,5,5,5,5,US,,1000 USD,REI 2020
-814000,Private households,Wage,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
+532100,Automotive equipment rental and leasing,Wage,2012,6015845.0,5,5,5,5,5,US,,1000 USD,REI 2020
+532400,Commercial and industrial machinery and equipment rental and leasing,Wage,2012,9662228.0,5,5,5,5,5,US,,1000 USD,REI 2020
+532A00,General and consumer goods rental,Wage,2012,5768941.0,5,5,5,5,5,US,,1000 USD,REI 2020
+533000,Lessors of nonfinancial intangible assets,Wage,2012,3125706.0,5,5,5,5,5,US,,1000 USD,REI 2020
+541100,Legal services,Wage,2012,94874007.0,5,5,5,5,5,US,,1000 USD,REI 2020
+541511,Custom computer programming services,Wage,2012,54326366.0,5,5,5,5,5,US,,1000 USD,REI 2020
+541512,Computer systems design services,Wage,2012,48087568.0,5,5,5,5,5,US,,1000 USD,REI 2020
+54151A,"Other computer related services, including facilities management",Wage,2012,25717122.0,5,5,5,5,5,US,,1000 USD,REI 2020
+541200,"Accounting, tax preparation, bookkeeping, and payroll services",Wage,2012,62485380.0,5,5,5,5,5,US,,1000 USD,REI 2020
+541300,"Architectural, engineering, and related services",Wage,2012,103522720.0,5,5,5,5,5,US,,1000 USD,REI 2020
+541610,Management consulting services,Wage,2012,68329686.0,5,5,5,5,5,US,,1000 USD,REI 2020
+5416A0,Environmental and other technical consulting services,Wage,2012,13179278.0,5,5,5,5,5,US,,1000 USD,REI 2020
+541700,Scientific research and development services,Wage,2012,66020323.0,5,5,5,5,5,US,,1000 USD,REI 2020
+541800,"Advertising, public relations, and related services",Wage,2012,29123985.0,5,5,5,5,5,US,,1000 USD,REI 2020
+541400,Specialized design services,Wage,2012,6679246.0,5,5,5,5,5,US,,1000 USD,REI 2020
+541920,Photographic services,Wage,2012,1574247.0,5,5,5,5,5,US,,1000 USD,REI 2020
+541940,Veterinary services,Wage,2012,10331805.0,5,5,5,5,5,US,,1000 USD,REI 2020
+5419A0,"All other miscellaneous professional, scientific, and technical services ",Wage,2012,10722415.0,5,5,5,5,5,US,,1000 USD,REI 2020
+550000,Management of companies and enterprises,Wage,2012,316002701.0,5,5,5,5,5,US,,1000 USD,REI 2020
+561300,Employment services,Wage,2012,178078845.0,5,5,5,5,5,US,,1000 USD,REI 2020
+561700,Services to buildings and dwellings,Wage,2012,42942046.0,5,5,5,5,5,US,,1000 USD,REI 2020
+561100,Office administrative services,Wage,2012,26655296.0,5,5,5,5,5,US,,1000 USD,REI 2020
+561200,Facilities support services,Wage,2012,12508907.0,5,5,5,5,5,US,,1000 USD,REI 2020
+561400,Business support services,Wage,2012,25190301.0,5,5,5,5,5,US,,1000 USD,REI 2020
+561500,Travel arrangement and reservation services,Wage,2012,12131002.0,5,5,5,5,5,US,,1000 USD,REI 2020
+561600,Investigation and security services,Wage,2012,23260008.0,5,5,5,5,5,US,,1000 USD,REI 2020
+561900,Other support services,Wage,2012,10540325.0,5,5,5,5,5,US,,1000 USD,REI 2020
+562000,Waste management and remediation services,Wage,2012,19085971.0,5,5,5,5,5,US,,1000 USD,REI 2020
+611100,Elementary and secondary schools,Wage,2012,29578141.0,5,5,5,5,5,US,,1000 USD,REI 2020
+611A00,"Junior colleges, colleges, universities, and professional schools",Wage,2012,70856132.0,5,5,5,5,5,US,,1000 USD,REI 2020
+611B00,Other educational services,Wage,2012,20023199.0,5,5,5,5,5,US,,1000 USD,REI 2020
+621100,Offices of physicians,Wage,2012,183662360.0,5,5,5,5,5,US,,1000 USD,REI 2020
+621200,Offices of dentists,Wage,2012,39934466.0,5,5,5,5,5,US,,1000 USD,REI 2020
+621300,Offices of other health practitioners,Wage,2012,27790360.0,5,5,5,5,5,US,,1000 USD,REI 2020
+621400,Outpatient care centers,Wage,2012,36723464.0,5,5,5,5,5,US,,1000 USD,REI 2020
+621500,Medical and diagnostic laboratories,Wage,2012,15294600.0,5,5,5,5,5,US,,1000 USD,REI 2020
+621600,Home health care services,Wage,2012,32552088.0,5,5,5,5,5,US,,1000 USD,REI 2020
+621900,Other ambulatory health care services,Wage,2012,12050944.0,5,5,5,5,5,US,,1000 USD,REI 2020
+622000,Hospitals,Wage,2012,321739022.0,5,5,5,5,5,US,,1000 USD,REI 2020
+623A00,Nursing and community care facilities,Wage,2012,66856547.0,5,5,5,5,5,US,,1000 USD,REI 2020
+623B00,"Residential mental health, substance abuse, and other residential care facilities",Wage,2012,19375703.0,5,5,5,5,5,US,,1000 USD,REI 2020
+624100,Individual and family services,Wage,2012,31720186.0,5,5,5,5,5,US,,1000 USD,REI 2020
+624400,Child day care services,Wage,2012,15720416.0,5,5,5,5,5,US,,1000 USD,REI 2020
+624A00,"Community food, housing, and other relief services, including rehabilitation services",Wage,2012,11262294.0,5,5,5,5,5,US,,1000 USD,REI 2020
+711100,Performing arts companies,Wage,2012,4097735.0,5,5,5,5,5,US,,1000 USD,REI 2020
+711200,Spectator sports,Wage,2012,16904385.0,5,5,5,5,5,US,,1000 USD,REI 2020
+711500,"Independent artists, writers, and performers",Wage,2012,6512066.0,5,5,5,5,5,US,,1000 USD,REI 2020
+711A00,Promoters of performing arts and sports and agents for public figures,Wage,2012,5379462.0,5,5,5,5,5,US,,1000 USD,REI 2020
+712000,"Museums, historical sites, zoos, and parks",Wage,2012,4208185.0,5,5,5,5,5,US,,1000 USD,REI 2020
+713100,Amusement parks and arcades,Wage,2012,3451119.0,5,5,5,5,5,US,,1000 USD,REI 2020
+713200,Gambling industries (except casino hotels),Wage,2012,4664197.0,5,5,5,5,5,US,,1000 USD,REI 2020
+713900,Other amusement and recreation industries,Wage,2012,20793905.0,5,5,5,5,5,US,,1000 USD,REI 2020
+721000,Accommodation,Wage,2012,50790182.0,5,5,5,5,5,US,,1000 USD,REI 2020
+722110,Full-service restaurants,Wage,2012,78477178.0,5,5,5,5,5,US,,1000 USD,REI 2020
+722211,Limited-service restaurants,Wage,2012,46498858.0,5,5,5,5,5,US,,1000 USD,REI 2020
+722A00,All other food and drinking places,Wage,2012,27798579.0,5,5,5,5,5,US,,1000 USD,REI 2020
+811100,Automotive repair and maintenance,Wage,2012,25712703.0,5,5,5,5,5,US,,1000 USD,REI 2020
+811200,Electronic and precision equipment repair and maintenance,Wage,2012,5272226.0,5,5,5,5,5,US,,1000 USD,REI 2020
+811300,Commercial and industrial machinery and equipment repair and maintenance,Wage,2012,9739515.0,5,5,5,5,5,US,,1000 USD,REI 2020
+811400,Personal and household goods repair and maintenance,Wage,2012,2010690.0,5,5,5,5,5,US,,1000 USD,REI 2020
+812100,Personal care services,Wage,2012,11970952.0,5,5,5,5,5,US,,1000 USD,REI 2020
+812200,Death care services,Wage,2012,4496679.0,5,5,5,5,5,US,,1000 USD,REI 2020
+812300,Dry-cleaning and laundry services,Wage,2012,7161337.0,5,5,5,5,5,US,,1000 USD,REI 2020
+812900,Other personal services,Wage,2012,5731910.0,5,5,5,5,5,US,,1000 USD,REI 2020
+813100,Religious organizations,Wage,2012,32978999.0,5,5,5,5,5,US,,1000 USD,REI 2020
+813A00,"Grantmaking, giving, and social advocacy organizations",Wage,2012,15703370.0,5,5,5,5,5,US,,1000 USD,REI 2020
+813B00,"Civic, social, professional, and similar organizations",Wage,2012,28807851.0,5,5,5,5,5,US,,1000 USD,REI 2020
+814000,Private households,Wage,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
 S00500,Federal general government (defense),Wage,2012,40134871.2,5,5,5,5,5,US,,1000 USD,REI 2020
 S00600,Federal general government (nondefense),Wage,2012,8447142.252,5,5,5,5,5,US,,1000 USD,REI 2020
 491000,Postal service,Wage,2012,49194153.97,5,5,5,5,5,US,,1000 USD,REI 2020
-S00101,Federal electric utilities,Wage,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
+S00101,Federal electric utilities,Wage,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
 S00102,Other federal government enterprises,Wage,2012,104625494.8,5,5,5,5,5,US,,1000 USD,REI 2020
-GSLGE,State and local government educational services,Wage,2012,443903627,5,5,5,5,5,US,,1000 USD,REI 2020
+GSLGE,State and local government educational services,Wage,2012,443903627.0,5,5,5,5,5,US,,1000 USD,REI 2020
 GSLGH,State and local government hospitals and health services,Wage,2012,78536986.73,5,5,5,5,5,US,,1000 USD,REI 2020
 GSLGO,State and local government other services,Wage,2012,34666219.01,5,5,5,5,5,US,,1000 USD,REI 2020
 S00201,State and local government passenger transit,Wage,2012,14330837.88,5,5,5,5,5,US,,1000 USD,REI 2020
@@ -833,7 +833,7 @@ RS0006,Rubber Recycling ,Wage,2012,733822.3766,5,5,5,5,5,US,,1000 USD,REI 2020
 RS0007,Construction and Demolition Recycling ,Wage,2012,6086124.128,5,5,5,5,5,US,,1000 USD,REI 2020
 RS0008,Electronics Recycling ,Wage,2012,452623.3981,5,5,5,5,5,US,,1000 USD,REI 2020
 RS0009,Minimally processed animal feed,Wage,2012,48993.3648,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0010,Rendering and animal by-product processing,Wage,2012,440261,5,5,5,5,5,US,,1000 USD,REI 2020
+RS0010,Rendering and animal by-product processing,Wage,2012,440261.0,5,5,5,5,5,US,,1000 USD,REI 2020
 RS0011,Biofuels manufacturing,Wage,2012,52060.5606,5,5,5,5,5,US,,1000 USD,REI 2020
 RS0012,Anaerobic digestion,Wage,2012,3869.55494,5,5,5,5,5,US,,1000 USD,REI 2020
 RS0013,Compost manufacturing,Wage,2012,178011.9775,5,5,5,5,5,US,,1000 USD,REI 2020
@@ -849,7 +849,7 @@ RS0015,Community food program,Wage,2012,372300.925,5,5,5,5,5,US,,1000 USD,REI 20
 1121A0,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",Tax,2012,89915.69813,5,5,5,5,5,US,,1000 USD,REI 2020
 112300,Poultry and egg production,Tax,2012,15422.48651,5,5,5,5,5,US,,1000 USD,REI 2020
 112A00,"Animal production, except cattle and poultry and eggs",Tax,2012,47735.66057,5,5,5,5,5,US,,1000 USD,REI 2020
-113000,Forestry and logging,Tax,2012,371251,5,5,5,5,5,US,,1000 USD,REI 2020
+113000,Forestry and logging,Tax,2012,371251.0,5,5,5,5,5,US,,1000 USD,REI 2020
 114000,"Fishing, hunting and trapping",Tax,2012,134058.0062,5,5,5,5,5,US,,1000 USD,REI 2020
 115000,Support activities for agriculture and forestry,Tax,2012,766157.9938,5,5,5,5,5,US,,1000 USD,REI 2020
 211000,Oil and gas extraction,Tax,2012,7669655.594,5,5,5,5,5,US,,1000 USD,REI 2020
@@ -1065,8 +1065,8 @@ RS0015,Community food program,Wage,2012,372300.925,5,5,5,5,5,US,,1000 USD,REI 20
 314110,Carpet and rug mills,Tax,2012,123573.8341,5,5,5,5,5,US,,1000 USD,REI 2020
 314120,Curtain and linen mills,Tax,2012,50370.00102,5,5,5,5,5,US,,1000 USD,REI 2020
 314900,Other textile product mills,Tax,2012,122381.8734,5,5,5,5,5,US,,1000 USD,REI 2020
-315000,Apparel manufacturing,Tax,2012,1340943,5,5,5,5,5,US,,1000 USD,REI 2020
-316000,Leather and allied product manufacturing,Tax,2012,175367,5,5,5,5,5,US,,1000 USD,REI 2020
+315000,Apparel manufacturing,Tax,2012,1340943.0,5,5,5,5,5,US,,1000 USD,REI 2020
+316000,Leather and allied product manufacturing,Tax,2012,175367.0,5,5,5,5,5,US,,1000 USD,REI 2020
 322110,Pulp mills,Tax,2012,88472.73922,5,5,5,5,5,US,,1000 USD,REI 2020
 322120,Paper mills,Tax,2012,625281.2888,5,5,5,5,5,US,,1000 USD,REI 2020
 322130,Paperboard mills,Tax,2012,384075.8841,5,5,5,5,5,US,,1000 USD,REI 2020
@@ -1119,26 +1119,26 @@ RS0015,Community food program,Wage,2012,372300.925,5,5,5,5,5,US,,1000 USD,REI 20
 424400,Grocery and related product wholesalers ,Tax,2012,6745115.77,5,5,5,5,5,US,,1000 USD,REI 2020
 424700,Petroleum and petroleum products,Tax,2012,11248301.5,5,5,5,5,5,US,,1000 USD,REI 2020
 424A00,Other nondurable goods merchant wholesalers,Tax,2012,10318782.02,5,5,5,5,5,US,,1000 USD,REI 2020
-425000,Wholesale electronic markets and agents and brokers,Tax,2012,318265,5,5,5,5,5,US,,1000 USD,REI 2020
-4200ID,Customs duties,Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
+425000,Wholesale electronic markets and agents and brokers,Tax,2012,318265.0,5,5,5,5,5,US,,1000 USD,REI 2020
+4200ID,Customs duties,Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
 441000,Motor vehicle and parts dealers,Tax,2012,17115478.93,5,5,5,5,5,US,,1000 USD,REI 2020
-445000,Food and beverage stores,Tax,2012,12609115,5,5,5,5,5,US,,1000 USD,REI 2020
-452000,General merchandise stores,Tax,2012,21700104,5,5,5,5,5,US,,1000 USD,REI 2020
+445000,Food and beverage stores,Tax,2012,12609115.0,5,5,5,5,5,US,,1000 USD,REI 2020
+452000,General merchandise stores,Tax,2012,21700104.0,5,5,5,5,5,US,,1000 USD,REI 2020
 444000,Building material and garden equipment and supplies dealers,Tax,2012,1091674.074,5,5,5,5,5,US,,1000 USD,REI 2020
-446000,Health and personal care stores,Tax,2012,7601804,5,5,5,5,5,US,,1000 USD,REI 2020
-447000,Gasoline stations,Tax,2012,3470047,5,5,5,5,5,US,,1000 USD,REI 2020
-448000,Clothing and clothing accessories stores,Tax,2012,9254603,5,5,5,5,5,US,,1000 USD,REI 2020
-454000,Nonstore retailers,Tax,2012,2551640,5,5,5,5,5,US,,1000 USD,REI 2020
-4B0000,All other retail,Tax,2012,9986259,5,5,5,5,5,US,,1000 USD,REI 2020
+446000,Health and personal care stores,Tax,2012,7601804.0,5,5,5,5,5,US,,1000 USD,REI 2020
+447000,Gasoline stations,Tax,2012,3470047.0,5,5,5,5,5,US,,1000 USD,REI 2020
+448000,Clothing and clothing accessories stores,Tax,2012,9254603.0,5,5,5,5,5,US,,1000 USD,REI 2020
+454000,Nonstore retailers,Tax,2012,2551640.0,5,5,5,5,5,US,,1000 USD,REI 2020
+4B0000,All other retail,Tax,2012,9986259.0,5,5,5,5,5,US,,1000 USD,REI 2020
 481000,Air transportation,Tax,2012,7611716.36,5,5,5,5,5,US,,1000 USD,REI 2020
-482000,Rail transportation,Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
+482000,Rail transportation,Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
 483000,Water transportation,Tax,2012,1786783.64,5,5,5,5,5,US,,1000 USD,REI 2020
-484000,Truck transportation,Tax,2012,8886387,5,5,5,5,5,US,,1000 USD,REI 2020
-485000,Transit and ground passenger transportation,Tax,2012,1224002,5,5,5,5,5,US,,1000 USD,REI 2020
-486000,Pipeline transportation,Tax,2012,791088,5,5,5,5,5,US,,1000 USD,REI 2020
+484000,Truck transportation,Tax,2012,8886387.0,5,5,5,5,5,US,,1000 USD,REI 2020
+485000,Transit and ground passenger transportation,Tax,2012,1224002.0,5,5,5,5,5,US,,1000 USD,REI 2020
+486000,Pipeline transportation,Tax,2012,791088.0,5,5,5,5,5,US,,1000 USD,REI 2020
 48A000,Scenic and sightseeing transportation and support activities for transportation,Tax,2012,5861659.352,5,5,5,5,5,US,,1000 USD,REI 2020
 492000,Couriers and messengers,Tax,2012,3591128.648,5,5,5,5,5,US,,1000 USD,REI 2020
-493000,Warehousing and storage,Tax,2012,1071906,5,5,5,5,5,US,,1000 USD,REI 2020
+493000,Warehousing and storage,Tax,2012,1071906.0,5,5,5,5,5,US,,1000 USD,REI 2020
 511110,Newspaper publishers,Tax,2012,1182648.369,5,5,5,5,5,US,,1000 USD,REI 2020
 511120,Periodical Publishers,Tax,2012,1192297.796,5,5,5,5,5,US,,1000 USD,REI 2020
 511130,Book publishers,Tax,2012,1027742.601,5,5,5,5,5,US,,1000 USD,REI 2020
@@ -1151,7 +1151,7 @@ RS0015,Community food program,Wage,2012,372300.925,5,5,5,5,5,US,,1000 USD,REI 20
 517110,Wired telecommunications carriers,Tax,2012,9615794.255,5,5,5,5,5,US,,1000 USD,REI 2020
 517210,Wireless telecommunications carriers (except satellite),Tax,2012,7079909.393,5,5,5,5,5,US,,1000 USD,REI 2020
 517A00,"Satellite, telecommunications resellers, and all other telecommunications",Tax,2012,1500774.352,5,5,5,5,5,US,,1000 USD,REI 2020
-518200,"Data processing, hosting, and related services",Tax,2012,1621756,5,5,5,5,5,US,,1000 USD,REI 2020
+518200,"Data processing, hosting, and related services",Tax,2012,1621756.0,5,5,5,5,5,US,,1000 USD,REI 2020
 519130,Internet publishing and broadcasting and Web search portals,Tax,2012,5565642.602,5,5,5,5,5,US,,1000 USD,REI 2020
 5191A0,"News syndicates, libraries, archives and all other information services",Tax,2012,409747.398,5,5,5,5,5,US,,1000 USD,REI 2020
 522A00,Nondepository credit intermediation and related activities,Tax,2012,9959446.342,5,5,5,5,5,US,,1000 USD,REI 2020
@@ -1161,14 +1161,14 @@ RS0015,Community food program,Wage,2012,372300.925,5,5,5,5,5,US,,1000 USD,REI 20
 524113,Direct life insurance carriers,Tax,2012,14768653.37,5,5,5,5,5,US,,1000 USD,REI 2020
 5241XX,"Insurance carriers, except direct life",Tax,2012,31653486.76,5,5,5,5,5,US,,1000 USD,REI 2020
 524200,"Insurance agencies, brokerages, and related activities",Tax,2012,6953802.867,5,5,5,5,5,US,,1000 USD,REI 2020
-525000,"Funds, trusts, and other financial vehicles",Tax,2012,2346952,5,5,5,5,5,US,,1000 USD,REI 2020
+525000,"Funds, trusts, and other financial vehicles",Tax,2012,2346952.0,5,5,5,5,5,US,,1000 USD,REI 2020
 531HSO,Owner-occupied housing,Tax,2012,5935253.584,5,5,5,5,5,US,,1000 USD,REI 2020
 531HST,Tenant-occupied housing,Tax,2012,1947126.734,5,5,5,5,5,US,,1000 USD,REI 2020
 531ORE,Other real estate,Tax,2012,6160846.683,5,5,5,5,5,US,,1000 USD,REI 2020
 532100,Automotive equipment rental and leasing,Tax,2012,1512707.115,5,5,5,5,5,US,,1000 USD,REI 2020
 532400,Commercial and industrial machinery and equipment rental and leasing,Tax,2012,1748084.454,5,5,5,5,5,US,,1000 USD,REI 2020
 532A00,General and consumer goods rental,Tax,2012,791140.4312,5,5,5,5,5,US,,1000 USD,REI 2020
-533000,Lessors of nonfinancial intangible assets,Tax,2012,617322,5,5,5,5,5,US,,1000 USD,REI 2020
+533000,Lessors of nonfinancial intangible assets,Tax,2012,617322.0,5,5,5,5,5,US,,1000 USD,REI 2020
 541100,Legal services,Tax,2012,7396606.952,5,5,5,5,5,US,,1000 USD,REI 2020
 541511,Custom computer programming services,Tax,2012,3701199.745,5,5,5,5,5,US,,1000 USD,REI 2020
 541512,Computer systems design services,Tax,2012,3862663.82,5,5,5,5,5,US,,1000 USD,REI 2020
@@ -1183,7 +1183,7 @@ RS0015,Community food program,Wage,2012,372300.925,5,5,5,5,5,US,,1000 USD,REI 20
 541920,Photographic services,Tax,2012,160106.5065,5,5,5,5,5,US,,1000 USD,REI 2020
 541940,Veterinary services,Tax,2012,833939.2673,5,5,5,5,5,US,,1000 USD,REI 2020
 5419A0,"All other miscellaneous professional, scientific, and technical services ",Tax,2012,867205.2974,5,5,5,5,5,US,,1000 USD,REI 2020
-550000,Management of companies and enterprises,Tax,2012,36524185,5,5,5,5,5,US,,1000 USD,REI 2020
+550000,Management of companies and enterprises,Tax,2012,36524185.0,5,5,5,5,5,US,,1000 USD,REI 2020
 561300,Employment services,Tax,2012,8889356.28,5,5,5,5,5,US,,1000 USD,REI 2020
 561700,Services to buildings and dwellings,Tax,2012,4101716.623,5,5,5,5,5,US,,1000 USD,REI 2020
 561100,Office administrative services,Tax,2012,2009986.378,5,5,5,5,5,US,,1000 USD,REI 2020
@@ -1192,7 +1192,7 @@ RS0015,Community food program,Wage,2012,372300.925,5,5,5,5,5,US,,1000 USD,REI 20
 561500,Travel arrangement and reservation services,Tax,2012,1472566.609,5,5,5,5,5,US,,1000 USD,REI 2020
 561600,Investigation and security services,Tax,2012,1789616.486,5,5,5,5,5,US,,1000 USD,REI 2020
 561900,Other support services,Tax,2012,1471675.294,5,5,5,5,5,US,,1000 USD,REI 2020
-562000,Waste management and remediation services,Tax,2012,3423815,5,5,5,5,5,US,,1000 USD,REI 2020
+562000,Waste management and remediation services,Tax,2012,3423815.0,5,5,5,5,5,US,,1000 USD,REI 2020
 611100,Elementary and secondary schools,Tax,2012,637776.9927,5,5,5,5,5,US,,1000 USD,REI 2020
 611A00,"Junior colleges, colleges, universities, and professional schools",Tax,2012,1956222.556,5,5,5,5,5,US,,1000 USD,REI 2020
 611B00,Other educational services,Tax,2012,511811.4515,5,5,5,5,5,US,,1000 USD,REI 2020
@@ -1217,7 +1217,7 @@ RS0015,Community food program,Wage,2012,372300.925,5,5,5,5,5,US,,1000 USD,REI 20
 713100,Amusement parks and arcades,Tax,2012,650199.3987,5,5,5,5,5,US,,1000 USD,REI 2020
 713200,Gambling industries (except casino hotels),Tax,2012,1151447.156,5,5,5,5,5,US,,1000 USD,REI 2020
 713900,Other amusement and recreation industries,Tax,2012,2832400.445,5,5,5,5,5,US,,1000 USD,REI 2020
-721000,Accommodation,Tax,2012,4409351,5,5,5,5,5,US,,1000 USD,REI 2020
+721000,Accommodation,Tax,2012,4409351.0,5,5,5,5,5,US,,1000 USD,REI 2020
 722110,Full-service restaurants,Tax,2012,7656030.519,5,5,5,5,5,US,,1000 USD,REI 2020
 722211,Limited-service restaurants,Tax,2012,6362354.319,5,5,5,5,5,US,,1000 USD,REI 2020
 722A00,All other food and drinking places,Tax,2012,3566536.162,5,5,5,5,5,US,,1000 USD,REI 2020
@@ -1232,18 +1232,18 @@ RS0015,Community food program,Wage,2012,372300.925,5,5,5,5,5,US,,1000 USD,REI 20
 813100,Religious organizations,Tax,2012,107623.6748,5,5,5,5,5,US,,1000 USD,REI 2020
 813A00,"Grantmaking, giving, and social advocacy organizations",Tax,2012,97440.62197,5,5,5,5,5,US,,1000 USD,REI 2020
 813B00,"Civic, social, professional, and similar organizations",Tax,2012,83789.70327,5,5,5,5,5,US,,1000 USD,REI 2020
-814000,Private households,Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-S00500,Federal general government (defense),Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-S00600,Federal general government (nondefense),Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-491000,Postal service,Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-S00101,Federal electric utilities,Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-S00102,Other federal government enterprises,Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-GSLGE,State and local government educational services,Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-GSLGH,State and local government hospitals and health services,Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-GSLGO,State and local government other services,Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-S00201,State and local government passenger transit,Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-S00202,State and local government electric utilities,Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
-S00203,Other state and local government enterprises,Tax,2012,0,5,5,5,5,5,US,,1000 USD,REI 2020
+814000,Private households,Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+S00500,Federal general government (defense),Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+S00600,Federal general government (nondefense),Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+491000,Postal service,Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+S00101,Federal electric utilities,Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+S00102,Other federal government enterprises,Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+GSLGE,State and local government educational services,Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+GSLGH,State and local government hospitals and health services,Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+GSLGO,State and local government other services,Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+S00201,State and local government passenger transit,Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+S00202,State and local government electric utilities,Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
+S00203,Other state and local government enterprises,Tax,2012,0.0,5,5,5,5,5,US,,1000 USD,REI 2020
 RS0001,Ferrous Metals Recycling ,Tax,2012,1236817.509,5,5,5,5,5,US,,1000 USD,REI 2020
 RS0002,Nonferrous Metals Recycling (Aluminum),Tax,2012,547807.273,5,5,5,5,5,US,,1000 USD,REI 2020
 RS0003,Glass Recycling ,Tax,2012,99454.50994,5,5,5,5,5,US,,1000 USD,REI 2020

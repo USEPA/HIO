@@ -28,6 +28,24 @@ model <- constructEEIOMatrices(model)
 
 writeModeltoXLSX(model, file.path(rappdirs::user_data_dir(),
                                   "useeior/Model_Builds"))
+
+
+## Generate results - Impacts of total US domestic production for each model by waste material
+# Concrete
+# Extract total output by waste treatment commodities
+concrete_sector_list <-  model$WasteTreatmentCommodities$Code_Loc[grepl('C',model$WasteTreatmentCommodities$Code)]
+
+# Create final demand for total monetary amount of Concrete Waste Treament Commodities. 
+comIndex <- which(model$Commodities$Code_Loc %in% concrete_sector_list)
+y <- model$q[comIndex]
+y <- formatDemandVector(y, model$L)
+
+X <- model$L %*% y
+#Print total concrete waste
+CWasteIndex <- which(model$Commodities$Code %in% c("Concrete waste"))
+CWaste <- as.double(X[CWasteIndex,1])
+print(paste0("Total amount of concrete waste: ",CWaste, model$WasteGenMass$Unit[which(model$WasteGenMass$Code %in% "Concrete waste")]))
+
 ```
 
 

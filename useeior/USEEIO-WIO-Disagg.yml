@@ -87,7 +87,7 @@ Indicators:
     SimpleUnit: "Kilograms Carbon Dioxide (CO2)"
     SimpleName: "Greenhouse Gases"
     StaticSource: TRUE
-    StaticFile: "lciafmt/ipcc/IPCC_AR4-100_v1.0.3_e578386.parquet"
+    StaticFile: "lciafmt/ipcc/IPCC_AR4-100_v1.0.3_bc10fb4.parquet"
     FileLocation: "DataCommons"
     ScriptFunctionCall: "getImpactMethod" #function to call for script
     ScriptFunctionParameters:

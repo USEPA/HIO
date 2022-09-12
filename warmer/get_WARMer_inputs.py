@@ -27,7 +27,8 @@ if __name__ == '__main__':
     df_b.to_csv(writepath/f'{file_stub}_env.csv', index=False)
 
     df_a, df_b = get_exchanges(df_subset=model_processes, opt_mixer=None,
-                               mapping=mapping)
+                               opt_map='all', mapping=mapping,
+                               controls=['electricity', 'forest', 'fertilizer'])
 
     writepath = modulepath.parent/'useeior'
     df_a.to_csv(writepath/f'{file_stub}_{model_name}_tech.csv', index=False)

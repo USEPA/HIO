@@ -62,7 +62,7 @@ for name, df in grouped_env_by_NAICS.__iter__():
     NAICS_6 = df['Parent'].iloc[0]
     df.drop(columns=["Parent","NAICS"],inplace=True)
     env_file = os.path.join(disagg_path, env_name + "_" + NAICS_6 + ".csv")
-    # df = df.sort_values(by=['SatelliteTable','FlowUUID'])
+    df = df.sort_values(by=['SatelliteTable','FlowUUID'])
     df.to_csv(env_file, index=False)
     print(env_file + " written.")
 

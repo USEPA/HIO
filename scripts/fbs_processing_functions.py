@@ -106,7 +106,8 @@ def agg_fbsc_by_material(fbsc, model_material_codes):
 
 def replace_FlowAmount_w_FlowRatio(env):
     env = replace_NoneType_with_empty_cells(env)
-    env.loc[:,'NAICS'] = env.loc[:,'Sector'].apply(remove_last_letter)
+    # env.loc[:,'NAICS'] = env.loc[:,'Sector'].apply(remove_last_letter)
+    env.loc[:,'NAICS'] = env.loc[:,'Sector'].str[0:6]
     groupbycols = ['Flowable', 'Context','Location','Unit','Year', 'NAICS']
     denom_df = env.assign(Denominator=env.groupby(
         groupbycols)['FlowAmount'].transform('sum'))

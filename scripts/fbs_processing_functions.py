@@ -98,9 +98,9 @@ def agg_fbsc_by_material(fbsc, model_material_codes):
     # Drop the temp mat_code col
     fbsc = fbsc.drop(columns='mat_code')
 
-    # Aggregate the new sectors using the flowsa aggregator function. Remove flowamonut first
+    # Aggregate the new sectors using the flowsa aggregator function. Remove flowamount first
     groupbycols = fbsc.columns.drop("FlowAmount")
-    fbsc = aggregator(fbsc,groupbycols)
+    fbsc = aggregator(fbsc, groupbycols)
 
     return fbsc
 

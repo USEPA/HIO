@@ -6,7 +6,7 @@ models
 
 import flowsa
 from scripts.fbs_processing_functions import convert_fbsc_to_disagg_env, agg_fbsc_by_material, \
-    replace_FlowAmount_w_FlowRatio, remove_last_letter
+    replace_FlowAmount_w_FlowRatio, remove_last_letter, get_last_letter
 import pandas as pd
 import yaml
 import os
@@ -49,6 +49,9 @@ if use_FlowRatio:
 #env.loc[:,'NAICS'] = env.loc[:,'Sector'].apply(str.substr)
 env.loc[:,'NAICS'] = env.loc[:,'Sector'].str[0:6]
 
+# For "Other" sectors, ensure they are at 6 digit only
+env.loc[(env['Sector'].apply(get_last_letter) == 'X')
+        ,'Sector'] = env['NAICS'] + 'X'
 
 # join with waste naics to verify grouping by 6-digit waste naics
 waste_naics = pd.read_csv("data/waste_naics.csv",dtype={"Parent":str})

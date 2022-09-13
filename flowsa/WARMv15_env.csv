@@ -14,7 +14,7 @@ ProcessID,ProcessName,ProcessCategory,Location,Amount,Flowable,Context,Unit
 06358745-ce79-4ff2-ae97-43468fc89433,MSW landfilling of Tires,Landfilling,US,0.01887166824665447,Taxes,Economic flows,USD 2007
 06358745-ce79-4ff2-ae97-43468fc89433,MSW landfilling of Tires,Landfilling,US,7.275292665182213e-07,Jobs,Economic flows,Item(s)
 1033deda-c6cc-4b89-bb09-498655817b15,MSW recycling of Printed Circuit Board,Recycling,US,0.0,Carbon,Elementary flows/resource/biotic,kg
-1033deda-c6cc-4b89-bb09-498655817b15,MSW recycling of Printed Circuit Board,Recycling,US,0.2985745605451087,Carbon dioxide,Elementary flows/air/unspecified,kg
+1033deda-c6cc-4b89-bb09-498655817b15,MSW recycling of Printed Circuit Board,Recycling,US,-0.2985745605451087,Carbon dioxide,Elementary flows/air/unspecified,kg
 1033deda-c6cc-4b89-bb09-498655817b15,MSW recycling of Printed Circuit Board,Recycling,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
 1033deda-c6cc-4b89-bb09-498655817b15,MSW recycling of Printed Circuit Board,Recycling,US,0.0,Methane,Elementary flows/air/unspecified,kg
 1033deda-c6cc-4b89-bb09-498655817b15,MSW recycling of Printed Circuit Board,Recycling,US,0.0,"Carbon, in organic matter, in soil",Elementary flows/resource/in ground,kg
@@ -57,7 +57,7 @@ b0af7548-0313-4e5b-be2f-c05afef4fdfb,MSW recycling of HDPE,Recycling,US,0.258041
 b0af7548-0313-4e5b-be2f-c05afef4fdfb,MSW recycling of HDPE,Recycling,US,3.243567979893737e-05,Jobs,Economic flows,Item(s)
 b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
-b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,-0.00013563185430988462,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
+b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,0.0001356318543098846,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
 b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,0.0,Methane,Elementary flows/air/unspecified,kg
 b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,0.0,"Carbon, in organic matter, in soil",Elementary flows/resource/in ground,kg
 b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,0.0,Carbon,Elementary flows/resource/in ground,kg
@@ -66,9 +66,9 @@ b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily fr
 b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
 b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
 b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,0.0,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
-b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,-0.050871932802751395,Wages,Economic flows,USD 2007
-b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,-0.01887166824665447,Taxes,Economic flows,USD 2007
-b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,-7.275292665182214e-07,Jobs,Economic flows,Item(s)
+b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,0.050871932802751395,Wages,Economic flows,USD 2007
+b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,0.01887166824665447,Taxes,Economic flows,USD 2007
+b9f2b63a-9b4a-43f0-a495-90108eb4455b,MSW combustion of Mixed Paper (primarily from offices),Combustion,US,7.275292665182214e-07,Jobs,Economic flows,Item(s)
 a7662cc4-fe04-4c68-bb82-b9fa51cc534b,MSW recycling of Fly Ash,Recycling,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 a7662cc4-fe04-4c68-bb82-b9fa51cc534b,MSW recycling of Fly Ash,Recycling,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
 a7662cc4-fe04-4c68-bb82-b9fa51cc534b,MSW recycling of Fly Ash,Recycling,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
@@ -237,7 +237,6 @@ a0347d87-303c-483b-806a-afe5143bcaed,MSW landfilling of Aluminum Cans,Landfillin
 68b0b1ff-dd57-4cae-88bd-4269dd56685c,MSW combustion of Grass,Combustion,US,0.05087193280275139,Wages,Economic flows,USD 2007
 68b0b1ff-dd57-4cae-88bd-4269dd56685c,MSW combustion of Grass,Combustion,US,0.01887166824665447,Taxes,Economic flows,USD 2007
 68b0b1ff-dd57-4cae-88bd-4269dd56685c,MSW combustion of Grass,Combustion,US,7.275292665182213e-07,Jobs,Economic flows,Item(s)
-7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,0.005223907891701784,Carbon,Elementary flows/resource/biotic,kg
 7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
 7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
 7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,0.0,Methane,Elementary flows/air/unspecified,kg
@@ -248,9 +247,9 @@ a0347d87-303c-483b-806a-afe5143bcaed,MSW landfilling of Aluminum Cans,Landfillin
 7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
 7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
 7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,0.0,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
-7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,-0.2929689666831288,Wages,Economic flows,USD 2007
-7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,-0.07839287609105788,Taxes,Economic flows,USD 2007
-7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,-5.083101804895695e-06,Jobs,Economic flows,Item(s)
+7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,0.2929689666831288,Wages,Economic flows,USD 2007
+7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,0.07839287609105788,Taxes,Economic flows,USD 2007
+7f27ba53-82c9-4b49-b9ac-101ee827a688,MSW recycling of Mixed Recyclables,Recycling,US,5.083101804895695e-06,Jobs,Economic flows,Item(s)
 40c5783e-db79-43d0-afcf-4a7180ca1818,MSW composting of Dairy Products,Composting,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 40c5783e-db79-43d0-afcf-4a7180ca1818,MSW composting of Dairy Products,Composting,US,0.0006975782093961523,Carbon dioxide,Elementary flows/air/unspecified,kg
 40c5783e-db79-43d0-afcf-4a7180ca1818,MSW composting of Dairy Products,Composting,US,5.830832651844915e-05,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
@@ -528,9 +527,9 @@ a092f61e-de85-4100-bf71-65775e80692b,MSW landfilling of Copper Wire,Landfilling,
 30025f96-3ee1-47e1-b8e8-11f3d355b276,MSW recycling of Mixed Metals,Recycling,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
 30025f96-3ee1-47e1-b8e8-11f3d355b276,MSW recycling of Mixed Metals,Recycling,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
 30025f96-3ee1-47e1-b8e8-11f3d355b276,MSW recycling of Mixed Metals,Recycling,US,0.0,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
-30025f96-3ee1-47e1-b8e8-11f3d355b276,MSW recycling of Mixed Metals,Recycling,US,-1.6379871851889214,Wages,Economic flows,USD 2007
-30025f96-3ee1-47e1-b8e8-11f3d355b276,MSW recycling of Mixed Metals,Recycling,US,-0.3781491784736751,Taxes,Economic flows,USD 2007
-30025f96-3ee1-47e1-b8e8-11f3d355b276,MSW recycling of Mixed Metals,Recycling,US,-3.376261561488111e-05,Jobs,Economic flows,Item(s)
+30025f96-3ee1-47e1-b8e8-11f3d355b276,MSW recycling of Mixed Metals,Recycling,US,1.6379871851889214,Wages,Economic flows,USD 2007
+30025f96-3ee1-47e1-b8e8-11f3d355b276,MSW recycling of Mixed Metals,Recycling,US,0.3781491784736751,Taxes,Economic flows,USD 2007
+30025f96-3ee1-47e1-b8e8-11f3d355b276,MSW recycling of Mixed Metals,Recycling,US,3.376261561488111e-05,Jobs,Economic flows,Item(s)
 2ed6e837-d947-40e4-ad5d-196dfd20c8f3,MSW recycling of Aluminum Ingot,Recycling,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 2ed6e837-d947-40e4-ad5d-196dfd20c8f3,MSW recycling of Aluminum Ingot,Recycling,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
 2ed6e837-d947-40e4-ad5d-196dfd20c8f3,MSW recycling of Aluminum Ingot,Recycling,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
@@ -598,9 +597,9 @@ d850d8f5-353e-412e-b104-e90fab474e84,"MSW landfilling of Mixed Paper (primarily 
 1b246a12-d894-4381-ab43-f93c86c59b6f,MSW recycling of Mixed Plastics,Recycling,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
 1b246a12-d894-4381-ab43-f93c86c59b6f,MSW recycling of Mixed Plastics,Recycling,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
 1b246a12-d894-4381-ab43-f93c86c59b6f,MSW recycling of Mixed Plastics,Recycling,US,0.0,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
-1b246a12-d894-4381-ab43-f93c86c59b6f,MSW recycling of Mixed Plastics,Recycling,US,-1.5140545426486476,Wages,Economic flows,USD 2007
-1b246a12-d894-4381-ab43-f93c86c59b6f,MSW recycling of Mixed Plastics,Recycling,US,-0.25804140302916734,Taxes,Economic flows,USD 2007
-1b246a12-d894-4381-ab43-f93c86c59b6f,MSW recycling of Mixed Plastics,Recycling,US,-3.243567979893737e-05,Jobs,Economic flows,Item(s)
+1b246a12-d894-4381-ab43-f93c86c59b6f,MSW recycling of Mixed Plastics,Recycling,US,1.5140545426486476,Wages,Economic flows,USD 2007
+1b246a12-d894-4381-ab43-f93c86c59b6f,MSW recycling of Mixed Plastics,Recycling,US,0.25804140302916734,Taxes,Economic flows,USD 2007
+1b246a12-d894-4381-ab43-f93c86c59b6f,MSW recycling of Mixed Plastics,Recycling,US,3.243567979893737e-05,Jobs,Economic flows,Item(s)
 3b8330cf-099f-4d1f-a6c4-87e85e4d0388,"Anaerobic digestion of Grains; Dry digestion, Cured",Anaerobic digestion/Dry digestion/Cured,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 3b8330cf-099f-4d1f-a6c4-87e85e4d0388,"Anaerobic digestion of Grains; Dry digestion, Cured",Anaerobic digestion/Dry digestion/Cured,US,0.0003128122879061242,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
 3b8330cf-099f-4d1f-a6c4-87e85e4d0388,"Anaerobic digestion of Grains; Dry digestion, Cured",Anaerobic digestion/Dry digestion/Cured,US,0.001612391586313254,Methane,Elementary flows/air/unspecified,kg
@@ -642,16 +641,16 @@ b8f8fa62-6080-42e2-bea6-56fb2421d770,MSW combustion of Poultry,Combustion,US,7.2
 84d7b347-3e8b-4004-8cbc-c94739c7bbfc,"Anaerobic digestion of Beef; Dry digestion, Cured",Anaerobic digestion/Dry digestion/Cured,US,0.008708304856809013,Taxes,Economic flows,USD 2007
 84d7b347-3e8b-4004-8cbc-c94739c7bbfc,"Anaerobic digestion of Beef; Dry digestion, Cured",Anaerobic digestion/Dry digestion/Cured,US,1.162944509358672e-06,Jobs,Economic flows,Item(s)
 49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.0,Carbon,Elementary flows/resource/biotic,kg
-49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.013271019006266382,Carbon dioxide,Elementary flows/air/unspecified,kg
+49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,-0.013271019006266382,Carbon dioxide,Elementary flows/air/unspecified,kg
 49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
-49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.0006351711080788973,Methane,Elementary flows/air/unspecified,kg
+49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,-0.0006351711080788973,Methane,Elementary flows/air/unspecified,kg
 49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.0,"Carbon, in organic matter, in soil",Elementary flows/resource/in ground,kg
 49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.0,Carbon,Elementary flows/resource/in ground,kg
 49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.0,"Ethane, hexafluoro-, HFC-116",Elementary flows/air/unspecified,kg
 49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.0,"Methane, tetrafluoro-, R-14",Elementary flows/air/unspecified,kg
 49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
 49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
-49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,-4.452835445867551,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
+49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,4.452835445867551,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
 49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.0,Wages,Economic flows,USD 2007
 49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.0,Taxes,Economic flows,USD 2007
 49b1f3f0-6c53-4581-9d46-4a795bf909b9,MSW recycling of Plastic (Electronics),Recycling,US,0.0,Jobs,Economic flows,Item(s)
@@ -765,7 +764,7 @@ eb4fc04c-873c-416d-8def-22abe686aa84,"Anaerobic digestion of Poultry; Dry digest
 eb4fc04c-873c-416d-8def-22abe686aa84,"Anaerobic digestion of Poultry; Dry digestion, Cured",Anaerobic digestion/Dry digestion/Cured,US,0.008708304856809013,Taxes,Economic flows,USD 2007
 eb4fc04c-873c-416d-8def-22abe686aa84,"Anaerobic digestion of Poultry; Dry digestion, Cured",Anaerobic digestion/Dry digestion/Cured,US,1.162944509358672e-06,Jobs,Economic flows,Item(s)
 5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,Carbon,Elementary flows/resource/biotic,kg
-5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,-0.01870679685026271,Carbon dioxide,Elementary flows/air/unspecified,kg
+5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
 5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
 5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,Methane,Elementary flows/air/unspecified,kg
 5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,"Carbon, in organic matter, in soil",Elementary flows/resource/in ground,kg
@@ -773,8 +772,8 @@ eb4fc04c-873c-416d-8def-22abe686aa84,"Anaerobic digestion of Poultry; Dry digest
 5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,"Ethane, hexafluoro-, HFC-116",Elementary flows/air/unspecified,kg
 5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,"Methane, tetrafluoro-, R-14",Elementary flows/air/unspecified,kg
 5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
-5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,-3.62009744482903e-06,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
-5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.3134652765518819,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
+5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
+5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
 5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,Wages,Economic flows,USD 2007
 5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,Taxes,Economic flows,USD 2007
 5f2b6425-4cd8-454e-acc0-9c3c22a90598,MSW landfilling of Electronics Scrap,Landfilling,US,0.0,Jobs,Economic flows,Item(s)
@@ -1304,7 +1303,6 @@ feb6fe86-c8b1-4dbc-a008-d72d3d88f151,MSW combustion of Tires (Energy),Combustion
 feb6fe86-c8b1-4dbc-a008-d72d3d88f151,MSW combustion of Tires (Energy),Combustion,US,0.0,"Ethane, hexafluoro-, HFC-116",Elementary flows/air/unspecified,kg
 feb6fe86-c8b1-4dbc-a008-d72d3d88f151,MSW combustion of Tires (Energy),Combustion,US,0.0,"Methane, tetrafluoro-, R-14",Elementary flows/air/unspecified,kg
 feb6fe86-c8b1-4dbc-a008-d72d3d88f151,MSW combustion of Tires (Energy),Combustion,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
-feb6fe86-c8b1-4dbc-a008-d72d3d88f151,MSW combustion of Tires (Energy),Combustion,US,32.45711374197443,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
 feb6fe86-c8b1-4dbc-a008-d72d3d88f151,MSW combustion of Tires (Energy),Combustion,US,0.05087193280275139,Wages,Economic flows,USD 2007
 feb6fe86-c8b1-4dbc-a008-d72d3d88f151,MSW combustion of Tires (Energy),Combustion,US,0.01887166824665447,Taxes,Economic flows,USD 2007
 feb6fe86-c8b1-4dbc-a008-d72d3d88f151,MSW combustion of Tires (Energy),Combustion,US,7.275292665182213e-07,Jobs,Economic flows,Item(s)
@@ -1684,7 +1682,7 @@ a5df3baf-1dfa-40ea-8650-f2311e44ff84,MSW recycling of Electronic Peripherals,Rec
 9c808445-95a1-4782-9089-023910c5bcfe,"MSW landfilling of Medium-density Fiberboard; National average LFG recovery, typical collection, National average conditions",Landfilling/National Average LFG recovery/Typical operation/National Average,US,7.275292665182213e-07,Jobs,Economic flows,Item(s)
 4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
-4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,-0.00013563185430988446,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
+4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,0.00013563185430988446,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
 4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,0.0,Methane,Elementary flows/air/unspecified,kg
 4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,0.0,"Carbon, in organic matter, in soil",Elementary flows/resource/in ground,kg
 4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,0.0,Carbon,Elementary flows/resource/in ground,kg
@@ -1693,9 +1691,9 @@ a5df3baf-1dfa-40ea-8650-f2311e44ff84,MSW recycling of Electronic Peripherals,Rec
 4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
 4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
 4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,0.0,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
-4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,-0.05087193280275133,Wages,Economic flows,USD 2007
-4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,-0.018871668246654448,Taxes,Economic flows,USD 2007
-4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,-7.275292665182206e-07,Jobs,Economic flows,Item(s)
+4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,0.05087193280275133,Wages,Economic flows,USD 2007
+4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,0.018871668246654448,Taxes,Economic flows,USD 2007
+4614fc7e-21b6-4686-9bd1-425eab3bd7d2,MSW combustion of Mixed Organics,Combustion,US,7.275292665182206e-07,Jobs,Economic flows,Item(s)
 ecbc1f1c-8fdf-48d7-9773-39e25cb8d4e7,MSW composting of Food Waste (non-meat),Composting,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 ecbc1f1c-8fdf-48d7-9773-39e25cb8d4e7,MSW composting of Food Waste (non-meat),Composting,US,0.0006975782093961523,Carbon dioxide,Elementary flows/air/unspecified,kg
 ecbc1f1c-8fdf-48d7-9773-39e25cb8d4e7,MSW composting of Food Waste (non-meat),Composting,US,5.830832651844915e-05,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
@@ -1819,9 +1817,9 @@ a17b6c63-89ab-4186-910b-f79d2980654e,MSW composting of Branches,Composting,US,7.
 35db8086-4748-4bb5-89af-ac9981f55a77,MSW combustion of Mixed Metals,Combustion,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
 35db8086-4748-4bb5-89af-ac9981f55a77,MSW combustion of Mixed Metals,Combustion,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
 35db8086-4748-4bb5-89af-ac9981f55a77,MSW combustion of Mixed Metals,Combustion,US,0.0,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
-35db8086-4748-4bb5-89af-ac9981f55a77,MSW combustion of Mixed Metals,Combustion,US,-0.05087193280275139,Wages,Economic flows,USD 2007
-35db8086-4748-4bb5-89af-ac9981f55a77,MSW combustion of Mixed Metals,Combustion,US,-0.01887166824665447,Taxes,Economic flows,USD 2007
-35db8086-4748-4bb5-89af-ac9981f55a77,MSW combustion of Mixed Metals,Combustion,US,-7.275292665182213e-07,Jobs,Economic flows,Item(s)
+35db8086-4748-4bb5-89af-ac9981f55a77,MSW combustion of Mixed Metals,Combustion,US,0.05087193280275139,Wages,Economic flows,USD 2007
+35db8086-4748-4bb5-89af-ac9981f55a77,MSW combustion of Mixed Metals,Combustion,US,0.01887166824665447,Taxes,Economic flows,USD 2007
+35db8086-4748-4bb5-89af-ac9981f55a77,MSW combustion of Mixed Metals,Combustion,US,7.275292665182213e-07,Jobs,Economic flows,Item(s)
 65dadb5b-d500-4c7c-824b-683a5788b76b,MSW composting of Grass,Composting,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 65dadb5b-d500-4c7c-824b-683a5788b76b,MSW composting of Grass,Composting,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
 65dadb5b-d500-4c7c-824b-683a5788b76b,MSW composting of Grass,Composting,US,5.300756855339448e-05,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
@@ -1903,9 +1901,9 @@ e52fda9f-852b-461f-992b-e16f3762d676,MSW recycling of Portable Electronic Device
 4c4d2392-e215-4b51-8a83-76865e5320df,MSW recycling of Mixed Electronics,Recycling,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
 4c4d2392-e215-4b51-8a83-76865e5320df,MSW recycling of Mixed Electronics,Recycling,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
 4c4d2392-e215-4b51-8a83-76865e5320df,MSW recycling of Mixed Electronics,Recycling,US,0.0,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
-4c4d2392-e215-4b51-8a83-76865e5320df,MSW recycling of Mixed Electronics,Recycling,US,-2.7351352543045477,Wages,Economic flows,USD 2007
-4c4d2392-e215-4b51-8a83-76865e5320df,MSW recycling of Mixed Electronics,Recycling,US,-0.8098503053418284,Taxes,Economic flows,USD 2007
-4c4d2392-e215-4b51-8a83-76865e5320df,MSW recycling of Mixed Electronics,Recycling,US,-3.949602063537556e-05,Jobs,Economic flows,Item(s)
+4c4d2392-e215-4b51-8a83-76865e5320df,MSW recycling of Mixed Electronics,Recycling,US,2.7351352543045477,Wages,Economic flows,USD 2007
+4c4d2392-e215-4b51-8a83-76865e5320df,MSW recycling of Mixed Electronics,Recycling,US,0.8098503053418283,Taxes,Economic flows,USD 2007
+4c4d2392-e215-4b51-8a83-76865e5320df,MSW recycling of Mixed Electronics,Recycling,US,3.949602063537556e-05,Jobs,Economic flows,Item(s)
 bdb03ac2-a2cc-46b6-90d2-5a51f8c7cf93,MSW recycling of Hard-copy Devices,Recycling,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 bdb03ac2-a2cc-46b6-90d2-5a51f8c7cf93,MSW recycling of Hard-copy Devices,Recycling,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
 bdb03ac2-a2cc-46b6-90d2-5a51f8c7cf93,MSW recycling of Hard-copy Devices,Recycling,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
@@ -2269,7 +2267,7 @@ f2b486ca-d8cb-4152-8a34-1b477c1031e1,"Anaerobic digestion of Mixed Organics; Dry
 200c8b46-2b20-4b8b-b6cb-8e91a0a23e1f,"Anaerobic digestion of Yard Trimmings; Dry digestion, Cured",Anaerobic digestion/Dry digestion/Cured,US,0.005952512180603629,Taxes,Economic flows,USD 2007
 200c8b46-2b20-4b8b-b6cb-8e91a0a23e1f,"Anaerobic digestion of Yard Trimmings; Dry digestion, Cured",Anaerobic digestion/Dry digestion/Cured,US,1.0857823144249211e-06,Jobs,Economic flows,Item(s)
 e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,0.0,Carbon,Elementary flows/resource/biotic,kg
-e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,-2.577374577778878,Carbon dioxide,Elementary flows/air/unspecified,kg
+e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,2.577374577778878,Carbon dioxide,Elementary flows/air/unspecified,kg
 e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
 e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,0.0,Methane,Elementary flows/air/unspecified,kg
 e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,0.0,"Carbon, in organic matter, in soil",Elementary flows/resource/in ground,kg
@@ -2279,9 +2277,9 @@ e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion
 e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
 e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
 e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,0.0,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
-e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,-0.05087193280275139,Wages,Economic flows,USD 2007
-e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,-0.01887166824665447,Taxes,Economic flows,USD 2007
-e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,-7.275292665182213e-07,Jobs,Economic flows,Item(s)
+e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,0.05087193280275139,Wages,Economic flows,USD 2007
+e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,0.01887166824665447,Taxes,Economic flows,USD 2007
+e847ff05-48e3-4df0-ae4d-db2bafe56baf,MSW combustion of Mixed Plastics,Combustion,US,7.275292665182213e-07,Jobs,Economic flows,Item(s)
 01c131fe-c3ed-4ad1-b29c-06467ee183dd,MSW landfilling of HDPE,Landfilling,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 01c131fe-c3ed-4ad1-b29c-06467ee183dd,MSW landfilling of HDPE,Landfilling,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
 01c131fe-c3ed-4ad1-b29c-06467ee183dd,MSW landfilling of HDPE,Landfilling,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
@@ -2326,7 +2324,7 @@ dd40ed9f-7dcf-4f59-9804-cb0370d5abda,MSW combustion of LLDPE,Combustion,US,0.018
 dd40ed9f-7dcf-4f59-9804-cb0370d5abda,MSW combustion of LLDPE,Combustion,US,7.275292665182213e-07,Jobs,Economic flows,Item(s)
 1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
-1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,-0.00011831828296239337,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
+1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,0.00011831828296239336,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
 1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,0.0,Methane,Elementary flows/air/unspecified,kg
 1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,0.0,"Carbon, in organic matter, in soil",Elementary flows/resource/in ground,kg
 1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,0.0,Carbon,Elementary flows/resource/in ground,kg
@@ -2335,9 +2333,9 @@ dd40ed9f-7dcf-4f59-9804-cb0370d5abda,MSW combustion of LLDPE,Combustion,US,7.275
 1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
 1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
 1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,0.0,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
-1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,-0.049313405403452616,Wages,Economic flows,USD 2007
-1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,-0.018293510303512648,Taxes,Economic flows,USD 2007
-1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,-7.052404673083148e-07,Jobs,Economic flows,Item(s)
+1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,0.04931340540345261,Wages,Economic flows,USD 2007
+1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,0.018293510303512648,Taxes,Economic flows,USD 2007
+1720bc4f-c0b8-4533-9eb8-95046c3a6498,MSW combustion of Mixed Recyclables,Combustion,US,7.052404673083147e-07,Jobs,Economic flows,Item(s)
 f717c090-de4c-46d2-8fdb-861e8fac825a,MSW landfilling of Carpet,Landfilling,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 f717c090-de4c-46d2-8fdb-861e8fac825a,MSW landfilling of Carpet,Landfilling,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
 f717c090-de4c-46d2-8fdb-861e8fac825a,MSW landfilling of Carpet,Landfilling,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
@@ -2458,14 +2456,13 @@ d44bac6c-bb6d-4595-92fd-423d4aa7411e,MSW combustion of Branches,Combustion,US,7.
 0cbd65f7-fb7c-4c1b-9e59-7de90f0ceea1,MSW combustion of Asphalt Shingles,Combustion,US,0.0,"Ethane, hexafluoro-, HFC-116",Elementary flows/air/unspecified,kg
 0cbd65f7-fb7c-4c1b-9e59-7de90f0ceea1,MSW combustion of Asphalt Shingles,Combustion,US,0.0,"Methane, tetrafluoro-, R-14",Elementary flows/air/unspecified,kg
 0cbd65f7-fb7c-4c1b-9e59-7de90f0ceea1,MSW combustion of Asphalt Shingles,Combustion,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
-0cbd65f7-fb7c-4c1b-9e59-7de90f0ceea1,MSW combustion of Asphalt Shingles,Combustion,US,10.282413633457514,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
 0cbd65f7-fb7c-4c1b-9e59-7de90f0ceea1,MSW combustion of Asphalt Shingles,Combustion,US,0.05087193280275139,Wages,Economic flows,USD 2007
 0cbd65f7-fb7c-4c1b-9e59-7de90f0ceea1,MSW combustion of Asphalt Shingles,Combustion,US,0.01887166824665447,Taxes,Economic flows,USD 2007
 0cbd65f7-fb7c-4c1b-9e59-7de90f0ceea1,MSW combustion of Asphalt Shingles,Combustion,US,7.275292665182213e-07,Jobs,Economic flows,Item(s)
 6bf60251-e548-4680-b610-f24eec82ca2a,MSW recycling of CRT Glass and Lead,Recycling,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 6bf60251-e548-4680-b610-f24eec82ca2a,MSW recycling of CRT Glass and Lead,Recycling,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
 6bf60251-e548-4680-b610-f24eec82ca2a,MSW recycling of CRT Glass and Lead,Recycling,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
-6bf60251-e548-4680-b610-f24eec82ca2a,MSW recycling of CRT Glass and Lead,Recycling,US,0.000704636345598448,Methane,Elementary flows/air/unspecified,kg
+6bf60251-e548-4680-b610-f24eec82ca2a,MSW recycling of CRT Glass and Lead,Recycling,US,-0.000704636345598448,Methane,Elementary flows/air/unspecified,kg
 6bf60251-e548-4680-b610-f24eec82ca2a,MSW recycling of CRT Glass and Lead,Recycling,US,0.0,"Carbon, in organic matter, in soil",Elementary flows/resource/in ground,kg
 6bf60251-e548-4680-b610-f24eec82ca2a,MSW recycling of CRT Glass and Lead,Recycling,US,0.0,Carbon,Elementary flows/resource/in ground,kg
 6bf60251-e548-4680-b610-f24eec82ca2a,MSW recycling of CRT Glass and Lead,Recycling,US,0.0,"Ethane, hexafluoro-, HFC-116",Elementary flows/air/unspecified,kg
@@ -2477,7 +2474,7 @@ d44bac6c-bb6d-4595-92fd-423d4aa7411e,MSW combustion of Branches,Combustion,US,7.
 6bf60251-e548-4680-b610-f24eec82ca2a,MSW recycling of CRT Glass and Lead,Recycling,US,0.0,Taxes,Economic flows,USD 2007
 6bf60251-e548-4680-b610-f24eec82ca2a,MSW recycling of CRT Glass and Lead,Recycling,US,0.0,Jobs,Economic flows,Item(s)
 54b4047a-2acc-4c7a-8e18-ac4647eba4cb,MSW recycling of Battery,Recycling,US,0.0,Carbon,Elementary flows/resource/biotic,kg
-54b4047a-2acc-4c7a-8e18-ac4647eba4cb,MSW recycling of Battery,Recycling,US,-0.5501351301200224,Carbon dioxide,Elementary flows/air/unspecified,kg
+54b4047a-2acc-4c7a-8e18-ac4647eba4cb,MSW recycling of Battery,Recycling,US,0.5501351301200224,Carbon dioxide,Elementary flows/air/unspecified,kg
 54b4047a-2acc-4c7a-8e18-ac4647eba4cb,MSW recycling of Battery,Recycling,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
 54b4047a-2acc-4c7a-8e18-ac4647eba4cb,MSW recycling of Battery,Recycling,US,0.0,Methane,Elementary flows/air/unspecified,kg
 54b4047a-2acc-4c7a-8e18-ac4647eba4cb,MSW recycling of Battery,Recycling,US,0.0,"Carbon, in organic matter, in soil",Elementary flows/resource/in ground,kg
@@ -2492,7 +2489,7 @@ d44bac6c-bb6d-4595-92fd-423d4aa7411e,MSW combustion of Branches,Combustion,US,7.
 54b4047a-2acc-4c7a-8e18-ac4647eba4cb,MSW recycling of Battery,Recycling,US,0.0,Jobs,Economic flows,Item(s)
 05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
-05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,-0.0001356318543098846,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
+05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,0.0001356318543098846,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
 05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,0.0,Methane,Elementary flows/air/unspecified,kg
 05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,0.0,"Carbon, in organic matter, in soil",Elementary flows/resource/in ground,kg
 05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,0.0,Carbon,Elementary flows/resource/in ground,kg
@@ -2501,9 +2498,9 @@ d44bac6c-bb6d-4595-92fd-423d4aa7411e,MSW combustion of Branches,Combustion,US,7.
 05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
 05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
 05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,0.0,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
-05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,-0.05087193280275139,Wages,Economic flows,USD 2007
-05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,-0.01887166824665447,Taxes,Economic flows,USD 2007
-05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,-7.275292665182213e-07,Jobs,Economic flows,Item(s)
+05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,0.05087193280275139,Wages,Economic flows,USD 2007
+05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,0.01887166824665447,Taxes,Economic flows,USD 2007
+05019125-514c-4a70-98ac-56a5a10782aa,MSW combustion of Mixed Paper (general),Combustion,US,7.275292665182213e-07,Jobs,Economic flows,Item(s)
 fcf561e8-b24b-4bca-931f-070c9e18625c,MSW recycling of Drywall,Recycling,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 fcf561e8-b24b-4bca-931f-070c9e18625c,MSW recycling of Drywall,Recycling,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
 fcf561e8-b24b-4bca-931f-070c9e18625c,MSW recycling of Drywall,Recycling,US,0.0,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
@@ -2590,7 +2587,7 @@ e4c1cbaa-4511-4158-9118-bfb4492fc67f,MSW recycling of Aluminum Cans,Recycling,US
 e4c1cbaa-4511-4158-9118-bfb4492fc67f,MSW recycling of Aluminum Cans,Recycling,US,8.64051235697436e-05,Jobs,Economic flows,Item(s)
 c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,0.0,Carbon dioxide,Elementary flows/air/unspecified,kg
-c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,-0.0001356318543098846,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
+c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,0.0001356318543098846,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
 c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,0.0,Methane,Elementary flows/air/unspecified,kg
 c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,0.0,"Carbon, in organic matter, in soil",Elementary flows/resource/in ground,kg
 c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,0.0,Carbon,Elementary flows/resource/in ground,kg
@@ -2599,9 +2596,9 @@ c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily re
 c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,0.0,"Other means of transport (no truck, train or ship)",Transport,t*km
 c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,0.0,"GHGs, unspecified",Elementary flows/air/unspecified,MTCO2E
 c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,0.0,"Energy, unspecified",Elementary flows/resource/unspecified,MJ
-c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,-0.05087193280275139,Wages,Economic flows,USD 2007
-c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,-0.01887166824665447,Taxes,Economic flows,USD 2007
-c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,-7.275292665182213e-07,Jobs,Economic flows,Item(s)
+c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,0.05087193280275139,Wages,Economic flows,USD 2007
+c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,0.01887166824665447,Taxes,Economic flows,USD 2007
+c3ee143a-432c-4cca-81f5-2f57fc721272,MSW combustion of Mixed Paper (primarily residential),Combustion,US,7.275292665182213e-07,Jobs,Economic flows,Item(s)
 46efe39f-c9f2-4fc9-a164-8b84c04781ac,"Anaerobic digestion of Fruits and Vegetables; Dry digestion, Cured",Anaerobic digestion/Dry digestion/Cured,US,0.0,Carbon,Elementary flows/resource/biotic,kg
 46efe39f-c9f2-4fc9-a164-8b84c04781ac,"Anaerobic digestion of Fruits and Vegetables; Dry digestion, Cured",Anaerobic digestion/Dry digestion/Cured,US,0.0003128122879061242,Dinitrogen monoxide,Elementary flows/air/unspecified,kg
 46efe39f-c9f2-4fc9-a164-8b84c04781ac,"Anaerobic digestion of Fruits and Vegetables; Dry digestion, Cured",Anaerobic digestion/Dry digestion/Cured,US,0.001612391586313254,Methane,Elementary flows/air/unspecified,kg

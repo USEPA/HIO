@@ -26,7 +26,7 @@ HIOmodelmeta <- list(
                          "WasteCombustorsDisaggregation",
                          "MRFsDisaggregation"))
 
-saveModels <- function (v, meta, prefix) {
+saveModels <- function (v, meta, prefix, path_save) {
    for (i in 1:length(v)) {
     name <- names(meta)[i]
     cpaths <- c()
@@ -35,17 +35,18 @@ saveModels <- function (v, meta, prefix) {
     }
     loginfo(paste("Attempting to build", name))
     model <- buildModel(name, configpaths=file.path(cpaths))
-    savename <- paste0(prefix, v[i])
-    saveRDS(model, paste0(savename, ".rds"))  
-    loginfo(paste("Saved", name, "as", savename, "to .rds"))
+    name_save <- paste0(prefix, v[i])
+    saveRDS(model, paste0(path_save, name_save, ".rds"))  
+    loginfo(paste("Saved", name, "as", name_save, "to .rds"))
   }
 } 
 
+path_save <- "../../../WARM-USEEIOdocs/data/"
 # v <- c("USEEIO","REI")
 v <- c("REI")
 prefix <- "REF-"
-saveModels(v, parentmodelmeta, prefix)
+saveModels(v, parentmodelmeta, prefix, path_save)
 
 v <- c(1:4)
 prefix <- "HIO-"
-saveModels(v, HIOmodelmeta, prefix)
+saveModels(v, HIOmodelmeta, prefix, path_save)

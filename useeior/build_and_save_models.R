@@ -1,11 +1,13 @@
 library(devtools)
-# devtools::load_all("../../useeior")
-devtools::load_all("../../../../useeior_dev/useeior")
+devtools::load_all("../../useeior")
+# devtools::load_all("../../../../useeior_dev/useeior")
+
+path_save <- "../../WARM-USEEIOdocs/data/"
 library(logging)
-addHandler(writeToFile, file="build_and_save_REF_and_HIO_models.log")
+addHandler(writeToFile, file=paste0(path_save, "build_and_save_REF_and_HIO_models.log"))
 
 parentmodelmeta <- list(
-  # "USEEIOv2.0.2-walrus" = c("USEEIOv2.0.2-walrus"),  # 2018 FBS files needed
+  "USEEIOv2.0.2-walrus" = c("USEEIOv2.0.2-walrus"),  # 2018 FBS files needed
   "USEEIO-REI-Reference" = c("USEEIO-REI-Reference", 
                              "REI_WIO"))
 
@@ -41,9 +43,7 @@ saveModels <- function (v, meta, prefix, path_save) {
   }
 } 
 
-path_save <- "../../../WARM-USEEIOdocs/data/"
-# v <- c("USEEIO","REI")
-v <- c("REI")
+v <- c("USEEIO","REI")
 prefix <- "REF-"
 saveModels(v, parentmodelmeta, prefix, path_save)
 

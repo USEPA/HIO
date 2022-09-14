@@ -50,6 +50,12 @@ df.to_csv(f'{out_path}/REI_primaryfactors_TBS.csv', index=False)
 
 df1 = df.query('Sector.str.startswith("RS")', engine='python')
 
+df1['FlowAmount'] = np.where(df1['Unit'] == '1000 USD',
+                             df1['FlowAmount'] * 1000,
+                             df1['FlowAmount'])
+df1['Unit'] = np.where(df1['Unit'] == '1000 USD',
+                       'USD', df1['Unit'])
+
 # Map REI flows to FEDEFL flows
 mapping = {"Wage":"Compensation of employees",
            "Employment":"Jobs",

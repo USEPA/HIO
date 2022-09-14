@@ -14,33 +14,33 @@ RS0012,Anaerobic digestion,Jobs,2012,43.290216,5,5,5,5,5,US,,p,REI 2020
 RS0013,Compost manufacturing,Jobs,2012,3604.881,5,5,5,5,5,US,,p,REI 2020
 RS0014,Landscape materials application,Jobs,2012,5486.62,5,5,5,5,5,US,,p,REI 2020
 RS0015,Community food program,Jobs,2012,14645.525,5,5,5,5,5,US,,p,REI 2020
-RS0001,Ferrous Metals Recycling ,Compensation of employees,2012,6835699.88,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0002,Nonferrous Metals Recycling (Aluminum),Compensation of employees,2012,3085439.495,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0003,Glass Recycling ,Compensation of employees,2012,651023.947,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0004,Paper Recycling ,Compensation of employees,2012,1169625.57,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0005,Plastics Recycling ,Compensation of employees,2012,1219643.027,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0006,Rubber Recycling ,Compensation of employees,2012,733822.3766,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0007,Construction and Demolition Recycling ,Compensation of employees,2012,6086124.128,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0008,Electronics Recycling ,Compensation of employees,2012,452623.3981,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0009,Minimally processed animal feed,Compensation of employees,2012,48993.3648,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0010,Rendering and animal by-product processing,Compensation of employees,2012,440261.0,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0011,Biofuels manufacturing,Compensation of employees,2012,52060.5606,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0012,Anaerobic digestion,Compensation of employees,2012,3869.55494,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0013,Compost manufacturing,Compensation of employees,2012,178011.9775,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0014,Landscape materials application,Compensation of employees,2012,177211.74,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0015,Community food program,Compensation of employees,2012,372300.925,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0001,Ferrous Metals Recycling ,"Taxes on production and imports, less subsidies",2012,1236817.509,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0002,Nonferrous Metals Recycling (Aluminum),"Taxes on production and imports, less subsidies",2012,547807.273,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0003,Glass Recycling ,"Taxes on production and imports, less subsidies",2012,99454.50994,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0004,Paper Recycling ,"Taxes on production and imports, less subsidies",2012,167343.08,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0005,Plastics Recycling ,"Taxes on production and imports, less subsidies",2012,160230.9131,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0006,Rubber Recycling ,"Taxes on production and imports, less subsidies",2012,79815.073,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0007,Construction and Demolition Recycling ,"Taxes on production and imports, less subsidies",2012,617685.04,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0008,Electronics Recycling ,"Taxes on production and imports, less subsidies",2012,117668.4268,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0009,Minimally processed animal feed,"Taxes on production and imports, less subsidies",2012,527.1239093,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0010,Rendering and animal by-product processing,"Taxes on production and imports, less subsidies",2012,78180.99632,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0011,Biofuels manufacturing,"Taxes on production and imports, less subsidies",2012,19274.0313,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0012,Anaerobic digestion,"Taxes on production and imports, less subsidies",2012,1192.571131,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0013,Compost manufacturing,"Taxes on production and imports, less subsidies",2012,56803.53431,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0014,Landscape materials application,"Taxes on production and imports, less subsidies",2012,19571.43778,5,5,5,5,5,US,,1000 USD,REI 2020
-RS0015,Community food program,"Taxes on production and imports, less subsidies",2012,24915.12052,5,5,5,5,5,US,,1000 USD,REI 2020
+RS0001,Ferrous Metals Recycling ,Compensation of employees,2012,6835699880.0,5,5,5,5,5,US,,USD,REI 2020
+RS0002,Nonferrous Metals Recycling (Aluminum),Compensation of employees,2012,3085439495.0,5,5,5,5,5,US,,USD,REI 2020
+RS0003,Glass Recycling ,Compensation of employees,2012,651023947.0,5,5,5,5,5,US,,USD,REI 2020
+RS0004,Paper Recycling ,Compensation of employees,2012,1169625570.0,5,5,5,5,5,US,,USD,REI 2020
+RS0005,Plastics Recycling ,Compensation of employees,2012,1219643027.0,5,5,5,5,5,US,,USD,REI 2020
+RS0006,Rubber Recycling ,Compensation of employees,2012,733822376.5999999,5,5,5,5,5,US,,USD,REI 2020
+RS0007,Construction and Demolition Recycling ,Compensation of employees,2012,6086124128.0,5,5,5,5,5,US,,USD,REI 2020
+RS0008,Electronics Recycling ,Compensation of employees,2012,452623398.09999996,5,5,5,5,5,US,,USD,REI 2020
+RS0009,Minimally processed animal feed,Compensation of employees,2012,48993364.800000004,5,5,5,5,5,US,,USD,REI 2020
+RS0010,Rendering and animal by-product processing,Compensation of employees,2012,440261000.0,5,5,5,5,5,US,,USD,REI 2020
+RS0011,Biofuels manufacturing,Compensation of employees,2012,52060560.599999994,5,5,5,5,5,US,,USD,REI 2020
+RS0012,Anaerobic digestion,Compensation of employees,2012,3869554.94,5,5,5,5,5,US,,USD,REI 2020
+RS0013,Compost manufacturing,Compensation of employees,2012,178011977.5,5,5,5,5,5,US,,USD,REI 2020
+RS0014,Landscape materials application,Compensation of employees,2012,177211740.0,5,5,5,5,5,US,,USD,REI 2020
+RS0015,Community food program,Compensation of employees,2012,372300925.0,5,5,5,5,5,US,,USD,REI 2020
+RS0001,Ferrous Metals Recycling ,"Taxes on production and imports, less subsidies",2012,1236817509.0,5,5,5,5,5,US,,USD,REI 2020
+RS0002,Nonferrous Metals Recycling (Aluminum),"Taxes on production and imports, less subsidies",2012,547807273.0,5,5,5,5,5,US,,USD,REI 2020
+RS0003,Glass Recycling ,"Taxes on production and imports, less subsidies",2012,99454509.94,5,5,5,5,5,US,,USD,REI 2020
+RS0004,Paper Recycling ,"Taxes on production and imports, less subsidies",2012,167343080.0,5,5,5,5,5,US,,USD,REI 2020
+RS0005,Plastics Recycling ,"Taxes on production and imports, less subsidies",2012,160230913.1,5,5,5,5,5,US,,USD,REI 2020
+RS0006,Rubber Recycling ,"Taxes on production and imports, less subsidies",2012,79815073.0,5,5,5,5,5,US,,USD,REI 2020
+RS0007,Construction and Demolition Recycling ,"Taxes on production and imports, less subsidies",2012,617685040.0,5,5,5,5,5,US,,USD,REI 2020
+RS0008,Electronics Recycling ,"Taxes on production and imports, less subsidies",2012,117668426.8,5,5,5,5,5,US,,USD,REI 2020
+RS0009,Minimally processed animal feed,"Taxes on production and imports, less subsidies",2012,527123.9093,5,5,5,5,5,US,,USD,REI 2020
+RS0010,Rendering and animal by-product processing,"Taxes on production and imports, less subsidies",2012,78180996.32000001,5,5,5,5,5,US,,USD,REI 2020
+RS0011,Biofuels manufacturing,"Taxes on production and imports, less subsidies",2012,19274031.299999997,5,5,5,5,5,US,,USD,REI 2020
+RS0012,Anaerobic digestion,"Taxes on production and imports, less subsidies",2012,1192571.1309999998,5,5,5,5,5,US,,USD,REI 2020
+RS0013,Compost manufacturing,"Taxes on production and imports, less subsidies",2012,56803534.31,5,5,5,5,5,US,,USD,REI 2020
+RS0014,Landscape materials application,"Taxes on production and imports, less subsidies",2012,19571437.78,5,5,5,5,5,US,,USD,REI 2020
+RS0015,Community food program,"Taxes on production and imports, less subsidies",2012,24915120.52,5,5,5,5,5,US,,USD,REI 2020

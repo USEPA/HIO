@@ -1,4 +1,5 @@
 activity_set,name,note
+,MSW recycling of Aluminum (Electronics),Aluminum (Electronics)
 aluminum,MSW combustion of Aluminum Cans,Aluminum Cans
 aluminum,MSW landfilling of Aluminum Cans,Aluminum Cans
 aluminum,MSW recycling of Aluminum Cans,Aluminum Cans
@@ -11,6 +12,7 @@ asphalt pavement,MSW recycling of Asphalt Concrete,Asphalt Concrete
 asphalt shingles,MSW combustion of Asphalt Shingles,Asphalt Shingles
 asphalt shingles,MSW landfilling of Asphalt Shingles,Asphalt Shingles
 asphalt shingles,MSW recycling of Asphalt Shingles,Asphalt Shingles
+,MSW recycling of Battery,Battery
 ,"Anaerobic digestion of Beef; Dry digestion, Cured",Beef
 ,MSW combustion of Beef,Beef
 ,MSW composting of Beef,Beef
@@ -23,21 +25,23 @@ asphalt shingles,MSW recycling of Asphalt Shingles,Asphalt Shingles
 ,MSW combustion of Bread,Bread
 ,MSW composting of Bread,Bread
 ,"MSW landfilling of Bread; National average LFG recovery, typical collection, National average conditions",Bread
+,MSW combustion of CRT Displays,CRT Displays
+,MSW landfilling of CRT Displays,CRT Displays
+,MSW recycling of CRT Displays,CRT Displays
+,MSW recycling of CRT Glass and Lead,CRT Glass and Lead
 carpet,MSW combustion of Carpet,Carpet
 carpet,MSW landfilling of Carpet,Carpet
 carpet,MSW recycling of Carpet,Carpet
 ,MSW landfilling of Clay Bricks,Clay Bricks
 concrete,MSW landfilling of Concrete,Concrete
 concrete,MSW recycling of Concrete,Concrete
+,MSW recycling of Copper (Electronics),Copper (Electronics)
 ,MSW combustion of Copper Wire,Copper Wire
 ,MSW landfilling of Copper Wire,Copper Wire
 ,MSW recycling of Copper Wire,Copper Wire
 ,MSW combustion of Corrugated Containers,Corrugated Containers
 ,"MSW landfilling of Corrugated Containers; National average LFG recovery, typical collection, National average conditions",Corrugated Containers
 ,MSW recycling of Corrugated Containers,Corrugated Containers
-,MSW combustion of CRT Displays,CRT Displays
-,MSW landfilling of CRT Displays,CRT Displays
-,MSW recycling of CRT Displays,CRT Displays
 ,"Anaerobic digestion of Dairy Products; Dry digestion, Cured",Dairy Products
 ,MSW combustion of Dairy Products,Dairy Products
 ,MSW composting of Dairy Products,Dairy Products
@@ -53,7 +57,10 @@ wood,MSW recycling of Dimensional Lumber,Dimensional Lumber
 ,MSW combustion of Electronic Peripherals,Electronic Peripherals
 ,MSW landfilling of Electronic Peripherals,Electronic Peripherals
 ,MSW recycling of Electronic Peripherals,Electronic Peripherals
+,MSW landfilling of Electronics Scrap,Electronics Scrap
+,MSW recycling of Ferrous Metal,Ferrous Metal
 ,MSW landfilling of Fiberglass Insulation,Fiberglass Insulation
+,MSW recycling of Flat Panel Display Module,Flat Panel Display Module
 ,MSW combustion of Flat-panel Displays,Flat-panel Displays
 ,MSW landfilling of Flat-panel Displays,Flat-panel Displays
 ,MSW recycling of Flat-panel Displays,Flat-panel Displays
@@ -86,66 +93,66 @@ glass,MSW recycling of Glass,Glass
 ,MSW combustion of Grass,Grass
 ,MSW composting of Grass,Grass
 ,"MSW landfilling of Grass; National average LFG recovery, typical collection, National average conditions",Grass
-,MSW combustion of Hard-copy Devices,Hard-copy Devices
-,MSW landfilling of Hard-copy Devices,Hard-copy Devices
-,MSW recycling of Hard-copy Devices,Hard-copy Devices
 ,MSW combustion of HDPE,HDPE
 ,MSW landfilling of HDPE,HDPE
 ,MSW recycling of HDPE,HDPE
+,MSW combustion of Hard-copy Devices,Hard-copy Devices
+,MSW landfilling of Hard-copy Devices,Hard-copy Devices
+,MSW recycling of Hard-copy Devices,Hard-copy Devices
 ,MSW combustion of LDPE,LDPE
 ,MSW landfilling of LDPE,LDPE
+,MSW combustion of LLDPE,LLDPE
+,MSW landfilling of LLDPE,LLDPE
 ,"Anaerobic digestion of Leaves; Dry digestion, Cured",Leaves
 ,MSW combustion of Leaves,Leaves
 ,MSW composting of Leaves,Leaves
 ,"MSW landfilling of Leaves; National average LFG recovery, typical collection, National average conditions",Leaves
-,MSW combustion of LLDPE,LLDPE
-,MSW landfilling of LLDPE,LLDPE
 ,MSW combustion of Magazines Third-class Mail,Magazines Third-class Mail
 ,"MSW landfilling of Magazines Third-class Mail; National average LFG recovery, typical collection, National average conditions",Magazines Third-class Mail
 ,MSW recycling of Magazines Third-class Mail,Magazines Third-class Mail
 ,MSW combustion of Medium-density Fiberboard,Medium-density Fiberboard
 ,"MSW landfilling of Medium-density Fiberboard; National average LFG recovery, typical collection, National average conditions",Medium-density Fiberboard
+,MSW recycling of Medium-density Fiberboard,Medium-density Fiberboard
 ,MSW combustion of Mixed Electronics,Mixed Electronics
 ,MSW landfilling of Mixed Electronics,Mixed Electronics
-metal,MSW landfilling of Mixed Metals,Mixed Metals
+,MSW recycling of Mixed Electronics,Mixed Electronics
 other,"MSW landfilling of Mixed MSW; National average LFG recovery, typical collection, National average conditions",Mixed MSW
 other,MSW combustion of Mixed MSW (Energy),Mixed MSW (Energy)
+metal,MSW combustion of Mixed Metals,Mixed Metals
+metal,MSW landfilling of Mixed Metals,Mixed Metals
+metal,MSW recycling of Mixed Metals,Mixed Metals
 ,"Anaerobic digestion of Mixed Organics; Dry digestion, Cured",Mixed Organics
+,MSW combustion of Mixed Organics,Mixed Organics
 ,MSW composting of Mixed Organics,Mixed Organics
 ,"MSW landfilling of Mixed Organics; National average LFG recovery, typical collection, National average conditions",Mixed Organics
+paper,MSW combustion of Mixed Paper (general),Mixed Paper (general)
 paper,"MSW landfilling of Mixed Paper (general); National average LFG recovery, typical collection, National average conditions",Mixed Paper (general)
 paper,MSW recycling of Mixed Paper (general),Mixed Paper (general)
+,MSW combustion of Mixed Paper (primarily from offices),Mixed Paper (primarily from offices)
 ,"MSW landfilling of Mixed Paper (primarily from offices); National average LFG recovery, typical collection, National average conditions",Mixed Paper (primarily from offices)
 ,MSW recycling of Mixed Paper (primarily from offices),Mixed Paper (primarily from offices)
+,MSW combustion of Mixed Paper (primarily residential),Mixed Paper (primarily residential)
 ,"MSW landfilling of Mixed Paper (primarily residential); National average LFG recovery, typical collection, National average conditions",Mixed Paper (primarily residential)
 ,MSW recycling of Mixed Paper (primarily residential),Mixed Paper (primarily residential)
+plastic,MSW combustion of Mixed Plastics,Mixed Plastics
 plastic,MSW landfilling of Mixed Plastics,Mixed Plastics
+plastic,MSW recycling of Mixed Plastics,Mixed Plastics
+,MSW combustion of Mixed Recyclables,Mixed Recyclables
 ,"MSW landfilling of Mixed Recyclables; National average LFG recovery, typical collection, National average conditions",Mixed Recyclables
+,MSW recycling of Mixed Recyclables,Mixed Recyclables
 ,MSW combustion of Newspaper,Newspaper
 ,"MSW landfilling of Newspaper; National average LFG recovery, typical collection, National average conditions",Newspaper
 ,MSW recycling of Newspaper,Newspaper
 ,MSW combustion of Office Paper,Office Paper
 ,"MSW landfilling of Office Paper; National average LFG recovery, typical collection, National average conditions",Office Paper
 ,MSW recycling of Office Paper,Office Paper
-,MSW combustion of Personal Computers,Personal Computers
-,MSW landfilling of Personal Computers,Personal Computers
-,MSW recycling of Personal Computers,Personal Computers
+,MSW recycling of Other Metals,Other Metals
 ,MSW combustion of PET,PET
 ,MSW landfilling of PET,PET
 ,MSW recycling of PET,PET
-,MSW combustion of Phonebooks,Phonebooks
-,"MSW landfilling of Phonebooks; National average LFG recovery, typical collection, National average conditions",Phonebooks
-,MSW recycling of Phonebooks,Phonebooks
 ,MSW combustion of PLA,PLA
 ,MSW composting of PLA,PLA
 ,MSW landfilling of PLA,PLA
-,MSW combustion of Portable Electronic Devices,Portable Electronic Devices
-,MSW landfilling of Portable Electronic Devices,Portable Electronic Devices
-,MSW recycling of Portable Electronic Devices,Portable Electronic Devices
-,"Anaerobic digestion of Poultry; Dry digestion, Cured",Poultry
-,MSW combustion of Poultry,Poultry
-,MSW composting of Poultry,Poultry
-,"MSW landfilling of Poultry; National average LFG recovery, typical collection, National average conditions",Poultry
 ,MSW combustion of PP,PP
 ,MSW landfilling of PP,PP
 ,MSW recycling of PP,PP
@@ -153,6 +160,21 @@ plastic,MSW landfilling of Mixed Plastics,Mixed Plastics
 ,MSW landfilling of PS,PS
 ,MSW combustion of PVC,PVC
 ,MSW landfilling of PVC,PVC
+,MSW combustion of Personal Computers,Personal Computers
+,MSW landfilling of Personal Computers,Personal Computers
+,MSW recycling of Personal Computers,Personal Computers
+,MSW combustion of Phonebooks,Phonebooks
+,"MSW landfilling of Phonebooks; National average LFG recovery, typical collection, National average conditions",Phonebooks
+,MSW recycling of Phonebooks,Phonebooks
+,MSW recycling of Plastic (Electronics),Plastic (Electronics)
+,MSW combustion of Portable Electronic Devices,Portable Electronic Devices
+,MSW landfilling of Portable Electronic Devices,Portable Electronic Devices
+,MSW recycling of Portable Electronic Devices,Portable Electronic Devices
+,"Anaerobic digestion of Poultry; Dry digestion, Cured",Poultry
+,MSW combustion of Poultry,Poultry
+,MSW composting of Poultry,Poultry
+,"MSW landfilling of Poultry; National average LFG recovery, typical collection, National average conditions",Poultry
+,MSW recycling of Printed Circuit Board,Printed Circuit Board
 ,MSW combustion of Steel Cans,Steel Cans
 ,MSW landfilling of Steel Cans,Steel Cans
 ,MSW recycling of Steel Cans,Steel Cans

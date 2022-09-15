@@ -23,6 +23,7 @@ HIOmodelmeta <- list(
                   "REI_WIO"),
   "USEEIO-WIO-Disagg" = c("USEEIO-WIO-Disagg",
                          "DisaggWIOConcrete",
+                         "DisaggWIOFoodWaste",
                          "LandfillingDisaggregation",
                          "562OTHDisaggregation",
                          "WasteCombustorsDisaggregation",

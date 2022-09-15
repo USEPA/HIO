@@ -31,9 +31,6 @@ writeModeltoXLSX(model, file.path(rappdirs::user_data_dir(),
 
 
 ## Generate results - Impacts of total US domestic production for each model by waste material
-# Idea is to take the values stored in the factor_lists, which is in $/kg waste, and multiply that by the relevant 
-# Waste Treatment Commodity values from the N and M tables to obtain results per kg waste.
-
 # Concrete
 # Extract total output by waste treatment commodities
 concrete_sector_list <-  model$WasteTreatmentCommodities$Code_Loc[grepl('C',model$WasteTreatmentCommodities$Code)]
@@ -101,9 +98,9 @@ for(sector in 1:length(foodwaste_sector_list)){
 }
 
 
-
+# # Create final demand for total monetary amount of Concrete Waste Treament Commodities. 
 # comIndex <- which(model$Commodities$Code_Loc %in% concrete_sector_list)
-# y <- model$q[comIndex] # in dollars
+# y <- model$q[comIndex]
 # y <- formatDemandVector(y, model$L)
 # 
 # X <- model$L %*% y

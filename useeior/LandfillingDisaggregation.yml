@@ -6,7 +6,4 @@ Disaggregation:
     SectorFile: LandfillingDisaggregation_Sectors.csv
     MakeFile: LandfillingDisaggregation_Make.csv
     UseFile: LandfillingDisaggregation_Use.csv
-    # EnvFile: LandfillingDisaggregation_Env.csv
-    # EnvFile: GHG_WARM_national_2018_v1.2.3_6e50d71.parquet
-    #EnvFile: GHG_WARM_national_2018.csv
     Envfile: Mixed_WARM_national_2018_Env_Ratios_562212.csv

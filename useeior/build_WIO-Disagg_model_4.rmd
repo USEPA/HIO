@@ -31,6 +31,9 @@ writeModeltoXLSX(model, file.path(rappdirs::user_data_dir(),
 
 
 ## Generate results - Impacts of total US domestic production for each model by waste material
+# The idea is to multiply the impact factors generated here with the relevant values from the N and M tables to generate 
+# results on a per kg of waste basis, rather than on a per $ of waste treatment commodity basis
+
 # Concrete
 # Extract total output by waste treatment commodities
 concrete_sector_list <-  model$WasteTreatmentCommodities$Code_Loc[grepl('C',model$WasteTreatmentCommodities$Code)]
@@ -97,6 +100,10 @@ for(sector in 1:length(foodwaste_sector_list)){
   
 }
 
+factor_list <- cbind(as.data.frame(waste_treatment_commodity_list),
+                     do.call(rbind.data.frame, directImpacts_factor_list),
+                     do.call(rbind.data.frame, totalImpacts_factor_list))
+colnames(factor_list) <- c("WasteTreatmentCommodities","DirectImpactFactors","TotalImpactFactors")
 
 # # Create final demand for total monetary amount of Concrete Waste Treament Commodities. 
 # comIndex <- which(model$Commodities$Code_Loc %in% concrete_sector_list)

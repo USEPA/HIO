@@ -35,9 +35,9 @@ writeModeltoXLSX(model, file.path(rappdirs::user_data_dir(),
 # Extract total output by waste treatment commodities
 concrete_sector_list <-  model$WasteTreatmentCommodities$Code_Loc[grepl('C',model$WasteTreatmentCommodities$Code)]
 
-# Create final demand for total monetary amount of Concrete Waste Treament Commodities. 
+# Create final demand for total monetary amount of Concrete Waste Treatment Commodities.
 comIndex <- which(model$Commodities$Code_Loc %in% concrete_sector_list)
-y <- model$q[comIndex]
+y <- model$q[comIndex] # in dollars
 y <- formatDemandVector(y, model$L)
 
 X <- model$L %*% y

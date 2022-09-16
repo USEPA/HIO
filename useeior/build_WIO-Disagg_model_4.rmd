@@ -57,7 +57,7 @@ for(sector in 1:length(concrete_sector_list)){
   # Divide the total impacts vector X by the total waste produced  
   X_normalized <- X/X[wasteIndex]
   
-  # Save the normalized waste treatment commodity output, in terms of $/short ton waste, to the factor_list
+  # Save the normalized waste treatment commodity output, in terms of $/kg waste, to the factor_list
   totalImpacts_factor_list <- append(totalImpacts_factor_list, X_normalized[comIndex])
   
   
@@ -68,9 +68,6 @@ for(sector in 1:length(concrete_sector_list)){
   
   directImpacts_factor_list <- append(directImpacts_factor_list, directImpactsNormalized[comIndex])
   
-  # Temporary to convert short tons to kg
-  totalImpacts_factor_list <- lapply(totalImpacts_factor_list, "*", (1/907.185))
-  directImpacts_factor_list <- lapply(directImpacts_factor_list, "*", (1/907.185))
 }
 
 # Foodwaste

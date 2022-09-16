@@ -6,11 +6,7 @@ Write the csv called on in flowbysectormethods yaml files
 for the EPA_WARMer FBA
 """
 
-import os
-import numpy as np
 import pandas as pd
-import flowsa
-# from flowsa.settings import flowbysectoractivitysetspath
 from pathlib import Path
 import re
 

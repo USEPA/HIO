@@ -1,3 +1,8 @@
+# Requires working directory to be this file directory 
+# useeior source files must be at the same level as HIO
+# All model Data Commons dataset dependencies must be in local cache if not 
+# available on Data Commons
+
 library(devtools)
 devtools::load_all("../../useeior")
 # devtools::load_all("../../../../useeior_dev/useeior")

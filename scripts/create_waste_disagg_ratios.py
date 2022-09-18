@@ -40,7 +40,7 @@ waste_total = waste_total.sort_values(by=['Sector6','Sector'])
 waste_total = (waste_total
                .drop(columns=['MetaSources', 'Year'])
                .groupby(['Flowable','Sector','Sector6'])
-               .agg({'Pct': 'sum'})
+               .agg({'Pct': 'sum', 'FlowAmount': 'sum'})
                .reset_index())
 waste_total['Pct'] = round(waste_total['Pct'], 5)
 
@@ -91,3 +91,17 @@ for name, df in grouping.__iter__():
     use = pd.concat([use, use2], ignore_index=True)
     use.to_csv(file, index=False)
 
+## Assess imputed price
+output_dict = { # USEEIO, USD
+    '562OTH': 8399222951.2,
+    '562212': 7212631574.94,
+    '562920': 5944579212.1127,
+    '562213': 4490811640,
+    }
+waste_qty = (waste_total
+             .groupby('USEEIO')
+             .agg({'FlowAmount': 'sum'})
+             .reset_index())
+waste_qty['Value'] = waste_qty['USEEIO'].map(output_dict)
+waste_qty['Price'] = round(waste_qty['Value'] / waste_qty['FlowAmount'],5)
+print(waste_qty[['USEEIO','Price']])

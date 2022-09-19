@@ -11,7 +11,7 @@ import flowsa
 path = os.path.dirname(__file__)
 disagg_path = os.path.dirname(path) + '/useeior/'
 
-waste = flowsa.getFlowBySector('Waste_national_2018')
+waste = flowsa.getFlowBySector('Waste_national_2018_v1.2.4_89d7292')
 
 commodities = ['food', 'concrete']
 sectors = ['562219', # AD/Compost

@@ -1,7 +1,7 @@
 IndustryCode,CommodityCode,PercentUsed,Note
-562212/US,562212X/US,0.71182,"Use row sum, commodity output"
-562212/US,5622121C/US,0.11197,"Use row sum, commodity output"
-562212/US,5622121F/US,0.17622,"Use row sum, commodity output"
-562212X/US,562212/US,0.71182,"Use column sum, industry output"
-5622121C/US,562212/US,0.11197,"Use column sum, industry output"
-5622121F/US,562212/US,0.17622,"Use column sum, industry output"
+562212/US,562212X/US,0.66154,"Use row sum, commodity output"
+562212/US,5622121C/US,0.222,"Use row sum, commodity output"
+562212/US,5622121F/US,0.11646,"Use row sum, commodity output"
+562212X/US,562212/US,0.66154,"Use column sum, industry output"
+5622121C/US,562212/US,0.222,"Use column sum, industry output"
+5622121F/US,562212/US,0.11646,"Use column sum, industry output"

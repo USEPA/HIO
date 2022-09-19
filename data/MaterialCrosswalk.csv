@@ -18,7 +18,6 @@ EPA_CDDPath,Reclaimed Asphalt Pavement,,,kg,=,1,asphalt pavement,,,kg,,,,,V
 EPA_CDDPath,Remanufacture - Concrete,,,kg,=,1,concrete,,,kg,,,,,C
 EPA_CDDPath,Wood,,,kg,=,1,wood,,,kg,,,,,W
 EPA_FactsAndFigures,Food,,,kg,=,1,food,,,kg,,,,,F
-EPA_FactsAndFigures,Food,,,kg,=,1,food,,,kg,,,,,F
 EPA_FactsAndFigures,Glass,,,kg,=,1,glass,,,kg,,,,,G
 EPA_FactsAndFigures,"Metals, Aluminum",,,kg,=,1,aluminum,,,kg,,,,,L
 EPA_FactsAndFigures,"Metals, Ferrous",,,kg,=,1,metal,,,kg,,,,,M

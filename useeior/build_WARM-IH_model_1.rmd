@@ -8,7 +8,7 @@ output: html_notebook
 # renv::activate()
 # renv::restore(lockfile="WARMer.lock")
 
-# devtools::install_github("USEPA/useeior@hybridization")
+# devtools::install_github("USEPA/useeior@WIO")
 # devtools::load_all(".")
 # library('useeior')
 

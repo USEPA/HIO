@@ -1,3 +1,11 @@
+# Produces a sector-to-sector FBS of all waste flows reported from the Facts and Figures and CDDPath models
+# with corresponding waste managemen pathways
+# Requires FBAs 1. EPA_FactsAndFigures 2. EPA_CDDPath
+# Relies on additional files for this harmonization:
+# Materials.csv - the authoritative set of harmonized material names with an abbreviation
+# MaterialCrosswalk.csv - maps material names in WARM, FF, and CDDPath to the authoritative list. See format at
+#  (https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/blob/master/format%20specs/FlowMapping.md)
+
 target_sector_level: NAICS_6
 target_subset_sector_level: {NAICS_7: ['562920', '562212', '562219', '562212']}
 target_sector_source: NAICS_2012_Code
@@ -42,5 +50,17 @@ source_names:
         names:
             - Landfill
             - Remanufacture
+            # requires flowsa cdd_waste branch
+            # - "Aggregate- Drain Rock"
+            # - "Aggregate- Other Construction"
+            # - "Aggregate- Road Base"
+            # - Aggregate
+            # - Compost
+            # - "Compost/Mulch"
+            # - Fuel
+            # - General Recycled
+            # - Landfill Cover
+            # - Mulch
+            # - Road Base
         allocation_method: direct
         allocation_from_scale: national

@@ -6,7 +6,7 @@ models
 
 import flowsa
 from scripts.fbs_processing_functions import convert_fbsc_to_disagg_env, agg_fbsc_by_material, \
-    replace_FlowAmount_w_FlowRatio, remove_last_letter
+    replace_FlowAmount_w_FlowRatio, remove_last_letter, get_last_letter
 import pandas as pd
 import yaml
 import os
@@ -49,10 +49,15 @@ if use_FlowRatio:
 #env.loc[:,'NAICS'] = env.loc[:,'Sector'].apply(str.substr)
 env.loc[:,'NAICS'] = env.loc[:,'Sector'].str[0:6]
 
+# For "Other" sectors, ensure they are at 6 digit only
+env.loc[(env['Sector'].apply(get_last_letter) == 'X')
+        ,'Sector'] = env['NAICS'] + 'X'
 
 # join with waste naics to verify grouping by 6-digit waste naics
 waste_naics = pd.read_csv("data/waste_naics.csv",dtype={"Parent":str})
-waste_naics = waste_naics.drop(columns=["Subnaics","NAICS","Management Pathway"])
+waste_naics = (waste_naics
+               .drop(columns=["Subnaics","NAICS","Management Pathway"])
+               .drop_duplicates())
 env = pd.merge(env,waste_naics,how='left',left_on='NAICS',right_on='Parent')
 grouped_env_by_NAICS = env.groupby('Parent')
 
@@ -60,6 +65,7 @@ for name, df in grouped_env_by_NAICS.__iter__():
     NAICS_6 = df['Parent'].iloc[0]
     df.drop(columns=["Parent","NAICS"],inplace=True)
     env_file = os.path.join(disagg_path, env_name + "_" + NAICS_6 + ".csv")
+    df = df.sort_values(by=['SatelliteTable','FlowUUID'])
     df.to_csv(env_file, index=False)
     print(env_file + " written.")
 

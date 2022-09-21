@@ -6,4 +6,4 @@ Disaggregation:
     SectorFile: LandfillingDisaggregation_Sectors.csv
     MakeFile: LandfillingDisaggregation_Make.csv
     UseFile: LandfillingDisaggregation_Use.csv
-    Envfile: Mixed_WARM_national_2018_Env_Ratios_562212.csv
+    EnvFile: Mixed_WARM_national_2018_Env_Ratios_562212.csv

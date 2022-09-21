@@ -1,5 +1,5 @@
 IndustryCode,CommodityCode,PercentUsed,Note
-5629201C/US,562920/US,8.50E-02,"Use column sum, industry output"
-562920X/US,562920/US,9.15E-01,"Use column sum, industry output"
-562920/US,5629201C/US,8.50E-02,"Use row sum, commodity output"
-562920/US,562920X/US,9.15E-01,"Use row sum, commodity output"
+562920/US,562920X/US,0.91555,"Use row sum, commodity output"
+562920/US,5629201C/US,0.08445,"Use row sum, commodity output"
+562920X/US,562920/US,0.91555,"Use column sum, industry output"
+5629201C/US,562920/US,0.08445,"Use column sum, industry output"

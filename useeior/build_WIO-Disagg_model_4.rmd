@@ -31,20 +31,90 @@ writeModeltoXLSX(model, file.path(rappdirs::user_data_dir(),
 
 
 ## Generate results - Impacts of total US domestic production for each model by waste material
+# The idea is to multiply the impact factors generated here with the relevant values from the N and M tables to generate 
+# results on a per kg of waste basis, rather than on a per $ of waste treatment commodity basis
+
+#TODO: Need to change the normalization value used in the code below to be the waste generation by treatment totals corresponding to the
+# relevant waste treatment commodities.
+
 # Concrete
 # Extract total output by waste treatment commodities
 concrete_sector_list <-  model$WasteTreatmentCommodities$Code_Loc[grepl('C',model$WasteTreatmentCommodities$Code)]
+foodwaste_sector_list <- model$WasteTreatmentCommodities$Code_Loc[grepl('F',model$WasteTreatmentCommodities$Code)]
+waste_treatment_commodity_list <- append(concrete_sector_list, foodwaste_sector_list)
 
-# Create final demand for total monetary amount of Concrete Waste Treament Commodities. 
-comIndex <- which(model$Commodities$Code_Loc %in% concrete_sector_list)
-y <- model$q[comIndex]
-y <- formatDemandVector(y, model$L)
+totalImpacts_factor_list <- list()
+directImpacts_factor_list <- list()
+  
+# Create final demand for total monetary amount of Waste Treatment Commodities.
+for(sector in 1:length(concrete_sector_list)){
+  # Get commodity index for current waste treatment commodity 
+  comIndex <- which(model$Commodities$Code_Loc %in% concrete_sector_list[sector])
+  # Get waste index for current waste (concrete)
+  wasteIndex <- which(model$Commodities$Code_Loc %in% model$WasteGenMass$Code_Loc)[1]
+  # Get total commodity output of current waste treatment commodity
+  y <- model$q[comIndex] # in dollars
+  y <- formatDemandVector(y, model$L)
+  # Calculate total impacts based on waste treatment commodity total output
+  X <- model$L %*% y
+  # Divide the total impacts vector X by the total waste produced  
+  X_normalized <- X/X[wasteIndex]
+  
+  # Save the normalized waste treatment commodity output, in terms of $/kg waste, to the factor_list
+  totalImpacts_factor_list <- append(totalImpacts_factor_list, X_normalized[comIndex])
+  
+  
+  # Calculate direct impacts 
+  directImpacts <- (diag(1,dim(model$A)[1],dim(model$A)[2]) + model$A) %*% y
+  
+  directImpactsNormalized <- directImpacts/directImpacts[wasteIndex]
+  
+  directImpacts_factor_list <- append(directImpacts_factor_list, directImpactsNormalized[comIndex])
+  
+}
 
-X <- model$L %*% y
-#Print total concrete waste
-CWasteIndex <- which(model$Commodities$Code %in% c("Concrete waste"))
-CWaste <- as.double(X[CWasteIndex,1])
-print(paste0("Total amount of concrete waste: ",CWaste, model$WasteGenMass$Unit[which(model$WasteGenMass$Code %in% "Concrete waste")]))
+# Foodwaste
+for(sector in 1:length(foodwaste_sector_list)){
+  # Get commodity index for current waste treatment commodity 
+  comIndex <- which(model$Commodities$Code_Loc %in% foodwaste_sector_list[sector])
+  # Get waste index for current waste (concrete)
+  wasteIndex <- which(model$Commodities$Code_Loc %in% model$WasteGenMass$Code_Loc)[2]
+  # Get total commodity output of current waste treatment commodity
+  y <- model$q[comIndex] # in dollars
+  y <- formatDemandVector(y, model$L)
+  # Calculate throughput based on waste treatment commodity total output
+  X <- model$L %*% y
+  # Divide the throughput vector X by the total waste produced  
+  X_normalized <- X/X[wasteIndex]
+  
+  # Save the normalized waste treatment commodity output, in terms of $/kg waste, to the factor_list
+  totalImpacts_factor_list <- append(totalImpacts_factor_list, X_normalized[comIndex])
+  
+    
+  # Calculate direct impacts 
+  directImpacts <- (diag(1,dim(model$A)[1],dim(model$A)[2]) + model$A) %*% y
+  
+  directImpactsNormalized <- directImpacts/directImpacts[wasteIndex]
+  
+  directImpacts_factor_list <- append(directImpacts_factor_list, directImpactsNormalized[comIndex])
+  
+}
+
+factor_list <- cbind(as.data.frame(waste_treatment_commodity_list),
+                     do.call(rbind.data.frame, directImpacts_factor_list),
+                     do.call(rbind.data.frame, totalImpacts_factor_list))
+colnames(factor_list) <- c("WasteTreatmentCommodities","DirectImpactFactors","TotalImpactFactors")
+
+# # Create final demand for total monetary amount of Concrete Waste Treament Commodities. 
+# comIndex <- which(model$Commodities$Code_Loc %in% concrete_sector_list)
+# y <- model$q[comIndex]
+# y <- formatDemandVector(y, model$L)
+# 
+# X <- model$L %*% y
+# #Print total concrete waste
+# CWasteIndex <- which(model$Commodities$Code %in% c("Concrete waste"))
+# CWaste <- as.double(X[CWasteIndex,1])
+# print(paste0("Total amount of concrete waste: ",CWaste, model$WasteGenMass$Unit[which(model$WasteGenMass$Code %in% "Concrete waste")]))
 
 ```
 

@@ -9,7 +9,11 @@ devtools::load_all("../../useeior")
 
 path_save <- "../../WARM-USEEIOdocs/data/"
 library(logging)
-addHandler(writeToFile, file=paste0(path_save, "build_and_save_REF_and_HIO_models.log"))
+log_file <- paste0(path_save, "build_and_save_REF_and_HIO_models.log")
+if (file.exists(log_file)){
+  file.remove(log_file)
+}
+addHandler(writeToFile, file=log_file)
 
 parentmodelmeta <- list(
   "USEEIOv2.0.2-walrus" = c("USEEIOv2.0.2-walrus"),  # 2018 FBS files needed

@@ -1,3 +1,3 @@
 SectorType,Tag,NAICS_2012_Code,USEEIO_Code,USEEIO_Name,Category,Subcategory,Description,Price,Unit
-MUIO,Concrete recycling,562920,5629201C/US,Concrete recycling,56: Administrative and Support and Waste Management and Remediation Services,"5622: Waste Treatment and Disposal, concrete",,0.055,kg
+MUIO,Concrete recycling,562920,5629201C/US,Concrete recycling,56: Administrative and Support and Waste Management and Remediation Services,"5622: Waste Treatment and Disposal, concrete",,0.01381,kg
 MUIO,"Material separation/recovery facilities, except concrete",562920,562920X/US,"Material separation/recovery facilities, except concrete",56: Administrative and Support and Waste Management and Remediation Services,"5622: Waste Treatment and Disposal, except concrete and food waste",,1,USD

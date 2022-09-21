@@ -51,16 +51,16 @@ source_names:
             - Landfill
             - Remanufacture
             # requires flowsa cdd_waste branch
-            # - "Aggregate- Drain Rock"
-            # - "Aggregate- Other Construction"
-            # - "Aggregate- Road Base"
-            # - Aggregate
-            # - Compost
-            # - "Compost/Mulch"
-            # - Fuel
-            # - General Recycled
-            # - Landfill Cover
-            # - Mulch
-            # - Road Base
+            - "Aggregate- Drain Rock"
+            - "Aggregate- Other Construction"
+            - "Aggregate- Road Base"
+            - Aggregate
+            - Compost
+            - "Compost/Mulch"
+            - Fuel
+            - General Recycled
+            - Landfill Cover
+            - Mulch
+            - Road Base
         allocation_method: direct
         allocation_from_scale: national

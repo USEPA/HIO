@@ -1,5 +1,5 @@
 IndustryCode,CommodityCode,PercentUsed,Note
-562213/US,562213X/US,0.73007,"Use row sum, commodity output"
-562213/US,562213F/US,0.26993,"Use row sum, commodity output"
-562213X/US,562213/US,0.73007,"Use column sum, industry output"
-562213F/US,562213/US,0.26993,"Use column sum, industry output"
+562213/US,562213X/US,0.83413,"Use row sum, commodity output"
+562213/US,562213F/US,0.16587,"Use row sum, commodity output"
+562213X/US,562213/US,0.83413,"Use column sum, industry output"
+562213F/US,562213/US,0.16587,"Use column sum, industry output"

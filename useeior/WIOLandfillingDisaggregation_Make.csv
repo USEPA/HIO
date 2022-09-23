@@ -1,0 +1,7 @@
+IndustryCode,CommodityCode,PercentMake,Note
+562212/US,5622121C/US,1.91E-02,"Default allocation, commodity output"
+562212/US,5622121F/US,5.52E-01,"Default allocation, commodity output"
+562212/US,562212X/US,4.29E-01,"Default allocation, commodity output"
+5622121C/US,5622121C/US,1.91E-02,Make intersection
+5622121F/US,5622121F/US,5.52E-01,Make intersection
+562212X/US,562212X/US,4.29E-01,Make intersection

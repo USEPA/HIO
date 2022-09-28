@@ -1,7 +1,7 @@
 WIO:
   FoodWaste:
     SectorFile: DisaggWIOFoodWaste_Sectors.csv
-    SourceFile: "flowsa/FlowBySector/Food_Waste_national_2018_m1_v1.2.4_3644a8b.parquet" #need to work with these
+    SourceFile: "flowsa/FlowBySector/Food_Waste_national_2018_m3_v1.2.4_36ecdf5.parquet" #need to work with these
     BEASectorsAsTreatmentSectors:
       WasteTreatmentCommodities: ["5622121F/US","562213F/US","5622191F/US","5622192F/US"]
       WasteTreatmentIndustries: ["5622121F/US","562213F/US","5622191F/US","5622192F/US"]

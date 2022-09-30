@@ -4,6 +4,10 @@ WIO,5622121,SectorConsumedBy,562212,5622121F-Treatment,MSW Landfilling of Food W
 WIO,5622191,SectorConsumedBy,562219,5622191F-Treatment,Anaerobic digestion of food waste,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
 WIO,5622192,SectorConsumedBy,562219,5622192F-Treatment,Composting of Food Waste,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
 WIO,562213,SectorConsumedBy,562213,562213F-Treatment,Combustion of Food Waste,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
+WIO,562BIO,SectorConsumedBy,562BIO,562BIOF-Treatment,Biobased Processing FW Treatment,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
+WIO,115112,SectorConsumedBy,115112,115000F-Treatment,Support activities for agriculture and forestry FW Treatment,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
+WIO,311119,SectorConsumedBy,311119,311119F-Treatment,Other animal food manufacturing FW Treatment,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
+WIO,624210,SectorConsumedBy,624210,624A00F-Treatment,Community Food Services FW Treatment,Waste Generation by Treatment,N/A,Waste Generation by Treatment,US,kg
 WIO,562212,SectorProducedBy,562212,5622121F,MSW Landfilling of Food Waste,Waste Treatment Industries,N/A,Waste Treatment Industries,US,kg
 WIO,562219,SectorProducedBy,562219,5622191F,Anaerobic digestion of food waste,Waste Treatment Industries,N/A,Waste Treatment Industries,US,kg
 WIO,562219,SectorProducedBy,562219,5622192F,Composting of Food Waste,Waste Treatment Industries,N/A,Waste Treatment Industries,US,kg

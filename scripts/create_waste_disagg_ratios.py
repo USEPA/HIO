@@ -11,7 +11,7 @@ import flowsa
 path = os.path.dirname(__file__)
 disagg_path = os.path.dirname(path) + '/useeior/'
 
-waste = flowsa.getFlowBySector('Waste_national_2018_v1.2.4_89d7292')
+waste = flowsa.getFlowBySector('Waste_national_2018_v1.2.4_3e6df5d')
 
 commodities = ['food', 'concrete']
 sectors = ['562219', # AD/Compost
@@ -104,4 +104,5 @@ waste_qty = (waste_total
              .reset_index())
 waste_qty['Value'] = waste_qty['USEEIO'].map(output_dict)
 waste_qty['Price'] = round(waste_qty['Value'] / waste_qty['FlowAmount'],5)
+print('Update *_Sectors.csv files with these prices:')
 print(waste_qty[['USEEIO','Price']])

@@ -1,5 +1,5 @@
 # Produces a sector-to-sector FBS of all waste flows reported from the Facts and Figures and CDDPath models
-# with corresponding waste managemen pathways
+# with corresponding waste management pathways
 # Requires FBAs 1. EPA_FactsAndFigures 2. EPA_CDDPath
 # Relies on additional files for this harmonization:
 # Materials.csv - the authoritative set of harmonized material names with an abbreviation
@@ -37,7 +37,7 @@ source_names:
     data_format: 'FBA'
     class: Other
     geoscale_to_use: national
-    year: 2014
+    year: 2018
     clean_fba_before_mapping_df_fxn: !script_function:EPA_CDDPath keep_activity_consumed_by
     material_crosswalk: *material_crosswalk
     material_crosswalk_field_dict: {'SourceName':'SourceName',
@@ -50,7 +50,6 @@ source_names:
         names:
             - Landfill
             - Remanufacture
-            # requires flowsa cdd_waste branch
             - "Aggregate- Drain Rock"
             - "Aggregate- Other Construction"
             - "Aggregate- Road Base"

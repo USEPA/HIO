@@ -53,7 +53,7 @@ source_names:
         allocation_method: multiplication
         allocation_source: "EPA_CDDPath"
         allocation_source_class: "Other"
-        allocation_source_year: 2014
+        allocation_source_year: 2018
         allocation_flow:
           - "Concrete"
         clean_allocation_fba: !script_function:EPA_CDDPath keep_activity_consumed_by
@@ -129,7 +129,7 @@ source_names:
         names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv "other"
         material: "other"
         allocation_flow:
-          - "Bricks"
+          - "Brick and Clay Tile" # "Brick" for 2014 CDDPath
           - "Fines"
           - "Gypsum Drywall"
 

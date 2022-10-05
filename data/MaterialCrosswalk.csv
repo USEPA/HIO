@@ -4,6 +4,7 @@ EPA_CDDPath,Aggregate- Other Construction,,,kg,=,1,concrete,,,kg,,,,,C
 EPA_CDDPath,Aggregate- Road Base,,,kg,=,1,concrete,,,kg,,,,,C
 EPA_CDDPath,Asphalt Shingles,,,kg,=,1,asphalt shingles,,,kg,,,,,H
 EPA_CDDPath,Bricks,,,kg,=,1,other,,,kg,,,,,O
+EPA_CDDPath,Brick and Clay Tile,,,kg,=,1,other,,,kg,,,,,O
 EPA_CDDPath,Cardboard,,,kg,=,1,paper,,,kg,,,,,O
 EPA_CDDPath,Carpet,,,kg,=,1,carpet,,,kg,,,,,R
 EPA_CDDPath,Concrete,,,kg,=,1,concrete,,,kg,,,,,C

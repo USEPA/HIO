@@ -11,7 +11,7 @@ CommodityorIndustryType: "Commodity"
 ScrapIncluded: FALSE
 DisaggregationSpecs: ["WasteDisaggregationDetail", "LandfillingDisaggregation", "562OTHDisaggregation", "WasteCombustorsDisaggregation", "MRFsDisaggregation"]
 HybridizationSpecs: null
-WIOSpecs: ["DisaggWIOConcrete","DisaggWIOFoodWaste"] #DisaggWIOConcrete
+WIOSpecs: ["DisaggWIOConcrete","DisaggWIOFoodWaste"]
 
 SatelliteTable:
   GHG:

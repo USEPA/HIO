@@ -1,7 +1,7 @@
 WIO:
   Concrete:
     SectorFile: DisaggWIOConcrete_Sectors.csv
-    SourceFile: "flowsa/FlowBySector/CDD_concrete_national_2014_v1.2.4_1ec14ce.parquet"
+    SourceFile: "flowsa/FlowBySector/CDD_concrete_national_2018_v1.2.4_0a1c80a.parquet"
     BEASectorsAsTreatmentSectors:
       WasteTreatmentCommodities: ["5622121C/US","5629201C/US"]
       WasteTreatmentIndustries: ["5622121C/US","5629201C/US"]

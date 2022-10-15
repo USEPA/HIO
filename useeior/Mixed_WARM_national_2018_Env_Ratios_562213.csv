@@ -1,10 +1,10 @@
 Flowable,Context,FlowUUID,Sector,Location,Unit,DistributionType,Min,Max,DataReliability,TemporalCorrelation,GeographicalCorrelation,TechnologicalCorrelation,DataCollection,Year,MetaSources,SatelliteTable,FlowRatio
-Jobs,,,562213F,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.19693813353766265
-Jobs,,,562213X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.8030618664623373
+Jobs,,,562213F,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.20709334798708293
+Jobs,,,562213X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.7929066520129171
 Carbon dioxide,emission/air,b6f010fb-a764-3063-af2d-bcb8309a97b7,562213X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,1.0
-Nitrous oxide,emission/air,cfee0524-7ad6-300b-b050-6249135a2492,562213F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.27022127934891016
-Nitrous oxide,emission/air,cfee0524-7ad6-300b-b050-6249135a2492,562213X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.7297787206510898
-Compensation of employees,,,562213F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.19693813353766265
-Compensation of employees,,,562213X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.8030618664623373
-"Taxes on production and imports, less subsidies",,,562213F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.19693813353766265
-"Taxes on production and imports, less subsidies",,,562213X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.8030618664623372
+Nitrous oxide,emission/air,cfee0524-7ad6-300b-b050-6249135a2492,562213F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.28935883225812475
+Nitrous oxide,emission/air,cfee0524-7ad6-300b-b050-6249135a2492,562213X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.7106411677418752
+Compensation of employees,,,562213F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.20709334798708293
+Compensation of employees,,,562213X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.792906652012917
+"Taxes on production and imports, less subsidies",,,562213F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.2070933479870829
+"Taxes on production and imports, less subsidies",,,562213X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.792906652012917

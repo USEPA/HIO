@@ -1,7 +1,7 @@
 Flowable,Context,FlowUUID,Sector,Location,Unit,DistributionType,Min,Max,DataReliability,TemporalCorrelation,GeographicalCorrelation,TechnologicalCorrelation,DataCollection,Year,MetaSources,SatelliteTable,FlowRatio
-Jobs,,,5629201C,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.026850883107709576
-Jobs,,,562920X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.9731491168922903
-Compensation of employees,,,5629201C,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.0268106856193687
-Compensation of employees,,,562920X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.9731893143806313
-"Taxes on production and imports, less subsidies",,,5629201C,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.020883404340446936
-"Taxes on production and imports, less subsidies",,,562920X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.9791165956595531
+Jobs,,,5629201C,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.23527724516721688
+Jobs,,,562920X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.7647227548327832
+Compensation of employees,,,5629201C,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.23481090388141163
+Compensation of employees,,,562920X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.7651890961185884
+"Taxes on production and imports, less subsidies",,,5629201C,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.1928842470789074
+"Taxes on production and imports, less subsidies",,,562920X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.8071157529210926

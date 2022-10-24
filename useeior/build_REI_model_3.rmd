@@ -40,6 +40,12 @@ results <- calculateEEIOModel(model, perspective = "FINAL", y)
 result <- results[["LCIA_f"]][rowSums(results[["LCIA_f"]])>0,]
 print(result)
 
+REI_result_list <- c("Compensation of employees//USD","Jobs//p","Taxes on production and imports, less subsidies//USD")
+# Print REI LCIs only
+LCI_result <- results[["LCI_f"]][rowSums(results[["LCI_f"]])>0,]
+LCI_result <- LCI_result[,which(colnames(LCI_result) %in% REI_result_list)]
+print(LCI_result)
+
 # Print direct results
 directResults <- calculateEEIOModel(model3, perspective = "DIRECT", y)
 directResult <- directResults[["LCIA_d"]][which(rownames(directResults$LCIA_d) %in% sector_list),]

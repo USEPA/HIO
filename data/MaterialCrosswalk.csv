@@ -188,3 +188,4 @@ EPA_WARMer,Tires,,Tires,kg,=,,,,,kg,,,,,
 EPA_WARMer,Vinyl Flooring,,C&D,kg,=,,,,,kg,,,,,
 EPA_WARMer,Wood Flooring,,C&D,kg,=,,,,,kg,,,,,
 EPA_WARMer,Yard Trimmings,,Organics,kg,=,1,yard trimmings,,,kg,,,,,Y
+EPA_WFR,Food Waste,,,kg,=,,food,,,kg,,,,,F

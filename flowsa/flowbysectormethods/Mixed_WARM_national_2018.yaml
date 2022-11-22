@@ -1,13 +1,15 @@
 # Produces an FBS of all reported flows from WARMv15 that are scaled by national total waste generation
-# quantities in the Facts and Figures (FF) and CDDPath.
+# quantities in the Facts and Figures (FF) (excluding food), CDDPath, and
+# Wasted Food Report (WFR).
 # Flows include 3 GHGs, employment, energy and 2 monetary measures (taxes and wages)
 # Both the materials and waste management pathways are harmonized to match
-# Requires FBAs 1. EPA_WARMer 2. EPA_FactsAndFigures 3. EPA_CDDPath
-# The final sector codes use a hybrid of a pure NAICS-based industry code with a letter appended to specify the
-# material being treated.
+# Requires FBAs 1. EPA_WARMer 2. EPA_FactsAndFigures 3. EPA_CDDPath 4. EPA_WFR
+# The final sector codes use a hybrid of a pure NAICS-based industry code with
+# a letter appended to specify the material being treated.
 # Relies on additional files for this harmonization:
 # Materials.csv - the authoritative set of harmonized material names with an abbreviation
-# MaterialCrosswalk.csv - maps material names in WARM, FF, and CDDPath to the authoritative list. See format at
+# MaterialCrosswalk.csv - maps material names in WARM, FF, CDDPath, and WFR to
+# the authoritative list. See format at
 #  (https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/blob/master/format%20specs/FlowMapping.md)
 # WARM_activitysets.csv - correspondence between activity sets (named by material) and EPA_WARMer activity names
 
@@ -34,17 +36,16 @@ source_names:
     append_material_codes: https://raw.githubusercontent.com/USEPA/HIO/main/data/Materials.csv #adds final character for material
     retain_activity_names: True # prevents activity set names already called being dropped from primary source df
     activity_sets:
-      food: &WARM_GHG_FF_alloc
+      food:
         names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv food
         source_flows: *source_flows
         material: food
         allocation_method: multiplication
-        allocation_source: "EPA_FactsAndFigures"
+        allocation_source: "EPA_WFR"
         allocation_source_class: "Other"
         allocation_source_year: 2018
-        allocation_flow:
-          - "Food"
         allocation_from_scale: national
+        clean_allocation_fba: !script_function:EPA_WFR reset_wfr_APB
 
       concrete: &WARM_GHG_CDD_alloc #WARM has no GHGs associated with concrete
         names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv concrete
@@ -59,12 +60,17 @@ source_names:
         clean_allocation_fba: !script_function:EPA_CDDPath keep_activity_consumed_by
         allocation_from_scale: national
 
-      aluminum: #WARM has no GHGs associated with aluminum
-        <<: *WARM_GHG_FF_alloc
+      aluminum: &WARM_GHG_FF_alloc #WARM has no GHGs associated with aluminum
         names: !from_index:flowbysectoractivitysets/WARM_activitysets.csv aluminum
+        source_flows: *source_flows
         material: aluminum
+        allocation_method: multiplication
+        allocation_source: "EPA_FactsAndFigures"
+        allocation_source_class: "Other"
+        allocation_source_year: 2018
         allocation_flow:
           - "Metals, Aluminum"
+        allocation_from_scale: national
 
       asphalt_shingles:
         <<: *WARM_GHG_CDD_alloc

@@ -1,20 +1,20 @@
 Flowable,Context,FlowUUID,Sector,Location,Unit,DistributionType,Min,Max,DataReliability,TemporalCorrelation,GeographicalCorrelation,TechnologicalCorrelation,DataCollection,Year,MetaSources,SatelliteTable,FlowRatio
-Jobs,,,5622191F,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.25376914411191376
-Jobs,,,5622192F,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.07580194498043147
-Jobs,,,562219X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.6704289109076548
-Carbon dioxide,resource/air,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,5622191F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.027386420570585882
-Carbon dioxide,resource/air,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,5622192F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.09879784580522064
-Carbon dioxide,resource/air,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,562219X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.8738157336241935
-Methane,emission/air,aab83476-ec6c-3742-af85-15d320b7ce80,5622191F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.048387752394684264
-Methane,emission/air,aab83476-ec6c-3742-af85-15d320b7ce80,5622192F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.06866060490813151
-Methane,emission/air,aab83476-ec6c-3742-af85-15d320b7ce80,562219X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.8829516426971843
+Jobs,,,5622191F,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.4006780053428127
+Jobs,,,5622192F,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.07855179137428434
+Jobs,,,562219X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.520770203282903
+Carbon dioxide,resource/air,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,5622191F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.05245243325470825
+Carbon dioxide,resource/air,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,5622192F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.12419293709179123
+Carbon dioxide,resource/air,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,562219X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.8233546296535005
+Methane,emission/air,aab83476-ec6c-3742-af85-15d320b7ce80,5622191F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.09167207646969382
+Methane,emission/air,aab83476-ec6c-3742-af85-15d320b7ce80,5622192F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.0853745250258182
+Methane,emission/air,aab83476-ec6c-3742-af85-15d320b7ce80,562219X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.822953398504488
 Carbon dioxide,emission/air,b6f010fb-a764-3063-af2d-bcb8309a97b7,5622192F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,1.0
-Nitrous oxide,emission/air,cfee0524-7ad6-300b-b050-6249135a2492,5622191F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.5465210432007683
-Nitrous oxide,emission/air,cfee0524-7ad6-300b-b050-6249135a2492,5622192F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.050161172679877186
-Nitrous oxide,emission/air,cfee0524-7ad6-300b-b050-6249135a2492,562219X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.4033177841193544
-Compensation of employees,,,5622191F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.23407655200481886
-Compensation of employees,,,5622192F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.07780231359511114
-Compensation of employees,,,562219X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.68812113440007
-"Taxes on production and imports, less subsidies",,,5622191F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.24038464542219642
-"Taxes on production and imports, less subsidies",,,5622192F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.07716153903267844
-"Taxes on production and imports, less subsidies",,,562219X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.6824538155451252
+Nitrous oxide,emission/air,cfee0524-7ad6-300b-b050-6249135a2492,5622191F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.7025934179113964
+Nitrous oxide,emission/air,cfee0524-7ad6-300b-b050-6249135a2492,5622192F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.04232372904830516
+Nitrous oxide,emission/air,cfee0524-7ad6-300b-b050-6249135a2492,562219X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.2550828530402984
+Compensation of employees,,,5622191F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.37531898234737926
+Compensation of employees,,,5622192F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.08187554171475427
+Compensation of employees,,,562219X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.5428054759378663
+"Taxes on production and imports, less subsidies",,,5622191F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.3835274248592322
+"Taxes on production and imports, less subsidies",,,5622192F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.08079967954142009
+"Taxes on production and imports, less subsidies",,,562219X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.5356728955993478

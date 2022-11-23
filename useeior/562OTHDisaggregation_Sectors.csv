@@ -1,4 +1,4 @@
 SectorType,Tag,NAICS_2012_Code,USEEIO_Code,USEEIO_Name,Category,Subcategory,Description,Price,Unit
-MUIO,Food waste anaerobic digestion,562219,5622191F/US,Anaerobic digestion of food waste,56: Administrative and Support and Waste Management and Remediation Services,"5622: Waste Treatment and Disposal, concrete",,0.27874,kg
-MUIO,Food waste composting,562219,5622192F/US,Compositing of food waste,56: Administrative and Support and Waste Management and Remediation Services,"5622: Waste Treatment and Disposal, food waste",,0.27874,kg
+MUIO,Food waste anaerobic digestion,562219,5622191F/US,Anaerobic digestion of food waste,56: Administrative and Support and Waste Management and Remediation Services,"5622: Waste Treatment and Disposal, concrete",,0.23432,kg
+MUIO,Food waste composting,562219,5622192F/US,Compositing of food waste,56: Administrative and Support and Waste Management and Remediation Services,"5622: Waste Treatment and Disposal, food waste",,0.23432,kg
 MUIO,"Other waste collection and treatment services, excluding food waste anerobic digestion and composting",562219,562219X/US,"Other waste collection and treatment services, excluding food waste anerobic digestion and composting",56: Administrative and Support and Waste Management and Remediation Services,"5622: Waste Treatment and Disposal, except concrete and food waste",,1,USD

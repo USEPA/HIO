@@ -1,26 +1,29 @@
-# Produces a sector-to-sector FBS of all waste flows reported from the Facts and Figures and CDDPath models
+# Produces a sector-to-sector FBS of waste flows reported from the Facts and
+# Figures (excluding food), CDDPath, and Wasted Food report models
 # with corresponding waste management pathways
-# Requires FBAs 1. EPA_FactsAndFigures 2. EPA_CDDPath
+# Requires FBAs 1. EPA_FactsAndFigures 2. EPA_CDDPath 3. EPA_WFR
 # Relies on additional files for this harmonization:
 # Materials.csv - the authoritative set of harmonized material names with an abbreviation
 # MaterialCrosswalk.csv - maps material names in WARM, FF, and CDDPath to the authoritative list. See format at
 #  (https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/blob/master/format%20specs/FlowMapping.md)
+
 
 target_sector_level: NAICS_6
 target_subset_sector_level: {NAICS_7: ['562920', '562212', '562219', '562212']}
 target_sector_source: NAICS_2012_Code
 target_geoscale: national
 source_names:
-  "EPA_FactsAndFigures":
+  "EPA_FactsAndFigures": # exclude food from FF
     data_format: 'FBA'
     class: Other
     geoscale_to_use: national
     year: 2018
     material_crosswalk: &material_crosswalk https://raw.githubusercontent.com/USEPA/HIO/main/data/MaterialCrosswalk.csv
-    material_crosswalk_field_dict: {'SourceName':'SourceName',
-                                    'FlowableName': 'Flowable',
-                                    'FlowableUnit': 'Unit',
-                                    'FlowableQuantity': 'FlowAmount'}
+    material_crosswalk_field_dict: &material_crosswalk_field_dict
+      {'SourceName':'SourceName',
+       'FlowableName': 'Flowable',
+       'FlowableUnit': 'Unit',
+       'FlowableQuantity': 'FlowAmount'}
     append_material_codes: &material_codes https://raw.githubusercontent.com/USEPA/HIO/main/data/Materials.csv
     activity_sets:
       direct:
@@ -30,6 +33,30 @@ source_names:
             - "Codigestion/Anaerobic Digestion"
             - Composted
             - Recycled
+        source_flows: ['Glass', 'Metals, Aluminum', 'Metals, Ferrous',
+                       'Metals, Other Nonferrous', 'Miscellaneous Inorganic
+                       Wastes', 'Other', 'Paper and Paperboard', 'Plastics',
+                       'Rubber and Leather', 'Textiles', 'Wood', 'Yard
+                       Trimmings']
+        allocation_method: direct
+        allocation_from_scale: national
+
+  "EPA_WFR":
+    data_format: 'FBA'
+    class: Other
+    geoscale_to_use: national
+    year: 2018
+    clean_fba_df_fxn: !script_function:EPA_WFR reset_wfr_APB
+    material_crosswalk: *material_crosswalk
+    material_crosswalk_field_dict: *material_crosswalk_field_dict
+    append_material_codes: *material_codes
+    activity_sets:
+      direct:
+        names:
+          - Landfill
+          - Controlled Combustion
+          - "Codigestion/Anaerobic Digestion"
+          - "Composting/Aerobic Processes"
         allocation_method: direct
         allocation_from_scale: national
 
@@ -40,10 +67,7 @@ source_names:
     year: 2018
     clean_fba_before_mapping_df_fxn: !script_function:EPA_CDDPath keep_activity_consumed_by
     material_crosswalk: *material_crosswalk
-    material_crosswalk_field_dict: {'SourceName':'SourceName',
-                                    'FlowableName': 'Flowable',
-                                    'FlowableUnit': 'Unit',
-                                    'FlowableQuantity': 'FlowAmount'}
+    material_crosswalk_field_dict: *material_crosswalk_field_dict
     append_material_codes: *material_codes
     activity_sets:
       direct:

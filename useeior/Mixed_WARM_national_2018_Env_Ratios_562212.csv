@@ -1,14 +1,14 @@
 Flowable,Context,FlowUUID,Sector,Location,Unit,DistributionType,Min,Max,DataReliability,TemporalCorrelation,GeographicalCorrelation,TechnologicalCorrelation,DataCollection,Year,MetaSources,SatelliteTable,FlowRatio
-Jobs,,,5622121C,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.22589111721916305
-Jobs,,,5622121F,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.11187876845829438
-Jobs,,,562212X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.6622301143225425
-Carbon dioxide,resource/air,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,5622121F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.03375273502721737
-Carbon dioxide,resource/air,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,562212X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.9662472649727826
-Methane,emission/air,aab83476-ec6c-3742-af85-15d320b7ce80,5622121F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.24388672492184174
-Methane,emission/air,aab83476-ec6c-3742-af85-15d320b7ce80,562212X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.7561132750781583
-Compensation of employees,,,5622121C,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.22589111721916302
-Compensation of employees,,,5622121F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.11187876845829438
-Compensation of employees,,,562212X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.6622301143225425
-"Taxes on production and imports, less subsidies",,,5622121C,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.22589111721916302
-"Taxes on production and imports, less subsidies",,,5622121F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.11187876845829438
-"Taxes on production and imports, less subsidies",,,562212X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.6622301143225425
+Jobs,,,5622121C,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.22494078103347684
+Jobs,,,5622121F,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.11561514266371045
+Jobs,,,562212X,US,p,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Employment,0.6594440763028128
+Carbon dioxide,resource/air,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,5622121F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.034982735966713786
+Carbon dioxide,resource/air,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,562212X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.9650172640332861
+Methane,emission/air,aab83476-ec6c-3742-af85-15d320b7ce80,5622121F,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.2507868182011012
+Methane,emission/air,aab83476-ec6c-3742-af85-15d320b7ce80,562212X,US,kg,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,GHG,0.7492131817988988
+Compensation of employees,,,5622121C,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.2249407810334768
+Compensation of employees,,,5622121F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.11561514266371044
+Compensation of employees,,,562212X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.6594440763028128
+"Taxes on production and imports, less subsidies",,,5622121C,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.2249407810334768
+"Taxes on production and imports, less subsidies",,,5622121F,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.11561514266371044
+"Taxes on production and imports, less subsidies",,,562212X,US,USD,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2018,EPA_WARMer,Value Added,0.6594440763028128

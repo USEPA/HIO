@@ -4,16 +4,18 @@
 # available on Data Commons
 
 library(devtools)
-devtools::load_all("../../useeior")
+devtools::load_all("../useeior")
 # devtools::load_all("../../../../useeior_dev/useeior")
 
-path_save <- "../../WARM-USEEIOdocs/data/"
+#path_save <- "../WARM-USEEIOdocs/data/"
+path_save <- "output/"
 library(logging)
+basicConfig(level = 'DEBUG')
 log_file <- paste0(path_save, "build_and_save_REF_and_HIO_models.log")
 if (file.exists(log_file)){
   file.remove(log_file)
 }
-addHandler(writeToFile, file=log_file)
+addHandler(writeToFile, logger='HIO', file=log_file)
 
 parentmodelmeta <- list(
   "USEEIOv2.0.2-walrus" = c("USEEIOv2.0.2-walrus"),  # 2018 FBS files needed
@@ -21,8 +23,8 @@ parentmodelmeta <- list(
                              "REI_WIO"))
 
 HIOmodelmeta <- list(
-  "USEEIO-WARM"= c("USEEIO-WARM", 
-                   "WARMv15"),
+  "USEEIO-WARM"= c("modelspecs/USEEIO-WARM", 
+                   "hybridizationspecs/WARMv15"),
   "USEEIO-Waste-Disagg" = c("USEEIO-Waste-Disagg",
                            "LandfillingDisaggregation",
                            "562OTHDisaggregation",
@@ -43,7 +45,7 @@ saveModels <- function (v, meta, prefix, path_save) {
     name <- names(meta)[i]
     cpaths <- c()
     for (cfg in meta[i]) {
-      cpaths <- append(cpaths, paste0(cfg, ".yml"))
+      cpaths <- append(cpaths, paste0("useeior/",cfg, ".yml"))
     }
     loginfo(paste("Attempting to build", name))
     model <- buildModel(name, configpaths=file.path(cpaths))
@@ -57,6 +59,7 @@ v <- c("USEEIO","REI")
 prefix <- "REF-"
 saveModels(v, parentmodelmeta, prefix, path_save)
 
-v <- c(1:4)
+v <- c(1:length(HIOmodelmeta))
 prefix <- "HIO-"
 saveModels(v, HIOmodelmeta, prefix, path_save)
+

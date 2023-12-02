@@ -38,7 +38,7 @@ SatelliteTable:
     FullName: "Employment"
     Abbreviation: "EMP"
     StaticSource: TRUE
-    StaticFile: "flowsa/FlowBySector/Employment_national_2018_v1.2.3_ffd96ff.parquet"
+    StaticFile: "flowsa/FlowBySector/Employment_national_2018_v2.0.0_372aab5.parquet"
     FileLocation: "DataCommons"
     DataYears: [2018]
     Locations: ["US"]

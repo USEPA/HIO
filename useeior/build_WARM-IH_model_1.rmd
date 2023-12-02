@@ -1,43 +1,61 @@
 ---
-title: "WARM Integrated Hybrid Model 1"
-output: html_notebook
+title: "WARM Integrated Hybrid Model"
+date: "2023-12-02"
+output: 
+  md_document:
+      variant: gfm
 ---
 
-```{r}
-# install.packages("renv")  # must have renv installed in root env
-# renv::activate()
-# renv::restore(lockfile="WARMer.lock")
+Build and calculate the WARM Integrated Hybrid Model with Food and Concrete waste management processes
 
-# devtools::install_github("USEPA/useeior@WIO")
-# devtools::load_all(".")
-# library('useeior')
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load useeior, define model and paths to specs, build model
+```{r}
+library(useeior) #must be useeior >= 1.4 with hybrid capabilities
 
 # Build model from specs
-configpaths <- file.path(c("USEEIO-WARM.yml", "WARMv15.yml"))
+configpaths <- file.path(c("useeior/modelspecs/USEEIO-WARM.yml", "useeior/hybridizationspecs/WARMv15.yml"))
 modelname <- "USEEIO-WARM"
 model <- buildModel(modelname, configpaths)
+```
 
-writeModeltoXLSX(model, file.path(rappdirs::user_data_dir(),
-                                  "useeior/Model_Builds"))
+Run and view validation results
+```{r}
 printValidationResults(model)
+```
 
-# # Source demand vector from csv
-# demand_path <- file.path("material_demand.csv")
-# y <- extractAndFormatDemandVector(demand_path, 'Grains', model)
+Look at the new waste commodities, which are the only model commodities with kg as the unit
+```{r}
+df <- model$Commodities
+df <- df[df$Unit=="kg",c("Code","Name")]
+knitr::kable(df, row.names = FALSE)
 
-# Or create demand vector in code
-y <- setNames(c(1, 2), c("5622121C/US", "5622191F/US"))
-y <- formatDemandVector(y, model$L)
+```
+See what indicators are available to calculate results with in the model
+```{r}
+model$Indicators$meta[,c("Name","Code","Unit")]
+```
 
-# Generate results
-results <- calculateEEIOModel(model, perspective = "DIRECT", y)
-results <- append(calculateEEIOModel(model, perspective = "FINAL", y), results)
 
+Calculate a result from the model based on demand of waste treatment.
+Use 1000 kg for food waste landfilling
+First create demand vector, calculate the model, and print the LCIA final result
+
+```{r}
+y <- setNames(1000, "5622121F/US")
+y <- useeior:::formatDemandVector(y, model$L)
+results <- calculateEEIOModel(model, perspective = "FINAL", y)
 lcia <- results[["LCIA_f"]]
-print(lcia[rowSums(lcia[])>0,])
+lcia["5622121F/US",]
+```
+The interpretation of the result is the impact of landfilling 1000 tons of food waste in the U.S.
+The unit is the units of the model indicator, MTCO2e. 
 
+See the total of the flows for this result (the life cycle inventory results)
+```{r}
 lci <- results[["LCI_f"]]
-print(lci[rowSums(lci[])>0,])
-
-
+print(lci["5622121F/US",])
 ```

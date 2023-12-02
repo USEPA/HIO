@@ -1,13 +1,11 @@
-# Requires working directory to be this file directory 
-# useeior source files must be at the same level as HIO
+# Requires working directory to be the repo directory
+# useeior source files must be at the same level as this repo
 # All model Data Commons dataset dependencies must be in local cache if not 
 # available on Data Commons
 
 library(devtools)
 devtools::load_all("../useeior")
-# devtools::load_all("../../../../useeior_dev/useeior")
 
-#path_save <- "../WARM-USEEIOdocs/data/"
 path_save <- "output/"
 library(logging)
 basicConfig(level = 'DEBUG')
@@ -18,27 +16,27 @@ if (file.exists(log_file)){
 addHandler(writeToFile, logger='HIO', file=log_file)
 
 parentmodelmeta <- list(
-  "USEEIOv2.0.2-walrus" = c("USEEIOv2.0.2-walrus"),  # 2018 FBS files needed
-  "USEEIO-REI-Reference" = c("USEEIO-REI-Reference", 
+  "USEEIOv2.0.2-walrus" = c("modelspecs/USEEIOv2.0.2-walrus"),  # 2018 FBS files needed
+  "USEEIO-REI-Reference" = c("modelspecs/USEEIO-REI-Reference", 
                              "REI_WIO"))
 
 HIOmodelmeta <- list(
   "USEEIO-WARM"= c("modelspecs/USEEIO-WARM", 
                    "hybridizationspecs/WARMv15"),
-  "USEEIO-Waste-Disagg" = c("USEEIO-Waste-Disagg",
-                           "LandfillingDisaggregation",
-                           "562OTHDisaggregation",
-                           "WasteCombustorsDisaggregation",
-                           "MRFsDisaggregation"),
-  "USEEIO-REI" = c("USEEIO-REI",
-                  "REI_WIO"),
-  "USEEIO-WIO-Disagg" = c("USEEIO-WIO-Disagg",
-                         "DisaggWIOConcrete",
-                         "DisaggWIOFoodWaste",
-                         "LandfillingDisaggregation",
-                         "562OTHDisaggregation",
-                         "WasteCombustorsDisaggregation",
-                         "MRFsDisaggregation"))
+  "USEEIO-Waste-Disagg" = c("modelspecs/USEEIO-Waste-Disagg",
+                           "disaggspecs/LandfillingDisaggregation",
+                           "disaggspecs/562OTHDisaggregation",
+                           "disaggspecs/WasteCombustorsDisaggregation",
+                           "disaggspecs/MRFsDisaggregation"),
+  "USEEIO-REI" = c("modelspecs/USEEIO-REI",
+                  "WIOspecs/REI_WIO"),
+  "USEEIO-WIO-Disagg" = c("modelspecs/USEEIO-WIO-Disagg",
+                         "WIOspecs/DisaggWIOConcrete",
+                         "WIOspecs/DisaggWIOFoodWaste",
+                         "disaggspecs/LandfillingDisaggregation",
+                         "disaggspecs/562OTHDisaggregation",
+                         "disaggspecs/WasteCombustorsDisaggregation",
+                         "disaggspecs/MRFsDisaggregation"))
 
 saveModels <- function (v, meta, prefix, path_save) {
    for (i in 1:length(v)) {
@@ -59,7 +57,4 @@ v <- c("USEEIO","REI")
 prefix <- "REF-"
 saveModels(v, parentmodelmeta, prefix, path_save)
 
-v <- c(1:length(HIOmodelmeta))
-prefix <- "HIO-"
-saveModels(v, HIOmodelmeta, prefix, path_save)
-
+ 

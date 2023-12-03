@@ -5,24 +5,24 @@ selected A and corresponding B matrix flows for a specified useeior model
 """
 import pandas as pd
 from pathlib import Path
-from warmer.olca_warm_matrix_io import get_exchanges, warm_version
+from warmer import olca_warm_matrix_io
 
 modulepath = Path(__file__).parent
-file_stub = f'{warm_version}'
+file_stub = f'{olca_warm_matrix_io.warm_version}'
 
 ## FBS input
-writepath = modulepath.parent/'flowsa'
-df_a, df_b = get_exchanges(opt_controls=['electricity', 'forest', 'fertilizer'])
+writepath = modulepath.parent/'data'
+df_a, df_b = olca_warm_matrix_io.get_exchanges(opt_controls=['electricity', 'forest', 'fertilizer'])
 df_b.to_csv(writepath / f'{file_stub}_env.csv', index=False)
 
 
-## HIO-1 input
 model_name = 'm1'
-writepath = modulepath.parent / 'useeior'
-model_processes = pd.read_csv(modulepath / 'model_1_processes.csv')
-df_mapping = pd.read_csv(modulepath / 'processmapping.csv')
+writepath = modulepath.parent / 'useeior/hybridizationspecs/'
+readpath =  modulepath.parent / 'data'
+model_processes = pd.read_csv(readpath / 'EEIO-IH_waste_processes.csv')
+df_mapping = pd.read_csv(readpath / 'WARM-to-USEEIO_processmapping.csv')
 
-df_a, df_b = get_exchanges(df_subset_fg=model_processes, opt_mixer=None,
+df_a, df_b = olca_warm_matrix_io.get_exchanges(df_subset_fg=model_processes, opt_mixer=None,
                            opt_map='all', df_mapping=df_mapping,
                            opt_controls=['electricity', 'forest', 'fertilizer'])
 df_a.to_csv(writepath / f'{file_stub}_{model_name}_tech.csv', index=False)

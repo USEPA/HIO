@@ -82,8 +82,8 @@ SatelliteTable:
     FullName: "Primary Factors for Waste Sectors"
     Abbreviation: "PFW"
     StaticSource: TRUE
-    StaticFile: "useeior/WIOspecs/REI_primaryfactors_waste_TBS.csv"
-    FileLocation: ""
+    StaticFile: "useeior/REI_primaryfactors_waste_TBS.csv"
+    FileLocation: "DataCommons"
     DataYears: [2012]
     Locations: ["US"]
     SectorListSource: "BEA"

@@ -18,8 +18,8 @@ SatelliteTable:
     FullName: "Primary Factors"
     Abbreviation: "PF"
     StaticSource: TRUE
-    StaticFile: "useeior/WIOspecs/REI_primaryfactors_TBS.csv"
-    FileLocation: ""
+    StaticFile: "useeior/REI_primaryfactors_TBS.csv"
+    FileLocation: "DataCommons"
     DataYears: [2012]
     Locations: ["US"]
     SectorListSource: "BEA"

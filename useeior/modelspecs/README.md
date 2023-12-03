@@ -1,6 +1,5 @@
 # Model Specification Files
 
-
 | Name                 | Model Type | Materials                                                                 | Extensions                                                                       | Indicators         |
 |----------------------|------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------------|--------------------|
 | WARM-USEEIO          | EEIO-IH    | Food waste, concrete waste                                                | GHGs, Employment, Value Added                                                    | WARM GHG (MTCO2e)  |

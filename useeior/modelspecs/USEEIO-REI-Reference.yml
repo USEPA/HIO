@@ -19,7 +19,7 @@ SatelliteTable:
     Abbreviation: "PF"
     StaticSource: TRUE
     StaticFile: "useeior/REI_primaryfactors_TBS.csv"
-    FileLocation: ""
+    FileLocation: "DataCommons"
     DataYears: [2012]
     Locations: ["US"]
     SectorListSource: "BEA"

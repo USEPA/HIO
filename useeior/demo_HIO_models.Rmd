@@ -60,12 +60,35 @@ lci <- results[["LCI_f"]]
 print(lci["5622121F/US",])
 ```
 
-# USEEIO-REI
+
+# USEEIO-Waste-Disagg
 ```{r}
-modelname <- "USEEIO-REI"
-configpaths <- file.path(c("useeior/modelspecs/USEEIO-REI.yml", "useeior/WIOspecs/REI_WIO.yml"))
-UR <- buildModel(modelname, configpaths)
-printValidationResults(UR)
+modelname <- "USEEIO-Waste-Disagg"
+configpaths <- file.path(c("useeior/modelspecs/USEEIO-Waste-Disagg.yml",
+                           "useeior/disaggspecs/LandfillingDisaggregation.yml",
+                           "useeior/disaggspecs/562OTHDisaggregation.yml",
+                           "useeior/disaggspecs/WasteCombustorsDisaggregation.yml",
+                           "useeior/disaggspecs/MRFsDisaggregation.yml"))
+
+
+WsD <- buildModel(modelname, configpaths)
+printValidationResults(WsD)
 ```
+
+
+# USEEIO-WIO-Disagg
+```{r}
+modelname <- "USEEIO-WIO-Disagg"
+configpaths <- file.path(c("useeior/modelspecs/USEEIO-WIO-Disagg.yml",
+                           "useeior/WIOspecs/DisaggWIOConcrete.yml",
+                           "useeior/WIOspecs/DisaggWIOFoodWaste.yml",
+                           "useeior/disaggspecs/LandfillingDisaggregation.yml",
+                           "useeior/disaggspecs/562OTHDisaggregation.yml",
+                           "useeior/disaggspecs/WasteCombustorsDisaggregation.yml",
+                           "useeior/disaggspecs/MRFsDisaggregation.yml"))
+WD <- buildModel(modelname, configpaths)
+printValidationResults(WD)
+```
+
 
 

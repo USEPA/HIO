@@ -51,7 +51,7 @@ results <- calculateEEIOModel(IH, perspective = "FINAL", y)
 lcia <- results[["LCIA_f"]]
 lcia["5622121F/US",]
 ```
-The interpretation of the result is the impact of landfilling 1000 tons of food waste in the U.S.
+The interpretation of the result is the impact of landfilling 1000 kg of food waste in the U.S.
 The unit is the units of the model indicator, MTCO2e. 
 
 See the total of the flows for this result (the life cycle inventory results)
@@ -74,6 +74,40 @@ configpaths <- file.path(c("useeior/modelspecs/USEEIO-Waste-Disagg.yml",
 WsD <- buildModel(modelname, configpaths)
 printValidationResults(WsD)
 ```
+
+
+Look at the new waste treatment commodities, which are the only model commodities with kg as the unit.
+```{r}
+df <- WsD$Commodities
+df <- df[df$Unit=="kg",c("Code","Name")]
+knitr::kable(df, row.names = FALSE)
+
+```
+See what indicators are available in the model to calculate results 
+```{r}
+WsD$Indicators$meta[,c("Name","Code","Unit")]
+```
+
+Calculate a result from the model based on demand of waste treatment.
+Use 1000 kg for food waste landfilling.
+First create demand vector, calculate the model, and print the LCIA final result
+
+```{r}
+y <- setNames(1000, "5622121F/US")
+y <- useeior:::formatDemandVector(y, WsD$L)
+results <- calculateEEIOModel(WsD, perspective = "FINAL", y)
+lcia <- results[["LCIA_f"]]
+lcia["5622121F/US",]
+```
+The interpretation of the result is the impact of landfilling 1000 kg of food waste in the U.S.
+The unit is the units of the model indicator, kg CO2e. 
+
+See the total of the flows for this result (the life cycle inventory results)
+```{r}
+lci <- results[["LCI_f"]]
+print(lci["5622121F/US",])
+```
+
 
 
 # USEEIO-WIO-Disagg

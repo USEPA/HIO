@@ -9,7 +9,7 @@ import os
 
 path = os.path.dirname(__file__)
 source_path = os.path.realpath(os.path.dirname(path) + '/data/REI_sourcedata')
-out_path = os.path.realpath(os.path.dirname(path) + '/useeior')
+out_path = os.path.realpath(os.path.dirname(path) + '/useeior/WIOspecs')
 
 def fix_floats(df):
     df['Amount'] = df['Amount'].fillna('-')

@@ -19,7 +19,7 @@ env_name = "Mixed_WARM_national_2018_Env"
 if use_FlowRatio:
     env_name = env_name + "_Ratios"
 
-disagg_path = os.path.realpath('useeior/')
+disagg_path = os.path.realpath('useeior/disaggspecs')
 
 model_material_codes = ['F', 'C']  # from Materials reference file
 

@@ -3,7 +3,7 @@
 <!-- badges: end -->
 
 # HIO - Hybrid Input-Output models
-This repository contains code to build a collection of waste-oriented hybrid input-output (HIO) models from selected USEPA waste generation and impact models, including WARM, USEEIO, and models underlying the Facts and Figures (FF), Recycling Economic Information (REI) report, CDDPath method and Wasted Food Report (WFR).
+This repository contains code to build a collection of waste-oriented hybrid input-output (HIO) models from selected USEPA waste generation and impact models, including [WARM](https://epa.gov/warm), [USEEIO](https://www.epa.gov/land-research/us-environmentally-extended-input-output-useeio-models), and models underlying the [Facts and Figures (FF)](https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling), [Recycling Economic Information (REI) report](https://www.epa.gov/smm/recycling-economic-information-rei-report), [CDDPath method](https://cfpub.epa.gov/si/si_public_record_Report.cfm?dirEntryId=344639&Lab=NRMRL) and the [Wasted Food Report (WFR)](https://www.epa.gov/system/files/documents/2023-03/2019%20Wasted%20Food%20Report_508_opt_ec.pdf).
 
 The HIO models, and related reference USEEIO and REI can be assembled and used using [_useeior_](https://github.com/USEPA/useeior).
 The files needed for this are found in the [useeior](/useeior) folder.

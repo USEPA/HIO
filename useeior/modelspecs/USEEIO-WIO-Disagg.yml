@@ -18,7 +18,7 @@ SatelliteTable:
     FullName: "Greenhouse Gases"
     Abbreviation: "GHG"
     StaticSource: TRUE
-    StaticFile: "flowsa/FlowBySector/GHG_national_2018_m2_v2.0.0_0cc94c7.parquet"
+    StaticFile: "flowsa/FlowBySector/GHG_national_2018_m2_v2.0.1_1d3a514.parquet"
     FileLocation: "DataCommons"
     DataYears: [2018]
     Locations: ["US"]

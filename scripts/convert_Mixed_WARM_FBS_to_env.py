@@ -3,17 +3,19 @@
 Converts the flowsa 'Mixed_WARM_national_2018' FBS into the environmental data input file for selected USEEIO
 models
 """
+import sys
+sys.path.append("scripts")
 
 import flowsa
-from scripts.fbs_processing_functions import convert_fbsc_to_disagg_env, agg_fbsc_by_material, \
-    replace_FlowAmount_w_FlowRatio, remove_last_letter, get_last_letter
+from fbs_processing_functions import convert_fbsc_to_disagg_env, agg_fbsc_by_material, \
+    replace_FlowAmount_w_FlowRatio, get_last_letter
 import pandas as pd
 import yaml
 import os
 
 use_FlowRatio = True
 
-fbs_name = "Mixed_WARM_national_2018_v1.2.4_ba21923"
+fbs_name = "Mixed_WARM_national_2018_v1.3.2_9b1bb41"
 
 env_name = "Mixed_WARM_national_2018_Env"
 if use_FlowRatio:
